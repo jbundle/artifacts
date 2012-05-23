@@ -1,0 +1,452 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-stylesheet type='text/xsl' href='http://www.osgi.org/www/obr2html.xsl'?>
+
+<repository lastmodified='20120508163742.249' name='Untitled'>
+  <resource id='org.jbundle.util.webapp.base/1.2.1' presentationname='jbundle-util-webapp-base - base servlet' symbolicname='org.jbundle.util.webapp.base' uri='http://repo2.maven.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.base/1.2.1/org.jbundle.util.webapp.base-1.2.1.jar' version='1.2.1'>
+    <description>
+      This project provides a template for a base servlet.      
+        This servlet has simple functionality that is shared with
+       several servlets.
+    </description>
+    <size>
+      23167
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-webapp-base - base servlet'/>
+      <p n='symbolicname' v='org.jbundle.util.webapp.base'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.webapp.base'/>
+      <p n='uses' v='javax.servlet,org.jbundle.util.osgi,org.jbundle.util.osgi.finder,javax.servlet.http,org.osgi.framework,org.osgi.service.http,org.osgi.service.cm,org.osgi.util.tracker,org.jbundle.util.osgi.bundle'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.servlet)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet.http)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet.http
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.osgi)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.osgi ;version=[1.5.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.osgi.bundle)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.osgi.bundle ;version=[1.5.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.osgi.finder)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.osgi.finder ;version=[1.5.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.osgi.framework ;version=[1.5.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.service.cm)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.osgi.service.cm ;version=[1.3.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.service.http)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.osgi.service.http ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.util.tracker)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.osgi.util.tracker ;version=[1.4.0,2.0.0)
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.webapp.files/1.2.1' presentationname='jbundle-util-webapp-files - webapp files' symbolicname='org.jbundle.util.webapp.files' uri='http://repo2.maven.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.files/1.2.1/org.jbundle.util.webapp.files-1.2.1.jar' version='1.2.1'>
+    <description>
+      This project provides a template for a simple file download
+       site.   Just drop your files into the root directory and your
+       users will be able to   view and download your files.
+    </description>
+    <size>
+      8504
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-webapp-files - webapp files'/>
+      <p n='symbolicname' v='org.jbundle.util.webapp.files'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.webapp.files'/>
+      <p n='uses' v='org.jbundle.util.webapp.base,org.apache.naming.resources,javax.servlet,javax.naming.directory,org.apache.catalina.servlets,org.osgi.framework,org.osgi.service.http,javax.servlet.http'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.sun.jndi.fscontext)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package com.sun.jndi.fscontext
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.naming.directory)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.naming.directory
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet.http)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet.http
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.catalina.servlets)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.catalina.servlets
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.naming.resources)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.naming.resources
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.webapp.base)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.webapp.base ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.osgi.framework ;version=[1.5.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.service.http)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.osgi.service.http ;version=[1.2.0,2.0.0)
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.webapp.proxy/1.2.1' presentationname='jbundle-util-webapp-proxy - proxy servlet' symbolicname='org.jbundle.util.webapp.proxy' uri='http://repo2.maven.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.proxy/1.2.1/org.jbundle.util.webapp.proxy-1.2.1.jar' version='1.2.1'>
+    <description>
+      This project provides a template for a proxy servlet.   This
+       servlet will forward requests to another site and return 
+        the result as if it existed on your server.
+    </description>
+    <size>
+      7699
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-webapp-proxy - proxy servlet'/>
+      <p n='symbolicname' v='org.jbundle.util.webapp.proxy'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.webapp.proxy'/>
+      <p n='uses' v='org.jbundle.util.webapp.base,org.osgi.framework,org.apache.http.message,org.apache.http.client,javax.servlet,org.apache.http.conn,org.apache.http.impl.client,org.jbundle.util.webapp.redirect,org.apache.http.client.methods,javax.servlet.http,org.apache.http'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.servlet)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet.http)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet.http
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.http
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.client)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.http.client
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.client.methods)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.http.client.methods
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.conn)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.http.conn
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.impl.client)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.http.impl.client
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.message)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.http.message
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.webapp.base)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.webapp.base ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.webapp.redirect)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.webapp.redirect ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.osgi.framework ;version=[1.5.0,2.0.0)
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.webapp.redirect/1.2.1' presentationname='jbundle-util-webapp-redirect - redirect servlet' symbolicname='org.jbundle.util.webapp.redirect' uri='http://repo2.maven.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.redirect/1.2.1/org.jbundle.util.webapp.redirect-1.2.1.jar' version='1.2.1'>
+    <description>
+      This project provides a template for a redirect servlet.  
+            This servlet will automatically redirect matching urls
+       to another site.
+    </description>
+    <size>
+      7647
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-webapp-redirect - redirect servlet'/>
+      <p n='symbolicname' v='org.jbundle.util.webapp.redirect'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.webapp.redirect'/>
+      <p n='uses' v='org.jbundle.util.webapp.base,org.osgi.framework,javax.servlet,javax.servlet.http'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.servlet)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet.http)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet.http
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.webapp.base)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.webapp.base ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.osgi.framework ;version=[1.5.0,2.0.0)
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.webapp.sample/1.2.1' presentationname='jbundle-util-webapp-sample - Simple java sample app' symbolicname='org.jbundle.util.webapp.sample' uri='http://repo2.maven.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.sample/1.2.1/org.jbundle.util.webapp.sample-1.2.1.jar' version='1.2.1'>
+    <description>
+      Top level properties and features
+    </description>
+    <size>
+      7988
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-webapp-sample - Simple java sample app'/>
+      <p n='symbolicname' v='org.jbundle.util.webapp.sample'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.webapp.sample'/>
+      <p n='uses' v='javax.swing'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.swing)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.swing
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.webapp.upload/1.2.1' presentationname='jbundle-util-webapp-upload - web upload servlet' symbolicname='org.jbundle.util.webapp.upload' uri='http://repo2.maven.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.upload/1.2.1/org.jbundle.util.webapp.upload-1.2.1.jar' version='1.2.1'>
+    <description>
+      This project provides a template for a file upload site.  
+            Select a file in your web browser, and it will be uploaded
+       to your web server.
+    </description>
+    <size>
+      7546
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-webapp-upload - web upload servlet'/>
+      <p n='symbolicname' v='org.jbundle.util.webapp.upload'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.webapp.upload'/>
+      <p n='uses' v='org.jbundle.util.webapp.base,org.osgi.framework,javax.servlet,com.oreilly.servlet,javax.servlet.http'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.oreilly.servlet)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package com.oreilly.servlet
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet.http)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet.http
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.webapp.base)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.webapp.base ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.osgi.framework ;version=[1.5.0,2.0.0)
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.webapp.upload.unjar/1.2.1' presentationname='jbundle-util-webapp-upload-unjar - unjar servlet' symbolicname='org.jbundle.util.webapp.upload.unjar' uri='http://repo2.maven.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.upload.unjar/1.2.1/org.jbundle.util.webapp.upload.unjar-1.2.1.jar' version='1.2.1'>
+    <description>
+      Top level properties and features
+    </description>
+    <size>
+      5758
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-webapp-upload-unjar - unjar servlet'/>
+      <p n='symbolicname' v='org.jbundle.util.webapp.upload.unjar'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.webapp.upload.unjar'/>
+      <p n='uses' v='org.jbundle.util.webapp.base,org.osgi.framework,javax.servlet,org.jbundle.jbackup,org.jbundle.util.webapp.upload,javax.servlet.http'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.servlet)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet.http)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet.http
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.jbackup)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.jbackup ;version=[2.0.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.webapp.base)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.webapp.base ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.webapp.upload)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.webapp.upload ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.osgi.framework ;version=[1.5.0,2.0.0)
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.webapp.webdav/1.2.1' presentationname='jbundle-util-webapp-webdav - webdav directory' symbolicname='org.jbundle.util.webapp.webdav' uri='http://repo2.maven.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.webdav/1.2.1/org.jbundle.util.webapp.webdav-1.2.1.jar' version='1.2.1'>
+    <description>
+      This project provides a template for a webdav site.       
+       You can read and write files to this site using most applications
+       (such as MS Word, OpenOffice, etc).        You can also add
+       some security to this site.
+    </description>
+    <size>
+      6405
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-webapp-webdav - webdav directory'/>
+      <p n='symbolicname' v='org.jbundle.util.webapp.webdav'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.webapp.webdav'/>
+      <p n='uses' v='org.jbundle.util.webapp.base,org.osgi.framework,org.apache.naming.resources,javax.servlet,javax.naming.directory,org.apache.catalina.servlets'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.naming.directory)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.naming.directory
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.catalina.servlets)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.catalina.servlets
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.naming.resources)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.naming.resources
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.webapp.base)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.webapp.base ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.osgi.framework ;version=[1.5.0,2.0.0)
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.webapp.website/1.2.1' presentationname='jbundle-util-webapp-website - simple website' symbolicname='org.jbundle.util.webapp.website' uri='http://repo2.maven.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.website/1.2.1/org.jbundle.util.webapp.website-1.2.1.jar' version='1.2.1'>
+    <description>
+      This project provides a template for a simple web site.   
+           Just drop your html files into the root directory and
+       voilà, you have a web site.
+    </description>
+    <size>
+      3937
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-webapp-website - simple website'/>
+      <p n='symbolicname' v='org.jbundle.util.webapp.website'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.webapp.website'/>
+      <p n='uses' v='org.jbundle.util.webapp.base,org.osgi.framework,org.jbundle.util.webapp.redirect'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.webapp.base)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.webapp.base ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.webapp.redirect)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.webapp.redirect ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.osgi.framework ;version=[1.5.0,2.0.0)
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.webapp.xsl/1.2.1' presentationname='jbundle-util-webapp-xsl - xsl servlet' symbolicname='org.jbundle.util.webapp.xsl' uri='http://repo2.maven.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.xsl/1.2.1/org.jbundle.util.webapp.xsl-1.2.1.jar' version='1.2.1'>
+    <description>
+      This project provides a template for a xsl servlet.       
+       This servlet will automatically create xhtml from xml and
+       xsl files using xslt.        A poor man's cocoon.
+    </description>
+    <size>
+      6023
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-webapp-xsl - xsl servlet'/>
+      <p n='symbolicname' v='org.jbundle.util.webapp.xsl'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.webapp.xsl'/>
+      <p n='uses' v='org.jbundle.util.webapp.base,org.osgi.framework,javax.servlet,javax.xml.transform,javax.xml.transform.stream,javax.servlet.http'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.servlet)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet.http)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet.http
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.stream)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform.stream
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.webapp.base)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.webapp.base ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.osgi.framework ;version=[1.5.0,2.0.0)
+    </require>
+  </resource>
+</repository>

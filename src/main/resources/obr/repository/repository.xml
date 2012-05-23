@@ -12,9 +12,18 @@
   <referral depth="10" url="jbundle-misc-repository-0.8.0-SNAPSHOT.xml"/>
   <referral depth="10" url="jbundle-util-other-repository-0.7.7-SNAPSHOT.xml"/>
   
-  <referral depth="10" url="jbundle-external-repository.xml"/>
-  <referral depth="10" url="jbundle-util-repository.xml"/>
-  <referral depth="10" url="jbundle-util-osgi-wrapped-repository.xml"/>
+  <referral depth="10" url="jbundle-util-repository-2.0.1.xml"/>
+  <referral depth="10" url="jbundle-util-osgi-repository-1.5.2.xml"/>
+  <referral depth="10" url="jbundle-util-osgi-webstart-repository-1.5.1-SNAPSHOT.xml"/>
+  <referral depth="10" url="jbundle-util-calendarpanel-repository-1.1.0.xml"/>
+  <referral depth="10" url="jbundle-util-jcalendarbutton-repository-1.6.0.xml"/>
+  <referral depth="10" url="jbundle-util-biorhythm-repository-0.8.1.xml"/>
+  <referral depth="10" url="jbundle-util-other-repository-0.7.6.xml"/>
+  <referral depth="10" url="jbundle-util-webapp-repository-1.2.1.xml"/>
+  <referral depth="10" url="jbundle-util-wsdl-repository-1.0.0.xml"/>
+
+  <referral depth="10" url="jbundle-external-repository-1.0.0.xml"/>
+  <referral depth="10" url="jbundle-util-osgi-wrapped-repository-1.0.4.xml"/>
 
   <referral depth="10" url="http://www.jibx.org/repository/repository.xml"/>
   <referral depth="10" url="http://chameleon.ow2.org/repository/chameleon-releases.xml"/>

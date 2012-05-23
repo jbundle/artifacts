@@ -1,0 +1,277 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-stylesheet type='text/xsl' href='http://www.osgi.org/www/obr2html.xsl'?>
+
+<repository lastmodified='20120508163742.249' name='Untitled'>
+  <resource id='org.jbundle.util.apprunner/2.0.1' presentationname='jbundle-util-apprunner - Application runner' symbolicname='org.jbundle.util.apprunner' uri='http://repo2.maven.org/maven2/org/jbundle/util/org.jbundle.util.apprunner/2.0.1/org.jbundle.util.apprunner-2.0.1.jar' version='2.0.1'>
+    <description>
+      Top level properties and features
+    </description>
+    <size>
+      8180
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-apprunner - Application runner'/>
+      <p n='symbolicname' v='org.jbundle.util.apprunner'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.apprunner'/>
+      <p n='uses' v='javax.swing'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.swing)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.swing
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.backup/2.0.1' presentationname='jbundle-util-backup - Standalone backup utility' symbolicname='org.jbundle.util.backup' uri='http://repo2.maven.org/maven2/org/jbundle/util/backup/org.jbundle.util.backup/2.0.1/org.jbundle.util.backup-2.0.1.jar' version='2.0.1'>
+    <description>
+      Top level properties and features
+    </description>
+    <size>
+      576792
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-backup - Standalone backup utility'/>
+      <p n='symbolicname' v='org.jbundle.util.backup'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.httpclient.auth'/>
+      <p n='uses' v='org.apache.commons.httpclient.util,org.apache.commons.httpclient,org.apache.commons.logging,org.apache.commons.httpclient.params,org.apache.commons.codec.binary,javax.crypto.spec,javax.crypto'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.logging'/>
+      <p n='uses' v='org.apache.commons.logging.impl'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.codec'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.httpclient.cookie'/>
+      <p n='uses' v='org.apache.commons.httpclient,org.apache.commons.logging,org.apache.commons.httpclient.util'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.net'/>
+      <p n='uses' v='javax.net,org.apache.commons.net.util'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.codec.digest'/>
+      <p n='uses' v='org.apache.commons.codec.binary'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.codec.binary'/>
+      <p n='uses' v='org.apache.commons.codec'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.jbackup.source'/>
+      <p n='uses' v='org.jbundle.jbackup,org.jbundle.util.apprunner,org.jbundle.jbackup.util,javax.swing'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.httpclient'/>
+      <p n='uses' v='org.apache.commons.logging,org.apache.commons.httpclient.params,org.apache.commons.httpclient.util,org.apache.commons.httpclient.protocol,org.apache.commons.httpclient.cookie,org.apache.commons.httpclient.auth,org.apache.commons.codec,org.apache.commons.codec.net'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.httpclient.protocol'/>
+      <p n='uses' v='org.apache.commons.httpclient.util,org.apache.commons.httpclient,org.apache.commons.httpclient.params,javax.net,javax.net.ssl'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.codec.net'/>
+      <p n='uses' v='org.apache.commons.codec,org.apache.commons.codec.binary'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.httpclient.util'/>
+      <p n='uses' v='org.apache.commons.logging,org.apache.commons.codec.net,org.apache.commons.httpclient,org.apache.commons.codec'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.jbackup.filter'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.jbackup.util'/>
+      <p n='uses' v='org.jbundle.jbackup.filter'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.jbackup'/>
+      <p n='uses' v='javax.swing,org.jbundle.util.apprunner,org.jbundle.jbackup.destination,org.jbundle.jbackup.util,org.jbundle.jbackup.source'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.net.io'/>
+      <p n='uses' v='org.apache.commons.net.util'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.net.ftp'/>
+      <p n='uses' v='org.apache.commons.net,javax.net,org.apache.commons.net.io,org.apache.commons.net.ftp.parser,org.apache.commons.net.util,javax.net.ssl'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.httpclient.methods.multipart'/>
+      <p n='uses' v='org.apache.commons.logging,org.apache.commons.httpclient.util,org.apache.commons.httpclient.methods,org.apache.commons.httpclient.params'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.jbackup.destination'/>
+      <p n='uses' v='org.jbundle.jbackup,org.jbundle.util.apprunner,org.jbundle.jbackup.source,javax.swing,org.jbundle.jbackup.util,org.apache.commons.net.ftp,org.apache.commons.httpclient.methods,org.apache.commons.httpclient'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.net.util'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.httpclient.methods'/>
+      <p n='uses' v='org.apache.commons.httpclient,org.apache.commons.logging,org.apache.commons.httpclient.params,org.apache.commons.httpclient.methods.multipart,org.apache.commons.httpclient.util'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.backup'/>
+      <p n='uses' v='org.jbundle.jbackup'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.httpclient.params'/>
+      <p n='uses' v='org.apache.commons.logging,org.apache.commons.httpclient'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.net.ftp.parser'/>
+      <p n='uses' v='org.apache.commons.net.ftp'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.codec.language'/>
+      <p n='uses' v='org.apache.commons.codec'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.apprunner'/>
+      <p n='uses' v='javax.swing'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.logging.impl'/>
+      <p n='uses' v='org.apache.commons.logging,org.apache.avalon.framework.logger,org.apache.log4j,org.apache.log'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.crypto)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.crypto
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.crypto.spec)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.crypto.spec
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.net)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.net
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.net.ssl)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.net.ssl
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.swing)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.swing
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.avalon.framework.logger)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.avalon.framework.logger
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.log)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.log
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.log4j)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.log4j
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.jbackup/2.0.1' presentationname='jbundle-util-jbackup - Backup utility' symbolicname='org.jbundle.util.jbackup' uri='http://repo2.maven.org/maven2/org/jbundle/util/org.jbundle.util.jbackup/2.0.1/org.jbundle.util.jbackup-2.0.1.jar' version='2.0.1'>
+    <description>
+      Top level properties and features
+    </description>
+    <size>
+      53922
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-jbackup - Backup utility'/>
+      <p n='symbolicname' v='org.jbundle.util.jbackup'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.jbackup'/>
+      <p n='uses' v='javax.swing,org.jbundle.util.apprunner'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.swing)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.swing
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.httpclient)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.commons.httpclient
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.httpclient.methods)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.commons.httpclient.methods
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.net.ftp)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.commons.net.ftp
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.apprunner)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.apprunner ;version=[2.0.0,3.0.0)
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.muffinmanager/2.0.1' presentationname='jbundle-util-muffinmanager - WebStart management' symbolicname='org.jbundle.util.muffinmanager' uri='http://repo2.maven.org/maven2/org/jbundle/util/org.jbundle.util.muffinmanager/2.0.1/org.jbundle.util.muffinmanager-2.0.1.jar' version='2.0.1'>
+    <description>
+      Top level properties and features
+    </description>
+    <size>
+      5030
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-muffinmanager - WebStart management'/>
+      <p n='symbolicname' v='org.jbundle.util.muffinmanager'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.muffinmanager'/>
+      <p n='uses' v='javax.jnlp'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.jnlp)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.jnlp
+    </require>
+  </resource>
+</repository>

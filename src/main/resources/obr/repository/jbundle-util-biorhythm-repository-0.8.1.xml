@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-stylesheet type='text/xsl' href='http://www.osgi.org/www/obr2html.xsl'?>
+
+<repository lastmodified='20120508163742.249' name='Untitled'>
+  <resource id='org.jbundle.util.biorhythm/0.8.1' presentationname='jbundle-util-biorhythm - Biorhythm' symbolicname='org.jbundle.util.biorhythm' uri='http://repo2.maven.org/maven2/org/jbundle/util/biorhythm/org.jbundle.util.biorhythm/0.8.1/org.jbundle.util.biorhythm-0.8.1.jar' version='0.8.1'>
+    <description>
+      Biorhythm Theory states that our lives are influenced by a
+       Physical,Emotional, and Intellectual cycle which begin at
+       birth. At birth, all three states start at the critical point
+       and begin to rise to a positive peak, then cycle to a low
+       point. On a day where the cycle crosses the critical point
+       your abilities can vary wildly.
+    </description>
+    <size>
+      24393
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-biorhythm - Biorhythm'/>
+      <p n='symbolicname' v='org.jbundle.util.biorhythm'/>
+      <p n='version' t='version' v='0.8.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.biorhythm'/>
+      <p n='uses' v='javax.swing,org.jbundle.util.muffinmanager,org.jbundle.util.jcalendarbutton'/>
+      <p n='version' t='version' v='0.8.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.swing)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.swing
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.biorhythm.resources)(version&gt;=0.8.1))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.biorhythm.resources ;version=0.8.1
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.jcalendarbutton)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.jcalendarbutton ;version=[1.6.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.muffinmanager)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.muffinmanager ;version=[2.0.0,3.0.0)
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.biorhythm.i18n/0.8.1' presentationname='jbundle-util-biorhythm-i18n - Biorhythm internationalization' symbolicname='org.jbundle.util.biorhythm.i18n' uri='http://repo2.maven.org/maven2/org/jbundle/util/biorhythm/org.jbundle.util.biorhythm.i18n/0.8.1/org.jbundle.util.biorhythm.i18n-0.8.1.jar' version='0.8.1'>
+    <description>
+      Biorhythm Theory states that our lives are influenced by a
+       Physical,Emotional, and Intellectual cycle which begin at
+       birth. At birth, all three states start at the critical point
+       and begin to rise to a positive peak, then cycle to a low
+       point. On a day where the cycle crosses the critical point
+       your abilities can vary wildly.
+    </description>
+    <size>
+      16229
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-biorhythm-i18n - Biorhythm internationalization'/>
+      <p n='symbolicname' v='org.jbundle.util.biorhythm.i18n'/>
+      <p n='version' t='version' v='0.8.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.biorhythm.resources'/>
+      <p n='version' t='version' v='0.8.1'/>
+    </capability>
+  </resource>
+  <resource id='org.jbundle.util.biorhythm.osgi/0.8.1' presentationname='jbundle-util-biorhythm-osgi' symbolicname='org.jbundle.util.biorhythm.osgi' uri='http://repo2.maven.org/maven2/org/jbundle/util/biorhythm/org.jbundle.util.biorhythm.osgi/0.8.1/org.jbundle.util.biorhythm.osgi-0.8.1.jar' version='0.8.1'>
+    <description>
+      Biorhythm Theory states that our lives are influenced by a
+       Physical,Emotional, and Intellectual cycle which begin at
+       birth. At birth, all three states start at the critical point
+       and begin to rise to a positive peak, then cycle to a low
+       point. On a day where the cycle crosses the critical point
+       your abilities can vary wildly.
+    </description>
+    <size>
+      4674
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-biorhythm-osgi'/>
+      <p n='symbolicname' v='org.jbundle.util.biorhythm.osgi'/>
+      <p n='version' t='version' v='0.8.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.biorhythm.osgi'/>
+      <p n='uses' v='javax.swing,org.osgi.framework,org.jbundle.util.biorhythm'/>
+      <p n='version' t='version' v='0.8.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.swing)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.swing
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.biorhythm)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.jbundle.util.biorhythm ;version=[0.8.0,1.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.framework ;version=[1.5.0,2.0.0)
+    </require>
+  </resource>
+</repository>

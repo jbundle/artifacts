@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-stylesheet type='text/xsl' href='http://www.osgi.org/www/obr2html.xsl'?>
+
+<repository lastmodified='20120508163742.249' name='Untitled'>
+  <resource id='org.jbundle.util.other.loaddist/0.7.6' presentationname='jbundle-util-other-loaddist - Load distributor' symbolicname='org.jbundle.util.other.loaddist' uri='http://repo2.maven.org/maven2/org/jbundle/util/other/org.jbundle.util.other.loaddist/0.7.6/org.jbundle.util.other.loaddist-0.7.6.jar' version='0.7.6'>
+    <description>
+      Top level properties and features
+    </description>
+    <size>
+      39792
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-other-loaddist - Load distributor'/>
+      <p n='symbolicname' v='org.jbundle.util.other.loaddist'/>
+      <p n='version' t='version' v='0.7.6'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.other.loaddist.test'/>
+      <p n='version' t='version' v='0.7.6'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.other.loaddist.forward'/>
+      <p n='uses' v='org.jbundle.util.other.loaddist.samplermi'/>
+      <p n='version' t='version' v='0.7.6'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.other.loaddist.filter'/>
+      <p n='uses' v='org.jbundle.util.other.loaddist.loaddist'/>
+      <p n='version' t='version' v='0.7.6'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.other.loaddist.sticky'/>
+      <p n='uses' v='org.jbundle.util.other.loaddist.loaddist'/>
+      <p n='version' t='version' v='0.7.6'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.other.loaddist.samplermi'/>
+      <p n='uses' v='javax.swing'/>
+      <p n='version' t='version' v='0.7.6'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.other.loaddist.loaddist'/>
+      <p n='uses' v='org.jbundle.util.other.loaddist.display'/>
+      <p n='version' t='version' v='0.7.6'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.other.loaddist.display'/>
+      <p n='version' t='version' v='0.7.6'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.swing)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.swing
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.paypal/0.7.6' presentationname='jbundle-util-paypal' symbolicname='org.jbundle.util.paypal' uri='http://repo2.maven.org/maven2/org/jbundle/util/paypal/org.jbundle.util.paypal/0.7.6/org.jbundle.util.paypal-0.7.6.jar' version='0.7.6'>
+    <description>
+      Top level properties and features
+    </description>
+    <size>
+      20546
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-paypal'/>
+      <p n='symbolicname' v='org.jbundle.util.paypal'/>
+      <p n='version' t='version' v='0.7.6'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.paypal'/>
+      <p n='uses' v='com.paypal.platform.sdk.core,com.paypal.platform.sdk.exception'/>
+      <p n='version' t='version' v='0.7.6'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.paypal.platform.sdk.core)(version&gt;=0.7.0)(!(version&gt;=1.0.0)))' multiple='false' name='package' optional='true'>
+      Import package com.paypal.platform.sdk.core ;version=[0.7.0,1.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=com.paypal.platform.sdk.exception)(version&gt;=0.7.0)(!(version&gt;=1.0.0)))' multiple='false' name='package' optional='true'>
+      Import package com.paypal.platform.sdk.exception ;version=[0.7.0,1.0.0)
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.paypal.lib/0.7.6' presentationname='jbundle-util-paypal-lib' symbolicname='org.jbundle.util.paypal.lib' uri='http://repo2.maven.org/maven2/org/jbundle/util/paypal/org.jbundle.util.paypal.lib/0.7.6/org.jbundle.util.paypal.lib-0.7.6.jar' version='0.7.6'>
+    <description>
+      Top level properties and features
+    </description>
+    <size>
+      12852
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-paypal-lib'/>
+      <p n='symbolicname' v='org.jbundle.util.paypal.lib'/>
+      <p n='version' t='version' v='0.7.6'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.paypal.platform.sdk.core'/>
+      <p n='uses' v='org.apache.http.conn.scheme,org.apache.commons.logging,org.apache.http.params,org.apache.http.entity,org.apache.http.conn.ssl,com.paypal.platform.sdk.exception,org.apache.http.impl.client,org.apache.http.conn,org.apache.http.client.methods,org.apache.http.impl.conn.tsccm,org.apache.http.util,org.apache.http'/>
+      <p n='version' t='version' v='0.7.6'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.paypal.platform.sdk.exception'/>
+      <p n='uses' v='org.apache.commons.logging'/>
+      <p n='version' t='version' v='0.7.6'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.logging)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.commons.logging
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.http
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.client.methods)(version&gt;=4.0.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.apache.http.client.methods ;version=[4.0.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.conn)(version&gt;=4.0.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.apache.http.conn ;version=[4.0.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.conn.scheme)(version&gt;=4.0.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.apache.http.conn.scheme ;version=[4.0.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.conn.ssl)(version&gt;=4.0.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.apache.http.conn.ssl ;version=[4.0.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.entity)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.http.entity
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.impl.client)(version&gt;=4.0.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.apache.http.impl.client ;version=[4.0.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.impl.conn.tsccm)(version&gt;=4.0.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.apache.http.impl.conn.tsccm ;version=[4.0.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.params)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.http.params
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.util)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.http.util
+    </require>
+  </resource>
+</repository>

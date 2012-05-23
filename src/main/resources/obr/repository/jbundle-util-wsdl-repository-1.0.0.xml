@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-stylesheet type='text/xsl' href='http://www.osgi.org/www/obr2html.xsl'?>
+
+<repository lastmodified='20120508163742.249' name='Untitled'>
+  <resource id='org.jbundle.util.wsdl.currencyconverter/1.0.0' presentationname='jbundle-util-wsdl-currencyconverter' symbolicname='org.jbundle.util.wsdl.currencyconverter' uri='http://repo2.maven.org/maven2/org/jbundle/util/wsdl/org.jbundle.util.wsdl.currencyconverter/1.0.0/org.jbundle.util.wsdl.currencyconverter-1.0.0.jar' version='1.0.0'>
+    <description>
+      Top level properties and features
+    </description>
+    <size>
+      16180
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-wsdl-currencyconverter'/>
+      <p n='symbolicname' v='org.jbundle.util.wsdl.currencyconverter'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='net.webservicex.currencyconverter'/>
+      <p n='uses' v='javax.xml.bind.annotation,javax.xml.bind,javax.xml.namespace'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.xml.bind)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.bind
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.bind.annotation)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.bind.annotation
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.namespace)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.namespace
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.wsdl.wsdl11/1.0.0' presentationname='jbundle-wsdl-wsdl11 - wsdl 1.1 schema access' symbolicname='org.jbundle.util.wsdl.wsdl11' uri='http://repo2.maven.org/maven2/org/jbundle/util/wsdl/org.jbundle.util.wsdl.wsdl11/1.0.0/org.jbundle.util.wsdl.wsdl11-1.0.0.jar' version='1.0.0'>
+    <description>
+      Top level properties and features
+    </description>
+    <size>
+      33759
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-wsdl-wsdl11 - wsdl 1.1 schema access'/>
+      <p n='symbolicname' v='org.jbundle.util.wsdl.wsdl11'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.xmlsoap.schemas.wsdl.soap'/>
+      <p n='uses' v='javax.xml.bind.annotation,javax.xml.bind,javax.xml.namespace,org.xmlsoap.schemas.wsdl,javax.xml.bind.annotation.adapters'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.xmlsoap.schemas.wsdl'/>
+      <p n='uses' v='javax.xml.bind.annotation,javax.xml.bind,javax.xml.namespace,javax.xml.bind.annotation.adapters,org.xmlsoap.schemas.wsdl.soap'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.xml.bind)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.bind
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.bind.annotation)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.bind.annotation
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.bind.annotation.adapters)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.bind.annotation.adapters
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.namespace)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.namespace
+    </require>
+    <require extend='false' filter='(&amp;(package=org.w3._2001.xmlschema)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.w3._2001.xmlschema
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.wsdl.wsdl20/1.0.0' presentationname='jbundle-util-wsdl-wsdl20 - wsdl 2.0 schema access' symbolicname='org.jbundle.util.wsdl.wsdl20' uri='http://repo2.maven.org/maven2/org/jbundle/util/wsdl/org.jbundle.util.wsdl.wsdl20/1.0.0/org.jbundle.util.wsdl.wsdl20-1.0.0.jar' version='1.0.0'>
+    <description>
+      Top level properties and features
+    </description>
+    <size>
+      29525
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-wsdl-wsdl20 - wsdl 2.0 schema access'/>
+      <p n='symbolicname' v='org.jbundle.util.wsdl.wsdl20'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.w3._2006._01.wsdl'/>
+      <p n='uses' v='javax.xml.bind.annotation,javax.xml.bind,javax.xml.namespace,javax.xml.bind.annotation.adapters'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.xml.bind)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.bind
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.bind.annotation)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.bind.annotation
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.bind.annotation.adapters)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.bind.annotation.adapters
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.namespace)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.namespace
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.wsdl.xmlschema/1.0.0' presentationname='jbundle-util-wsdl-xmlschema - xml schema access' symbolicname='org.jbundle.util.wsdl.xmlschema' uri='http://repo2.maven.org/maven2/org/jbundle/util/wsdl/org.jbundle.util.wsdl.xmlschema/1.0.0/org.jbundle.util.wsdl.xmlschema-1.0.0.jar' version='1.0.0'>
+    <description>
+      Top level properties and features
+    </description>
+    <size>
+      57268
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-wsdl-xmlschema - xml schema access'/>
+      <p n='symbolicname' v='org.jbundle.util.wsdl.xmlschema'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.w3._2001.xmlschema'/>
+      <p n='uses' v='javax.xml.bind.annotation,javax.xml.bind.annotation.adapters,javax.xml.namespace,javax.xml.bind'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.xml.bind)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.bind
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.bind.annotation)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.bind.annotation
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.bind.annotation.adapters)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.bind.annotation.adapters
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.namespace)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.namespace
+    </require>
+  </resource>
+</repository>
