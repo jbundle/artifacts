@@ -1,0 +1,21 @@
+deploy -s 'OSGi R4 Compendium Bundle'
+start http://repo2.maven.org/maven2/org/apache/cxf/dosgi/cxf-dosgi-ri-singlebundle-distribution/1.2/cxf-dosgi-ri-singlebundle-distribution-1.2.jar
+
+install file:/home/don/.m2/repository/org/apache/cxf/dosgi/samples/cxf-dosgi-ri-samples-greeter-interface/1.3-SNAPSHOT/cxf-dosgi-ri-samples-greeter-interface-1.3-SNAPSHOT.jar
+
+start file:/home/don/.m2/repository/org/apache/cxf/dosgi/samples/cxf-dosgi-ri-samples-greeter-impl/1.3-SNAPSHOT/cxf-dosgi-ri-samples-greeter-impl-1.3-SNAPSHOT.jar
+
+start file:/home/don/.m2/repository/org/apache/cxf/dosgi/samples/cxf-dosgi-ri-samples-greeter-client/1.3-SNAPSHOT/cxf-dosgi-ri-samples-greeter-client-1.3-SNAPSHOT.jar
+
+----------
+
+osgi:install -s mvn:org.osgi/org.osgi.compendium
+osgi:install -s mvn:org.apache.cxf.dosgi/cxf-dosgi-ri-singlebundle-distribution
+
+osgi:install mvn:org.apache.cxf.dosgi.samples/cxf-dosgi-ri-samples-greeter-interface
+
+osgi:install -s mvn:org.apache.cxf.dosgi.samples/cxf-dosgi-ri-samples-greeter-impl
+osgi:install -s mvn:org.apache.cxf.dosgi.samples/cxf-dosgi-ri-samples-greeter-client
+
+
+http://localhost:9090/greeter?wsdl

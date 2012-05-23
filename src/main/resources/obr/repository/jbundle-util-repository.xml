@@ -1,0 +1,1489 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-stylesheet type='text/xsl' href='http://www.osgi.org/www/obr2html.xsl'?>
+
+<repository lastmodified='20120508163742.249' name='Untitled'>
+  <resource id='org.jbundle.util.apprunner/2.0.1' presentationname='jbundle-util-apprunner - Application runner' symbolicname='org.jbundle.util.apprunner' uri='http://repo2.maven.org/maven2/org/jbundle/util/org.jbundle.util.apprunner/2.0.1/org.jbundle.util.apprunner-2.0.1.jar' version='2.0.1'>
+    <description>
+      Top level properties and features
+    </description>
+    <size>
+      8180
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-apprunner - Application runner'/>
+      <p n='symbolicname' v='org.jbundle.util.apprunner'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.apprunner'/>
+      <p n='uses' v='javax.swing'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.swing)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.swing
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.backup/2.0.1' presentationname='jbundle-util-backup - Standalone backup utility' symbolicname='org.jbundle.util.backup' uri='http://repo2.maven.org/maven2/org/jbundle/util/backup/org.jbundle.util.backup/2.0.1/org.jbundle.util.backup-2.0.1.jar' version='2.0.1'>
+    <description>
+      Top level properties and features
+    </description>
+    <size>
+      576792
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-backup - Standalone backup utility'/>
+      <p n='symbolicname' v='org.jbundle.util.backup'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.httpclient.auth'/>
+      <p n='uses' v='org.apache.commons.httpclient.util,org.apache.commons.httpclient,org.apache.commons.logging,org.apache.commons.httpclient.params,org.apache.commons.codec.binary,javax.crypto.spec,javax.crypto'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.logging'/>
+      <p n='uses' v='org.apache.commons.logging.impl'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.codec'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.httpclient.cookie'/>
+      <p n='uses' v='org.apache.commons.httpclient,org.apache.commons.logging,org.apache.commons.httpclient.util'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.net'/>
+      <p n='uses' v='javax.net,org.apache.commons.net.util'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.codec.digest'/>
+      <p n='uses' v='org.apache.commons.codec.binary'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.codec.binary'/>
+      <p n='uses' v='org.apache.commons.codec'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.jbackup.source'/>
+      <p n='uses' v='org.jbundle.jbackup,org.jbundle.util.apprunner,org.jbundle.jbackup.util,javax.swing'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.httpclient'/>
+      <p n='uses' v='org.apache.commons.logging,org.apache.commons.httpclient.params,org.apache.commons.httpclient.util,org.apache.commons.httpclient.protocol,org.apache.commons.httpclient.cookie,org.apache.commons.httpclient.auth,org.apache.commons.codec,org.apache.commons.codec.net'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.httpclient.protocol'/>
+      <p n='uses' v='org.apache.commons.httpclient.util,org.apache.commons.httpclient,org.apache.commons.httpclient.params,javax.net,javax.net.ssl'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.codec.net'/>
+      <p n='uses' v='org.apache.commons.codec,org.apache.commons.codec.binary'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.httpclient.util'/>
+      <p n='uses' v='org.apache.commons.logging,org.apache.commons.codec.net,org.apache.commons.httpclient,org.apache.commons.codec'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.jbackup.filter'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.jbackup.util'/>
+      <p n='uses' v='org.jbundle.jbackup.filter'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.jbackup'/>
+      <p n='uses' v='javax.swing,org.jbundle.util.apprunner,org.jbundle.jbackup.destination,org.jbundle.jbackup.util,org.jbundle.jbackup.source'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.net.io'/>
+      <p n='uses' v='org.apache.commons.net.util'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.net.ftp'/>
+      <p n='uses' v='org.apache.commons.net,javax.net,org.apache.commons.net.io,org.apache.commons.net.ftp.parser,org.apache.commons.net.util,javax.net.ssl'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.httpclient.methods.multipart'/>
+      <p n='uses' v='org.apache.commons.logging,org.apache.commons.httpclient.util,org.apache.commons.httpclient.methods,org.apache.commons.httpclient.params'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.jbackup.destination'/>
+      <p n='uses' v='org.jbundle.jbackup,org.jbundle.util.apprunner,org.jbundle.jbackup.source,javax.swing,org.jbundle.jbackup.util,org.apache.commons.net.ftp,org.apache.commons.httpclient.methods,org.apache.commons.httpclient'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.net.util'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.httpclient.methods'/>
+      <p n='uses' v='org.apache.commons.httpclient,org.apache.commons.logging,org.apache.commons.httpclient.params,org.apache.commons.httpclient.methods.multipart,org.apache.commons.httpclient.util'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.backup'/>
+      <p n='uses' v='org.jbundle.jbackup'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.httpclient.params'/>
+      <p n='uses' v='org.apache.commons.logging,org.apache.commons.httpclient'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.net.ftp.parser'/>
+      <p n='uses' v='org.apache.commons.net.ftp'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.codec.language'/>
+      <p n='uses' v='org.apache.commons.codec'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.apprunner'/>
+      <p n='uses' v='javax.swing'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.logging.impl'/>
+      <p n='uses' v='org.apache.commons.logging,org.apache.avalon.framework.logger,org.apache.log4j,org.apache.log'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.crypto)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.crypto
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.crypto.spec)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.crypto.spec
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.net)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.net
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.net.ssl)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.net.ssl
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.swing)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.swing
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.avalon.framework.logger)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.avalon.framework.logger
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.log)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.log
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.log4j)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.log4j
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.biorhythm/0.8.1' presentationname='jbundle-util-biorhythm - Biorhythm' symbolicname='org.jbundle.util.biorhythm' uri='http://repo2.maven.org/maven2/org/jbundle/util/biorhythm/org.jbundle.util.biorhythm/0.8.1/org.jbundle.util.biorhythm-0.8.1.jar' version='0.8.1'>
+    <description>
+      Biorhythm Theory states that our lives are influenced by a
+       Physical,Emotional, and Intellectual cycle which begin at
+       birth. At birth, all three states start at the critical point
+       and begin to rise to a positive peak, then cycle to a low
+       point. On a day where the cycle crosses the critical point
+       your abilities can vary wildly.
+    </description>
+    <size>
+      24393
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-biorhythm - Biorhythm'/>
+      <p n='symbolicname' v='org.jbundle.util.biorhythm'/>
+      <p n='version' t='version' v='0.8.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.biorhythm'/>
+      <p n='uses' v='javax.swing,org.jbundle.util.muffinmanager,org.jbundle.util.jcalendarbutton'/>
+      <p n='version' t='version' v='0.8.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.swing)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.swing
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.biorhythm.resources)(version&gt;=0.8.1))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.biorhythm.resources ;version=0.8.1
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.jcalendarbutton)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.jcalendarbutton ;version=[1.6.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.muffinmanager)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.muffinmanager ;version=[2.0.0,3.0.0)
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.biorhythm.i18n/0.8.1' presentationname='jbundle-util-biorhythm-i18n - Biorhythm internationalization' symbolicname='org.jbundle.util.biorhythm.i18n' uri='http://repo2.maven.org/maven2/org/jbundle/util/biorhythm/org.jbundle.util.biorhythm.i18n/0.8.1/org.jbundle.util.biorhythm.i18n-0.8.1.jar' version='0.8.1'>
+    <description>
+      Biorhythm Theory states that our lives are influenced by a
+       Physical,Emotional, and Intellectual cycle which begin at
+       birth. At birth, all three states start at the critical point
+       and begin to rise to a positive peak, then cycle to a low
+       point. On a day where the cycle crosses the critical point
+       your abilities can vary wildly.
+    </description>
+    <size>
+      16229
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-biorhythm-i18n - Biorhythm internationalization'/>
+      <p n='symbolicname' v='org.jbundle.util.biorhythm.i18n'/>
+      <p n='version' t='version' v='0.8.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.biorhythm.resources'/>
+      <p n='version' t='version' v='0.8.1'/>
+    </capability>
+  </resource>
+  <resource id='org.jbundle.util.biorhythm.osgi/0.8.1' presentationname='jbundle-util-biorhythm-osgi' symbolicname='org.jbundle.util.biorhythm.osgi' uri='http://repo2.maven.org/maven2/org/jbundle/util/biorhythm/org.jbundle.util.biorhythm.osgi/0.8.1/org.jbundle.util.biorhythm.osgi-0.8.1.jar' version='0.8.1'>
+    <description>
+      Biorhythm Theory states that our lives are influenced by a
+       Physical,Emotional, and Intellectual cycle which begin at
+       birth. At birth, all three states start at the critical point
+       and begin to rise to a positive peak, then cycle to a low
+       point. On a day where the cycle crosses the critical point
+       your abilities can vary wildly.
+    </description>
+    <size>
+      4674
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-biorhythm-osgi'/>
+      <p n='symbolicname' v='org.jbundle.util.biorhythm.osgi'/>
+      <p n='version' t='version' v='0.8.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.biorhythm.osgi'/>
+      <p n='uses' v='javax.swing,org.osgi.framework,org.jbundle.util.biorhythm'/>
+      <p n='version' t='version' v='0.8.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.swing)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.swing
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.biorhythm)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.jbundle.util.biorhythm ;version=[0.8.0,1.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.osgi.framework ;version=[1.5.0,2.0.0)
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.calendarpanel/1.1.0' presentationname='jbundle-util-calendarpanel - Calendar panel' symbolicname='org.jbundle.util.calendarpanel' uri='http://repo2.maven.org/maven2/org/jbundle/util/calendarpanel/org.jbundle.util.calendarpanel/1.1.0/org.jbundle.util.calendarpanel-1.1.0.jar' version='1.1.0'>
+    <description>
+      Top level properties and features
+    </description>
+    <size>
+      57373
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-calendarpanel - Calendar panel'/>
+      <p n='symbolicname' v='org.jbundle.util.calendarpanel'/>
+      <p n='version' t='version' v='1.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.calendarpanel'/>
+      <p n='uses' v='org.jbundle.util.calendarpanel.model,org.jbundle.util.calendarpanel.dnd,javax.swing.border,javax.swing,org.jbundle.util.calendarpanel.util,org.jbundle.util.calendarpanel.event,javax.swing.table,javax.swing.event'/>
+      <p n='version' t='version' v='1.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.calendarpanel.event'/>
+      <p n='uses' v='javax.swing.table'/>
+      <p n='version' t='version' v='1.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.calendarpanel.dnd'/>
+      <p n='uses' v='javax.swing,org.jbundle.util.calendarpanel.util,org.jbundle.util.calendarpanel,org.jbundle.util.calendarpanel.model'/>
+      <p n='version' t='version' v='1.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.calendarpanel.model'/>
+      <p n='uses' v='org.jbundle.util.calendarpanel.event,javax.swing,javax.swing.table,javax.swing.event'/>
+      <p n='version' t='version' v='1.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.calendarpanel.util'/>
+      <p n='uses' v='org.jbundle.util.calendarpanel,org.jbundle.util.calendarpanel.model,org.jbundle.util.calendarpanel.dnd,javax.swing,javax.swing.table,javax.swing.event,javax.swing.border'/>
+      <p n='version' t='version' v='1.1.0'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.swing)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.swing
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.swing.border)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.swing.border
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.swing.event)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.swing.event
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.swing.table)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.swing.table
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.calendarpanel.sample.rich/1.1.0' presentationname='jbundle-util-calendarpanel-sample-rich' symbolicname='org.jbundle.util.calendarpanel.sample.rich' uri='http://repo2.maven.org/maven2/org/jbundle/util/calendarpanel/org.jbundle.util.calendarpanel.sample.rich/1.1.0/org.jbundle.util.calendarpanel.sample.rich-1.1.0.jar' version='1.1.0'>
+    <description>
+      Top level properties and features
+    </description>
+    <size>
+      23679
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-calendarpanel-sample-rich'/>
+      <p n='symbolicname' v='org.jbundle.util.calendarpanel.sample.rich'/>
+      <p n='version' t='version' v='1.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.calendarpanel.sample.rich'/>
+      <p n='uses' v='javax.swing,org.jbundle.util.calendarpanel.model,org.jbundle.util.jcalendarbutton,org.jbundle.util.calendarpanel.event,javax.swing.table,javax.swing.event,org.jbundle.util.calendarpanel,javax.swing.border'/>
+      <p n='version' t='version' v='1.1.0'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.swing)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.swing
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.swing.border)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.swing.border
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.swing.event)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.swing.event
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.swing.table)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.swing.table
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.calendarpanel)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.calendarpanel ;version=[1.1.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.calendarpanel.event)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.calendarpanel.event ;version=[1.1.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.calendarpanel.model)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.calendarpanel.model ;version=[1.1.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.jcalendarbutton)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.jcalendarbutton ;version=[1.6.0,2.0.0)
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.calendarpanel.sample.simple/1.1.0' presentationname='jbundle-util-calendarpanel-sample-simple' symbolicname='org.jbundle.util.calendarpanel.sample.simple' uri='http://repo2.maven.org/maven2/org/jbundle/util/calendarpanel/org.jbundle.util.calendarpanel.sample.simple/1.1.0/org.jbundle.util.calendarpanel.sample.simple-1.1.0.jar' version='1.1.0'>
+    <description>
+      Top level properties and features
+    </description>
+    <size>
+      9826
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-calendarpanel-sample-simple'/>
+      <p n='symbolicname' v='org.jbundle.util.calendarpanel.sample.simple'/>
+      <p n='version' t='version' v='1.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.calendarpanel.sample.simple'/>
+      <p n='uses' v='org.jbundle.util.calendarpanel.model,javax.swing,org.jbundle.util.calendarpanel'/>
+      <p n='version' t='version' v='1.1.0'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.swing)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.swing
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.calendarpanel)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.calendarpanel ;version=[1.1.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.calendarpanel.model)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.calendarpanel.model ;version=[1.1.0,2.0.0)
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.jbackup/2.0.1' presentationname='jbundle-util-jbackup - Backup utility' symbolicname='org.jbundle.util.jbackup' uri='http://repo2.maven.org/maven2/org/jbundle/util/org.jbundle.util.jbackup/2.0.1/org.jbundle.util.jbackup-2.0.1.jar' version='2.0.1'>
+    <description>
+      Top level properties and features
+    </description>
+    <size>
+      53922
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-jbackup - Backup utility'/>
+      <p n='symbolicname' v='org.jbundle.util.jbackup'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.jbackup'/>
+      <p n='uses' v='javax.swing,org.jbundle.util.apprunner'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.swing)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.swing
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.httpclient)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.commons.httpclient
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.httpclient.methods)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.commons.httpclient.methods
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.net.ftp)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.commons.net.ftp
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.apprunner)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.apprunner ;version=[2.0.0,3.0.0)
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.jcalendarbutton/1.6.0' presentationname='jbundle-util-jcalendarbutton - Date and Time Popup Buttons' symbolicname='org.jbundle.util.jcalendarbutton' uri='http://repo2.maven.org/maven2/org/jbundle/util/jcalendarbutton/org.jbundle.util.jcalendarbutton/1.6.0/org.jbundle.util.jcalendarbutton-1.6.0.jar' version='1.6.0'>
+    <description>
+      JCalendarButton is a simple java swing component that displays
+       a popup calendar next to a date input field.
+    </description>
+    <size>
+      28084
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-jcalendarbutton - Date and Time Popup Buttons'/>
+      <p n='symbolicname' v='org.jbundle.util.jcalendarbutton'/>
+      <p n='version' t='version' v='1.6.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.jcalendarbutton'/>
+      <p n='uses' v='javax.swing,javax.swing.border,javax.swing.event'/>
+      <p n='version' t='version' v='1.6.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.jcalendarbutton.images.buttons'/>
+      <p n='version' t='version' v='1.6.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.sourceforge.jcalendarbutton'/>
+      <p n='uses' v='org.jbundle.util.jcalendarbutton'/>
+      <p n='version' t='version' v='1.6.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='net.sourceforge.jcalendarbutton'/>
+      <p n='uses' v='org.jbundle.util.jcalendarbutton'/>
+      <p n='version' t='version' v='1.6.0'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.swing)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.swing
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.swing.border)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.swing.border
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.swing.event)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.swing.event
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.muffinmanager/2.0.1' presentationname='jbundle-util-muffinmanager - WebStart management' symbolicname='org.jbundle.util.muffinmanager' uri='http://repo2.maven.org/maven2/org/jbundle/util/org.jbundle.util.muffinmanager/2.0.1/org.jbundle.util.muffinmanager-2.0.1.jar' version='2.0.1'>
+    <description>
+      Top level properties and features
+    </description>
+    <size>
+      5030
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-muffinmanager - WebStart management'/>
+      <p n='symbolicname' v='org.jbundle.util.muffinmanager'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.muffinmanager'/>
+      <p n='uses' v='javax.jnlp'/>
+      <p n='version' t='version' v='2.0.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.jnlp)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.jnlp
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.osgi/1.5.2' presentationname='jbundle-util-osgi - base bundle retrieval' symbolicname='org.jbundle.util.osgi' uri='http://repo2.maven.org/maven2/org/jbundle/util/osgi/org.jbundle.util.osgi/1.5.2/org.jbundle.util.osgi-1.5.2.jar' version='1.5.2'>
+    <description>
+      Top level properties and features
+    </description>
+    <size>
+      30463
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-osgi - base bundle retrieval'/>
+      <p n='symbolicname' v='org.jbundle.util.osgi'/>
+      <p n='version' t='version' v='1.5.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.osgi'/>
+      <p n='version' t='version' v='1.5.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.osgi.finder'/>
+      <p n='uses' v='org.osgi.service.log,org.jbundle.util.osgi,org.osgi.framework,org.jbundle.util.osgi.bundle'/>
+      <p n='version' t='version' v='1.5.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.osgi.bundle'/>
+      <p n='uses' v='org.jbundle.util.osgi,org.jbundle.util.osgi.finder,org.osgi.framework'/>
+      <p n='version' t='version' v='1.5.2'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.osgi.framework ;version=[1.5.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.service.log)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.osgi.service.log ;version=[1.3.0,2.0.0)
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.osgi.obr/1.5.2' presentationname='jbundle-util-osgi-obr - obr bundle retrieval' symbolicname='org.jbundle.util.osgi.obr' uri='http://repo2.maven.org/maven2/org/jbundle/util/osgi/org.jbundle.util.osgi.obr/1.5.2/org.jbundle.util.osgi.obr-1.5.2.jar' version='1.5.2'>
+    <description>
+      Top level properties and features
+    </description>
+    <size>
+      8801
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-osgi-obr - obr bundle retrieval'/>
+      <p n='symbolicname' v='org.jbundle.util.osgi.obr'/>
+      <p n='version' t='version' v='1.5.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.osgi.obr'/>
+      <p n='uses' v='org.jbundle.util.osgi,org.apache.felix.bundlerepository,org.jbundle.util.osgi.finder,org.osgi.framework'/>
+      <p n='version' t='version' v='1.5.2'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=org.apache.felix.bundlerepository)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.apache.felix.bundlerepository ;version=[2.0.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.osgi)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.osgi ;version=[1.5.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.osgi.finder)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.osgi.finder ;version=[1.5.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.osgi.framework ;version=[1.5.0,2.0.0)
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.osgi.p2/1.5.2' presentationname='jbundle-util-osgi-p2 - p2 bundle retrieval (Not finished)' symbolicname='org.jbundle.util.osgi.p2' uri='http://repo2.maven.org/maven2/org/jbundle/util/osgi/org.jbundle.util.osgi.p2/1.5.2/org.jbundle.util.osgi.p2-1.5.2.jar' version='1.5.2'>
+    <description>
+      Top level properties and features
+    </description>
+    <size>
+      3716
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-osgi-p2 - p2 bundle retrieval (Not finished)'/>
+      <p n='symbolicname' v='org.jbundle.util.osgi.p2'/>
+      <p n='version' t='version' v='1.5.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.osgi.p2'/>
+      <p n='uses' v='org.jbundle.util.osgi.finder,org.osgi.framework'/>
+      <p n='version' t='version' v='1.5.2'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.osgi.finder)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.osgi.finder ;version=[1.5.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.osgi.obr)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.osgi.obr
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.osgi.framework ;version=[1.5.0,2.0.0)
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.osgi.webstart/1.5.0' presentationname='jbundle-util-osgi-webstart - osgi to web start web bundle' symbolicname='org.jbundle.util.osgi.webstart' uri='http://repo2.maven.org/maven2/org/jbundle/util/osgi/org.jbundle.util.osgi.webstart/1.5.0/org.jbundle.util.osgi.webstart-1.5.0.jar' version='1.5.0'>
+    <description>
+      osgi to web start servlet
+    </description>
+    <size>
+      46349
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-osgi-webstart - osgi to web start web bundle'/>
+      <p n='symbolicname' v='org.jbundle.util.osgi.webstart'/>
+      <p n='version' t='version' v='1.5.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.osgi.webstart'/>
+      <p n='uses' v='org.jbundle.util.webapp.base,org.osgi.framework,org.osgi.service.http,javax.servlet.http,javax.servlet,org.jbundle.util.osgi,org.jibx.schema.net.java.jnlp_6_0,org.jbundle.util.osgi.finder,org.jibx.runtime'/>
+      <p n='version' t='version' v='1.5.0'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.servlet)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet.http)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet.http
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.osgi)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.osgi ;version=[1.5.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.osgi.finder)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.osgi.finder ;version=[1.5.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.webapp.base)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.webapp.base ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jibx.runtime ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jibx.schema.net.java.jnlp_6_0)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jibx.schema.net.java.jnlp_6_0 ;version=[1.0.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.osgi.framework ;version=[1.5.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.service.http)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.osgi.service.http ;version=[1.2.0,2.0.0)
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.other.loaddist/0.7.6' presentationname='jbundle-util-other-loaddist - Load distributor' symbolicname='org.jbundle.util.other.loaddist' uri='http://repo2.maven.org/maven2/org/jbundle/util/other/org.jbundle.util.other.loaddist/0.7.6/org.jbundle.util.other.loaddist-0.7.6.jar' version='0.7.6'>
+    <description>
+      Top level properties and features
+    </description>
+    <size>
+      39792
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-other-loaddist - Load distributor'/>
+      <p n='symbolicname' v='org.jbundle.util.other.loaddist'/>
+      <p n='version' t='version' v='0.7.6'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.other.loaddist.test'/>
+      <p n='version' t='version' v='0.7.6'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.other.loaddist.forward'/>
+      <p n='uses' v='org.jbundle.util.other.loaddist.samplermi'/>
+      <p n='version' t='version' v='0.7.6'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.other.loaddist.filter'/>
+      <p n='uses' v='org.jbundle.util.other.loaddist.loaddist'/>
+      <p n='version' t='version' v='0.7.6'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.other.loaddist.sticky'/>
+      <p n='uses' v='org.jbundle.util.other.loaddist.loaddist'/>
+      <p n='version' t='version' v='0.7.6'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.other.loaddist.samplermi'/>
+      <p n='uses' v='javax.swing'/>
+      <p n='version' t='version' v='0.7.6'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.other.loaddist.loaddist'/>
+      <p n='uses' v='org.jbundle.util.other.loaddist.display'/>
+      <p n='version' t='version' v='0.7.6'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.other.loaddist.display'/>
+      <p n='version' t='version' v='0.7.6'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.swing)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.swing
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.paypal/0.7.6' presentationname='jbundle-util-paypal' symbolicname='org.jbundle.util.paypal' uri='http://repo2.maven.org/maven2/org/jbundle/util/paypal/org.jbundle.util.paypal/0.7.6/org.jbundle.util.paypal-0.7.6.jar' version='0.7.6'>
+    <description>
+      Top level properties and features
+    </description>
+    <size>
+      20546
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-paypal'/>
+      <p n='symbolicname' v='org.jbundle.util.paypal'/>
+      <p n='version' t='version' v='0.7.6'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.paypal'/>
+      <p n='uses' v='com.paypal.platform.sdk.core,com.paypal.platform.sdk.exception'/>
+      <p n='version' t='version' v='0.7.6'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.paypal.platform.sdk.core)(version&gt;=0.7.0)(!(version&gt;=1.0.0)))' multiple='false' name='package' optional='true'>
+      Import package com.paypal.platform.sdk.core ;version=[0.7.0,1.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=com.paypal.platform.sdk.exception)(version&gt;=0.7.0)(!(version&gt;=1.0.0)))' multiple='false' name='package' optional='true'>
+      Import package com.paypal.platform.sdk.exception ;version=[0.7.0,1.0.0)
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.paypal.lib/0.7.6' presentationname='jbundle-util-paypal-lib' symbolicname='org.jbundle.util.paypal.lib' uri='http://repo2.maven.org/maven2/org/jbundle/util/paypal/org.jbundle.util.paypal.lib/0.7.6/org.jbundle.util.paypal.lib-0.7.6.jar' version='0.7.6'>
+    <description>
+      Top level properties and features
+    </description>
+    <size>
+      12852
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-paypal-lib'/>
+      <p n='symbolicname' v='org.jbundle.util.paypal.lib'/>
+      <p n='version' t='version' v='0.7.6'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.paypal.platform.sdk.core'/>
+      <p n='uses' v='org.apache.http.conn.scheme,org.apache.commons.logging,org.apache.http.params,org.apache.http.entity,org.apache.http.conn.ssl,com.paypal.platform.sdk.exception,org.apache.http.impl.client,org.apache.http.conn,org.apache.http.client.methods,org.apache.http.impl.conn.tsccm,org.apache.http.util,org.apache.http'/>
+      <p n='version' t='version' v='0.7.6'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.paypal.platform.sdk.exception'/>
+      <p n='uses' v='org.apache.commons.logging'/>
+      <p n='version' t='version' v='0.7.6'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.logging)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.commons.logging
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.http
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.client.methods)(version&gt;=4.0.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.apache.http.client.methods ;version=[4.0.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.conn)(version&gt;=4.0.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.apache.http.conn ;version=[4.0.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.conn.scheme)(version&gt;=4.0.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.apache.http.conn.scheme ;version=[4.0.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.conn.ssl)(version&gt;=4.0.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.apache.http.conn.ssl ;version=[4.0.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.entity)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.http.entity
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.impl.client)(version&gt;=4.0.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.apache.http.impl.client ;version=[4.0.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.impl.conn.tsccm)(version&gt;=4.0.0)(!(version&gt;=5.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.apache.http.impl.conn.tsccm ;version=[4.0.0,5.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.params)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.http.params
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.util)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.http.util
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.webapp.base/1.2.1' presentationname='jbundle-util-webapp-base - base servlet' symbolicname='org.jbundle.util.webapp.base' uri='http://repo2.maven.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.base/1.2.1/org.jbundle.util.webapp.base-1.2.1.jar' version='1.2.1'>
+    <description>
+      This project provides a template for a base servlet.      
+        This servlet has simple functionality that is shared with
+       several servlets.
+    </description>
+    <size>
+      23167
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-webapp-base - base servlet'/>
+      <p n='symbolicname' v='org.jbundle.util.webapp.base'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.webapp.base'/>
+      <p n='uses' v='javax.servlet,org.jbundle.util.osgi,org.jbundle.util.osgi.finder,javax.servlet.http,org.osgi.framework,org.osgi.service.http,org.osgi.service.cm,org.osgi.util.tracker,org.jbundle.util.osgi.bundle'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.servlet)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet.http)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet.http
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.osgi)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.osgi ;version=[1.5.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.osgi.bundle)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.osgi.bundle ;version=[1.5.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.osgi.finder)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.osgi.finder ;version=[1.5.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.osgi.framework ;version=[1.5.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.service.cm)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.osgi.service.cm ;version=[1.3.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.service.http)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.osgi.service.http ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.util.tracker)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.osgi.util.tracker ;version=[1.4.0,2.0.0)
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.webapp.files/1.2.1' presentationname='jbundle-util-webapp-files - webapp files' symbolicname='org.jbundle.util.webapp.files' uri='http://repo2.maven.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.files/1.2.1/org.jbundle.util.webapp.files-1.2.1.jar' version='1.2.1'>
+    <description>
+      This project provides a template for a simple file download
+       site.   Just drop your files into the root directory and your
+       users will be able to   view and download your files.
+    </description>
+    <size>
+      8504
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-webapp-files - webapp files'/>
+      <p n='symbolicname' v='org.jbundle.util.webapp.files'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.webapp.files'/>
+      <p n='uses' v='org.jbundle.util.webapp.base,org.apache.naming.resources,javax.servlet,javax.naming.directory,org.apache.catalina.servlets,org.osgi.framework,org.osgi.service.http,javax.servlet.http'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.sun.jndi.fscontext)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package com.sun.jndi.fscontext
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.naming.directory)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.naming.directory
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet.http)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet.http
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.catalina.servlets)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.catalina.servlets
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.naming.resources)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.naming.resources
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.webapp.base)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.webapp.base ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.osgi.framework ;version=[1.5.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.service.http)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.osgi.service.http ;version=[1.2.0,2.0.0)
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.webapp.proxy/1.2.1' presentationname='jbundle-util-webapp-proxy - proxy servlet' symbolicname='org.jbundle.util.webapp.proxy' uri='http://repo2.maven.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.proxy/1.2.1/org.jbundle.util.webapp.proxy-1.2.1.jar' version='1.2.1'>
+    <description>
+      This project provides a template for a proxy servlet.   This
+       servlet will forward requests to another site and return 
+        the result as if it existed on your server.
+    </description>
+    <size>
+      7699
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-webapp-proxy - proxy servlet'/>
+      <p n='symbolicname' v='org.jbundle.util.webapp.proxy'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.webapp.proxy'/>
+      <p n='uses' v='org.jbundle.util.webapp.base,org.osgi.framework,org.apache.http.message,org.apache.http.client,javax.servlet,org.apache.http.conn,org.apache.http.impl.client,org.jbundle.util.webapp.redirect,org.apache.http.client.methods,javax.servlet.http,org.apache.http'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.servlet)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet.http)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet.http
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.http
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.client)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.http.client
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.client.methods)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.http.client.methods
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.conn)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.http.conn
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.impl.client)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.http.impl.client
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.http.message)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.http.message
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.webapp.base)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.webapp.base ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.webapp.redirect)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.webapp.redirect ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.osgi.framework ;version=[1.5.0,2.0.0)
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.webapp.redirect/1.2.1' presentationname='jbundle-util-webapp-redirect - redirect servlet' symbolicname='org.jbundle.util.webapp.redirect' uri='http://repo2.maven.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.redirect/1.2.1/org.jbundle.util.webapp.redirect-1.2.1.jar' version='1.2.1'>
+    <description>
+      This project provides a template for a redirect servlet.  
+            This servlet will automatically redirect matching urls
+       to another site.
+    </description>
+    <size>
+      7647
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-webapp-redirect - redirect servlet'/>
+      <p n='symbolicname' v='org.jbundle.util.webapp.redirect'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.webapp.redirect'/>
+      <p n='uses' v='org.jbundle.util.webapp.base,org.osgi.framework,javax.servlet,javax.servlet.http'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.servlet)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet.http)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet.http
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.webapp.base)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.webapp.base ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.osgi.framework ;version=[1.5.0,2.0.0)
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.webapp.sample/1.2.1' presentationname='jbundle-util-webapp-sample - Simple java sample app' symbolicname='org.jbundle.util.webapp.sample' uri='http://repo2.maven.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.sample/1.2.1/org.jbundle.util.webapp.sample-1.2.1.jar' version='1.2.1'>
+    <description>
+      Top level properties and features
+    </description>
+    <size>
+      7988
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-webapp-sample - Simple java sample app'/>
+      <p n='symbolicname' v='org.jbundle.util.webapp.sample'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.webapp.sample'/>
+      <p n='uses' v='javax.swing'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.swing)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.swing
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.webapp.upload/1.2.1' presentationname='jbundle-util-webapp-upload - web upload servlet' symbolicname='org.jbundle.util.webapp.upload' uri='http://repo2.maven.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.upload/1.2.1/org.jbundle.util.webapp.upload-1.2.1.jar' version='1.2.1'>
+    <description>
+      This project provides a template for a file upload site.  
+            Select a file in your web browser, and it will be uploaded
+       to your web server.
+    </description>
+    <size>
+      7546
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-webapp-upload - web upload servlet'/>
+      <p n='symbolicname' v='org.jbundle.util.webapp.upload'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.webapp.upload'/>
+      <p n='uses' v='org.jbundle.util.webapp.base,org.osgi.framework,javax.servlet,com.oreilly.servlet,javax.servlet.http'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.oreilly.servlet)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package com.oreilly.servlet
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet.http)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet.http
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.webapp.base)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.webapp.base ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.osgi.framework ;version=[1.5.0,2.0.0)
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.webapp.upload.unjar/1.2.1' presentationname='jbundle-util-webapp-upload-unjar - unjar servlet' symbolicname='org.jbundle.util.webapp.upload.unjar' uri='http://repo2.maven.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.upload.unjar/1.2.1/org.jbundle.util.webapp.upload.unjar-1.2.1.jar' version='1.2.1'>
+    <description>
+      Top level properties and features
+    </description>
+    <size>
+      5758
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-webapp-upload-unjar - unjar servlet'/>
+      <p n='symbolicname' v='org.jbundle.util.webapp.upload.unjar'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.webapp.upload.unjar'/>
+      <p n='uses' v='org.jbundle.util.webapp.base,org.osgi.framework,javax.servlet,org.jbundle.jbackup,org.jbundle.util.webapp.upload,javax.servlet.http'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.servlet)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet.http)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet.http
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.jbackup)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.jbackup ;version=[2.0.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.webapp.base)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.webapp.base ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.webapp.upload)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.webapp.upload ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.osgi.framework ;version=[1.5.0,2.0.0)
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.webapp.webdav/1.2.1' presentationname='jbundle-util-webapp-webdav - webdav directory' symbolicname='org.jbundle.util.webapp.webdav' uri='http://repo2.maven.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.webdav/1.2.1/org.jbundle.util.webapp.webdav-1.2.1.jar' version='1.2.1'>
+    <description>
+      This project provides a template for a webdav site.       
+       You can read and write files to this site using most applications
+       (such as MS Word, OpenOffice, etc).        You can also add
+       some security to this site.
+    </description>
+    <size>
+      6405
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-webapp-webdav - webdav directory'/>
+      <p n='symbolicname' v='org.jbundle.util.webapp.webdav'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.webapp.webdav'/>
+      <p n='uses' v='org.jbundle.util.webapp.base,org.osgi.framework,org.apache.naming.resources,javax.servlet,javax.naming.directory,org.apache.catalina.servlets'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.naming.directory)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.naming.directory
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.catalina.servlets)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.catalina.servlets
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.naming.resources)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.naming.resources
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.webapp.base)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.webapp.base ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.osgi.framework ;version=[1.5.0,2.0.0)
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.webapp.website/1.2.1' presentationname='jbundle-util-webapp-website - simple website' symbolicname='org.jbundle.util.webapp.website' uri='http://repo2.maven.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.website/1.2.1/org.jbundle.util.webapp.website-1.2.1.jar' version='1.2.1'>
+    <description>
+      This project provides a template for a simple web site.   
+           Just drop your html files into the root directory and
+       voilà, you have a web site.
+    </description>
+    <size>
+      3937
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-webapp-website - simple website'/>
+      <p n='symbolicname' v='org.jbundle.util.webapp.website'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.webapp.website'/>
+      <p n='uses' v='org.jbundle.util.webapp.base,org.osgi.framework,org.jbundle.util.webapp.redirect'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.webapp.base)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.webapp.base ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.webapp.redirect)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.webapp.redirect ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.osgi.framework ;version=[1.5.0,2.0.0)
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.webapp.xsl/1.2.1' presentationname='jbundle-util-webapp-xsl - xsl servlet' symbolicname='org.jbundle.util.webapp.xsl' uri='http://repo2.maven.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.xsl/1.2.1/org.jbundle.util.webapp.xsl-1.2.1.jar' version='1.2.1'>
+    <description>
+      This project provides a template for a xsl servlet.       
+       This servlet will automatically create xhtml from xml and
+       xsl files using xslt.        A poor man's cocoon.
+    </description>
+    <size>
+      6023
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-webapp-xsl - xsl servlet'/>
+      <p n='symbolicname' v='org.jbundle.util.webapp.xsl'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.webapp.xsl'/>
+      <p n='uses' v='org.jbundle.util.webapp.base,org.osgi.framework,javax.servlet,javax.xml.transform,javax.xml.transform.stream,javax.servlet.http'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.servlet)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet.http)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet.http
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.stream)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform.stream
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jbundle.util.webapp.base)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.jbundle.util.webapp.base ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.osgi.framework ;version=[1.5.0,2.0.0)
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.wsdl.currencyconverter/1.0.0' presentationname='jbundle-util-wsdl-currencyconverter' symbolicname='org.jbundle.util.wsdl.currencyconverter' uri='http://repo2.maven.org/maven2/org/jbundle/util/wsdl/org.jbundle.util.wsdl.currencyconverter/1.0.0/org.jbundle.util.wsdl.currencyconverter-1.0.0.jar' version='1.0.0'>
+    <description>
+      Top level properties and features
+    </description>
+    <size>
+      16180
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-wsdl-currencyconverter'/>
+      <p n='symbolicname' v='org.jbundle.util.wsdl.currencyconverter'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='net.webservicex.currencyconverter'/>
+      <p n='uses' v='javax.xml.bind.annotation,javax.xml.bind,javax.xml.namespace'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.xml.bind)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.bind
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.bind.annotation)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.bind.annotation
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.namespace)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.namespace
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.wsdl.wsdl11/1.0.0' presentationname='jbundle-wsdl-wsdl11 - wsdl 1.1 schema access' symbolicname='org.jbundle.util.wsdl.wsdl11' uri='http://repo2.maven.org/maven2/org/jbundle/util/wsdl/org.jbundle.util.wsdl.wsdl11/1.0.0/org.jbundle.util.wsdl.wsdl11-1.0.0.jar' version='1.0.0'>
+    <description>
+      Top level properties and features
+    </description>
+    <size>
+      33759
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-wsdl-wsdl11 - wsdl 1.1 schema access'/>
+      <p n='symbolicname' v='org.jbundle.util.wsdl.wsdl11'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.xmlsoap.schemas.wsdl.soap'/>
+      <p n='uses' v='javax.xml.bind.annotation,javax.xml.bind,javax.xml.namespace,org.xmlsoap.schemas.wsdl,javax.xml.bind.annotation.adapters'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.xmlsoap.schemas.wsdl'/>
+      <p n='uses' v='javax.xml.bind.annotation,javax.xml.bind,javax.xml.namespace,javax.xml.bind.annotation.adapters,org.xmlsoap.schemas.wsdl.soap'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.xml.bind)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.bind
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.bind.annotation)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.bind.annotation
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.bind.annotation.adapters)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.bind.annotation.adapters
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.namespace)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.namespace
+    </require>
+    <require extend='false' filter='(&amp;(package=org.w3._2001.xmlschema)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.w3._2001.xmlschema
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.wsdl.wsdl20/1.0.0' presentationname='jbundle-util-wsdl-wsdl20 - wsdl 2.0 schema access' symbolicname='org.jbundle.util.wsdl.wsdl20' uri='http://repo2.maven.org/maven2/org/jbundle/util/wsdl/org.jbundle.util.wsdl.wsdl20/1.0.0/org.jbundle.util.wsdl.wsdl20-1.0.0.jar' version='1.0.0'>
+    <description>
+      Top level properties and features
+    </description>
+    <size>
+      29525
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-wsdl-wsdl20 - wsdl 2.0 schema access'/>
+      <p n='symbolicname' v='org.jbundle.util.wsdl.wsdl20'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.w3._2006._01.wsdl'/>
+      <p n='uses' v='javax.xml.bind.annotation,javax.xml.bind,javax.xml.namespace,javax.xml.bind.annotation.adapters'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.xml.bind)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.bind
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.bind.annotation)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.bind.annotation
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.bind.annotation.adapters)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.bind.annotation.adapters
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.namespace)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.namespace
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.wsdl.xmlschema/1.0.0' presentationname='jbundle-util-wsdl-xmlschema - xml schema access' symbolicname='org.jbundle.util.wsdl.xmlschema' uri='http://repo2.maven.org/maven2/org/jbundle/util/wsdl/org.jbundle.util.wsdl.xmlschema/1.0.0/org.jbundle.util.wsdl.xmlschema-1.0.0.jar' version='1.0.0'>
+    <description>
+      Top level properties and features
+    </description>
+    <size>
+      57268
+    </size>
+    <license>
+      http://www.gnu.org/licenses/gpl.txt
+    </license>
+    <documentation>
+      http://www.jbundle.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-wsdl-xmlschema - xml schema access'/>
+      <p n='symbolicname' v='org.jbundle.util.wsdl.xmlschema'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.w3._2001.xmlschema'/>
+      <p n='uses' v='javax.xml.bind.annotation,javax.xml.bind.annotation.adapters,javax.xml.namespace,javax.xml.bind'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.xml.bind)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.bind
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.bind.annotation)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.bind.annotation
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.bind.annotation.adapters)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.bind.annotation.adapters
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.namespace)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.namespace
+    </require>
+  </resource>
+</repository>

@@ -1,0 +1,137 @@
+# Start karaf
+shell:source file:/home/don/workspace/workspace/bin/dev/karaf.shell
+
+## This is a HACK to stop errors from bundles which export org.xml (which is part of the java api)
+# install mvn:org.apache.xmlcommons/com.springsource.org.apache.xmlcommons
+# install mvn:org.apache.xml/com.springsource.org.apache.xml.resolver
+# install mvn:org.apache.xerces/com.springsource.org.apache.xerces
+
+uninstall --force joda-time/1.6.2
+install mvn:org.jibx.config.osgi.wrapped/org.jibx.config.osgi.wrapped.joda-time/1.6.2
+install mvn:joda-time/joda-time/2.0
+install mvn:joda-time/joda-time/2.1
+
+obr:deploy 'jbundle-util-osgi-webstart - osgi to web start web bundle'
+uninstall 'jbundle-util-osgi-webstart - osgi to web start web bundle'
+install -s mvn:org.jbundle.util.osgi/org.jbundle.util.osgi.webstart/1.5.1-SNAPSHOT
+
+bin/client -h donandann.com -u don -p donwpp
+
+# Manually add all the jibx obr repositories
+# obr:addurl mvn:org.jibx.config/obr/1.2.4/xml/repository
+# obr:addurl mvn:org.jibx.config/external-obr/1.2.4/xml/repository
+# obr:addurl mvn:org.jibx.config.schema/obr/1.0.4/xml/repository
+
+# config:edit org.jbundle.util.webapp.webdav
+# config:propset basePath /space/web/jbundle/site
+# config:propset readonly false
+# config:propset listings true
+# config:update
+
+osgi:install -s webbundle:file:/home/don/workspace/workspace/jbundle/util/webapp/webstart/target/org.jbundle.util.webapp.webstart-1.1.0-SNAPSHOT.war?Bundle-SymbolicName=tomcat-sample&Webapp-Context=/sample
+osgi:install -s file:/home/don/workspace/workspace/jbundle/util/webapp/webstart/target/org.jbundle.util.webapp.webstart-1.1.0-SNAPSHOT.war
+osgi:install -s webbundle:file:/home/don/workspace/workspace/jbundle/util/webapp/cgi/target/org.jbundle.util.webapp.cgi-1.1.0-SNAPSHOT.war?Bundle-SymbolicName=cgi&Webapp-Context=/awstats
+http://localhost:8181/webstart?webStartPropertiesFile=/org/jbundle/util/biorhythm/standalone.properties
+http://localhost:8181/webstart?webStartPropertiesFile=/org/jbundle/res/webstart/tourapplication.properties
+http://localhost:8181/webstart/docs/applet.html?webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
+http://localhost:8181/webstart?applet=org.jbundle.Main&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
+http://localhost:8181/webstart?applet=org.jbundle.util.biorhythm.Biorhythm&language=es
+
+http://localhost:8181/tourappxsl#webstart?webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
+
+-----Yes-----
+http://localhost:8181/tourappxsl#webstart?applet=org.jbundle.Main&userid=1&webStart=thick&menu=dev.tourapp.com
+http://localhost:8181/tourappxsl#webstart?applet=org.jbundle.Main&userid=1&webStart=thick&menu=dev.tourapp.com&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
+http://localhost:8181/tourappxsl#webstart?applet=org.jbundle.Main&userid=1&menu=dev.tourapp.com&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
+http://localhost:8181/tourappxsl#?applet=&userid=1&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
+
+
+
+
+http://localhost:8181/tourappxsl#%3Fmenu%3Dapp%26userid%3D1%26applet%3D%
+http://localhost:8181/tourappxsl#?menu=app&userid=1&applet=&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
+
+
+http://localhost:8181/tourappxsl#%3Fmenu%3Dapp%26userid%3D1&applet%3D%26webStartPropertiesFile%3D/org/jbundle/res/webstart/tourapp.properties
+http://localhost:8181/tourappxsl#%3Fmenu%3Doperation%26background%3Dbackgrounds%252Fworldmapalpha.gif%26userid%3D1%26applet%3D
+
+
+
+
+
+
+http://localhost:8181/tourappxsl#?menu=app&userid=1&applet=org.jbundle.Main
+
+http://localhost:8181/tourappxsl#webstart%3Fapplet%3Dorg.jbundle.Main%26userid%3D1%26menu%3Ddev.tourapp.com%26webStartPropertiesFile%3D/org/jbundle/res/webstart/tourapp.properties
+
+http://localhost:8181/tourappxsl#%3Fmenu%3Dapp%26background%3Dbackgrounds%252Fworldmapalpha.gif%26userid%3D1%26applet%3D%26webStartPropertiesFile%3D/org/jbundle/res/webstart/tourapp.properties
+
+features:addurl mvn:org.apache.servicemix/apache-servicemix/4.4.1/xml/features
+features:addurl mvn:org.apache.karaf.assemblies.features/standard/2.2.4/xml/features
+features:addurl mvn:org.apache.camel.karaf/apache-camel/2.8.4/xml/features
+features:addurl mvn:org.apache.activemq/activemq-karaf/5.5.1/xml/features
+features:addurl mvn:org.apache.cxf.karaf/apache-cxf/2.4.6/xml/features
+features:addurl mvn:org.apache.karaf.assemblies.features/enterprise/2.2.4/xml/features
+features:addurl mvn:org.apache.servicemix.nmr/apache-servicemix-nmr/1.5.0/xml/features
+
+features:install http obr cxf
+
+[installed  ] [4.4.1          ] camel-activemq                       servicemix-4.4.1       
+[installed  ] [4.4.1          ] activemq-broker                      servicemix-4.4.1       
+[installed  ] [2.2.4          ] karaf-framework                      karaf-2.2.4            
+[installed  ] [3.0.6.RELEASE  ] spring                               karaf-2.2.4            
+[installed  ] [1.2.1          ] spring-dm                            karaf-2.2.4            
+[installed  ] [3.0.6.RELEASE  ] spring-jms                           karaf-2.2.4            
+[installed  ] [3.0.6.RELEASE  ] spring-tx                            karaf-2.2.4            
+[installed  ] [3.0.6.RELEASE  ] spring-web                           karaf-2.2.4            
+[installed  ] [2.2.4          ] config                               karaf-2.2.4            
+[installed  ] [7.4.5.v20110725] jetty                                karaf-2.2.4            
+[installed  ] [2.2.4          ] http                                 karaf-2.2.4            
+[installed  ] [2.2.4          ] war                                  karaf-2.2.4            
+[installed  ] [1.9.0          ] xml-specs-api                        camel-2.8.4            
+[installed  ] [2.8.4          ] camel                                camel-2.8.4            
+[installed  ] [2.8.4          ] camel-core                           camel-2.8.4            
+[installed  ] [2.8.4          ] camel-spring                         camel-2.8.4            
+[installed  ] [2.8.4          ] camel-blueprint                      camel-2.8.4            
+[installed  ] [2.8.4          ] camel-cxf                            camel-2.8.4            
+[installed  ] [2.8.4          ] camel-jms                            camel-2.8.4            
+[installed  ] [5.5.1          ] activemq                             activemq-5.5.1         
+[installed  ] [5.5.1          ] activemq-spring                      activemq-5.5.1         
+[installed  ] [5.5.1          ] activemq-blueprint                   activemq-5.5.1         
+[installed  ] [2.4.6          ] cxf-specs                            cxf-2.4.6              
+[installed  ] [2.4.6          ] cxf-jaxb                             cxf-2.4.6              
+[installed  ] [2.4.6          ] cxf-abdera                           cxf-2.4.6              
+[installed  ] [2.5.1_1        ] opensaml                             cxf-2.4.6              
+[installed  ] [1.6.4          ] wss4j                                cxf-2.4.6              
+[installed  ] [2.4.6          ] cxf-saaj-impl                        cxf-2.4.6              
+[installed  ] [2.4.6          ] cxf-war-java5                        cxf-2.4.6              
+[installed  ] [2.4.6          ] cxf                                  cxf-2.4.6
+
+
+
+http://192.168.1.66:8181/org.jbundle.util.webapp.webstart/docs/manual.html
+
+http://192.168.1.66:8181/webstart/docs/applet.html?webStartPropertiesFile=org/jbundle/util/biorhythm/applet.properties
+
+http://192.168.1.66:8181/webstart/docs/applet.html?userid=1&menu=dev.tourapp.com&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
+
+  
+  
+&backgroundcolor=#EEEEFF&connectionType=Proxy&background=backgrounds/worldmapalpha.gif&url=http://localhost:8181/tourappxsl&baseURL=localhost:8181/&code=org.jbundle.Main&appletClass=org.jbundle.Main&org.jbundle.util.osgi.webstart.maxHeapSize=512m&domain=localhost&datatype=jnlpapplet&userid=&org.jbundle.util.osgi.webstart.initialHeapSize=128m&org.jbundle.util.osgi.webstart.codebase=/&org.jbundle.util.osgi.webstart.appletClass=org.jbundle.Main&org.jbundle.util.osgi.webstart.webStartComponents=/org/jbundle/res/webstart/tour.properties,/org/jbundle/res/webstart/thick.properties,/org/jbundle/res/webstart/thin.properties,/org/jbundle/res/webstart/resource.properties&draggable=true&mainPackage=org.jbundle
+&org.jbundle.util.osgi.webstart.include=org\.jbundle\..*|com\.tourapp\..*&org.jbundle.util.osgi.webstart.exclude=com\.tourapp\.tour\.message\..*|org\.jbundle\.base\.message\..*|org\.jbundle\.base\.remote\..*&org.jbundle.util.osgi.webstart.excludeComponents=/org/jbundle/res/webstart/thick.properties,/org/jbundle/res/webstart/thin.properties&org.jbundle.util.osgi.webstart.Bundle-ActivationPolicy=lazy&org.jbundle.util.osgi.webstart.otherPackages=com.tourapp&codebase=/
+&org.jbundle.base.model.Bundle-ActivationPolicy=eager&org.jbundle.base.Bundle-ActivationPolicy=eager&org.jbundle.base.other.Bundle-ActivationPolicy=eager&org.jbundle.util.osgi.webstart.excludeComponents=/org/jbundle/res/webstart/thin.properties&org.jbundle.util.osgi.webstart.Bundle-ActivationPolicy=lazy&org.jbundle.util.osgi.webstart.otherPackages=org.jbundle.base.db.client,org.jbundle.base.message.opt,org.jbundle.base.screen.view.swing,org.jbundle.base.db.proxy,org.jbundle.base.db.mapped,org.jbundle.base.db.serial,org.jbundle.base.db.net,org.jbundle.base.db.xml,org.jbundle.main.screen,org.jbundle.res.data.initial_data.current_initial_data.main_base_user.org.jbundle.main.user.db,org.jbundle.base.screen.view.swing.opt.jaxe,org.jbundle.main.calendar.db,org.jbundle.main.msg.db&codebase=/
+&org.jbundle.thin.base.remote.Bundle-ActivationPolicy=eager&org.jbundle.model.Bundle-ActivationPolicy=eager&org.jbundle.thin.base.db.Bundle-ActivationPolicy=eager&org.jbundle.thin.base.screen.Bundle-ActivationPolicy=eager&org.jbundle.util.osgi.webstart.Bundle-ActivationPolicy=lazy&org.jbundle.util.osgi.webstart.otherPackages=org.jbundle.thin.base.db,org.jbundle.res.webstart,org.jbundle.res.images.buttons,org.jbundle.thin.base.screen,org.jbundle.thin.base.screen.cal.grid,org.jbundle.thin.base.screen.cal.opt,org.jbundle.thin.base.screen.grid,org.jbundle.thin.base.screen.util,org.jbundle.thin.opt.location,org.jbundle.util.calendarpanel,org.jbundle.thin.base.screen.jcalendarbutton&org.jbundle.thin.base.util.Bundle-ActivationPolicy=eager&codebase=/
+&org.jbundle.thin.base.remote.Bundle-ActivationPolicy=eager&org.jbundle.model.Bundle-ActivationPolicy=eager&org.jbundle.thin.base.db.Bundle-ActivationPolicy=eager&org.jbundle.thin.base.screen.Bundle-ActivationPolicy=eager&org.jbundle.util.osgi.webstart.Bundle-ActivationPolicy=lazy&org.jbundle.util.osgi.webstart.otherPackages=org.jbundle.thin.base.db,org.jbundle.res.webstart,org.jbundle.res.images.buttons,org.jbundle.thin.base.screen,org.jbundle.thin.base.screen.cal.grid,org.jbundle.thin.base.screen.cal.opt,org.jbundle.thin.base.screen.grid,org.jbundle.thin.base.screen.util,org.jbundle.thin.opt.location,org.jbundle.util.calendarpanel,org.jbundle.thin.base.screen.jcalendarbutton&org.jbundle.thin.base.util.Bundle-ActivationPolicy=eager&codebase=/
+&org.jbundle.base.model.Bundle-ActivationPolicy=eager&org.jbundle.base.Bundle-ActivationPolicy=eager&org.jbundle.base.other.Bundle-ActivationPolicy=eager&org.jbundle.util.osgi.webstart.excludeComponents=/org/jbundle/res/webstart/thin.properties&org.jbundle.util.osgi.webstart.Bundle-ActivationPolicy=lazy&org.jbundle.util.osgi.webstart.otherPackages=org.jbundle.base.db.client,org.jbundle.base.message.opt,org.jbundle.base.screen.view.swing,org.jbundle.base.db.proxy,org.jbundle.base.db.mapped,org.jbundle.base.db.serial,org.jbundle.base.db.net,org.jbundle.base.db.xml,org.jbundle.main.screen,org.jbundle.res.data.initial_data.current_initial_data.main_base_user.org.jbundle.main.user.db,org.jbundle.base.screen.view.swing.opt.jaxe,org.jbundle.main.calendar.db,org.jbundle.main.msg.db&codebase=/
+&org.jbundle.thin.base.remote.Bundle-ActivationPolicy=eager&org.jbundle.model.Bundle-ActivationPolicy=eager&org.jbundle.thin.base.db.Bundle-ActivationPolicy=eager&org.jbundle.thin.base.screen.Bundle-ActivationPolicy=eager&org.jbundle.util.osgi.webstart.Bundle-ActivationPolicy=lazy&org.jbundle.util.osgi.webstart.otherPackages=org.jbundle.thin.base.db,org.jbundle.res.webstart,org.jbundle.res.images.buttons,org.jbundle.thin.base.screen,org.jbundle.thin.base.screen.cal.grid,org.jbundle.thin.base.screen.cal.opt,org.jbundle.thin.base.screen.grid,org.jbundle.thin.base.screen.util,org.jbundle.thin.opt.location,org.jbundle.util.calendarpanel,org.jbundle.thin.base.screen.jcalendarbutton&org.jbundle.thin.base.util.Bundle-ActivationPolicy=eager&codebase=/
+&org.jbundle.util.osgi.webstart.Bundle-ActivationPolicy=lazy&org.jbundle.util.osgi.webstart.otherPackages=com.tourapp.res.tour.booking,com.tourapp.res.tour.acctpay,com.tourapp.res.tour.acctrec,com.tourapp.res.tour.assetdr,com.tourapp.res.tour.base,com.tourapp.res.tour.genled,com.tourapp.res.tour.payroll,com.tourapp.res.tour.product,com.tourapp.res.tour.profile,com.tourapp.res.tour.request&codebase=/
+&org.jbundle.util.osgi.webstart.include=org\.jbundle\..*|com\.tourapp\..*&org.jbundle.util.osgi.webstart.exclude=com\.tourapp\.tour\.message\..*|org\.jbundle\.base\.message\..*|org\.jbundle\.base\.remote\..*&org.jbundle.util.osgi.webstart.excludeComponents=/org/jbundle/res/webstart/thick.properties,/org/jbundle/res/webstart/thin.properties&org.jbundle.util.osgi.webstart.Bundle-ActivationPolicy=lazy&org.jbundle.util.osgi.webstart.otherPackages=com.tourapp
+&org.jbundle.base.model.Bundle-ActivationPolicy=eager&org.jbundle.base.Bundle-ActivationPolicy=eager&org.jbundle.base.other.Bundle-ActivationPolicy=eager&org.jbundle.util.osgi.webstart.excludeComponents=/org/jbundle/res/webstart/thin.properties&org.jbundle.util.osgi.webstart.Bundle-ActivationPolicy=lazy&org.jbundle.util.osgi.webstart.otherPackages=org.jbundle.base.db.client,org.jbundle.base.message.opt,org.jbundle.base.screen.view.swing,org.jbundle.base.db.proxy,org.jbundle.base.db.mapped,org.jbundle.base.db.serial,org.jbundle.base.db.net,org.jbundle.base.db.xml,org.jbundle.main.screen,org.jbundle.res.data.initial_data.current_initial_data.main_base_user.org.jbundle.main.user.db,org.jbundle.base.screen.view.swing.opt.jaxe,org.jbundle.main.calendar.db,org.jbundle.main.msg.db
+&org.jbundle.thin.base.remote.Bundle-ActivationPolicy=eager&org.jbundle.model.Bundle-ActivationPolicy=eager&org.jbundle.thin.base.db.Bundle-ActivationPolicy=eager&org.jbundle.thin.base.screen.Bundle-ActivationPolicy=eager&org.jbundle.util.osgi.webstart.Bundle-ActivationPolicy=lazy&org.jbundle.util.osgi.webstart.otherPackages=org.jbundle.thin.base.db,org.jbundle.res.webstart,org.jbundle.res.images.buttons,org.jbundle.thin.base.screen,org.jbundle.thin.base.screen.cal.grid,org.jbundle.thin.base.screen.cal.opt,org.jbundle.thin.base.screen.grid,org.jbundle.thin.base.screen.util,org.jbundle.thin.opt.location,org.jbundle.util.calendarpanel,org.jbundle.thin.base.screen.jcalendarbutton&org.jbundle.thin.base.util.Bundle-ActivationPolicy=eager
+&org.jbundle.thin.base.remote.Bundle-ActivationPolicy=eager&org.jbundle.model.Bundle-ActivationPolicy=eager&org.jbundle.thin.base.db.Bundle-ActivationPolicy=eager&org.jbundle.thin.base.screen.Bundle-ActivationPolicy=eager&org.jbundle.util.osgi.webstart.Bundle-ActivationPolicy=lazy&org.jbundle.util.osgi.webstart.otherPackages=org.jbundle.thin.base.db,org.jbundle.res.webstart,org.jbundle.res.images.buttons,org.jbundle.thin.base.screen,org.jbundle.thin.base.screen.cal.grid,org.jbundle.thin.base.screen.cal.opt,org.jbundle.thin.base.screen.grid,org.jbundle.thin.base.screen.util,org.jbundle.thin.opt.location,org.jbundle.util.calendarpanel,org.jbundle.thin.base.screen.jcalendarbutton&org.jbundle.thin.base.util.Bundle-ActivationPolicy=eager
+&org.jbundle.base.model.Bundle-ActivationPolicy=eager&org.jbundle.base.Bundle-ActivationPolicy=eager&org.jbundle.base.other.Bundle-ActivationPolicy=eager&org.jbundle.util.osgi.webstart.excludeComponents=/org/jbundle/res/webstart/thin.properties&org.jbundle.util.osgi.webstart.Bundle-ActivationPolicy=lazy&org.jbundle.util.osgi.webstart.otherPackages=org.jbundle.base.db.client,org.jbundle.base.message.opt,org.jbundle.base.screen.view.swing,org.jbundle.base.db.proxy,org.jbundle.base.db.mapped,org.jbundle.base.db.serial,org.jbundle.base.db.net,org.jbundle.base.db.xml,org.jbundle.main.screen,org.jbundle.res.data.initial_data.current_initial_data.main_base_user.org.jbundle.main.user.db,org.jbundle.base.screen.view.swing.opt.jaxe,org.jbundle.main.calendar.db,org.jbundle.main.msg.db
+&org.jbundle.thin.base.remote.Bundle-ActivationPolicy=eager&org.jbundle.model.Bundle-ActivationPolicy=eager&org.jbundle.thin.base.db.Bundle-ActivationPolicy=eager&org.jbundle.thin.base.screen.Bundle-ActivationPolicy=eager&org.jbundle.util.osgi.webstart.Bundle-ActivationPolicy=lazy&org.jbundle.util.osgi.webstart.otherPackages=org.jbundle.thin.base.db,org.jbundle.res.webstart,org.jbundle.res.images.buttons,org.jbundle.thin.base.screen,org.jbundle.thin.base.screen.cal.grid,org.jbundle.thin.base.screen.cal.opt,org.jbundle.thin.base.screen.grid,org.jbundle.thin.base.screen.util,org.jbundle.thin.opt.location,org.jbundle.util.calendarpanel,org.jbundle.thin.base.screen.jcalendarbutton&org.jbundle.thin.base.util.Bundle-ActivationPolicy=eager
+&org.jbundle.util.osgi.webstart.Bundle-ActivationPolicy=lazy&org.jbundle.util.osgi.webstart.otherPackages=com.tourapp.res.tour.booking,com.tourapp.res.tour.acctpay,com.tourapp.res.tour.acctrec,com.tourapp.res.tour.assetdr,com.tourapp.res.tour.base,com.tourapp.res.tour.genled,com.tourapp.res.tour.payroll,com.tourapp.res.tour.product,com.tourapp.res.tour.profile,com.tourapp.res.tour.request
+&backgroundcolor=#EEEEFF&connectionType=Proxy&background=backgrounds/worldmapalpha.gif&url=http://localhost:8181/tourappxsl&baseURL=localhost:8181/&code=org.jbundle.Main&appletClass=org.jbundle.Main&org.jbundle.util.osgi.webstart.maxHeapSize=512m&domain=localhost&datatype=jnlpapplet&userid=&org.jbundle.util.osgi.webstart.initialHeapSize=128m&org.jbundle.util.osgi.webstart.codebase=/&org.jbundle.util.osgi.webstart.appletClass=org.jbundle.Main&org.jbundle.util.osgi.webstart.webStartComponents=/org/jbundle/res/webstart/tour.properties,/org/jbundle/res/webstart/thick.properties,/org/jbundle/res/webstart/thin.properties,/org/jbundle/res/webstart/resource.properties&draggable=true&mainPackage=org.jbundle
+&org.jbundle.util.osgi.webstart.include=org\.jbundle\..*|com\.tourapp\..*&org.jbundle.util.osgi.webstart.exclude=com\.tourapp\.tour\.message\..*|org\.jbundle\.base\.message\..*|org\.jbundle\.base\.remote\..*&org.jbundle.util.osgi.webstart.excludeComponents=/org/jbundle/res/webstart/thick.properties,/org/jbundle/res/webstart/thin.properties&org.jbundle.util.osgi.webstart.Bundle-ActivationPolicy=lazy&org.jbundle.util.osgi.webstart.otherPackages=com.tourapp
+&org.jbundle.base.model.Bundle-ActivationPolicy=eager&org.jbundle.base.Bundle-ActivationPolicy=eager&org.jbundle.base.other.Bundle-ActivationPolicy=eager&org.jbundle.util.osgi.webstart.excludeComponents=/org/jbundle/res/webstart/thin.properties&org.jbundle.util.osgi.webstart.Bundle-ActivationPolicy=lazy&org.jbundle.util.osgi.webstart.otherPackages=org.jbundle.base.db.client,org.jbundle.base.message.opt,org.jbundle.base.screen.view.swing,org.jbundle.base.db.proxy,org.jbundle.base.db.mapped,org.jbundle.base.db.serial,org.jbundle.base.db.net,org.jbundle.base.db.xml,org.jbundle.main.screen,org.jbundle.res.data.initial_data.current_initial_data.main_base_user.org.jbundle.main.user.db,org.jbundle.base.screen.view.swing.opt.jaxe,org.jbundle.main.calendar.db,org.jbundle.main.msg.db

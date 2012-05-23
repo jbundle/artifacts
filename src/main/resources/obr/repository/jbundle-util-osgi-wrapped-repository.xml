@@ -1,0 +1,916 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-stylesheet type='text/xsl' href='http://www.osgi.org/www/obr2html.xsl'?>
+
+<repository lastmodified='20120508163742.249' name='Untitled'>
+  <resource id='Untitled-2128233568/0.0.0' symbolicname='Untitled-2128233568' uri='http://repo2.maven.org/maven2/org/jbundle/util/osgi/wrapped/org.jbundle.util.osgi.wrapped.uk.org.pajhome.crypt.sha1/2.2.0/org.jbundle.util.osgi.wrapped.uk.org.pajhome.crypt.sha1-2.2.0-sources.jar' version='0.0.0'>
+    <size>
+      4094
+    </size>
+    <capability name='bundle'>
+      <p n='manifestversion' v='1'/>
+      <p n='symbolicname' v='Untitled-2128233568'/>
+      <p n='version' t='version' v='0.0.0'/>
+    </capability>
+  </resource>
+  <resource id='org.jbundle.util.osgi.wrapped.jnlp.sample/1.0.0.02_ea_b021' presentationname='jbundle-util-osgi-wrapped-jnlp-sample - OSGi Jnlp servlet' symbolicname='org.jbundle.util.osgi.wrapped.jnlp.sample' uri='http://repo2.maven.org/maven2/org/jbundle/util/osgi/wrapped/org.jbundle.util.osgi.wrapped.jnlp.sample/1.0-6.0.02_ea_b02.1/org.jbundle.util.osgi.wrapped.jnlp.sample-1.0-6.0.02_ea_b02.1.jar' version='1.0.0.02_ea_b021'>
+    <description>
+      Jnlp servlet
+    </description>
+    <size>
+      75486
+    </size>
+    <license>
+      http://java.com/license
+    </license>
+    <documentation>
+      http://oracle.com/
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-osgi-wrapped-jnlp-sample - OSGi Jnlp servlet'/>
+      <p n='symbolicname' v='org.jbundle.util.osgi.wrapped.jnlp.sample'/>
+      <p n='version' t='version' v='1.0.0.02_ea_b021'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='jnlp.sample.jardiff.resources'/>
+      <p n='version' t='version' v='1.0.0.02_ea_b021'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='jnlp.sample.util'/>
+      <p n='version' t='version' v='1.0.0.02_ea_b021'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='jnlp.sample.servlet.resources'/>
+      <p n='version' t='version' v='1.0.0.02_ea_b021'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='jnlp.sample.servlet'/>
+      <p n='uses' v='javax.servlet,javax.servlet.http,jnlp.sample.util,jnlp.sample.jardiff,javax.xml.transform,javax.xml.transform.stream,javax.xml.parsers,javax.xml.transform.dom,org.w3c.dom,org.xml.sax'/>
+      <p n='version' t='version' v='1.0.0.02_ea_b021'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='jnlp.sample.jardiff'/>
+      <p n='version' t='version' v='1.0.0.02_ea_b021'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.servlet)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet.http)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet.http
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.parsers)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.parsers
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.dom)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform.dom
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.stream)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform.stream
+    </require>
+    <require extend='false' filter='(&amp;(package=org.w3c.dom)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.w3c.dom
+    </require>
+    <require extend='false' filter='(&amp;(package=org.xml.sax)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.xml.sax
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.osgi.wrapped.org.apache.catalina.servlets/7.0.23' presentationname='jbundle-util-osgi-wrapped-servlets - catalina servlets' symbolicname='org.jbundle.util.osgi.wrapped.org.apache.catalina.servlets' uri='http://repo2.maven.org/maven2/org/jbundle/util/osgi/wrapped/org.jbundle.util.osgi.wrapped.org.apache.catalina.servlets/7.0.23/org.jbundle.util.osgi.wrapped.org.apache.catalina.servlets-7.0.23.jar' version='7.0.23'>
+    <description>
+      Top level properties and features
+    </description>
+    <size>
+      2054450
+    </size>
+    <license>
+      http://www.apache.org/licenses/LICENSE-2.0
+    </license>
+    <documentation>
+      http://tomcat.apache.org/
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-osgi-wrapped-servlets - catalina servlets'/>
+      <p n='symbolicname' v='org.jbundle.util.osgi.wrapped.org.apache.catalina.servlets'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.catalina.manager'/>
+      <p n='uses' v='org.apache.catalina,javax.servlet.http,org.apache.catalina.manager.util,org.apache.tomcat.util.http.fileupload,org.apache.tomcat.util.res,org.apache.catalina.util,javax.servlet,org.apache.tomcat.util,org.apache.tomcat.util.modeler,javax.management,javax.naming,org.apache.catalina.core'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.catalina.core'/>
+      <p n='uses' v='org.apache.catalina.connector,org.apache.catalina,org.apache.tomcat.util.buf,org.apache.tomcat.util.http.mapper,javax.naming,org.apache.juli.logging,org.apache.catalina.deploy,org.apache.naming.resources,org.apache.tomcat.util.res,javax.servlet,org.apache.catalina.util,javax.naming.directory,javax.servlet.descriptor,org.apache.tomcat,org.apache.tomcat.util,javax.servlet.http,org.apache.catalina.security,org.apache.catalina.comet,javax.management,org.apache.tomcat.util.log,org.apache.tomcat.util.modeler,org.apache.tomcat.util.http.fileupload,org.apache.tomcat.util.http.fileupload.disk,org.apache.tomcat.jni,org.apache.coyote,org.apache.catalina.mbeans,javax.annotation,javax.ejb,javax.xml.ws,javax.persistence,javax.xml.parsers,javax.imageio,org.apache.naming.factory,org.apache.naming,org.apache.tomcat.util.scan,org.apache.catalina.startup,org.apache.catalina.session,org.apache.catalina.loader,org.apache.catalina.valves,org.apache.catalina.realm,org.apache.tomcat.util.threads,javax.servlet.annotation'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.catalina.util'/>
+      <p n='uses' v='org.apache.tomcat.util.buf,org.apache.tomcat.util,org.w3c.dom,org.apache.naming.resources,org.apache.tomcat.util.res,javax.naming.directory,javax.naming,org.apache.catalina,org.apache.juli.logging,javax.servlet,org.apache.tomcat.util.modeler,javax.management,org.apache.tomcat.util.digester,org.xml.sax'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.catalina.startup'/>
+      <p n='uses' v='org.apache.tomcat.util.res,org.apache.tomcat.util.digester,org.apache.juli.logging,org.xml.sax,org.apache.catalina.security,javax.management,org.apache.tomcat.util,org.apache.catalina,org.apache.juli,org.apache.catalina.core,org.apache.tomcat.util.log,org.apache.catalina.ha,org.apache.catalina.loader,org.apache.coyote,org.apache.catalina.connector,org.apache.catalina.deploy,org.apache.tomcat,org.apache.tomcat.util.scan,javax.xml.parsers,javax.servlet.annotation,org.apache.tomcat.util.bcel.classfile,org.apache.naming.resources,org.apache.catalina.util,javax.servlet,org.apache.catalina.mbeans,javax.naming.directory,javax.servlet.descriptor,org.apache.tomcat.util.http.mapper,org.apache.tomcat.util.modeler,org.apache.catalina.realm,org.apache.catalina.authenticator,javax.annotation,javax.annotation.security'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.catalina.manager.util'/>
+      <p n='uses' v='org.apache.catalina,org.apache.tomcat.util,javax.security.auth,javax.servlet.http'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.catalina.loader'/>
+      <p n='uses' v='org.apache.tomcat.util.res,org.apache.juli.logging,org.apache.catalina,javax.naming,org.apache.naming.resources,javax.naming.directory,org.apache.tomcat.util,org.apache.naming,org.apache.catalina.mbeans,org.apache.catalina.core,javax.management,javax.servlet,org.apache.catalina.util,org.apache.tomcat.util.modeler'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.catalina.manager.host'/>
+      <p n='uses' v='org.apache.tomcat.util.res,org.apache.catalina.manager,org.apache.catalina.util,javax.servlet,org.apache.catalina,javax.servlet.http,org.apache.catalina.core,javax.management,org.apache.catalina.startup,org.apache.tomcat.util,org.apache.tomcat.util.modeler'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.catalina.authenticator'/>
+      <p n='uses' v='org.apache.catalina.connector,org.apache.catalina.valves,org.apache.catalina.deploy,org.apache.juli.logging,org.apache.tomcat.util.http,org.apache.tomcat.util.res,org.apache.coyote,org.apache.catalina.util,javax.servlet,org.apache.catalina,org.apache.tomcat.util.buf,org.apache.tomcat.util.http.mapper,javax.servlet.http,org.apache.tomcat.util,org.ietf.jgss,javax.security.auth.login,javax.security.auth,org.apache.catalina.startup'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.catalina'/>
+      <p n='uses' v='org.apache.catalina.connector,javax.servlet,org.apache.catalina.deploy,javax.servlet.http,org.apache.catalina.core,javax.naming.directory,org.apache.juli.logging,javax.management,org.apache.catalina.util,javax.servlet.descriptor,org.apache.tomcat,org.apache.tomcat.util.http.mapper,org.ietf.jgss,javax.naming,org.apache.catalina.startup,org.apache.catalina.comet'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.catalina.filters'/>
+      <p n='uses' v='javax.servlet.http,org.apache.tomcat.util.res,javax.servlet,org.apache.juli.logging,org.apache.catalina.comet,org.apache.tomcat.util'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.catalina.ssi'/>
+      <p n='uses' v='javax.servlet,org.apache.tomcat.util,javax.servlet.http,org.apache.catalina.util,org.apache.tomcat.util.http,org.apache.catalina.connector,org.apache.tomcat.util.buf'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.catalina.realm'/>
+      <p n='uses' v='org.apache.tomcat.util.res,org.apache.juli.logging,org.apache.catalina,javax.management,org.ietf.jgss,javax.naming,javax.sql,org.apache.naming,javax.security.auth.login,javax.security.auth.callback,org.apache.tomcat.util.digester,javax.security.auth.spi,javax.security.auth,org.apache.tomcat.util,org.apache.catalina.util,javax.naming.directory,org.apache.tomcat.util.buf,org.xml.sax,org.apache.catalina.mbeans,org.apache.catalina.connector,org.apache.catalina.deploy,org.apache.catalina.core,javax.servlet.http'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.catalina.connector'/>
+      <p n='uses' v='org.apache.tomcat.util.res,javax.servlet,org.apache.catalina.comet,javax.servlet.http,org.apache.catalina.mbeans,org.apache.juli.logging,org.apache.catalina.core,javax.management,org.apache.coyote,org.apache.catalina.util,org.apache.catalina,org.apache.tomcat.util,org.apache.tomcat.util.http.mapper,org.apache.tomcat.util.net,org.apache.tomcat.util.http,org.apache.tomcat.util.buf,org.apache.catalina.security,javax.naming.directory,javax.naming,org.apache.catalina.realm,org.ietf.jgss,org.apache.tomcat.util.http.fileupload,org.apache.tomcat.util.http.fileupload.disk,org.apache.catalina.deploy,javax.security.auth,org.apache.tomcat.util.http.fileupload.servlet'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.catalina.comet'/>
+      <p n='uses' v='javax.servlet,javax.servlet.http'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.catalina.users'/>
+      <p n='uses' v='org.apache.catalina,org.apache.tomcat.util.digester,org.xml.sax,org.apache.catalina.util,org.apache.tomcat.util.res,org.apache.juli.logging,org.apache.tomcat.util,javax.naming,javax.naming.spi'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.catalina.session'/>
+      <p n='uses' v='org.apache.tomcat.util.res,org.apache.catalina.util,javax.servlet,org.apache.juli.logging,org.apache.catalina,javax.naming,javax.sql,org.apache.tomcat.util,org.apache.catalina.mbeans,javax.servlet.http,org.apache.catalina.security,org.apache.catalina.realm,org.apache.catalina.core'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.catalina.mbeans'/>
+      <p n='uses' v='org.apache.tomcat.util.modeler,javax.management,org.apache.catalina.connector,org.apache.tomcat.util,javax.management.modelmbean,org.apache.catalina.util,org.apache.catalina.startup,org.apache.catalina.valves,org.apache.catalina,org.apache.catalina.core,org.apache.catalina.deploy,javax.naming,org.apache.juli.logging,org.apache.catalina.realm,org.apache.catalina.authenticator,org.apache.catalina.session,org.apache.catalina.loader,org.apache.coyote,org.apache.coyote.ajp,org.apache.coyote.http11'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.catalina.security'/>
+      <p n='uses' v='org.apache.catalina.startup,org.apache.juli.logging,org.apache.tomcat.util.res,org.apache.catalina,javax.security.auth,javax.servlet,org.apache.tomcat.util,javax.servlet.http'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.catalina.deploy'/>
+      <p n='uses' v='org.apache.catalina.util,javax.servlet,org.apache.catalina.mbeans,javax.naming,org.apache.juli.logging,javax.management,org.apache.tomcat.util.res,org.apache.catalina,org.apache.tomcat.util,org.apache.naming,javax.servlet.annotation,javax.servlet.descriptor,org.apache.catalina.core'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.catalina.valves'/>
+      <p n='uses' v='org.apache.catalina.connector,javax.servlet.http,org.apache.tomcat.util,org.apache.catalina,org.apache.coyote,org.apache.juli.logging,org.apache.tomcat.util.res,javax.servlet,org.apache.tomcat.util.buf,org.apache.catalina.comet,org.apache.catalina.util,org.apache.catalina.session,org.apache.tomcat.util.http,org.apache.catalina.mbeans'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.catalina.servlets'/>
+      <p n='uses' v='org.apache.catalina.util,javax.servlet,javax.servlet.http,javax.naming,org.apache.catalina.connector,org.apache.naming.resources,org.apache.tomcat.util.res,javax.naming.directory,javax.xml.transform,javax.xml.transform.stream,org.apache.tomcat.util.http,org.xml.sax,javax.xml.parsers,org.w3c.dom'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.naming.resources.jndi'/>
+      <p n='uses' v='org.apache.naming.resources'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.naming.java'/>
+      <p n='uses' v='javax.naming,org.apache.naming,javax.naming.spi'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.naming.resources'/>
+      <p n='uses' v='javax.naming,javax.naming.directory,org.apache.juli.logging,org.apache.naming,org.apache.tomcat.util.http,org.apache.catalina.util'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.naming.factory'/>
+      <p n='uses' v='javax.naming,org.apache.naming,javax.naming.spi,javax.sql,javax.mail,javax.mail.internet'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.naming'/>
+      <p n='uses' v='javax.naming,org.apache.juli.logging,javax.naming.spi'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.tomcat.util.http.fileupload'/>
+      <p n='uses' v='org.apache.tomcat.util.http.fileupload.util'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.tomcat.util.http.fileupload.util'/>
+      <p n='uses' v='org.apache.tomcat.util.http.fileupload'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.tomcat.util.http.res'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.tomcat.util.net'/>
+      <p n='uses' v='org.apache.tomcat.util.res,org.apache.juli.logging,org.apache.tomcat.util,org.apache.tomcat.util.threads,javax.net.ssl,org.apache.tomcat.jni,org.apache.tomcat.util.net.jsse'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.tomcat.util.http'/>
+      <p n='uses' v='org.apache.juli.logging,org.apache.tomcat.util.buf,org.apache.tomcat.util.res'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.tomcat.util.res'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.tomcat.util.log'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.tomcat.util.bcel.util'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.tomcat.util.digester'/>
+      <p n='uses' v='org.xml.sax,org.apache.juli.logging,org.apache.tomcat.util,javax.xml.parsers,org.xml.sax.helpers,org.w3c.dom'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.tomcat.util'/>
+      <p n='uses' v='org.apache.juli.logging,org.xml.sax,javax.xml.transform,javax.xml.transform.stream,javax.xml.parsers,javax.xml.transform.dom,org.w3c.dom'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.tomcat.util.modeler.modules'/>
+      <p n='uses' v='org.apache.juli.logging,org.apache.tomcat.util,org.apache.tomcat.util.modeler,javax.management,org.w3c.dom,org.apache.tomcat.util.digester,javax.xml.transform,javax.management.loading'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.tomcat.util.bcel'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.tomcat.util.net.jsse'/>
+      <p n='uses' v='org.apache.tomcat.util.net,javax.net.ssl,org.apache.tomcat.util.res,org.apache.juli.logging,javax.security.cert'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.tomcat.util.bcel.classfile'/>
+      <p n='uses' v='org.apache.tomcat.util.bcel,org.apache.tomcat.util.bcel.util'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.tomcat.util.http.fileupload.servlet'/>
+      <p n='uses' v='org.apache.tomcat.util.http.fileupload,javax.servlet.http,javax.servlet'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.tomcat.util.scan'/>
+      <p n='uses' v='org.apache.tomcat.util.res,javax.servlet,org.apache.tomcat.util.file,org.apache.juli.logging,org.apache.tomcat'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.tomcat.util.http.fileupload.disk'/>
+      <p n='uses' v='org.apache.tomcat.util.http.fileupload,org.apache.tomcat.util.http.fileupload.util'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.tomcat.util.buf'/>
+      <p n='uses' v='org.apache.tomcat.util.res,org.apache.juli.logging'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.tomcat.util.modeler'/>
+      <p n='uses' v='javax.management,org.apache.juli.logging,javax.management.modelmbean,org.apache.tomcat.util.modeler.modules'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.tomcat.util.threads'/>
+      <p n='uses' v='org.apache.juli.logging,org.apache.tomcat.util.res'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.tomcat.util.file'/>
+      <p n='uses' v='org.apache.tomcat.util.res,org.apache.juli.logging'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.tomcat.util.net.jsse.res'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.tomcat.util.threads.res'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.tomcat.util.net.res'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.tomcat.util.http.mapper'/>
+      <p n='uses' v='javax.naming,org.apache.tomcat.util.res,javax.naming.directory,org.apache.juli.logging,org.apache.tomcat.util.buf'/>
+      <p n='version' t='version' v='7.0.23'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.annotation)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.annotation
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.annotation.security)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.annotation.security
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.ejb)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.ejb
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.imageio)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.imageio
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.mail)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.mail
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.mail.internet)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.mail.internet
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.management)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.management
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.management.loading)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.management.loading
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.management.modelmbean)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.management.modelmbean
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.naming)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.naming
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.naming.directory)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.naming.directory
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.naming.spi)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.naming.spi
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.net.ssl)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.net.ssl
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.persistence)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.persistence
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.security.auth)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.security.auth
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.security.auth.callback)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.security.auth.callback
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.security.auth.login)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.security.auth.login
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.security.auth.spi)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.security.auth.spi
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.security.cert)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.security.cert
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet.annotation)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet.annotation
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet.descriptor)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet.descriptor
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.servlet.http)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.servlet.http
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.sql)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.sql
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.parsers)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.parsers
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.dom)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform.dom
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.stream)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform.stream
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.ws)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.ws
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.catalina.ha)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.catalina.ha
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.coyote)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.coyote
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.coyote.ajp)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.coyote.ajp
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.coyote.http11)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.coyote.http11
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.juli)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.juli
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.juli.logging)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.juli.logging
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.tomcat)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.tomcat
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.tomcat.jni)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.tomcat.jni
+    </require>
+    <require extend='false' filter='(&amp;(package=org.ietf.jgss)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.ietf.jgss
+    </require>
+    <require extend='false' filter='(&amp;(package=org.w3c.dom)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.w3c.dom
+    </require>
+    <require extend='false' filter='(&amp;(package=org.xml.sax)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.xml.sax
+    </require>
+    <require extend='false' filter='(&amp;(package=org.xml.sax.helpers)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.xml.sax.helpers
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.osgi.wrapped.org.apache.http.client/4.1.2' presentationname='jbundle-util-osgi-wrapped-httpclient - httpclient osgi' symbolicname='org.jbundle.util.osgi.wrapped.org.apache.http.client' uri='http://repo2.maven.org/maven2/org/jbundle/util/osgi/wrapped/org.jbundle.util.osgi.wrapped.org.apache.http.client/4.1.2/org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2.jar' version='4.1.2'>
+    <description>
+      Top level properties and features
+    </description>
+    <size>
+      529658
+    </size>
+    <license>
+      http://www.apache.org/licenses/LICENSE-2.0
+    </license>
+    <documentation>
+      http://tomcat.apache.org/
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-osgi-wrapped-httpclient - httpclient osgi'/>
+      <p n='symbolicname' v='org.jbundle.util.osgi.wrapped.org.apache.http.client'/>
+      <p n='version' t='version' v='4.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.impl.entity'/>
+      <p n='uses' v='org.apache.http.io,org.apache.http.impl.io,org.apache.http.entity,org.apache.http,org.apache.http.params'/>
+      <p n='version' t='version' v='4.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.protocol'/>
+      <p n='uses' v='org.apache.http,org.apache.http.params,org.apache.http.entity,org.apache.http.util'/>
+      <p n='version' t='version' v='4.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.impl'/>
+      <p n='uses' v='org.apache.http.impl.entity,org.apache.http.message,org.apache.http.io,org.apache.http.impl.io,org.apache.http.params,org.apache.http.entity,org.apache.http,org.apache.http.protocol'/>
+      <p n='version' t='version' v='4.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.conn.params'/>
+      <p n='uses' v='org.apache.http.params,org.apache.http.conn.routing,org.apache.http'/>
+      <p n='version' t='version' v='4.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.entity'/>
+      <p n='uses' v='org.apache.http.message,org.apache.http,org.apache.http.util'/>
+      <p n='version' t='version' v='4.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.cookie.params'/>
+      <p n='uses' v='org.apache.http.params'/>
+      <p n='version' t='version' v='4.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.impl.conn'/>
+      <p n='uses' v='org.apache.http.conn,org.apache.http.protocol,javax.net.ssl,org.apache.http,org.apache.http.params,org.apache.http.conn.routing,org.apache.http.io,org.apache.http.message,org.apache.commons.logging,org.apache.http.impl,org.apache.http.conn.scheme,org.apache.http.conn.params,org.apache.http.impl.io,org.apache.http.util,org.apache.http.conn.ssl'/>
+      <p n='version' t='version' v='4.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.client'/>
+      <p n='uses' v='org.apache.http.auth,org.apache.http,org.apache.http.protocol,org.apache.http.cookie,org.apache.http.conn,org.apache.http.params,org.apache.http.client.methods'/>
+      <p n='version' t='version' v='4.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.conn.routing'/>
+      <p n='uses' v='org.apache.http,org.apache.http.util,org.apache.http.protocol'/>
+      <p n='version' t='version' v='4.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.impl.client'/>
+      <p n='uses' v='org.apache.commons.logging,org.apache.http.protocol,org.apache.http.params,org.apache.http.client,org.apache.http.util,org.apache.http.auth,org.apache.http,org.apache.http.conn.scheme,org.apache.http.impl,org.apache.http.client.utils,org.apache.http.impl.conn,org.apache.http.conn.routing,org.apache.http.conn,org.apache.http.cookie,org.apache.http.impl.cookie,org.apache.http.impl.auth,org.apache.http.client.methods,org.apache.http.client.protocol,org.apache.http.message,javax.net.ssl,org.apache.http.conn.params,org.apache.http.entity,org.apache.http.client.params'/>
+      <p n='version' t='version' v='4.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.auth.params'/>
+      <p n='uses' v='org.apache.http.params'/>
+      <p n='version' t='version' v='4.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.conn'/>
+      <p n='uses' v='org.apache.http.entity,org.apache.http.util,org.apache.http,org.apache.http.conn.scheme,org.apache.http.conn.routing,org.apache.http.params,org.apache.http.protocol,javax.net.ssl'/>
+      <p n='version' t='version' v='4.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.cookie'/>
+      <p n='uses' v='org.apache.http,org.apache.http.params'/>
+      <p n='version' t='version' v='4.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.impl.cookie'/>
+      <p n='uses' v='org.apache.http.cookie,org.apache.http.message,org.apache.http.util,org.apache.http,org.apache.http.params,org.apache.http.protocol,org.apache.http.client.utils'/>
+      <p n='version' t='version' v='4.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.impl.auth'/>
+      <p n='uses' v='org.apache.http.protocol,org.apache.http.util,org.apache.http.auth,org.apache.http,org.apache.http.auth.params,org.apache.http.message,org.apache.http.params,org.apache.commons.codec.binary,javax.crypto.spec,javax.crypto,org.apache.commons.logging,org.ietf.jgss'/>
+      <p n='version' t='version' v='4.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.client.entity'/>
+      <p n='uses' v='org.apache.http.entity,org.apache.http,org.apache.http.client.utils'/>
+      <p n='version' t='version' v='4.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.io'/>
+      <p n='uses' v='org.apache.http,org.apache.http.util'/>
+      <p n='version' t='version' v='4.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.message'/>
+      <p n='uses' v='org.apache.http.params,org.apache.http,org.apache.http.util,org.apache.http.protocol'/>
+      <p n='version' t='version' v='4.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.conn.scheme'/>
+      <p n='uses' v='org.apache.http.conn,org.apache.http.params,org.apache.http.util,org.apache.http'/>
+      <p n='version' t='version' v='4.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.impl.io'/>
+      <p n='uses' v='org.apache.http.message,org.apache.http.io,org.apache.http.params,org.apache.http.util,org.apache.http,org.apache.http.protocol'/>
+      <p n='version' t='version' v='4.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.params'/>
+      <p n='uses' v='org.apache.http'/>
+      <p n='version' t='version' v='4.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.annotation'/>
+      <p n='version' t='version' v='4.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.conn.ssl'/>
+      <p n='uses' v='org.apache.http.conn.util,javax.security.auth.x500,javax.net.ssl,org.apache.http.conn,org.apache.http.conn.scheme,org.apache.http.params'/>
+      <p n='version' t='version' v='4.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.client.utils'/>
+      <p n='uses' v='org.apache.http,org.apache.http.message,org.apache.http.util'/>
+      <p n='version' t='version' v='4.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.client.protocol'/>
+      <p n='uses' v='org.apache.http.cookie,org.apache.http.protocol,org.apache.http.client,org.apache.http.auth,org.apache.http,org.apache.commons.logging,org.apache.http.params,org.apache.http.conn.routing,org.apache.http.client.params,org.apache.http.conn,org.apache.http.client.methods,org.apache.http.impl.client,org.apache.http.client.entity'/>
+      <p n='version' t='version' v='4.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.client.params'/>
+      <p n='uses' v='org.apache.http.auth.params,org.apache.http.conn.params,org.apache.http.params,org.apache.http.cookie.params,org.apache.http.conn,org.apache.http'/>
+      <p n='version' t='version' v='4.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.conn.util'/>
+      <p n='version' t='version' v='4.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.impl.conn.tsccm'/>
+      <p n='uses' v='org.apache.http.conn,org.apache.commons.logging,org.apache.http.impl.conn,org.apache.http.conn.routing,org.apache.http.params,org.apache.http.conn.params,org.apache.http.util,org.apache.http.conn.scheme'/>
+      <p n='version' t='version' v='4.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.client.methods'/>
+      <p n='uses' v='org.apache.http.conn,org.apache.http.client.utils,org.apache.http,org.apache.http.message,org.apache.http.params'/>
+      <p n='version' t='version' v='4.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.util'/>
+      <p n='uses' v='org.apache.http.protocol,org.apache.http'/>
+      <p n='version' t='version' v='4.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http'/>
+      <p n='uses' v='org.apache.http.protocol,org.apache.http.util,org.apache.http.params'/>
+      <p n='version' t='version' v='4.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.auth'/>
+      <p n='uses' v='org.apache.http,org.apache.http.params,org.apache.http.util,org.apache.http.protocol'/>
+      <p n='version' t='version' v='4.1.2'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.crypto)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.crypto
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.crypto.spec)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.crypto.spec
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.net.ssl)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.net.ssl
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.security.auth.x500)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.security.auth.x500
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.codec.binary)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.apache.commons.codec.binary ;version=[1.4.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.logging)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.commons.logging
+    </require>
+    <require extend='false' filter='(&amp;(package=org.ietf.jgss)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.ietf.jgss
+    </require>
+  </resource>
+  <resource id='org.jbundle.util.osgi.wrapped.org.jbundle.util.osgi.wrapped.c3p0/0.9.1.2' presentationname='jbundle-util-osgi-wrapped-c3p0 - c3p0 wrapped osgi' symbolicname='org.jbundle.util.osgi.wrapped.org.jbundle.util.osgi.wrapped.c3p0' uri='http://repo2.maven.org/maven2/org/jbundle/util/osgi/wrapped/org.jbundle.util.osgi.wrapped.c3p0/0.9.1.2/org.jbundle.util.osgi.wrapped.c3p0-0.9.1.2.jar' version='0.9.1.2'>
+    <description>
+      Top level properties and features
+    </description>
+    <size>
+      620926
+    </size>
+    <license>
+      http://www.gnu.org/licenses/lgpl-2.1.html
+    </license>
+    <documentation>
+      http://www.mchange.com/projects/c3p0/index.html
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jbundle-util-osgi-wrapped-c3p0 - c3p0 wrapped osgi'/>
+      <p n='symbolicname' v='org.jbundle.util.osgi.wrapped.org.jbundle.util.osgi.wrapped.c3p0'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v2.cfg.junit'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v2.codegen'/>
+      <p n='uses' v='com.mchange.v1.lang,com.mchange.v2.debug,com.mchange.v2.io'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v1.identicator'/>
+      <p n='uses' v='com.mchange.v2.debug,com.mchange.v1.util'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v2.cfg'/>
+      <p n='uses' v='com.mchange.v2.log,com.mchange.v2.debug'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v2.coalesce'/>
+      <p n='uses' v='com.mchange.v1.identicator,com.mchange.v2.debug'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v2.sql'/>
+      <p n='uses' v='com.mchange.v2.debug,com.mchange.v2.lang,com.mchange.v2.log,com.mchange.lang'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v2.encounter'/>
+      <p n='uses' v='com.mchange.v2.debug'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v1.db'/>
+      <p n='uses' v='com.mchange.v2.debug'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v2.c3p0.subst'/>
+      <p n='uses' v='com.mchange.v2.debug'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v2.resourcepool'/>
+      <p n='uses' v='com.mchange.v2.log,com.mchange.v2.util,com.mchange.v2.async,com.mchange.v2.cfg,com.mchange.v2.lang,com.mchange.v2.debug,com.mchange.v1.util,com.mchange.lang'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange'/>
+      <p n='uses' v='com.mchange.v2.debug'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v2.c3p0'/>
+      <p n='uses' v='com.mchange.v2.c3p0.cfg,com.mchange.v2.sql,com.mchange.v2.coalesce,com.mchange.v2.util,com.mchange.v2.c3p0.management,com.mchange.v2.c3p0.impl,com.mchange.v2.log,com.mchange.v2.beans,com.mchange.v2.debug,com.mchange.v2.naming,com.mchange.v2.cfg,com.mchange.v1.io'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v2.lang'/>
+      <p n='uses' v='com.mchange.v2.debug,com.mchange.v2.log,com.mchange.v1.util'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v2.codegen.bean'/>
+      <p n='uses' v='com.mchange.v2.codegen,com.mchange.v1.lang,com.mchange.v2.debug,com.mchange.v2.log,com.mchange.v2.ser,com.mchange.v1.xml,com.mchange.v2.naming'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v2.c3p0.mbean'/>
+      <p n='uses' v='com.mchange.v2.c3p0,com.mchange.v2.log,com.mchange.v2.debug'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v2.util'/>
+      <p n='uses' v='com.mchange.v2.debug,com.mchange.v1.util,com.mchange.v2.lang'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v2.c3p0.impl'/>
+      <p n='uses' v='com.mchange.v1.util,com.mchange.v2.c3p0.stmt,com.mchange.v2.c3p0.cfg,com.mchange.v2.c3p0,com.mchange.v2.log,com.mchange.lang,com.mchange.v2.cfg,com.mchange.v2.sql,com.mchange.v2.ser,com.mchange.v2.encounter,com.mchange.v2.naming,com.mchange.v2.sql.filter,com.mchange.v2.c3p0.util,com.mchange.v2.lang,com.mchange.v2.resourcepool,com.mchange.v1.db.sql,com.mchange.v2.async,com.mchange.v2.coalesce,com.mchange.v1.lang,com.mchange.v2.debug,com.mchange.v2.util'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v2.c3p0.util'/>
+      <p n='uses' v='com.mchange.v2.sql.filter,com.mchange.v2.debug,com.mchange.v2.sql,com.mchange.v2.c3p0'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v2.io'/>
+      <p n='uses' v='com.mchange.v2.debug'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v2.log'/>
+      <p n='uses' v='com.mchange.v2.debug,com.mchange.lang,com.mchange.v2.cfg,com.mchange.v1.util'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v1.db.sql'/>
+      <p n='uses' v='com.mchange.v2.log,com.mchange.v2.debug'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.lang'/>
+      <p n='uses' v='com.mchange.v2.debug,com.mchange.v2.lang'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.util'/>
+      <p n='uses' v='com.mchange.v2.debug'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v2.c3p0.management'/>
+      <p n='uses' v='com.mchange.v2.c3p0,com.mchange.v2.log,com.mchange.v2.debug,com.mchange.v2.c3p0.impl,com.mchange.v2.management,com.mchange.v1.lang'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v2.log.jdk14logging'/>
+      <p n='uses' v='com.mchange.v2.debug,com.mchange.v2.log,com.mchange.v2.util'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v2.ser'/>
+      <p n='uses' v='com.mchange.v2.debug,com.mchange.v1.io,com.mchange.v2.log'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v1.io'/>
+      <p n='uses' v='com.mchange.v2.debug,com.mchange.v2.log'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v1.util'/>
+      <p n='uses' v='com.mchange.v2.lang,com.mchange.v2.log,com.mchange.v2.debug,com.mchange.util'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v2.debug'/>
+      <p n='uses' v='com.mchange.lang'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v2.c3p0.jboss'/>
+      <p n='uses' v='com.mchange.v2.c3p0,com.mchange.v2.log,com.mchange.v2.debug'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v2.async'/>
+      <p n='uses' v='com.mchange.v1.util,com.mchange.v2.log,com.mchange.v2.util,com.mchange.v2.debug,com.mchange.v2.io'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v2.c3p0.stmt'/>
+      <p n='uses' v='com.mchange.v2.debug,com.mchange.v2.async,com.mchange.v1.db.sql,com.mchange.v2.sql,com.mchange.v2.log,com.mchange.v2.util,com.mchange.v2.io,com.mchange.v2.coalesce,com.mchange.v1.util,com.mchange.v2.c3p0,com.mchange.v2.lang'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v1.lang'/>
+      <p n='uses' v='com.mchange.v2.debug'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v2.holders'/>
+      <p n='uses' v='com.mchange.v2.ser,com.mchange.v2.debug'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v2.naming'/>
+      <p n='uses' v='com.mchange.v2.debug,com.mchange.v2.ser,com.mchange.v2.lang,com.mchange.v2.log,com.mchange.v2.beans'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v2.codegen.intfc'/>
+      <p n='uses' v='com.mchange.v2.debug,com.mchange.v2.codegen,com.mchange.v1.lang'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v2.c3p0.cfg'/>
+      <p n='uses' v='com.mchange.v2.cfg,com.mchange.v2.c3p0.impl,com.mchange.v2.log,com.mchange.v2.beans,com.mchange.v1.lang,com.mchange.v1.xml,com.mchange.v2.debug'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v2.c3p0.filter'/>
+      <p n='uses' v='com.mchange.v2.debug'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v2.management'/>
+      <p n='uses' v='com.mchange.v2.debug'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v1.xml'/>
+      <p n='uses' v='com.mchange.v2.debug,com.mchange.v1.util'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v2.log.log4j'/>
+      <p n='uses' v='com.mchange.v2.debug,org.apache.log4j,com.mchange.v2.log'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v2.sql.filter'/>
+      <p n='uses' v='com.mchange.v2.debug,com.mchange.v2.codegen.intfc,com.mchange.v1.lang'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v2.beans'/>
+      <p n='uses' v='com.mchange.v2.log,com.mchange.v2.lang,com.mchange.v2.debug'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v2'/>
+      <p n='uses' v='com.mchange.v2.debug'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mchange.v1'/>
+      <p n='uses' v='com.mchange.v2.debug'/>
+      <p n='version' t='version' v='0.9.1.2'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=org.apache.log4j)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.apache.log4j
+    </require>
+  </resource>
+</repository>

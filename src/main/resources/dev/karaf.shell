@@ -1,0 +1,33 @@
+features:install obr
+sleep 4000
+
+obr:addurl file:/home/don/workspace/workspace/bin/obr/repository.xml
+# obr:addurl http://repository.jbundle.org:8081/nexus/content/repositories/repository/repository.xml
+obr:start 'jbundle-util-osgi-obr - obr bundle retrieval'
+sleep 1000
+obr:start 'jbundle-util-osgi-webstart - osgi to web start web bundle'
+sleep 1000
+obr:deploy 'jbundle-base-remote - Remote server'
+sleep 1000
+start 'jbundle-base-remote - Remote server'
+
+
+config:edit org.jbundle.util.webapp.webdav
+config:propset basePath /space/web/jbundle/site
+config:propset readonly false
+config:propset listings true
+config:update
+
+
+sleep 1000
+obr:deploy 'tourapp-config-web-httpweb - Hybrid osgi webapp'
+sleep 1000
+start 'tourapp-config-web-httpweb - Hybrid osgi webapp'
+sleep 1000
+
+obr:deploy com.tourapp.config.web.other
+sleep 4000
+start com.tourapp.config.web.other
+
+osgi:install -s webbundle:mvn:org.jbundle.util.webapp/org.jbundle.util.webapp.webstart/1.2.1/war
+osgi:install -s webbundle:mvn:org.jbundle.util.webapp/org.jbundle.util.webapp.cgi/1.2.1/war?Bundle-SymbolicName=jbundle-util-webapp-cgi&Webapp-Context=/awstats

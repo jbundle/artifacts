@@ -1,0 +1,10 @@
+drop user root@localhost;
+drop user root@'127.0.0.1';
+drop user ''@'linux-laptop';
+drop user ''@localhost;
+drop user 'root'@'linux-laptop';
+SELECT Host, User FROM mysql.user;
+create USER tourapp@localhost;
+SET PASSWORD FOR 'tourapp'@'localhost' = PASSWORD('sa1sa');
+GRANT ALL ON *.* TO 'tourapp'@'localhost';
+\q

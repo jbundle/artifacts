@@ -1,0 +1,14 @@
+#!/bin/sh
+# Start all the java processes
+
+if [ "$1" = "start" ] ; then
+
+iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 8080
+
+su -l glassfish -c '/usr/local/java/web/glassfish/bin/asadmin start-domain'
+
+elif [ "$1" = "stop" ] ; then
+
+su -l glassfish -c '/usr/local/java/web/glassfish/bin/asadmin stop-domain'
+
+fi

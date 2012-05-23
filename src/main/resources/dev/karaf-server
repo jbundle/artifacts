@@ -1,0 +1,10 @@
+#!/bin/sh
+export SERVER=$HOST
+export INSTALL_LOCATION=/usr/local/java/web/servicemix
+if [ "$1" = "start" ] ; then
+export COMMAND=$INSTALL_LOCATION/bin/start     
+su -l don -c "$COMMAND"  
+elif [ "$1" = "stop" ] ; then
+export COMMAND=$INSTALL_LOCATION/bin/karaf
+$COMMAND stop
+fi

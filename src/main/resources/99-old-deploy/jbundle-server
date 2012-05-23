@@ -1,0 +1,12 @@
+#!/bin/sh
+# Run tour
+
+if [ "$1" = "start" ] ; then
+
+su -l glassfish -c '/space/web/tourapp/bin/server.sh'
+
+# elif [ "$1" = "stop" ] ; then
+
+# Need to figure this out
+
+fi
