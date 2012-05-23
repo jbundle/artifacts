@@ -7,6 +7,7 @@ for dir in tourapp \
 ../other \
 ../obsolete \
 ../wrapped \
+../artifacts \
 ../jbundle/jbundle-parent \
 ../android \
 ../../jbundle/jbundle \

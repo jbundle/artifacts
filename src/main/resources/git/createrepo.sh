@@ -36,6 +36,7 @@ tourapp-parent \
 other \
 obsolete \
 wrapped \
+artifacts \
 jbundle/jbundle-parent \
 jbundle/android \
 jbundle/jbundle \
