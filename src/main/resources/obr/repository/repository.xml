@@ -2,15 +2,15 @@
 <?xml-stylesheet type='text/xsl' href='http://www.osgi.org/www/obr2html.xsl'?>
 
 <repository lastmodified='20120508155122.599' name='Untitled'>
-  <referral depth="10" url="jbundle-repository-${jbundleVersion}-SNAPSHOT.xml"/>
-  <referral depth="10" url="tourapp-repository-${tourappVersion}-SNAPSHOT.xml"/>
+  <referral depth="10" url="jbundle-repository-${jbundleVersion}.xml"/>
+  <referral depth="10" url="tourapp-repository-${tourappVersion}.xml"/>
 
-  <referral depth="10" url="jbundle-app-contact-repository-${jbundleAppContactVersion}-SNAPSHOT.xml"/>
-  <referral depth="10" url="jbundle-app-dance-repository-${jbundleAppDanceVersion}-SNAPSHOT.xml"/>
-  <referral depth="10" url="jbundle-app-picture-repository-${jbundleAppPictureVersion}-SNAPSHOT.xml"/>
+  <referral depth="10" url="jbundle-app-contact-repository-${jbundleAppContactVersion}.xml"/>
+  <referral depth="10" url="jbundle-app-dance-repository-${jbundleAppDanceVersion}.xml"/>
+  <referral depth="10" url="jbundle-app-picture-repository-${jbundleAppPictureVersion}.xml"/>
   
-  <referral depth="10" url="jbundle-misc-repository-${jbundleMiscVersion}-SNAPSHOT.xml"/>
-  <referral depth="10" url="jbundle-util-other-repository-${jbundleOtherVersion}-SNAPSHOT.xml"/>
+  <!-- referral depth="10" url="jbundle-misc-repository-${jbundleMiscVersion}.xml"/ -->
+  <!-- referral depth="10" url="jbundle-util-other-repository-${jbundleOtherVersion}.xml"/ -->
   
   <referral depth="10" url="jbundle-util-repository-${jbundleUtilVersion}.xml"/>
   <referral depth="10" url="jbundle-util-osgi-repository-${jbundleOsgiVersion}.xml"/>

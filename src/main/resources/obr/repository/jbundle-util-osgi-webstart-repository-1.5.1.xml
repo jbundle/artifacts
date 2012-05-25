@@ -1,0 +1,28 @@
+<repository lastmodified='20120524111158.695'>
+  <resource id='org.jbundle.util.osgi.webstart/1.5.1' symbolicname='org.jbundle.util.osgi.webstart' presentationname='jbundle-util-osgi-webstart - osgi to web start web bundle' uri='http://repo2.maven.org/maven2/org/jbundle/util/osgi/org.jbundle.util.osgi.webstart/1.5.1/org.jbundle.util.osgi.webstart-1.5.1.jar' version='1.5.1'>
+    <description>osgi to web start servlet</description>
+    <size>51010</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.util.osgi.webstart'/>
+      <p n='presentationname' v='jbundle-util-osgi-webstart - osgi to web start web bundle'/>
+      <p n='version' t='version' v='1.5.1'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.osgi.webstart'/>
+      <p n='version' t='version' v='1.5.1'/>
+      <p n='uses:' v='org.osgi.framework,org.jbundle.util.webapp.base,javax.servlet,javax.servlet.http,org.jbundle.util.osgi,org.jbundle.util.osgi.finder,org.osgi.service.http,org.jibx.schema.net.java.jnlp_6_0,org.jibx.runtime'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.servlet))' extend='false' multiple='false' optional='true'>Import package javax.servlet;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.servlet.http))' extend='false' multiple='false' optional='true'>Import package javax.servlet.http;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.osgi)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.osgi;resolution:=optional;version="[1.5,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.osgi.finder)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.osgi.finder;resolution:=optional;version="[1.5,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.webapp.base)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.webapp.base;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.net.java.jnlp_6_0)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.schema.net.java.jnlp_6_0;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.framework;resolution:=optional;version="[1.5,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.http)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.service.http;resolution:=optional;version="[1.2,2)"</require>
+  </resource>
+</repository>
