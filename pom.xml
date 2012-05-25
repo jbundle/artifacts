@@ -10,7 +10,7 @@
   </parent>
 
   <artifactId>jbundle-artifacts</artifactId>
-  <version>0.7.7-SNAPSHOT</version>
+  <version>0.1.6-SNAPSHOT</version>
 
   <packaging>pom</packaging>
   <name>jbundle-artifacts - scripts etc.</name>
