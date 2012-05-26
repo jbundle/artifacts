@@ -10,12 +10,16 @@
   </parent>
 
   <artifactId>jbundle-artifacts</artifactId>
-  <version>0.1.6-SNAPSHOT</version>
+  <version>1.1.7-SNAPSHOT</version>
 
   <packaging>pom</packaging>
   <name>jbundle-artifacts - scripts etc.</name>
 
-    <build>
+  <properties>
+    <resourceLocation>src/main/resources/org/jbundle/res</resourceLocation>
+  </properties>  
+
+  <build>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
@@ -36,7 +40,31 @@
                     </execution>
                 </executions>
             </plugin>
-            <!-- ?++? plugin>
+      <plugin>
+        <groupId>org.jbundle.app.program</groupId>
+        <artifactId>org.jbundle.app.program.plugin</artifactId>
+        <version>0.8.0-SNAPSHOT</version>
+        <executions>
+          <execution>
+            <id>execution1</id>
+            <phase>process-classes</phase>
+            <goals>
+              <goal>run-script</goal>
+            </goals>
+            <configuration>
+              <properties>
+                <process>org.jbundle.app.program.manual.convert.ConvertCode</process>
+                <listenerClass>org.jbundle.app.program.script.scan.XslRepositoryScanListener</listenerClass>
+                <sourceDir>${project.build.directory}/classes/obr/repository</sourceDir>
+                <destDir>${project.build.directory}/classes/obr</destDir>
+                <extension>.xml</extension>
+                <filter>repository.xml</filter>
+              </properties>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+            <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>build-helper-maven-plugin</artifactId>
                 <executions>
@@ -49,15 +77,22 @@
                         <configuration>
                             <artifacts>
                                 <artifact>
-                                    <file>target/classes/repository.xml</file>
+                                    <file>target/classes/obr/repository.xml</file>
                                     <type>xml</type>
                                     <classifier>repository</classifier>
+                                </artifact>
+                            </artifacts>
+                            <artifacts>
+                                <artifact>
+                                    <file>target/classes/dev/karaf.shell</file>
+                                    <type>shell</type>
+                                    <classifier>karaf</classifier>
                                 </artifact>
                             </artifacts>
                         </configuration>
                     </execution>
                 </executions>
-            </plugin -->
+            </plugin>
         </plugins>
     </build>
 
