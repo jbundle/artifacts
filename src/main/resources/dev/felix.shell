@@ -1,12 +1,6 @@
 deploy -s 'Apache Felix Http Jetty'
 
-repos add file:/home/don/.m2/snapshot-repository.xml
-repos add file:/home/don/.m2/release-repository.xml
-repos add file:/home/don/workspace/workspace/bin/obr/jbundle-repository.xml
-repos add file:/home/don/workspace/workspace/bin/obr/external-repository.xml
-repos add file:/home/don/workspace/workspace/bin/obr/jibx-repository.xml
-repos add http://chameleon.ow2.org/repository/chameleon-releases.xml
-repos add http://chameleon.ow2.org/repository/chameleon-commons.xml
+repos add file:/home/don/workspace/workspace/artifacts/target/classes/obr/local-repository.xml
 
 deploy -s 'jbundle-util-osgi-obr - obr bundle retrieval'
 deploy -s 'jbundle-util-osgi-webstart - osgi to web start web bundle'
