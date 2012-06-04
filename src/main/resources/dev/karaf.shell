@@ -10,15 +10,22 @@ obr:start 'jbundle-util-osgi-webstart - osgi to web start web bundle'
 sleep 1000
 obr:deploy 'jbundle-base-remote - Remote server'
 sleep 1000
-start 'jbundle-base-remote - Remote server'
 
+
+config:edit org.jbundle.base.util
+config:propset local Jdbc
+config:propset remote Jdbc
+config:propset table Jdbc
+config:update
+
+
+start 'jbundle-base-remote - Remote server'
 
 config:edit org.jbundle.util.webapp.webdav
 config:propset basePath /space/web/jbundle/site
 config:propset readonly false
 config:propset listings true
 config:update
-
 
 sleep 1000
 obr:deploy 'tourapp-config-web-httpweb - Hybrid osgi webapp'
