@@ -81,8 +81,6 @@
                                     <type>xml</type>
                                     <classifier>repository</classifier>
                                 </artifact>
-                            </artifacts>
-                            <artifacts>
                                 <artifact>
                                     <file>target/classes/dev/karaf.shell</file>
                                     <type>shell</type>
