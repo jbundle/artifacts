@@ -1,8 +1,8 @@
 features:install http obr
 sleep 4000
 
-obr:addurl file:/home/don/workspace/workspace/artifacts/target/classes/obr/repository/repository.xml
-# obr:addurl file:/home/don/workspace/workspace/artifacts/target/classes/obr/local-repository.xml
+# obr:addurl file:/home/don/workspace/workspace/artifacts/target/classes/obr/repository/repository.xml
+obr:addurl file:/home/don/workspace/workspace/artifacts/target/classes/obr/local-repository.xml
 # obr:addurl mvn:org.jbundle.config/jbundle-artifacts/1.1.7/xml/repository
 # obr:addurl http://repository.jbundle.org:8081/nexus/content/repositories/repository/repository.xml
 obr:start 'jbundle-util-osgi-obr - obr bundle retrieval'
