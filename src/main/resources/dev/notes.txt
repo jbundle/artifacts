@@ -11,6 +11,9 @@ start org.jibx.schema.org.opentravel._2011B.ping.ws.rest
 start org.jibx.schema.org.opentravel._2011B.ping.ws.soap
 start com.tourapp.tour.message.service._2011B.ping
 
+install mvn:joda-time/joda-time/2.1
+install mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.jdom/1.1.2_1
+install mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.dom4j/1.6.1_5
 
 ## This is a HACK to stop errors from bundles which export org.xml (which is part of the java api)
 # install mvn:org.apache.xmlcommons/com.springsource.org.apache.xmlcommons
