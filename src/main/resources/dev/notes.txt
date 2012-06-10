@@ -1,3 +1,15 @@
+Bugs:
+Fix fred start booking
+Don't disable summary icon
+Null pointer exception on free applet
+No such session in server
+Click status -> error
+Incorrect image format?
+Grid (properties) input on new
+Prettyprint xml?
+----
+Setup jbundle site
+
 # Start karaf
 shell:source file:/home/don/workspace/workspace/bin/dev/karaf.shell
 
@@ -88,40 +100,7 @@ features:addurl mvn:org.apache.cxf.karaf/apache-cxf/2.4.6/xml/features
 features:addurl mvn:org.apache.karaf.assemblies.features/enterprise/2.2.4/xml/features
 features:addurl mvn:org.apache.servicemix.nmr/apache-servicemix-nmr/1.5.0/xml/features
 
-features:install http obr cxf
-
-[installed  ] [4.4.1          ] camel-activemq                       servicemix-4.4.1       
-[installed  ] [4.4.1          ] activemq-broker                      servicemix-4.4.1       
-[installed  ] [2.2.4          ] karaf-framework                      karaf-2.2.4            
-[installed  ] [3.0.6.RELEASE  ] spring                               karaf-2.2.4            
-[installed  ] [1.2.1          ] spring-dm                            karaf-2.2.4            
-[installed  ] [3.0.6.RELEASE  ] spring-jms                           karaf-2.2.4            
-[installed  ] [3.0.6.RELEASE  ] spring-tx                            karaf-2.2.4            
-[installed  ] [3.0.6.RELEASE  ] spring-web                           karaf-2.2.4            
-[installed  ] [2.2.4          ] config                               karaf-2.2.4            
-[installed  ] [7.4.5.v20110725] jetty                                karaf-2.2.4            
-[installed  ] [2.2.4          ] http                                 karaf-2.2.4            
-[installed  ] [2.2.4          ] war                                  karaf-2.2.4            
-[installed  ] [1.9.0          ] xml-specs-api                        camel-2.8.4            
-[installed  ] [2.8.4          ] camel                                camel-2.8.4            
-[installed  ] [2.8.4          ] camel-core                           camel-2.8.4            
-[installed  ] [2.8.4          ] camel-spring                         camel-2.8.4            
-[installed  ] [2.8.4          ] camel-blueprint                      camel-2.8.4            
-[installed  ] [2.8.4          ] camel-cxf                            camel-2.8.4            
-[installed  ] [2.8.4          ] camel-jms                            camel-2.8.4            
-[installed  ] [5.5.1          ] activemq                             activemq-5.5.1         
-[installed  ] [5.5.1          ] activemq-spring                      activemq-5.5.1         
-[installed  ] [5.5.1          ] activemq-blueprint                   activemq-5.5.1         
-[installed  ] [2.4.6          ] cxf-specs                            cxf-2.4.6              
-[installed  ] [2.4.6          ] cxf-jaxb                             cxf-2.4.6              
-[installed  ] [2.4.6          ] cxf-abdera                           cxf-2.4.6              
-[installed  ] [2.5.1_1        ] opensaml                             cxf-2.4.6              
-[installed  ] [1.6.4          ] wss4j                                cxf-2.4.6              
-[installed  ] [2.4.6          ] cxf-saaj-impl                        cxf-2.4.6              
-[installed  ] [2.4.6          ] cxf-war-java5                        cxf-2.4.6              
-[installed  ] [2.4.6          ] cxf                                  cxf-2.4.6
-
-
+features:install http obr war cxf
 
 http://192.168.1.66:8181/org.jbundle.util.webapp.webstart/docs/manual.html
 
@@ -132,122 +111,3 @@ http://192.168.1.66:8181/webstart/docs/applet.html?userid=1&menu=dev.tourapp.com
 
 &org.jbundle.util.osgi.webstart.webStartComponents=/org/jbundle/res/webstart/tour.properties,/org/jbundle/res/webstart/thick.properties,/org/jbundle/res/webstart/thin.properties,/org/jbundle/res/webstart/resource.properties&mainPackage=org.jbundle
 &org.jbundle.util.osgi.webstart.maxHeapSize=512m&code=org.jbundle.Main&record=com.tourapp.tour.booking.db.Booking&draggable=true&url=http://wilma.demo.tourgeek.com:8181/tourappxsl&appletClass=org.jbundle.Main&org.jbundle.util.osgi.webstart.codebase=/&org.jbundle.util.osgi.webstart.appletClass=org.jbundle.Main&datatype=jnlpapplet&background=backgrounds/worldmapalpha.gif&baseURL=wilma.demo.tourgeek.com:8181/&org.jbundle.util.osgi.webstart.initialHeapSize=128m&connectionType=Proxy&org.jbundle.util.osgi.webstart.webStartComponents=/org/jbundle/res/webstart/tour.properties,/org/jbundle/res/webstart/thick.properties,/org/jbundle/res/webstart/thin.properties,/org/jbundle/res/webstart/resource.properties&backgroundcolor=#EEEEFF&user=kate@tourgeek.com&domain=wilma.demo.tourgeek.com&mainPackage=org.jbundle
-
-
-
-
-  
-&backgroundcolor=#EEEEFF&connectionType=Proxy&background=backgrounds/worldmapalpha.gif&url=http://localhost:8181/tourappxsl&baseURL=localhost:8181/&code=org.jbundle.Main&appletClass=org.jbundle.Main&org.jbundle.util.osgi.webstart.maxHeapSize=512m&domain=localhost&datatype=jnlpapplet&userid=&org.jbundle.util.osgi.webstart.initialHeapSize=128m&org.jbundle.util.osgi.webstart.codebase=/&org.jbundle.util.osgi.webstart.appletClass=org.jbundle.Main&org.jbundle.util.osgi.webstart.webStartComponents=/org/jbundle/res/webstart/tour.properties,/org/jbundle/res/webstart/thick.properties,/org/jbundle/res/webstart/thin.properties,/org/jbundle/res/webstart/resource.properties&draggable=true&mainPackage=org.jbundle
-&org.jbundle.util.osgi.webstart.include=org\.jbundle\..*|com\.tourapp\..*&org.jbundle.util.osgi.webstart.exclude=com\.tourapp\.tour\.message\..*|org\.jbundle\.base\.message\..*|org\.jbundle\.base\.remote\..*&org.jbundle.util.osgi.webstart.excludeComponents=/org/jbundle/res/webstart/thick.properties,/org/jbundle/res/webstart/thin.properties&org.jbundle.util.osgi.webstart.Bundle-ActivationPolicy=lazy&org.jbundle.util.osgi.webstart.otherPackages=com.tourapp&codebase=/
-&org.jbundle.base.model.Bundle-ActivationPolicy=eager&org.jbundle.base.Bundle-ActivationPolicy=eager&org.jbundle.base.other.Bundle-ActivationPolicy=eager&org.jbundle.util.osgi.webstart.excludeComponents=/org/jbundle/res/webstart/thin.properties&org.jbundle.util.osgi.webstart.Bundle-ActivationPolicy=lazy&org.jbundle.util.osgi.webstart.otherPackages=org.jbundle.base.db.client,org.jbundle.base.message.opt,org.jbundle.base.screen.view.swing,org.jbundle.base.db.proxy,org.jbundle.base.db.mapped,org.jbundle.base.db.serial,org.jbundle.base.db.net,org.jbundle.base.db.xml,org.jbundle.main.screen,org.jbundle.res.data.initial_data.current_initial_data.main_base_user.org.jbundle.main.user.db,org.jbundle.base.screen.view.swing.opt.jaxe,org.jbundle.main.calendar.db,org.jbundle.main.msg.db&codebase=/
-&org.jbundle.thin.base.remote.Bundle-ActivationPolicy=eager&org.jbundle.model.Bundle-ActivationPolicy=eager&org.jbundle.thin.base.db.Bundle-ActivationPolicy=eager&org.jbundle.thin.base.screen.Bundle-ActivationPolicy=eager&org.jbundle.util.osgi.webstart.Bundle-ActivationPolicy=lazy&org.jbundle.util.osgi.webstart.otherPackages=org.jbundle.thin.base.db,org.jbundle.res.webstart,org.jbundle.res.images.buttons,org.jbundle.thin.base.screen,org.jbundle.thin.base.screen.cal.grid,org.jbundle.thin.base.screen.cal.opt,org.jbundle.thin.base.screen.grid,org.jbundle.thin.base.screen.util,org.jbundle.thin.opt.location,org.jbundle.util.calendarpanel,org.jbundle.thin.base.screen.jcalendarbutton&org.jbundle.thin.base.util.Bundle-ActivationPolicy=eager&codebase=/
-&org.jbundle.thin.base.remote.Bundle-ActivationPolicy=eager&org.jbundle.model.Bundle-ActivationPolicy=eager&org.jbundle.thin.base.db.Bundle-ActivationPolicy=eager&org.jbundle.thin.base.screen.Bundle-ActivationPolicy=eager&org.jbundle.util.osgi.webstart.Bundle-ActivationPolicy=lazy&org.jbundle.util.osgi.webstart.otherPackages=org.jbundle.thin.base.db,org.jbundle.res.webstart,org.jbundle.res.images.buttons,org.jbundle.thin.base.screen,org.jbundle.thin.base.screen.cal.grid,org.jbundle.thin.base.screen.cal.opt,org.jbundle.thin.base.screen.grid,org.jbundle.thin.base.screen.util,org.jbundle.thin.opt.location,org.jbundle.util.calendarpanel,org.jbundle.thin.base.screen.jcalendarbutton&org.jbundle.thin.base.util.Bundle-ActivationPolicy=eager&codebase=/
-&org.jbundle.base.model.Bundle-ActivationPolicy=eager&org.jbundle.base.Bundle-ActivationPolicy=eager&org.jbundle.base.other.Bundle-ActivationPolicy=eager&org.jbundle.util.osgi.webstart.excludeComponents=/org/jbundle/res/webstart/thin.properties&org.jbundle.util.osgi.webstart.Bundle-ActivationPolicy=lazy&org.jbundle.util.osgi.webstart.otherPackages=org.jbundle.base.db.client,org.jbundle.base.message.opt,org.jbundle.base.screen.view.swing,org.jbundle.base.db.proxy,org.jbundle.base.db.mapped,org.jbundle.base.db.serial,org.jbundle.base.db.net,org.jbundle.base.db.xml,org.jbundle.main.screen,org.jbundle.res.data.initial_data.current_initial_data.main_base_user.org.jbundle.main.user.db,org.jbundle.base.screen.view.swing.opt.jaxe,org.jbundle.main.calendar.db,org.jbundle.main.msg.db&codebase=/
-&org.jbundle.thin.base.remote.Bundle-ActivationPolicy=eager&org.jbundle.model.Bundle-ActivationPolicy=eager&org.jbundle.thin.base.db.Bundle-ActivationPolicy=eager&org.jbundle.thin.base.screen.Bundle-ActivationPolicy=eager&org.jbundle.util.osgi.webstart.Bundle-ActivationPolicy=lazy&org.jbundle.util.osgi.webstart.otherPackages=org.jbundle.thin.base.db,org.jbundle.res.webstart,org.jbundle.res.images.buttons,org.jbundle.thin.base.screen,org.jbundle.thin.base.screen.cal.grid,org.jbundle.thin.base.screen.cal.opt,org.jbundle.thin.base.screen.grid,org.jbundle.thin.base.screen.util,org.jbundle.thin.opt.location,org.jbundle.util.calendarpanel,org.jbundle.thin.base.screen.jcalendarbutton&org.jbundle.thin.base.util.Bundle-ActivationPolicy=eager&codebase=/
-&org.jbundle.util.osgi.webstart.Bundle-ActivationPolicy=lazy&org.jbundle.util.osgi.webstart.otherPackages=com.tourapp.res.tour.booking,com.tourapp.res.tour.acctpay,com.tourapp.res.tour.acctrec,com.tourapp.res.tour.assetdr,com.tourapp.res.tour.base,com.tourapp.res.tour.genled,com.tourapp.res.tour.payroll,com.tourapp.res.tour.product,com.tourapp.res.tour.profile,com.tourapp.res.tour.request&codebase=/
-&org.jbundle.util.osgi.webstart.include=org\.jbundle\..*|com\.tourapp\..*&org.jbundle.util.osgi.webstart.exclude=com\.tourapp\.tour\.message\..*|org\.jbundle\.base\.message\..*|org\.jbundle\.base\.remote\..*&org.jbundle.util.osgi.webstart.excludeComponents=/org/jbundle/res/webstart/thick.properties,/org/jbundle/res/webstart/thin.properties&org.jbundle.util.osgi.webstart.Bundle-ActivationPolicy=lazy&org.jbundle.util.osgi.webstart.otherPackages=com.tourapp
-&org.jbundle.base.model.Bundle-ActivationPolicy=eager&org.jbundle.base.Bundle-ActivationPolicy=eager&org.jbundle.base.other.Bundle-ActivationPolicy=eager&org.jbundle.util.osgi.webstart.excludeComponents=/org/jbundle/res/webstart/thin.properties&org.jbundle.util.osgi.webstart.Bundle-ActivationPolicy=lazy&org.jbundle.util.osgi.webstart.otherPackages=org.jbundle.base.db.client,org.jbundle.base.message.opt,org.jbundle.base.screen.view.swing,org.jbundle.base.db.proxy,org.jbundle.base.db.mapped,org.jbundle.base.db.serial,org.jbundle.base.db.net,org.jbundle.base.db.xml,org.jbundle.main.screen,org.jbundle.res.data.initial_data.current_initial_data.main_base_user.org.jbundle.main.user.db,org.jbundle.base.screen.view.swing.opt.jaxe,org.jbundle.main.calendar.db,org.jbundle.main.msg.db
-&org.jbundle.thin.base.remote.Bundle-ActivationPolicy=eager&org.jbundle.model.Bundle-ActivationPolicy=eager&org.jbundle.thin.base.db.Bundle-ActivationPolicy=eager&org.jbundle.thin.base.screen.Bundle-ActivationPolicy=eager&org.jbundle.util.osgi.webstart.Bundle-ActivationPolicy=lazy&org.jbundle.util.osgi.webstart.otherPackages=org.jbundle.thin.base.db,org.jbundle.res.webstart,org.jbundle.res.images.buttons,org.jbundle.thin.base.screen,org.jbundle.thin.base.screen.cal.grid,org.jbundle.thin.base.screen.cal.opt,org.jbundle.thin.base.screen.grid,org.jbundle.thin.base.screen.util,org.jbundle.thin.opt.location,org.jbundle.util.calendarpanel,org.jbundle.thin.base.screen.jcalendarbutton&org.jbundle.thin.base.util.Bundle-ActivationPolicy=eager
-&org.jbundle.thin.base.remote.Bundle-ActivationPolicy=eager&org.jbundle.model.Bundle-ActivationPolicy=eager&org.jbundle.thin.base.db.Bundle-ActivationPolicy=eager&org.jbundle.thin.base.screen.Bundle-ActivationPolicy=eager&org.jbundle.util.osgi.webstart.Bundle-ActivationPolicy=lazy&org.jbundle.util.osgi.webstart.otherPackages=org.jbundle.thin.base.db,org.jbundle.res.webstart,org.jbundle.res.images.buttons,org.jbundle.thin.base.screen,org.jbundle.thin.base.screen.cal.grid,org.jbundle.thin.base.screen.cal.opt,org.jbundle.thin.base.screen.grid,org.jbundle.thin.base.screen.util,org.jbundle.thin.opt.location,org.jbundle.util.calendarpanel,org.jbundle.thin.base.screen.jcalendarbutton&org.jbundle.thin.base.util.Bundle-ActivationPolicy=eager
-&org.jbundle.base.model.Bundle-ActivationPolicy=eager&org.jbundle.base.Bundle-ActivationPolicy=eager&org.jbundle.base.other.Bundle-ActivationPolicy=eager&org.jbundle.util.osgi.webstart.excludeComponents=/org/jbundle/res/webstart/thin.properties&org.jbundle.util.osgi.webstart.Bundle-ActivationPolicy=lazy&org.jbundle.util.osgi.webstart.otherPackages=org.jbundle.base.db.client,org.jbundle.base.message.opt,org.jbundle.base.screen.view.swing,org.jbundle.base.db.proxy,org.jbundle.base.db.mapped,org.jbundle.base.db.serial,org.jbundle.base.db.net,org.jbundle.base.db.xml,org.jbundle.main.screen,org.jbundle.res.data.initial_data.current_initial_data.main_base_user.org.jbundle.main.user.db,org.jbundle.base.screen.view.swing.opt.jaxe,org.jbundle.main.calendar.db,org.jbundle.main.msg.db
-&org.jbundle.thin.base.remote.Bundle-ActivationPolicy=eager&org.jbundle.model.Bundle-ActivationPolicy=eager&org.jbundle.thin.base.db.Bundle-ActivationPolicy=eager&org.jbundle.thin.base.screen.Bundle-ActivationPolicy=eager&org.jbundle.util.osgi.webstart.Bundle-ActivationPolicy=lazy&org.jbundle.util.osgi.webstart.otherPackages=org.jbundle.thin.base.db,org.jbundle.res.webstart,org.jbundle.res.images.buttons,org.jbundle.thin.base.screen,org.jbundle.thin.base.screen.cal.grid,org.jbundle.thin.base.screen.cal.opt,org.jbundle.thin.base.screen.grid,org.jbundle.thin.base.screen.util,org.jbundle.thin.opt.location,org.jbundle.util.calendarpanel,org.jbundle.thin.base.screen.jcalendarbutton&org.jbundle.thin.base.util.Bundle-ActivationPolicy=eager
-&org.jbundle.util.osgi.webstart.Bundle-ActivationPolicy=lazy&org.jbundle.util.osgi.webstart.otherPackages=com.tourapp.res.tour.booking,com.tourapp.res.tour.acctpay,com.tourapp.res.tour.acctrec,com.tourapp.res.tour.assetdr,com.tourapp.res.tour.base,com.tourapp.res.tour.genled,com.tourapp.res.tour.payroll,com.tourapp.res.tour.product,com.tourapp.res.tour.profile,com.tourapp.res.tour.request
-&backgroundcolor=#EEEEFF&connectionType=Proxy&background=backgrounds/worldmapalpha.gif&url=http://localhost:8181/tourappxsl&baseURL=localhost:8181/&code=org.jbundle.Main&appletClass=org.jbundle.Main&org.jbundle.util.osgi.webstart.maxHeapSize=512m&domain=localhost&datatype=jnlpapplet&userid=&org.jbundle.util.osgi.webstart.initialHeapSize=128m&org.jbundle.util.osgi.webstart.codebase=/&org.jbundle.util.osgi.webstart.appletClass=org.jbundle.Main&org.jbundle.util.osgi.webstart.webStartComponents=/org/jbundle/res/webstart/tour.properties,/org/jbundle/res/webstart/thick.properties,/org/jbundle/res/webstart/thin.properties,/org/jbundle/res/webstart/resource.properties&draggable=true&mainPackage=org.jbundle
-&org.jbundle.util.osgi.webstart.include=org\.jbundle\..*|com\.tourapp\..*&org.jbundle.util.osgi.webstart.exclude=com\.tourapp\.tour\.message\..*|org\.jbundle\.base\.message\..*|org\.jbundle\.base\.remote\..*&org.jbundle.util.osgi.webstart.excludeComponents=/org/jbundle/res/webstart/thick.properties,/org/jbundle/res/webstart/thin.properties&org.jbundle.util.osgi.webstart.Bundle-ActivationPolicy=lazy&org.jbundle.util.osgi.webstart.otherPackages=com.tourapp
-&org.jbundle.base.model.Bundle-ActivationPolicy=eager&org.jbundle.base.Bundle-ActivationPolicy=eager&org.jbundle.base.other.Bundle-ActivationPolicy=eager&org.jbundle.util.osgi.webstart.excludeComponents=/org/jbundle/res/webstart/thin.properties&org.jbundle.util.osgi.webstart.Bundle-ActivationPolicy=lazy&org.jbundle.util.osgi.webstart.otherPackages=org.jbundle.base.db.client,org.jbundle.base.message.opt,org.jbundle.base.screen.view.swing,org.jbundle.base.db.proxy,org.jbundle.base.db.mapped,org.jbundle.base.db.serial,org.jbundle.base.db.net,org.jbundle.base.db.xml,org.jbundle.main.screen,org.jbundle.res.data.initial_data.current_initial_data.main_base_user.org.jbundle.main.user.db,org.jbundle.base.screen.view.swing.opt.jaxe,org.jbundle.main.calendar.db,org.jbundle.main.msg.db
-
-
-
-
-Java Plug-in 1.6.0_32
-Using JRE version 1.6.0_32-b05 Java HotSpot(TM) 64-Bit Server VM
-User home directory = /home/don
-
-----------------------------------------------------
-c:   clear console window
-f:   finalize objects on finalization queue
-g:   garbage collect
-h:   display this help message
-l:   dump classloader list
-m:   print memory usage
-o:   trigger logging
-q:   hide console
-r:   reload policy configuration
-s:   dump system and deployment properties
-t:   dump thread list
-v:   dump thread stack
-x:   clear classloader cache
-0-5: set trace level to <n>
-----------------------------------------------------
-
-Exception in thread "AWT-EventQueue-1" java.lang.NoClassDefFoundError: com/tourapp/tour/message/base/request/ProductRequest
-    at com.tourapp.tour.product.tour.db.TourHeaderField.makeReferenceRecord(TourHeaderField.java:81)
-    at org.jbundle.base.field.RecordReferenceField.getReferenceRecord(RecordReferenceField.java)
-    at org.jbundle.base.field.RecordReferenceField.getReferenceRecord(RecordReferenceField.java)
-    at com.tourapp.tour.booking.entry.base.service (BookingHeaderScreen.java:118)
-    at org.jbundle.base.screen.model.BaseScreen.init(BaseScreen.java:196)
-    at org.jbundle.base.screen.model.Screen.init(Screen.java:68)
-    at com.tourapp.tour.booking.entry.base.BookingHeaderScreen.init(BookingHeaderScreen.java:77)
-    at com.tourapp.tour.booking.entry.base.BookingHeaderScreen.<init>(BookingHeaderScreen.java:70)
-    at com.tourapp.tour.booking.entry.base.BookingMenuScreen.init(BookingMenuScreen.java:93)
-    at org.jbundle.base.screen.model.BaseScreen.init(BaseScreen.java:160)
-    at org.jbundle.base.db.Record.makeNewScreen(Record.java)
-    at com.tourapp.tour.booking.db.Booking.makeScreen(Booking.java:110)
-    at org.jbundle.base.db.Record.makeScreen(Record.java)
-    at org.jbundle.base.screen.model.BasePanel.onForm(BasePanel.java:868)
-    at org.jbundle.base.screen.model.BasePanel.onForm(BasePanel.java:813)
-    at org.jbundle.base.screen.model.BaseGridTableScreen.onForm(BaseGridTableScreen.java:229)
-    at org.jbundle.base.screen.model.BasePanel.doCommand(BasePanel.java:490)
-    at org.jbundle.base.screen.model.BaseScreen.doCommand(BaseScreen.java:341)
-    at com.tourapp.tour.booking.lookup.BookingGridScreen.doCommand(BookingGridScreen.java:265)
-    at org.jbundle.base.screen.model.BasePanel.handleCommand(BasePanel.java:391)
-    at org.jbundle.base.screen.model.ScreenField.handleCommand(ScreenField.java:255)
-    at org.jbundle.base.screen.model.BasePanel.handleCommand(BasePanel.java:407)
-    at org.jbundle.base.screen.model.ScreenField.handleCommand(ScreenField.java:255)
-    at org.jbundle.base.screen.view.swing.VBaseButton.actionPerformed(VBaseButton.java)
-    at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
-    at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
-    at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
-    at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
-    at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
-    at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:272)
-    at java.awt.Component.processMouseEvent(Component.java:6290)
-    at javax.swing.JComponent.processMouseEvent(JComponent.java:3267)
-    at java.awt.Component.processEvent(Component.java:6055)
-    at java.awt.Container.processEvent(Container.java:2039)
-    at java.awt.Component.dispatchEventImpl(Component.java:4653)
-    at java.awt.Container.dispatchEventImpl(Container.java:2097)
-    at java.awt.Component.dispatchEvent(Component.java:4481)
-    at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4575)
-    at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4236)
-    at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4166)
-    at java.awt.Container.dispatchEventImpl(Container.java:2083)
-    at java.awt.Component.dispatchEvent(Component.java:4481)
-    at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:648)
-    at java.awt.EventQueue.access$000(EventQueue.java:84)
-    at java.awt.EventQueue$1.run(EventQueue.java:607)
-    at java.awt.EventQueue$1.run(EventQueue.java:605)
-    at java.security.AccessController.doPrivileged(Native Method)
-    at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
-    at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:98)
-    at java.awt.EventQueue$2.run(EventQueue.java:621)
-    at java.awt.EventQueue$2.run(EventQueue.java:619)
-    at java.security.AccessController.doPrivileged(Native Method)
-    at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
-    at java.awt.EventQueue.dispatchEvent(EventQueue.java:618)
-    at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
-    at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
-    at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
-    at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
-    at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
-    at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
-Caused by: java.lang.ClassNotFoundException: com.tourapp.tour.message.base.request.ProductRequest
-    at sun.plugin2.applet.Plugin2ClassLoader$2.run(Plugin2ClassLoader.java:1002)
-    at java.security.AccessController.doPrivileged(Native Method)
-    at sun.plugin2.applet.Plugin2ClassLoader.findClassHelper(Plugin2ClassLoader.java:958)
-    at sun.plugin2.applet.JNLP2ClassLoader.findClass(JNLP2ClassLoader.java:308)
-    at sun.plugin2.applet.Plugin2ClassLoader.loadClass0(Plugin2ClassLoader.java:249)
-    at sun.plugin2.applet.Plugin2ClassLoader.loadClass(Plugin2ClassLoader.java:179)
-    at sun.plugin2.applet.Plugin2ClassLoader.loadClass(Plugin2ClassLoader.java:160)
-    at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
-    ... 60 more

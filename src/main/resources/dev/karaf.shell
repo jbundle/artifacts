@@ -1,4 +1,4 @@
-features:install http obr
+features:install http obr war
 sleep 4000
 
 # obr:addurl file:/home/don/workspace/workspace/artifacts/target/classes/obr/repository/repository.xml
