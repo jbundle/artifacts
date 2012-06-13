@@ -1,31 +1,8 @@
-Bugs:
-Fix fred start booking
-Don't disable summary icon
-Null pointer exception on free applet
-No such session in server
-Click status -> error
-Incorrect image format?
-Grid (properties) input on new
-Prettyprint xml?
-----
 Setup jbundle site
 
 # Start karaf
 shell:source file:/home/don/workspace/workspace/bin/dev/karaf.shell
 
-
-obr:deploy com.tourapp.tour.message.service._2011B.ping
-obr:deploy org.jibx.schema.org.opentravel._2011B.ping.ws.rest
-obr:deploy org.jibx.schema.org.opentravel._2011B.ping.ws.soap
- # ctrl+d (stop servicemix) - You must restart due to a karaf auto-wiring problem
- # bin/servicemix (restart servicemix)
-start org.jibx.schema.org.opentravel._2011B.ping.ws.rest
-start org.jibx.schema.org.opentravel._2011B.ping.ws.soap
-start com.tourapp.tour.message.service._2011B.ping
-
-install mvn:joda-time/joda-time/2.1
-install mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.jdom/1.1.2_1
-install mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.dom4j/1.6.1_5
 
 ## This is a HACK to stop errors from bundles which export org.xml (which is part of the java api)
 # install mvn:org.apache.xmlcommons/com.springsource.org.apache.xmlcommons
@@ -42,11 +19,6 @@ uninstall 'jbundle-util-osgi-webstart - osgi to web start web bundle'
 install -s mvn:org.jbundle.util.osgi/org.jbundle.util.osgi.webstart/1.5.1-SNAPSHOT
 
 bin/client -h donandann.com -u don -p donwpp
-
-# Manually add all the jibx obr repositories
-# obr:addurl mvn:org.jibx.config/obr/1.2.4/xml/repository
-# obr:addurl mvn:org.jibx.config/external-obr/1.2.4/xml/repository
-# obr:addurl mvn:org.jibx.config.schema/obr/1.0.4/xml/repository
 
 # config:edit org.jbundle.util.webapp.webdav
 # config:propset basePath /space/web/jbundle/site
