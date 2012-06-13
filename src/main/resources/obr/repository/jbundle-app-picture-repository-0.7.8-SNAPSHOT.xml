@@ -1,7 +1,7 @@
-<repository lastmodified='20120605122038.567'>
-  <resource id='org.jbundle.app.picture/0.7.8.SNAPSHOT' symbolicname='org.jbundle.app.picture' presentationname='jbundle-app-picture - Picture example' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/org/jbundle/app/picture/org.jbundle.app.picture/0.7.8-SNAPSHOT/org.jbundle.app.picture-0.7.8-20120605.192037-1.jar' version='0.7.8.SNAPSHOT'>
+<repository lastmodified='20120613085105.890'>
+  <resource id='org.jbundle.app.picture/0.7.8.SNAPSHOT' symbolicname='org.jbundle.app.picture' presentationname='jbundle-app-picture - Picture example' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/org/jbundle/app/picture/org.jbundle.app.picture/0.7.8-SNAPSHOT/org.jbundle.app.picture-0.7.8-20120613.155104-1.jar' version='0.7.8.SNAPSHOT'>
     <description>Top level properties and features</description>
-    <size>56928</size>
+    <size>56927</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>

@@ -1,5 +1,5 @@
-<repository lastmodified='20120605122043.266'>
-  <resource id='org.jbundle.app.dance/0.7.8.SNAPSHOT' symbolicname='org.jbundle.app.dance' presentationname='jbundle-app-dance - Dance example' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/org/jbundle/app/dance/org.jbundle.app.dance/0.7.8-SNAPSHOT/org.jbundle.app.dance-0.7.8-20120605.192041-1.jar' version='0.7.8.SNAPSHOT'>
+<repository lastmodified='20120613085110.702'>
+  <resource id='org.jbundle.app.dance/0.7.8.SNAPSHOT' symbolicname='org.jbundle.app.dance' presentationname='jbundle-app-dance - Dance example' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/org/jbundle/app/dance/org.jbundle.app.dance/0.7.8-SNAPSHOT/org.jbundle.app.dance-0.7.8-20120613.155109-1.jar' version='0.7.8.SNAPSHOT'>
     <description>Top level properties and features</description>
     <size>73062</size>
     <documentation>http://www.jbundle.org</documentation>
