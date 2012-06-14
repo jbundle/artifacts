@@ -3,7 +3,6 @@ Setup jbundle site
 # Start karaf
 shell:source file:/home/don/workspace/workspace/bin/dev/karaf.shell
 
-
 ## This is a HACK to stop errors from bundles which export org.xml (which is part of the java api)
 # install mvn:org.apache.xmlcommons/com.springsource.org.apache.xmlcommons
 # install mvn:org.apache.xml/com.springsource.org.apache.xml.resolver
@@ -14,9 +13,16 @@ install mvn:org.jibx.config.osgi.wrapped/org.jibx.config.osgi.wrapped.joda-time/
 install mvn:joda-time/joda-time/2.0
 install mvn:joda-time/joda-time/2.1
 
-obr:deploy 'jbundle-util-osgi-webstart - osgi to web start web bundle'
-uninstall 'jbundle-util-osgi-webstart - osgi to web start web bundle'
-install -s mvn:org.jbundle.util.osgi/org.jbundle.util.osgi.webstart/1.5.1-SNAPSHOT
+
+features:addurl mvn:org.apache.karaf.cave/apache-karaf-cave/3.0.0-SNAPSHOT/xml/features
+features:install cave-obr-server
+features:install http obr war
+cave:create-repository cave-repo
+cave:proxy-repository cave-repo file:/home/don/.m2/repository/org/jbundle
+cave:proxy-repository cave-repo file:/home/don/.m2/repository/com/tourapp
+cave:proxy-repository cave-repo file:/home/don/.m2/repository/org/jibx
+
+
 
 bin/client -h donandann.com -u don -p donwpp
 
@@ -43,25 +49,15 @@ http://localhost:8181/tourappxsl#webstart?applet=org.jbundle.Main&userid=1&webSt
 http://localhost:8181/tourappxsl#webstart?applet=org.jbundle.Main&userid=1&menu=dev.tourapp.com&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
 http://localhost:8181/tourappxsl#?applet=&userid=1&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
 
-
-
-
 http://localhost:8181/tourappxsl#%3Fmenu%3Dapp%26userid%3D1%26applet%3D%
 http://localhost:8181/tourappxsl#?menu=app&userid=1&applet=&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
-
 
 http://localhost:8181/tourappxsl#%3Fmenu%3Dapp%26userid%3D1&applet%3D%26webStartPropertiesFile%3D/org/jbundle/res/webstart/tourapp.properties
 http://localhost:8181/tourappxsl#%3Fmenu%3Doperation%26background%3Dbackgrounds%252Fworldmapalpha.gif%26userid%3D1%26applet%3D
 
 
-
-
-
-
 http://localhost:8181/tourappxsl#?menu=app&userid=1&applet=org.jbundle.Main
-
 http://localhost:8181/tourappxsl#webstart%3Fapplet%3Dorg.jbundle.Main%26userid%3D1%26menu%3Ddev.tourapp.com%26webStartPropertiesFile%3D/org/jbundle/res/webstart/tourapp.properties
-
 http://localhost:8181/tourappxsl#%3Fmenu%3Dapp%26background%3Dbackgrounds%252Fworldmapalpha.gif%26userid%3D1%26applet%3D%26webStartPropertiesFile%3D/org/jbundle/res/webstart/tourapp.properties
 
 features:addurl mvn:org.apache.servicemix/apache-servicemix/4.4.1/xml/features
@@ -75,11 +71,9 @@ features:addurl mvn:org.apache.servicemix.nmr/apache-servicemix-nmr/1.5.0/xml/fe
 features:install http obr war cxf
 
 http://192.168.1.66:8181/org.jbundle.util.webapp.webstart/docs/manual.html
-
 http://192.168.1.66:8181/webstart/docs/applet.html?webStartPropertiesFile=org/jbundle/util/biorhythm/applet.properties
-
 http://192.168.1.66:8181/webstart/docs/applet.html?userid=1&menu=dev.tourapp.com&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
-
 
 &org.jbundle.util.osgi.webstart.webStartComponents=/org/jbundle/res/webstart/tour.properties,/org/jbundle/res/webstart/thick.properties,/org/jbundle/res/webstart/thin.properties,/org/jbundle/res/webstart/resource.properties&mainPackage=org.jbundle
 &org.jbundle.util.osgi.webstart.maxHeapSize=512m&code=org.jbundle.Main&record=com.tourapp.tour.booking.db.Booking&draggable=true&url=http://wilma.demo.tourgeek.com:8181/tourappxsl&appletClass=org.jbundle.Main&org.jbundle.util.osgi.webstart.codebase=/&org.jbundle.util.osgi.webstart.appletClass=org.jbundle.Main&datatype=jnlpapplet&background=backgrounds/worldmapalpha.gif&baseURL=wilma.demo.tourgeek.com:8181/&org.jbundle.util.osgi.webstart.initialHeapSize=128m&connectionType=Proxy&org.jbundle.util.osgi.webstart.webStartComponents=/org/jbundle/res/webstart/tour.properties,/org/jbundle/res/webstart/thick.properties,/org/jbundle/res/webstart/thin.properties,/org/jbundle/res/webstart/resource.properties&backgroundcolor=#EEEEFF&user=kate@tourgeek.com&domain=wilma.demo.tourgeek.com&mainPackage=org.jbundle
+

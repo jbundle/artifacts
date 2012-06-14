@@ -18,12 +18,13 @@ rm -fr $KARAF_DIST
 tar zxvf $KARAF_LOCATION
 
 cd $KARAF_DIST/etc/
-cp $DEV_LOCATION/bin/tourapp/policy/policy.all all.policy
-echo -e '\norg.osgi.framework.security=osgi\n' >> custom.properties
-echo -e '\njava.security.policy=${karaf.base}/etc/all.policy\n' >> system.properties
-echo -e '\norg/apache/felix/org.apache.felix.security/1.4.2/org.apache.felix.framework.security-1.4.2.jar=1\n' >> startup.properties
+#  cp $DEV_LOCATION/bin/tourapp/policy/policy.all all.policy
+#  echo -e '\norg.osgi.framework.security=osgi\n' >> custom.properties
+#  echo -e '\njava.security.policy=${karaf.base}/etc/all.policy\n' >> system.properties
+#  echo -e '\norg/apache/felix/org.apache.felix.security/1.4.2/org.apache.felix.framework.security-1.4.2.jar=1\n' >> startup.properties
 # Change ssh user and password
-sed -i 's/smx=smx,admin/don=donwpp,admin/g' users.properties
+#  sed -i 's/smx=smx,admin/don=donwpp,admin/g' users.properties
+sed -i 's/karaf=karaf,admin/don=donwpp,admin/g' users.properties
 # Change default heap size
 cd ../bin
 sed -i 's/JAVA_MIN_MEM=128M/JAVA_MIN_MEM=512M/g' servicemix
@@ -35,8 +36,8 @@ sed -i 's/JAVA_MAX_MEM=512M/JAVA_MAX_MEM=2048M/g' karaf
 sed -i 's/JAVA_PERM_MEM=16M/JAVA_PERM_MEM=256M/g' karaf
 sed -i 's/JAVA_MAX_PERM_MEM=128M/JAVA_MAX_PERM_MEM=512M/g' karaf
 cd ..
-mkdir -p system/org/apache/felix/org.apache.felix.security/1.4.2
-cp ~/.m2/repository/org/apache/felix/org.apache.felix.framework.security/1.4.2/org.apache.felix.framework.security-1.4.2.jar system/org/apache/felix/org.apache.felix.security/1.4.2/
+#  mkdir -p system/org/apache/felix/org.apache.felix.security/1.4.2
+#  cp ~/.m2/repository/org/apache/felix/org.apache.felix.framework.security/1.4.2/org.apache.felix.framework.security-1.4.2.jar system/org/apache/felix/org.apache.felix.security/1.4.2/
 
 export JAVA_MIN_MEM=512M
 export JAVA_MAX_MEM=2048M
