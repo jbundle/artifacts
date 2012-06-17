@@ -1,5 +1,5 @@
-<repository lastmodified='20120613085357.768'>
-  <resource id='com.tourapp.res.tour.message/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.tour.message' presentationname='com.tourapp.res.tour.message - message resources' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.tour.message/0.8.0-SNAPSHOT/com.tourapp.res.tour.message-0.8.0-20120613.155132-1.jar' version='0.8.0.SNAPSHOT'>
+<repository lastmodified='20120617095836.595'>
+  <resource id='com.tourapp.res.tour.message/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.tour.message' presentationname='com.tourapp.res.tour.message - message resources' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.tour.message/0.8.0-SNAPSHOT/com.tourapp.res.tour.message-0.8.0-20120617.165618-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
     <size>4145</size>
     <documentation>http://www.tourapp.com</documentation>
@@ -19,9 +19,9 @@
       <p n='version' t='version' v='0.8.0.SNAPSHOT'/>
     </capability>
   </resource>
-  <resource id='com.tourapp.config.web.other/0.8.0.SNAPSHOT' symbolicname='com.tourapp.config.web.other' presentationname='jbundle-config-web-other - deploy webapps' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/config/com.tourapp.config.web.other/0.8.0-SNAPSHOT/com.tourapp.config.web.other-0.8.0-20120613.155352-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.config.web.other/0.8.0.SNAPSHOT' symbolicname='com.tourapp.config.web.other' presentationname='jbundle-config-web-other - deploy webapps' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/config/com.tourapp.config.web.other/0.8.0-SNAPSHOT/com.tourapp.config.web.other-0.8.0-20120617.165831-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>7330</size>
+    <size>7332</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -53,9 +53,9 @@
     <require name='package' filter='(&amp;(package=org.osgi.service.http)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.service.http;resolution:=optional;version="[1.2,2)"</require>
     <require name='package' filter='(&amp;(package=org.osgi.util.tracker)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.util.tracker;resolution:=optional;version="[1.4,2)"</require>
   </resource>
-  <resource id='com.tourapp.config.main/0.8.0.SNAPSHOT' symbolicname='com.tourapp.config.main' presentationname='tourapp-config-main - Run standalone tourapp' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/config/com.tourapp.config.main/0.8.0-SNAPSHOT/com.tourapp.config.main-0.8.0-20120613.155356-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.config.main/0.8.0.SNAPSHOT' symbolicname='com.tourapp.config.main' presentationname='tourapp-config-main - Run standalone tourapp' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/config/com.tourapp.config.main/0.8.0-SNAPSHOT/com.tourapp.config.main-0.8.0-20120617.165835-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>4401</size>
+    <size>4402</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -88,9 +88,9 @@
     <require name='package' filter='(&amp;(package=com.tourapp.tour.request.report)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package com.tourapp.tour.request.report;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.config.web.httpweb/0.8.0.SNAPSHOT' symbolicname='com.tourapp.config.web.httpweb' presentationname='tourapp-config-web-httpweb - Hybrid osgi webapp' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/config/com.tourapp.config.web.httpweb/0.8.0-SNAPSHOT/com.tourapp.config.web.httpweb-0.8.0-20120613.155154-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.config.web.httpweb/0.8.0.SNAPSHOT' symbolicname='com.tourapp.config.web.httpweb' presentationname='tourapp-config-web-httpweb - Hybrid osgi webapp' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/config/com.tourapp.config.web.httpweb/0.8.0-SNAPSHOT/com.tourapp.config.web.httpweb-0.8.0-20120617.165638-1.jar' version='0.8.0.SNAPSHOT'>
     <description>web osgi httpweb bundle</description>
-    <size>9687708</size>
+    <size>9688061</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -106,7 +106,7 @@
     </capability>
     <require name='package' filter='(&amp;(package=org.jbundle.config.web.httpservice)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.config.web.httpservice;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.model.tour.acctpay/0.8.0.SNAPSHOT' symbolicname='com.tourapp.model.tour.acctpay' presentationname='tourapp-model-tour-acctpay - Accounts payable model' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/model/com.tourapp.model.tour.acctpay/0.8.0-SNAPSHOT/com.tourapp.model.tour.acctpay-0.8.0-20120613.154109-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.model.tour.acctpay/0.8.0.SNAPSHOT' symbolicname='com.tourapp.model.tour.acctpay' presentationname='tourapp-model-tour-acctpay - Accounts payable model' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/model/com.tourapp.model.tour.acctpay/0.8.0-SNAPSHOT/com.tourapp.model.tour.acctpay-0.8.0-20120617.164602-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
     <size>12538</size>
     <documentation>http://www.tourapp.com</documentation>
@@ -126,9 +126,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.db;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.model.main.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.main.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.model.tour.acctrec/0.8.0.SNAPSHOT' symbolicname='com.tourapp.model.tour.acctrec' presentationname='tourapp-model-tour-acctrec - Accounts rec. model' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/model/com.tourapp.model.tour.acctrec/0.8.0-SNAPSHOT/com.tourapp.model.tour.acctrec-0.8.0-20120613.154103-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.model.tour.acctrec/0.8.0.SNAPSHOT' symbolicname='com.tourapp.model.tour.acctrec' presentationname='tourapp-model-tour-acctrec - Accounts rec. model' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/model/com.tourapp.model.tour.acctrec/0.8.0-SNAPSHOT/com.tourapp.model.tour.acctrec-0.8.0-20120617.164558-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>10462</size>
+    <size>10463</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -146,9 +146,9 @@
     <require name='package' filter='(&amp;(package=com.tourapp.model.tour.genled.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package com.tourapp.model.tour.genled.db;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.model.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.model.tour.assetdr/0.8.0.SNAPSHOT' symbolicname='com.tourapp.model.tour.assetdr' presentationname='tourapp-model-tour-assetdr - Asset debt model' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/model/com.tourapp.model.tour.assetdr/0.8.0-SNAPSHOT/com.tourapp.model.tour.assetdr-0.8.0-20120613.154101-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.model.tour.assetdr/0.8.0.SNAPSHOT' symbolicname='com.tourapp.model.tour.assetdr' presentationname='tourapp-model-tour-assetdr - Asset debt model' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/model/com.tourapp.model.tour.assetdr/0.8.0-SNAPSHOT/com.tourapp.model.tour.assetdr-0.8.0-20120617.164555-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>8947</size>
+    <size>8948</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -165,7 +165,7 @@
     <require name='package' filter='(&amp;(package=com.tourapp.model.tour.genled.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package com.tourapp.model.tour.genled.db;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.model.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.model.tour.base/0.8.0.SNAPSHOT' symbolicname='com.tourapp.model.tour.base' presentationname='tourapp-model-tour-base - Base resources' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/model/com.tourapp.model.tour.base/0.8.0-SNAPSHOT/com.tourapp.model.tour.base-0.8.0-20120613.154053-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.model.tour.base/0.8.0.SNAPSHOT' symbolicname='com.tourapp.model.tour.base' presentationname='tourapp-model-tour-base - Base resources' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/model/com.tourapp.model.tour.base/0.8.0-SNAPSHOT/com.tourapp.model.tour.base-0.8.0-20120617.164548-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
     <size>10193</size>
     <documentation>http://www.tourapp.com</documentation>
@@ -188,7 +188,7 @@
     </capability>
     <require name='package' filter='(&amp;(package=org.jbundle.model.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.model.tour.booking/0.8.0.SNAPSHOT' symbolicname='com.tourapp.model.tour.booking' presentationname='tourapp-model-tour-booking - Booking resources' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/model/com.tourapp.model.tour.booking/0.8.0-SNAPSHOT/com.tourapp.model.tour.booking-0.8.0-20120613.154106-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.model.tour.booking/0.8.0.SNAPSHOT' symbolicname='com.tourapp.model.tour.booking' presentationname='tourapp-model-tour-booking - Booking resources' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/model/com.tourapp.model.tour.booking/0.8.0-SNAPSHOT/com.tourapp.model.tour.booking-0.8.0-20120617.164600-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
     <size>33867</size>
     <documentation>http://www.tourapp.com</documentation>
@@ -242,9 +242,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.db;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.model.message)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.message;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.model.tour.genled/0.8.0.SNAPSHOT' symbolicname='com.tourapp.model.tour.genled' presentationname='tourapp-model-tour-genled - General ledger model' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/model/com.tourapp.model.tour.genled/0.8.0-SNAPSHOT/com.tourapp.model.tour.genled-0.8.0-20120613.154055-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.model.tour.genled/0.8.0.SNAPSHOT' symbolicname='com.tourapp.model.tour.genled' presentationname='tourapp-model-tour-genled - General ledger model' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/model/com.tourapp.model.tour.genled/0.8.0-SNAPSHOT/com.tourapp.model.tour.genled-0.8.0-20120617.164550-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>20361</size>
+    <size>20359</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -266,9 +266,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.db;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.model.main.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.main.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.model.tour.payroll/0.8.0.SNAPSHOT' symbolicname='com.tourapp.model.tour.payroll' presentationname='tourapp-model-tour-payroll - Payroll model code' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/model/com.tourapp.model.tour.payroll/0.8.0-SNAPSHOT/com.tourapp.model.tour.payroll-0.8.0-20120613.154222-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.model.tour.payroll/0.8.0.SNAPSHOT' symbolicname='com.tourapp.model.tour.payroll' presentationname='tourapp-model-tour-payroll - Payroll model code' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/model/com.tourapp.model.tour.payroll/0.8.0-SNAPSHOT/com.tourapp.model.tour.payroll-0.8.0-20120617.164711-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>11232</size>
+    <size>11231</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -285,9 +285,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.db;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.model.main.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.main.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.model.tour.product/0.8.0.SNAPSHOT' symbolicname='com.tourapp.model.tour.product' presentationname='tourapp-model-tour-product - Product model code' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/model/com.tourapp.model.tour.product/0.8.0-SNAPSHOT/com.tourapp.model.tour.product-0.8.0-20120613.154058-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.model.tour.product/0.8.0.SNAPSHOT' symbolicname='com.tourapp.model.tour.product' presentationname='tourapp-model-tour-product - Product model code' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/model/com.tourapp.model.tour.product/0.8.0-SNAPSHOT/com.tourapp.model.tour.product-0.8.0-20120617.164553-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>69009</size>
+    <size>69007</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -366,9 +366,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.main.db.base)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.main.db.base;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.model.message)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.message;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.model.tour.profile/0.8.0.SNAPSHOT' symbolicname='com.tourapp.model.tour.profile' presentationname='tourapp-model-tour-profile - Profile model code' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/model/com.tourapp.model.tour.profile/0.8.0-SNAPSHOT/com.tourapp.model.tour.profile-0.8.0-20120613.154236-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.model.tour.profile/0.8.0.SNAPSHOT' symbolicname='com.tourapp.model.tour.profile' presentationname='tourapp-model-tour-profile - Profile model code' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/model/com.tourapp.model.tour.profile/0.8.0-SNAPSHOT/com.tourapp.model.tour.profile-0.8.0-20120617.164716-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>15604</size>
+    <size>15603</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -390,9 +390,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.db;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.model.main.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.main.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.model.tour.request/0.8.0.SNAPSHOT' symbolicname='com.tourapp.model.tour.request' presentationname='tourapp-model-tour-request - Request model code' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/model/com.tourapp.model.tour.request/0.8.0-SNAPSHOT/com.tourapp.model.tour.request-0.8.0-20120613.154203-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.model.tour.request/0.8.0.SNAPSHOT' symbolicname='com.tourapp.model.tour.request' presentationname='tourapp-model-tour-request - Request model code' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/model/com.tourapp.model.tour.request/0.8.0-SNAPSHOT/com.tourapp.model.tour.request-0.8.0-20120617.164637-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>9617</size>
+    <size>9619</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -408,9 +408,9 @@
     </capability>
     <require name='package' filter='(&amp;(package=org.jbundle.model.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.model.tour.util/0.8.0.SNAPSHOT' symbolicname='com.tourapp.model.tour.util' presentationname='tourapp-model-tour-util - Utility model code' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/model/com.tourapp.model.tour.util/0.8.0-SNAPSHOT/com.tourapp.model.tour.util-0.8.0-20120613.154647-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.model.tour.util/0.8.0.SNAPSHOT' symbolicname='com.tourapp.model.tour.util' presentationname='tourapp-model-tour-util - Utility model code' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/model/com.tourapp.model.tour.util/0.8.0-SNAPSHOT/com.tourapp.model.tour.util-0.8.0-20120617.165130-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>3778</size>
+    <size>3777</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -426,9 +426,9 @@
     </capability>
     <require name='package' filter='(&amp;(package=org.jbundle.model.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.res.data.initial_data/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.data.initial_data' presentationname='tourapp-res-data - Tourapp data' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.data.initial_data/0.8.0-SNAPSHOT/com.tourapp.res.data.initial_data-0.8.0-20120613.154710-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.res.data.initial_data/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.data.initial_data' presentationname='tourapp-res-data - Tourapp data' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.data.initial_data/0.8.0-SNAPSHOT/com.tourapp.res.data.initial_data-0.8.0-20120617.165203-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>1543362</size>
+    <size>1543365</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -722,7 +722,7 @@
       <p n='version' t='version' v='0.8.0.SNAPSHOT'/>
     </capability>
   </resource>
-  <resource id='com.tourapp.res.data.site_data/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.data.site_data' presentationname='tourapp-res-data-site - Tourapp site data' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.data.site_data/0.8.0-SNAPSHOT/com.tourapp.res.data.site_data-0.8.0-20120613.154707-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.res.data.site_data/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.data.site_data' presentationname='tourapp-res-data-site - Tourapp site data' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.data.site_data/0.8.0-SNAPSHOT/com.tourapp.res.data.site_data-0.8.0-20120617.165145-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
     <size>39689</size>
     <documentation>http://www.tourapp.com</documentation>
@@ -754,7 +754,7 @@
       <p n='version' t='version' v='0.8.0.SNAPSHOT'/>
     </capability>
   </resource>
-  <resource id='com.tourapp.res.data.test_data/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.data.test_data' presentationname='tourapp-res-data-test - Tourapp data' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.data.test_data/0.8.0-SNAPSHOT/com.tourapp.res.data.test_data-0.8.0-20120613.154658-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.res.data.test_data/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.data.test_data' presentationname='tourapp-res-data-test - Tourapp data' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.data.test_data/0.8.0-SNAPSHOT/com.tourapp.res.data.test_data-0.8.0-20120617.165141-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
     <size>164909</size>
     <documentation>http://www.tourapp.com</documentation>
@@ -874,9 +874,9 @@
       <p n='version' t='version' v='0.8.0.SNAPSHOT'/>
     </capability>
   </resource>
-  <resource id='com.tourapp.res.docs/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.docs' presentationname='tourapp-res-docs' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.docs/0.8.0-SNAPSHOT/com.tourapp.res.docs-0.8.0-20120613.154729-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.res.docs/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.docs' presentationname='tourapp-res-docs' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.docs/0.8.0-SNAPSHOT/com.tourapp.res.docs-0.8.0-20120617.165222-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>603659</size>
+    <size>603658</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -982,9 +982,9 @@
       <p n='version' t='version' v='0.8.0.SNAPSHOT'/>
     </capability>
   </resource>
-  <resource id='com.tourapp.res.images/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.images' presentationname='tourapp-res-images - Tourapp images' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.images/0.8.0-SNAPSHOT/com.tourapp.res.images-0.8.0-20120613.154346-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.res.images/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.images' presentationname='tourapp-res-images - Tourapp images' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.images/0.8.0-SNAPSHOT/com.tourapp.res.images-0.8.0-20120617.164831-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>156171</size>
+    <size>156172</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -1014,9 +1014,9 @@
       <p n='version' t='version' v='0.8.0.SNAPSHOT'/>
     </capability>
   </resource>
-  <resource id='com.tourapp.res.tour.acctpay/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.tour.acctpay' presentationname='tourapp-res-tour-acctpay - Accounts pay resources' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.tour.acctpay/0.8.0-SNAPSHOT/com.tourapp.res.tour.acctpay-0.8.0-20120613.154013-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.res.tour.acctpay/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.tour.acctpay' presentationname='tourapp-res-tour-acctpay - Accounts pay resources' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.tour.acctpay/0.8.0-SNAPSHOT/com.tourapp.res.tour.acctpay-0.8.0-20120617.164520-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>19996</size>
+    <size>19997</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -1094,9 +1094,9 @@
       <p n='version' t='version' v='0.8.0.SNAPSHOT'/>
     </capability>
   </resource>
-  <resource id='com.tourapp.res.tour.acctrec/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.tour.acctrec' presentationname='tourapp-res-tour-acctrec - Accounts rec. resources' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.tour.acctrec/0.8.0-SNAPSHOT/com.tourapp.res.tour.acctrec-0.8.0-20120613.154015-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.res.tour.acctrec/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.tour.acctrec' presentationname='tourapp-res-tour-acctrec - Accounts rec. resources' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.tour.acctrec/0.8.0-SNAPSHOT/com.tourapp.res.tour.acctrec-0.8.0-20120617.164523-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>13374</size>
+    <size>13373</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -1142,7 +1142,7 @@
       <p n='version' t='version' v='0.8.0.SNAPSHOT'/>
     </capability>
   </resource>
-  <resource id='com.tourapp.res.tour.app/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.tour.app' presentationname='tourapp-res-tour-app - Thin tour resources' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.tour.app/0.8.0-SNAPSHOT/com.tourapp.res.tour.app-0.8.0-20120613.154018-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.res.tour.app/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.tour.app' presentationname='tourapp-res-tour-app - Thin tour resources' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.tour.app/0.8.0-SNAPSHOT/com.tourapp.res.tour.app-0.8.0-20120617.164525-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
     <size>5877</size>
     <documentation>http://www.tourapp.com</documentation>
@@ -1154,7 +1154,7 @@
       <p n='manifestversion' v='2'/>
     </capability>
   </resource>
-  <resource id='com.tourapp.res.tour.assetdr/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.tour.assetdr' presentationname='tourapp-res-tour-assetdr - Asset debt resources' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.tour.assetdr/0.8.0-SNAPSHOT/com.tourapp.res.tour.assetdr-0.8.0-20120613.154020-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.res.tour.assetdr/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.tour.assetdr' presentationname='tourapp-res-tour-assetdr - Asset debt resources' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.tour.assetdr/0.8.0-SNAPSHOT/com.tourapp.res.tour.assetdr-0.8.0-20120617.164526-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
     <size>10481</size>
     <documentation>http://www.tourapp.com</documentation>
@@ -1186,9 +1186,9 @@
       <p n='version' t='version' v='0.8.0.SNAPSHOT'/>
     </capability>
   </resource>
-  <resource id='com.tourapp.res.tour.base/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.tour.base' presentationname='tourapp-res-tour-base - Base resources' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.tour.base/0.8.0-SNAPSHOT/com.tourapp.res.tour.base-0.8.0-20120613.154125-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.res.tour.base/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.tour.base' presentationname='tourapp-res-tour-base - Base resources' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.tour.base/0.8.0-SNAPSHOT/com.tourapp.res.tour.base-0.8.0-20120617.164604-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>9342</size>
+    <size>9343</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -1210,9 +1210,9 @@
       <p n='version' t='version' v='0.8.0.SNAPSHOT'/>
     </capability>
   </resource>
-  <resource id='com.tourapp.res.tour.booking/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.tour.booking' presentationname='tourapp-res-tour-booking - Booking resources' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.tour.booking/0.8.0-SNAPSHOT/com.tourapp.res.tour.booking-0.8.0-20120613.154021-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.res.tour.booking/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.tour.booking' presentationname='tourapp-res-tour-booking - Booking resources' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.tour.booking/0.8.0-SNAPSHOT/com.tourapp.res.tour.booking-0.8.0-20120617.164528-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>36251</size>
+    <size>36252</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -1298,9 +1298,9 @@
       <p n='version' t='version' v='0.8.0.SNAPSHOT'/>
     </capability>
   </resource>
-  <resource id='com.tourapp.res.tour.genled/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.tour.genled' presentationname='tourapp-res-tour-genled - General ledger resources' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.tour.genled/0.8.0-SNAPSHOT/com.tourapp.res.tour.genled-0.8.0-20120613.154039-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.res.tour.genled/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.tour.genled' presentationname='tourapp-res-tour-genled - General ledger resources' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.tour.genled/0.8.0-SNAPSHOT/com.tourapp.res.tour.genled-0.8.0-20120617.164530-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>18692</size>
+    <size>18691</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -1346,9 +1346,9 @@
       <p n='version' t='version' v='0.8.0.SNAPSHOT'/>
     </capability>
   </resource>
-  <resource id='com.tourapp.res.tour.payroll/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.tour.payroll' presentationname='tourapp-res-tour-payroll - Payroll resources' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.tour.payroll/0.8.0-SNAPSHOT/com.tourapp.res.tour.payroll-0.8.0-20120613.154041-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.res.tour.payroll/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.tour.payroll' presentationname='tourapp-res-tour-payroll - Payroll resources' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.tour.payroll/0.8.0-SNAPSHOT/com.tourapp.res.tour.payroll-0.8.0-20120617.164532-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>11227</size>
+    <size>11229</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -1374,7 +1374,7 @@
       <p n='version' t='version' v='0.8.0.SNAPSHOT'/>
     </capability>
   </resource>
-  <resource id='com.tourapp.res.tour.product/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.tour.product' presentationname='tourapp-res-tour-product - Product resources' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.tour.product/0.8.0-SNAPSHOT/com.tourapp.res.tour.product-0.8.0-20120613.154043-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.res.tour.product/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.tour.product' presentationname='tourapp-res-tour-product - Product resources' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.tour.product/0.8.0-SNAPSHOT/com.tourapp.res.tour.product-0.8.0-20120617.164533-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
     <size>60083</size>
     <documentation>http://www.tourapp.com</documentation>
@@ -1474,7 +1474,7 @@
       <p n='version' t='version' v='0.8.0.SNAPSHOT'/>
     </capability>
   </resource>
-  <resource id='com.tourapp.res.tour.profile/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.tour.profile' presentationname='tourapp-res-tour-profile - Profile resources' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.tour.profile/0.8.0-SNAPSHOT/com.tourapp.res.tour.profile-0.8.0-20120613.154046-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.res.tour.profile/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.tour.profile' presentationname='tourapp-res-tour-profile - Profile resources' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.tour.profile/0.8.0-SNAPSHOT/com.tourapp.res.tour.profile-0.8.0-20120617.164541-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
     <size>13366</size>
     <documentation>http://www.tourapp.com</documentation>
@@ -1506,9 +1506,9 @@
       <p n='version' t='version' v='0.8.0.SNAPSHOT'/>
     </capability>
   </resource>
-  <resource id='com.tourapp.res.tour.request/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.tour.request' presentationname='tourapp-res-tour-request - Request resources' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.tour.request/0.8.0-SNAPSHOT/com.tourapp.res.tour.request-0.8.0-20120613.154047-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.res.tour.request/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.tour.request' presentationname='tourapp-res-tour-request - Request resources' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.tour.request/0.8.0-SNAPSHOT/com.tourapp.res.tour.request-0.8.0-20120617.164542-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>9183</size>
+    <size>9184</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -1530,7 +1530,7 @@
       <p n='version' t='version' v='0.8.0.SNAPSHOT'/>
     </capability>
   </resource>
-  <resource id='com.tourapp.res.tour.util/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.tour.util' presentationname='tourapp-res-tour-util - Utility resources' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.tour.util/0.8.0-SNAPSHOT/com.tourapp.res.tour.util-0.8.0-20120613.154650-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.res.tour.util/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.tour.util' presentationname='tourapp-res-tour-util - Utility resources' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.tour.util/0.8.0-SNAPSHOT/com.tourapp.res.tour.util-0.8.0-20120617.165132-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
     <size>3930</size>
     <documentation>http://www.tourapp.com</documentation>
@@ -1550,9 +1550,9 @@
       <p n='version' t='version' v='0.8.0.SNAPSHOT'/>
     </capability>
   </resource>
-  <resource id='com.tourapp.thin.app.booking/0.8.0.SNAPSHOT' symbolicname='com.tourapp.thin.app.booking' presentationname='tourapp-thin-app-booking - Tour thin booking code' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/thin/app/com.tourapp.thin.app.booking/0.8.0-SNAPSHOT/com.tourapp.thin.app.booking-0.8.0-20120613.154214-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.thin.app.booking/0.8.0.SNAPSHOT' symbolicname='com.tourapp.thin.app.booking' presentationname='tourapp-thin-app-booking - Tour thin booking code' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/thin/app/com.tourapp.thin.app.booking/0.8.0-SNAPSHOT/com.tourapp.thin.app.booking-0.8.0-20120617.164700-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>239839</size>
+    <size>239841</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -1759,9 +1759,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.util.calendarpanel.util)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.calendarpanel.util;resolution:=optional;version="[1.1,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.util.jcalendarbutton)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.jcalendarbutton;resolution:=optional;version="[1.6,2)"</require>
   </resource>
-  <resource id='com.tourapp.thin.app.request/0.8.0.SNAPSHOT' symbolicname='com.tourapp.thin.app.request' presentationname='tourapp-thin-app-request - Tour thin request' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/thin/app/com.tourapp.thin.app.request/0.8.0-SNAPSHOT/com.tourapp.thin.app.request-0.8.0-20120613.154220-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.thin.app.request/0.8.0.SNAPSHOT' symbolicname='com.tourapp.thin.app.request' presentationname='tourapp-thin-app-request - Tour thin request' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/thin/app/com.tourapp.thin.app.request/0.8.0-SNAPSHOT/com.tourapp.thin.app.request-0.8.0-20120617.164706-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>22502</size>
+    <size>22503</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -1788,9 +1788,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.screen.grid.opt)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.screen.grid.opt;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.util)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.util;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.thin.app.test/0.8.0.SNAPSHOT' symbolicname='com.tourapp.thin.app.test' presentationname='tourapp-thin-app-test - Tour thin test' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/thin/app/com.tourapp.thin.app.test/0.8.0-SNAPSHOT/com.tourapp.thin.app.test-0.8.0-20120613.155136-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.thin.app.test/0.8.0.SNAPSHOT' symbolicname='com.tourapp.thin.app.test' presentationname='tourapp-thin-app-test - Tour thin test' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/thin/app/com.tourapp.thin.app.test/0.8.0-SNAPSHOT/com.tourapp.thin.app.test-0.8.0-20120617.165622-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>4379</size>
+    <size>4381</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -1806,7 +1806,7 @@
     </capability>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.thin.tour.acctpay/0.8.0.SNAPSHOT' symbolicname='com.tourapp.thin.tour.acctpay' presentationname='tourapp-thin-tour-acctpay - Accounts payable thin' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/thin/com.tourapp.thin.tour.acctpay/0.8.0-SNAPSHOT/com.tourapp.thin.tour.acctpay-0.8.0-20120613.154138-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.thin.tour.acctpay/0.8.0.SNAPSHOT' symbolicname='com.tourapp.thin.tour.acctpay' presentationname='tourapp-thin-tour-acctpay - Accounts payable thin' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/thin/com.tourapp.thin.tour.acctpay/0.8.0-SNAPSHOT/com.tourapp.thin.tour.acctpay-0.8.0-20120617.164619-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
     <size>21228</size>
     <documentation>http://www.tourapp.com</documentation>
@@ -1828,9 +1828,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.main.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.main.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.thin.tour.acctrec/0.8.0.SNAPSHOT' symbolicname='com.tourapp.thin.tour.acctrec' presentationname='tourapp-thin-tour-acctrec - Accounts rec. thin' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/thin/com.tourapp.thin.tour.acctrec/0.8.0-SNAPSHOT/com.tourapp.thin.tour.acctrec-0.8.0-20120613.154145-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.thin.tour.acctrec/0.8.0.SNAPSHOT' symbolicname='com.tourapp.thin.tour.acctrec' presentationname='tourapp-thin-tour-acctrec - Accounts rec. thin' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/thin/com.tourapp.thin.tour.acctrec/0.8.0-SNAPSHOT/com.tourapp.thin.tour.acctrec-0.8.0-20120617.164625-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>18276</size>
+    <size>18278</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -1851,9 +1851,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.db;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.thin.tour.assetdr/0.8.0.SNAPSHOT' symbolicname='com.tourapp.thin.tour.assetdr' presentationname='tourapp-thin-tour-assetdr - Asset debt thin' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/thin/com.tourapp.thin.tour.assetdr/0.8.0-SNAPSHOT/com.tourapp.thin.tour.assetdr-0.8.0-20120613.154141-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.thin.tour.assetdr/0.8.0.SNAPSHOT' symbolicname='com.tourapp.thin.tour.assetdr' presentationname='tourapp-thin-tour-assetdr - Asset debt thin' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/thin/com.tourapp.thin.tour.assetdr/0.8.0-SNAPSHOT/com.tourapp.thin.tour.assetdr-0.8.0-20120617.164622-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>18091</size>
+    <size>18093</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -1872,7 +1872,7 @@
     <require name='package' filter='(&amp;(package=com.tourapp.thin.tour.genled.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package com.tourapp.thin.tour.genled.db;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.thin.tour.base/0.8.0.SNAPSHOT' symbolicname='com.tourapp.thin.tour.base' presentationname='tourapp-thin-tour-base - Base resources' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/thin/com.tourapp.thin.tour.base/0.8.0-SNAPSHOT/com.tourapp.thin.tour.base-0.8.0-20120613.154130-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.thin.tour.base/0.8.0.SNAPSHOT' symbolicname='com.tourapp.thin.tour.base' presentationname='tourapp-thin-tour-base - Base resources' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/thin/com.tourapp.thin.tour.base/0.8.0-SNAPSHOT/com.tourapp.thin.tour.base-0.8.0-20120617.164608-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
     <size>22254</size>
     <documentation>http://www.tourapp.com</documentation>
@@ -1903,9 +1903,9 @@
     <require name='package' filter='(&amp;(package=com.tourapp.res.tour.base))' extend='false' multiple='false' optional='true'>Import package com.tourapp.res.tour.base;resolution:=optional</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.thin.tour.booking/0.8.0.SNAPSHOT' symbolicname='com.tourapp.thin.tour.booking' presentationname='tourapp-thin-tour-booking - Booking resources' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/thin/com.tourapp.thin.tour.booking/0.8.0-SNAPSHOT/com.tourapp.thin.tour.booking-0.8.0-20120613.154154-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.thin.tour.booking/0.8.0.SNAPSHOT' symbolicname='com.tourapp.thin.tour.booking' presentationname='tourapp-thin-tour-booking - Booking resources' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/thin/com.tourapp.thin.tour.booking/0.8.0-SNAPSHOT/com.tourapp.thin.tour.booking-0.8.0-20120617.164634-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>82449</size>
+    <size>82451</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -1966,9 +1966,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.message)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.message;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.thin.tour.genled/0.8.0.SNAPSHOT' symbolicname='com.tourapp.thin.tour.genled' presentationname='tourapp-thin-tour-genled - General ledger thin' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/thin/com.tourapp.thin.tour.genled/0.8.0-SNAPSHOT/com.tourapp.thin.tour.genled-0.8.0-20120613.154135-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.thin.tour.genled/0.8.0.SNAPSHOT' symbolicname='com.tourapp.thin.tour.genled' presentationname='tourapp-thin-tour-genled - General ledger thin' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/thin/com.tourapp.thin.tour.genled/0.8.0-SNAPSHOT/com.tourapp.thin.tour.genled-0.8.0-20120617.164616-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>36983</size>
+    <size>36986</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -1993,7 +1993,7 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.main.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.main.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.thin.tour.payroll/0.8.0.SNAPSHOT' symbolicname='com.tourapp.thin.tour.payroll' presentationname='tourapp-thin-tour-payroll - Payroll thin code' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/thin/com.tourapp.thin.tour.payroll/0.8.0-SNAPSHOT/com.tourapp.thin.tour.payroll-0.8.0-20120613.154228-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.thin.tour.payroll/0.8.0.SNAPSHOT' symbolicname='com.tourapp.thin.tour.payroll' presentationname='tourapp-thin-tour-payroll - Payroll thin code' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/thin/com.tourapp.thin.tour.payroll/0.8.0-SNAPSHOT/com.tourapp.thin.tour.payroll-0.8.0-20120617.164714-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
     <size>18237</size>
     <documentation>http://www.tourapp.com</documentation>
@@ -2014,9 +2014,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.main.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.main.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.thin.tour.product/0.8.0.SNAPSHOT' symbolicname='com.tourapp.thin.tour.product' presentationname='tourapp-thin-tour-product - Product thin code' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/thin/com.tourapp.thin.tour.product/0.8.0-SNAPSHOT/com.tourapp.thin.tour.product-0.8.0-20120613.154149-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.thin.tour.product/0.8.0.SNAPSHOT' symbolicname='com.tourapp.thin.tour.product' presentationname='tourapp-thin-tour-product - Product thin code' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/thin/com.tourapp.thin.tour.product/0.8.0-SNAPSHOT/com.tourapp.thin.tour.product-0.8.0-20120617.164629-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>158911</size>
+    <size>158912</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -2110,9 +2110,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.main.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.main.db;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.main.db.base)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.main.db.base;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.thin.tour.profile/0.8.0.SNAPSHOT' symbolicname='com.tourapp.thin.tour.profile' presentationname='tourapp-thin-tour-profile - Profile thin code' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/thin/com.tourapp.thin.tour.profile/0.8.0-SNAPSHOT/com.tourapp.thin.tour.profile-0.8.0-20120613.154238-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.thin.tour.profile/0.8.0.SNAPSHOT' symbolicname='com.tourapp.thin.tour.profile' presentationname='tourapp-thin-tour-profile - Profile thin code' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/thin/com.tourapp.thin.tour.profile/0.8.0-SNAPSHOT/com.tourapp.thin.tour.profile-0.8.0-20120617.164718-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>30846</size>
+    <size>30847</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -2137,9 +2137,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.main.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.main.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.thin.tour.request/0.8.0.SNAPSHOT' symbolicname='com.tourapp.thin.tour.request' presentationname='tourapp-thin-tour-request - Request thin code' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/thin/com.tourapp.thin.tour.request/0.8.0-SNAPSHOT/com.tourapp.thin.tour.request-0.8.0-20120613.154206-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.thin.tour.request/0.8.0.SNAPSHOT' symbolicname='com.tourapp.thin.tour.request' presentationname='tourapp-thin-tour-request - Request thin code' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/thin/com.tourapp.thin.tour.request/0.8.0-SNAPSHOT/com.tourapp.thin.tour.request-0.8.0-20120617.164639-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>20626</size>
+    <size>20629</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -2157,9 +2157,9 @@
     <require name='package' filter='(&amp;(package=com.tourapp.res.tour.request))' extend='false' multiple='false' optional='true'>Import package com.tourapp.res.tour.request;resolution:=optional</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.thin.tour.util/0.8.0.SNAPSHOT' symbolicname='com.tourapp.thin.tour.util' presentationname='tourapp-thin-tour-util - Utility thin code' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/thin/com.tourapp.thin.tour.util/0.8.0-SNAPSHOT/com.tourapp.thin.tour.util-0.8.0-20120613.155134-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.thin.tour.util/0.8.0.SNAPSHOT' symbolicname='com.tourapp.thin.tour.util' presentationname='tourapp-thin-tour-util - Utility thin code' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/thin/com.tourapp.thin.tour.util/0.8.0-SNAPSHOT/com.tourapp.thin.tour.util-0.8.0-20120617.165620-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>4568</size>
+    <size>4569</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -2177,7 +2177,7 @@
     <require name='package' filter='(&amp;(package=com.tourapp.res.tour.util))' extend='false' multiple='false' optional='true'>Import package com.tourapp.res.tour.util;resolution:=optional</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.tour.acctpay.air/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.acctpay.air' presentationname='tourapp-tour-acctpay-air - Accounts payable air' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.acctpay.air/0.8.0-SNAPSHOT/com.tourapp.tour.acctpay.air-0.8.0-20120613.154457-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.tour.acctpay.air/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.acctpay.air' presentationname='tourapp-tour-acctpay-air - Accounts payable air' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.acctpay.air/0.8.0-SNAPSHOT/com.tourapp.tour.acctpay.air-0.8.0-20120617.164938-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
     <size>39227</size>
     <documentation>http://www.tourapp.com</documentation>
@@ -2232,9 +2232,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.screen)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.screen;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.tour.acctpay.db/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.acctpay.db' presentationname='tourapp-tour-acctpay-db - Accounts payable db' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.acctpay.db/0.8.0-SNAPSHOT/com.tourapp.tour.acctpay.db-0.8.0-20120613.154301-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.tour.acctpay.db/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.acctpay.db' presentationname='tourapp-tour-acctpay-db - Accounts payable db' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.acctpay.db/0.8.0-SNAPSHOT/com.tourapp.tour.acctpay.db-0.8.0-20120617.164744-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>60254</size>
+    <size>60256</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -2279,9 +2279,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.screen)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.screen;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.tour.acctpay.report/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.acctpay.report' presentationname='tourapp-tour-acctpay-report - Accounts payable report' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.acctpay.report/0.8.0-SNAPSHOT/com.tourapp.tour.acctpay.report-0.8.0-20120613.154418-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.tour.acctpay.report/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.acctpay.report' presentationname='tourapp-tour-acctpay-report - Accounts payable report' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.acctpay.report/0.8.0-SNAPSHOT/com.tourapp.tour.acctpay.report-0.8.0-20120617.164911-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>90725</size>
+    <size>90723</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -2359,9 +2359,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.screen)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.screen;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.tour.acctpay.screen/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.acctpay.screen' presentationname='tourapp-tour-acctpay-screen - Accounts payable screen' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.acctpay.screen/0.8.0-SNAPSHOT/com.tourapp.tour.acctpay.screen-0.8.0-20120613.154451-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.tour.acctpay.screen/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.acctpay.screen' presentationname='tourapp-tour-acctpay-screen - Accounts payable screen' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.acctpay.screen/0.8.0-SNAPSHOT/com.tourapp.tour.acctpay.screen-0.8.0-20120617.164933-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>137424</size>
+    <size>137423</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -2471,7 +2471,7 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.message)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.message;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.util)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.util;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.tour.acctrec.db/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.acctrec.db' presentationname='tourapp-tour-acctrec-db - Accounts receivable db' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.acctrec.db/0.8.0-SNAPSHOT/com.tourapp.tour.acctrec.db-0.8.0-20120613.154325-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.tour.acctrec.db/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.acctrec.db' presentationname='tourapp-tour-acctrec-db - Accounts receivable db' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.acctrec.db/0.8.0-SNAPSHOT/com.tourapp.tour.acctrec.db-0.8.0-20120617.164753-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
     <size>45962</size>
     <documentation>http://www.tourapp.com</documentation>
@@ -2513,9 +2513,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.screen)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.screen;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.tour.acctrec.report/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.acctrec.report' presentationname='tourapp-tour-acctrec-report - Accounts receivable reports' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.acctrec.report/0.8.0-SNAPSHOT/com.tourapp.tour.acctrec.report-0.8.0-20120613.154501-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.tour.acctrec.report/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.acctrec.report' presentationname='tourapp-tour-acctrec-report - Accounts receivable reports' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.acctrec.report/0.8.0-SNAPSHOT/com.tourapp.tour.acctrec.report-0.8.0-20120617.164957-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>24891</size>
+    <size>24889</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -2557,7 +2557,7 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.screen)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.screen;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.tour.acctrec.screen/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.acctrec.screen' presentationname='tourapp-tour-acctrec-screen - Accounts receivable screens' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.acctrec.screen/0.8.0-SNAPSHOT/com.tourapp.tour.acctrec.screen-0.8.0-20120613.154442-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.tour.acctrec.screen/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.acctrec.screen' presentationname='tourapp-tour-acctrec-screen - Accounts receivable screens' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.acctrec.screen/0.8.0-SNAPSHOT/com.tourapp.tour.acctrec.screen-0.8.0-20120617.164927-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
     <size>169054</size>
     <documentation>http://www.tourapp.com</documentation>
@@ -2657,7 +2657,7 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.screen)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.screen;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.tour.assetdr.db/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.assetdr.db' presentationname='tourapp-tour-assetdr-db - Asset debt db' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.assetdr.db/0.8.0-SNAPSHOT/com.tourapp.tour.assetdr.db-0.8.0-20120613.154256-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.tour.assetdr.db/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.assetdr.db' presentationname='tourapp-tour-assetdr-db - Asset debt db' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.assetdr.db/0.8.0-SNAPSHOT/com.tourapp.tour.assetdr.db-0.8.0-20120617.164739-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
     <size>38420</size>
     <documentation>http://www.tourapp.com</documentation>
@@ -2691,9 +2691,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.screen)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.screen;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.tour.assetdr.process/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.assetdr.process' presentationname='tourapp-tour-assetdr-process - Asset debt processes' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.assetdr.process/0.8.0-SNAPSHOT/com.tourapp.tour.assetdr.process-0.8.0-20120613.154515-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.tour.assetdr.process/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.assetdr.process' presentationname='tourapp-tour-assetdr-process - Asset debt processes' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.assetdr.process/0.8.0-SNAPSHOT/com.tourapp.tour.assetdr.process-0.8.0-20120617.165005-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>7797</size>
+    <size>7795</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -2720,9 +2720,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.message)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.message;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jibx.schema.net.webservicex.currencyconvertor)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.schema.net.webservicex.currencyconvertor;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='com.tourapp.tour.assetdr.report/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.assetdr.report' presentationname='tourapp-tour-assetdr-report - Asset debt reports' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.assetdr.report/0.8.0-SNAPSHOT/com.tourapp.tour.assetdr.report-0.8.0-20120613.154510-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.tour.assetdr.report/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.assetdr.report' presentationname='tourapp-tour-assetdr-report - Asset debt reports' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.assetdr.report/0.8.0-SNAPSHOT/com.tourapp.tour.assetdr.report-0.8.0-20120617.165000-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>32899</size>
+    <size>32898</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -2762,9 +2762,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.screen)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.screen;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.tour.assetdr.screen/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.assetdr.screen' presentationname='tourapp-tour-assetdr-screen - Asset debt screens' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.assetdr.screen/0.8.0-SNAPSHOT/com.tourapp.tour.assetdr.screen-0.8.0-20120613.154436-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.tour.assetdr.screen/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.assetdr.screen' presentationname='tourapp-tour-assetdr-screen - Asset debt screens' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.assetdr.screen/0.8.0-SNAPSHOT/com.tourapp.tour.assetdr.screen-0.8.0-20120617.164921-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>60944</size>
+    <size>61201</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -2820,9 +2820,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.screen)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.screen;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.tour.base/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.base' presentationname='tourapp-tour-base - Common' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.base/0.8.0-SNAPSHOT/com.tourapp.tour.base-0.8.0-20120613.154244-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.tour.base/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.base' presentationname='tourapp-tour-base - Common' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.base/0.8.0-SNAPSHOT/com.tourapp.tour.base-0.8.0-20120617.164724-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>58061</size>
+    <size>58062</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -2874,9 +2874,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.screen)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.screen;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.tour.booking.db/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.booking.db' presentationname='tourapp-tour-booking-db - Booking' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.booking.db/0.8.0-SNAPSHOT/com.tourapp.tour.booking.db-0.8.0-20120613.154402-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.tour.booking.db/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.booking.db' presentationname='tourapp-tour-booking-db - Booking' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.booking.db/0.8.0-SNAPSHOT/com.tourapp.tour.booking.db-0.8.0-20120617.164842-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>243289</size>
+    <size>243287</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -2968,9 +2968,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db.buff)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db.buff;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.message)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.message;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.tour.booking.entry/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.booking.entry' presentationname='tourapp-tour-booking-entry - Booking' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.booking.entry/0.8.0-SNAPSHOT/com.tourapp.tour.booking.entry-0.8.0-20120613.154411-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.tour.booking.entry/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.booking.entry' presentationname='tourapp-tour-booking-entry - Booking' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.booking.entry/0.8.0-SNAPSHOT/com.tourapp.tour.booking.entry-0.8.0-20120617.164850-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>172062</size>
+    <size>172080</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -3032,7 +3032,7 @@
     <capability name='package'>
       <p n='package' v='com.tourapp.tour.booking.entry.detail.base'/>
       <p n='version' t='version' v='0.8.0.SNAPSHOT'/>
-      <p n='uses:' v='org.jbundle.base.db,org.jbundle.base.model,org.jbundle.base.field,com.tourapp.tour.booking.detail.db,org.jbundle.model.db,org.jbundle.base.db.event,org.jbundle.thin.base.db,org.jbundle.base.field.event,org.jbundle.model.screen,com.tourapp.tour.product.base.event,org.jbundle.main.properties.db,com.tourapp.model.tour.booking.db,com.tourapp.tour.booking.db,org.jbundle.base.screen.model,org.jbundle.base.screen.model.util,com.tourapp.tour.booking.entry.base,org.jbundle.base.field.convert,org.jbundle.main.msg.db,org.jbundle.main.db.base'/>
+      <p n='uses:' v='org.jbundle.base.db,org.jbundle.base.model,org.jbundle.base.field,com.tourapp.tour.booking.detail.db,org.jbundle.model.db,org.jbundle.base.db.event,org.jbundle.thin.base.db,org.jbundle.base.field.event,org.jbundle.model.screen,com.tourapp.tour.product.base.event,org.jbundle.main.properties.db,com.tourapp.model.tour.booking.db,com.tourapp.tour.booking.db,org.jbundle.base.screen.model,org.jbundle.base.screen.model.util,com.tourapp.tour.booking.entry.base,org.jbundle.base.field.convert,org.jbundle.main.db.base,org.jbundle.main.msg.db'/>
     </capability>
     <capability name='package'>
       <p n='package' v='com.tourapp.tour.booking.entry.tour'/>
@@ -3139,9 +3139,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.util.calendarpanel.model)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.calendarpanel.model;resolution:=optional;version="[1.1,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.util.calendarpanel.util)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.calendarpanel.util;resolution:=optional;version="[1.1,2)"</require>
   </resource>
-  <resource id='com.tourapp.tour.booking.remote/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.booking.remote' presentationname='tourapp-tour-booking-remote - Booking remote' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.booking.remote/0.8.0-SNAPSHOT/com.tourapp.tour.booking.remote-0.8.0-20120613.154519-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.tour.booking.remote/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.booking.remote' presentationname='tourapp-tour-booking-remote - Booking remote' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.booking.remote/0.8.0-SNAPSHOT/com.tourapp.tour.booking.remote-0.8.0-20120617.165008-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>29964</size>
+    <size>29963</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -3206,9 +3206,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.message)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.message;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.remote)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.remote;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.tour.booking.report/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.booking.report' presentationname='tourapp-tour-booking-report - Booking reports' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.booking.report/0.8.0-SNAPSHOT/com.tourapp.tour.booking.report-0.8.0-20120613.154523-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.tour.booking.report/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.booking.report' presentationname='tourapp-tour-booking-report - Booking reports' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.booking.report/0.8.0-SNAPSHOT/com.tourapp.tour.booking.report-0.8.0-20120617.165012-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>37142</size>
+    <size>37173</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -3264,9 +3264,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.screen)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.screen;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.tour.genled.db/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.genled.db' presentationname='tourapp-tour-genled-db - General ledger db' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.genled.db/0.8.0-SNAPSHOT/com.tourapp.tour.genled.db-0.8.0-20120613.154251-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.tour.genled.db/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.genled.db' presentationname='tourapp-tour-genled-db - General ledger db' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.genled.db/0.8.0-SNAPSHOT/com.tourapp.tour.genled.db-0.8.0-20120617.164729-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>114151</size>
+    <size>114189</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -3302,9 +3302,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.screen)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.screen;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.tour.genled.finstmt/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.genled.finstmt' presentationname='tourapp-tour-genled-finstmt - General ledger finstmt' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.genled.finstmt/0.8.0-SNAPSHOT/com.tourapp.tour.genled.finstmt-0.8.0-20120613.154527-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.tour.genled.finstmt/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.genled.finstmt' presentationname='tourapp-tour-genled-finstmt - General ledger finstmt' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.genled.finstmt/0.8.0-SNAPSHOT/com.tourapp.tour.genled.finstmt-0.8.0-20120617.165016-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>34438</size>
+    <size>34434</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -3341,9 +3341,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.screen)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.screen;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.tour.genled.report/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.genled.report' presentationname='tourapp-tour-genled-report - General ledger reports' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.genled.report/0.8.0-SNAPSHOT/com.tourapp.tour.genled.report-0.8.0-20120613.154532-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.tour.genled.report/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.genled.report' presentationname='tourapp-tour-genled-report - General ledger reports' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.genled.report/0.8.0-SNAPSHOT/com.tourapp.tour.genled.report-0.8.0-20120617.165020-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>41294</size>
+    <size>41293</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -3395,9 +3395,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.screen)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.screen;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.tour.genled.screen/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.genled.screen' presentationname='tourapp-tour-genled-screen - General ledger screen' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.genled.screen/0.8.0-SNAPSHOT/com.tourapp.tour.genled.screen-0.8.0-20120613.154426-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.tour.genled.screen/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.genled.screen' presentationname='tourapp-tour-genled-screen - General ledger screen' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.genled.screen/0.8.0-SNAPSHOT/com.tourapp.tour.genled.screen-0.8.0-20120617.164916-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>98975</size>
+    <size>99643</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -3419,7 +3419,7 @@
     <capability name='package'>
       <p n='package' v='com.tourapp.tour.genled.screen.batch'/>
       <p n='version' t='version' v='0.8.0.SNAPSHOT'/>
-      <p n='uses:' v='org.jbundle.base.db,org.jbundle.base.db.event,org.jbundle.base.util,org.jbundle.base.model,org.jbundle.base.screen.model.util,org.jbundle.thin.base.db,org.jbundle.base.field.event,org.jbundle.model.screen,org.jbundle.model,com.tourapp.tour.genled.db,org.jbundle.base.screen.model,org.jbundle.base.field,org.jbundle.main.screen,org.jbundle.base.db.filter,org.jbundle.main.user.db,org.jbundle.model.db,org.jbundle.thin.base.screen'/>
+      <p n='uses:' v='org.jbundle.base.db,org.jbundle.base.util,org.jbundle.base.db.event,org.jbundle.base.model,org.jbundle.base.screen.model.util,org.jbundle.thin.base.db,org.jbundle.base.field.event,org.jbundle.model.screen,org.jbundle.model,com.tourapp.tour.genled.db,org.jbundle.base.screen.model,org.jbundle.base.db.filter,org.jbundle.base.field,org.jbundle.main.screen,org.jbundle.main.user.db,org.jbundle.model.db,org.jbundle.thin.base.screen'/>
     </capability>
     <capability name='package'>
       <p n='package' v='com.tourapp.tour.genled.screen.misc'/>
@@ -3450,7 +3450,7 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.screen)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.screen;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.tour.message/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.message' presentationname='tourapp-tour-message - Messaging base code' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.message/0.8.0-SNAPSHOT/com.tourapp.tour.message-0.8.0-20120613.154331-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.tour.message/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.message' presentationname='tourapp-tour-message - Messaging base code' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.message/0.8.0-SNAPSHOT/com.tourapp.tour.message-0.8.0-20120617.164800-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Messaging base code</description>
     <size>148465</size>
     <documentation>http://www.tourapp.com</documentation>
@@ -3652,9 +3652,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.message)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.message;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.tour.message.jibx/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.message.jibx' presentationname='tourapp-tour-message-jibx' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.message.jibx/0.8.0-SNAPSHOT/com.tourapp.tour.message.jibx-0.8.0-20120613.154645-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.tour.message.jibx/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.message.jibx' presentationname='tourapp-tour-message-jibx' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.message.jibx/0.8.0-SNAPSHOT/com.tourapp.tour.message.jibx-0.8.0-20120617.165128-1.jar' version='0.8.0.SNAPSHOT'>
     <description>JiBX Messaging</description>
-    <size>25450</size>
+    <size>25448</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -3720,9 +3720,9 @@
     <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.ping)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.schema.org.opentravel._2011B.ping;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.joda.time)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.joda.time;resolution:=optional;version="[2.1,3)"</require>
   </resource>
-  <resource id='com.tourapp.tour.message.process/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.message.process' presentationname='tourapp-tour-message-process' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.message.process/0.8.0-SNAPSHOT/com.tourapp.tour.message.process-0.8.0-20120613.154640-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.tour.message.process/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.message.process' presentationname='tourapp-tour-message-process' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.message.process/0.8.0-SNAPSHOT/com.tourapp.tour.message.process-0.8.0-20120617.165123-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Message processes</description>
-    <size>99406</size>
+    <size>99407</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -3868,7 +3868,7 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.message)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.message;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.tour.message.service._2011B.ping/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.message.service._2011B.ping' presentationname='tourapp-tour-message-service-2011B-ping web service' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.message.service._2011B.ping/0.8.0-SNAPSHOT/com.tourapp.tour.message.service._2011B.ping-0.8.0-20120613.155140-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.tour.message.service._2011B.ping/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.message.service._2011B.ping' presentationname='tourapp-tour-message-service-2011B-ping web service' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.message.service._2011B.ping/0.8.0-SNAPSHOT/com.tourapp.tour.message.service._2011B.ping-0.8.0-20120617.165626-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Messaging parent</description>
     <size>5409</size>
     <documentation>http://www.tourapp.com</documentation>
@@ -3892,7 +3892,7 @@
     <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.ping)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.schema.org.opentravel._2011B.ping;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jibx.schema.org.opentravel._2011B.ping.ws)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.schema.org.opentravel._2011B.ping.ws;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='com.tourapp.tour.payroll.db/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.payroll.db' presentationname='tourapp-tour-payroll-db - Payroll db' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.payroll.db/0.8.0-SNAPSHOT/com.tourapp.tour.payroll.db-0.8.0-20120613.154536-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.tour.payroll.db/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.payroll.db' presentationname='tourapp-tour-payroll-db - Payroll db' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.payroll.db/0.8.0-SNAPSHOT/com.tourapp.tour.payroll.db-0.8.0-20120617.165024-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
     <size>39868</size>
     <documentation>http://www.tourapp.com</documentation>
@@ -3925,7 +3925,7 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.screen)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.screen;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.tour.payroll.report/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.payroll.report' presentationname='tourapp-tour-payroll-report - Payroll reports' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.payroll.report/0.8.0-SNAPSHOT/com.tourapp.tour.payroll.report-0.8.0-20120613.154548-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.tour.payroll.report/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.payroll.report' presentationname='tourapp-tour-payroll-report - Payroll reports' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.payroll.report/0.8.0-SNAPSHOT/com.tourapp.tour.payroll.report-0.8.0-20120617.165045-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
     <size>10368</size>
     <documentation>http://www.tourapp.com</documentation>
@@ -3953,9 +3953,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.screen)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.screen;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.tour.payroll.screen/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.payroll.screen' presentationname='tourapp-tour-payroll-screen - Payroll screens' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.payroll.screen/0.8.0-SNAPSHOT/com.tourapp.tour.payroll.screen-0.8.0-20120613.154545-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.tour.payroll.screen/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.payroll.screen' presentationname='tourapp-tour-payroll-screen - Payroll screens' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.payroll.screen/0.8.0-SNAPSHOT/com.tourapp.tour.payroll.screen-0.8.0-20120617.165042-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>24855</size>
+    <size>24856</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -3991,9 +3991,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.screen)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.screen;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.tour.product.db/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.product.db' presentationname='tourapp-tour-product-db - Tour product databases' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.product.db/0.8.0-SNAPSHOT/com.tourapp.tour.product.db-0.8.0-20120613.154340-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.tour.product.db/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.product.db' presentationname='tourapp-tour-product-db - Tour product databases' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.product.db/0.8.0-SNAPSHOT/com.tourapp.tour.product.db-0.8.0-20120617.164824-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>412670</size>
+    <size>412685</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -4020,7 +4020,7 @@
     <capability name='package'>
       <p n='package' v='com.tourapp.tour.product.hotel.db'/>
       <p n='version' t='version' v='0.8.0.SNAPSHOT'/>
-      <p n='uses:' v='com.tourapp.tour.message.base.request.data,com.tourapp.tour.message.base.response,org.jbundle.base.db,org.jbundle.thin.base.message,org.jbundle.base.util,org.jbundle.base.model,org.jbundle.model.message,org.jbundle.thin.base.screen,org.jbundle.model,org.jbundle.model.screen,com.tourapp.model.tour.booking.db,com.tourapp.tour.product.base.db,org.jbundle.main.msg.db,org.jbundle.thin.base.util,com.tourapp.tour.message.base.response.data,org.jbundle.model.db,com.tourapp.tour.base.db,com.tourapp.model.tour.product.hotel.db,com.tourapp.tour.message.base.request,com.tourapp.model.tour.booking.detail.db,com.tourapp.tour.message.hotel.response,com.tourapp.tour.message.hotel.response.data,org.jbundle.base.field.event,com.tourapp.model.tour.product.base.db,org.jbundle.base.field.convert,com.tourapp.tour.acctpay.db,com.tourapp.model.tour.booking.inventory.db,com.tourapp.tour.message.hotel.request.data,org.jbundle.base.field,org.jbundle.base.db.event,org.jbundle.thin.base.db,org.jbundle.base.db.filter'/>
+      <p n='uses:' v='com.tourapp.tour.message.base.request.data,com.tourapp.tour.message.base.response,org.jbundle.base.db,org.jbundle.thin.base.message,org.jbundle.base.util,org.jbundle.base.model,org.jbundle.model.message,org.jbundle.thin.base.screen,org.jbundle.model,org.jbundle.model.screen,com.tourapp.model.tour.booking.db,com.tourapp.tour.product.base.db,org.jbundle.main.msg.db,org.jbundle.thin.base.util,com.tourapp.tour.message.base.response.data,org.jbundle.model.db,com.tourapp.tour.base.db,com.tourapp.model.tour.product.hotel.db,com.tourapp.tour.message.base.request,com.tourapp.model.tour.booking.detail.db,com.tourapp.tour.message.hotel.response,org.jbundle.base.field.event,com.tourapp.tour.message.hotel.response.data,com.tourapp.model.tour.product.base.db,org.jbundle.base.field.convert,com.tourapp.tour.acctpay.db,com.tourapp.model.tour.booking.inventory.db,com.tourapp.tour.message.hotel.request.data,org.jbundle.base.field,org.jbundle.base.db.event,org.jbundle.thin.base.db,org.jbundle.base.db.filter'/>
     </capability>
     <capability name='package'>
       <p n='package' v='com.tourapp.tour.product.hotel.event'/>
@@ -4040,7 +4040,7 @@
     <capability name='package'>
       <p n='package' v='com.tourapp.tour.product.trans.db'/>
       <p n='version' t='version' v='0.8.0.SNAPSHOT'/>
-      <p n='uses:' v='org.jbundle.model.db,com.tourapp.tour.message.base.response.data,com.tourapp.tour.message.base.request.data,com.tourapp.tour.message.base.response,com.tourapp.tour.base.db,org.jbundle.base.db,org.jbundle.thin.base.message,org.jbundle.base.model,org.jbundle.model.message,com.tourapp.tour.message.base.request,com.tourapp.model.tour.booking.detail.db,com.tourapp.model.tour.product.trans.db,org.jbundle.base.field.event,org.jbundle.model,org.jbundle.model.screen,com.tourapp.tour.product.base.db,com.tourapp.tour.message.trans.response,com.tourapp.tour.message.trans.request.data,org.jbundle.base.field,org.jbundle.base.db.event,org.jbundle.thin.base.db,org.jbundle.base.db.filter'/>
+      <p n='uses:' v='org.jbundle.model.db,com.tourapp.tour.message.base.response.data,com.tourapp.tour.message.base.request.data,com.tourapp.tour.message.base.response,com.tourapp.tour.base.db,org.jbundle.base.db,org.jbundle.thin.base.message,org.jbundle.base.model,org.jbundle.model.message,com.tourapp.model.tour.booking.detail.db,com.tourapp.tour.message.base.request,com.tourapp.model.tour.product.trans.db,org.jbundle.base.field.event,org.jbundle.model,org.jbundle.model.screen,com.tourapp.tour.product.base.db,com.tourapp.tour.message.trans.response,com.tourapp.tour.message.trans.request.data,org.jbundle.base.field,org.jbundle.base.db.event,org.jbundle.thin.base.db,org.jbundle.base.db.filter'/>
     </capability>
     <capability name='package'>
       <p n='package' v='com.tourapp.tour.product.base.search.db'/>
@@ -4080,7 +4080,7 @@
     <capability name='package'>
       <p n='package' v='com.tourapp.tour.product.item.db'/>
       <p n='version' t='version' v='0.8.0.SNAPSHOT'/>
-      <p n='uses:' v='com.tourapp.tour.message.base.response.data,org.jbundle.model.db,com.tourapp.tour.message.base.request.data,com.tourapp.tour.message.base.response,com.tourapp.tour.base.db,org.jbundle.base.db,com.tourapp.model.tour.product.item.db,org.jbundle.thin.base.message,org.jbundle.base.model,org.jbundle.model.message,com.tourapp.model.tour.booking.detail.db,com.tourapp.tour.message.base.request,org.jbundle.model,org.jbundle.model.screen,com.tourapp.tour.product.base.db,org.jbundle.base.field,com.tourapp.tour.message.item.request.data,com.tourapp.tour.message.item.response,org.jbundle.base.field.event'/>
+      <p n='uses:' v='org.jbundle.model.db,com.tourapp.tour.message.base.response.data,com.tourapp.tour.message.base.request.data,com.tourapp.tour.message.base.response,com.tourapp.tour.base.db,org.jbundle.base.db,com.tourapp.model.tour.product.item.db,org.jbundle.thin.base.message,org.jbundle.base.model,org.jbundle.model.message,com.tourapp.tour.message.base.request,com.tourapp.model.tour.booking.detail.db,org.jbundle.model,org.jbundle.model.screen,com.tourapp.tour.product.base.db,org.jbundle.base.field,com.tourapp.tour.message.item.request.data,com.tourapp.tour.message.item.response,org.jbundle.base.field.event'/>
     </capability>
     <capability name='package'>
       <p n='package' v='com.tourapp.tour.product.land.db'/>
@@ -4196,9 +4196,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.screen.print.thread)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.screen.print.thread;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.util)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.util;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.tour.product.screen/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.product.screen' presentationname='tourapp-tour-product-screen - Tour product screens' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.product.screen/0.8.0-SNAPSHOT/com.tourapp.tour.product.screen-0.8.0-20120613.154556-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.tour.product.screen/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.product.screen' presentationname='tourapp-tour-product-screen - Tour product screens' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.product.screen/0.8.0-SNAPSHOT/com.tourapp.tour.product.screen-0.8.0-20120617.165051-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>282757</size>
+    <size>282767</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -4265,7 +4265,7 @@
     <capability name='package'>
       <p n='package' v='com.tourapp.tour.product.base.screen'/>
       <p n='version' t='version' v='0.8.0.SNAPSHOT'/>
-      <p n='uses:' v='org.jbundle.base.db,com.tourapp.tour.product.base.db,org.jbundle.base.model,org.jbundle.base.screen.model,org.jbundle.base.screen.model.util,org.jbundle.base.field,org.jbundle.thin.base.db,org.jbundle.model.screen,org.jbundle.base.field.event,com.tourapp.tour.booking.detail.db,com.tourapp.tour.booking.inventory.db,com.tourapp.tour.booking.db,org.jbundle.main.screen,org.jbundle.base.db.filter,org.jbundle.thin.base.message,org.jbundle.base.db.event,org.jbundle.base.util,org.jbundle.model.message,org.jbundle.model,org.jbundle.main.db.base,com.tourapp.tour.product.base.event,org.jbundle.thin.base.util,org.jbundle.model.db'/>
+      <p n='uses:' v='org.jbundle.base.db,com.tourapp.tour.product.base.db,org.jbundle.base.model,org.jbundle.base.screen.model,org.jbundle.base.screen.model.util,org.jbundle.base.field,org.jbundle.thin.base.db,org.jbundle.model.screen,org.jbundle.base.field.event,com.tourapp.tour.booking.detail.db,com.tourapp.tour.booking.inventory.db,com.tourapp.tour.booking.db,org.jbundle.main.screen,org.jbundle.base.db.filter,org.jbundle.thin.base.message,org.jbundle.base.db.event,org.jbundle.base.util,org.jbundle.model.message,org.jbundle.model,com.tourapp.tour.product.base.event,org.jbundle.main.db.base,org.jbundle.thin.base.util,org.jbundle.model.db'/>
     </capability>
     <capability name='package'>
       <p n='package' v='com.tourapp.tour.product.item.screen'/>
@@ -4347,9 +4347,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.util)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.util;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.opt.location)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.opt.location;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.tour.profile.db/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.profile.db' presentationname='tourapp-tour-profile-db - Profile db' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.profile.db/0.8.0-SNAPSHOT/com.tourapp.tour.profile.db-0.8.0-20120613.154321-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.tour.profile.db/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.profile.db' presentationname='tourapp-tour-profile-db - Profile db' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.profile.db/0.8.0-SNAPSHOT/com.tourapp.tour.profile.db-0.8.0-20120617.164748-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>46475</size>
+    <size>46474</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -4385,9 +4385,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.screen)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.screen;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.tour.profile.detail/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.profile.detail' presentationname='tourapp-tour-profile-detail - Profile detail' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.profile.detail/0.8.0-SNAPSHOT/com.tourapp.tour.profile.detail-0.8.0-20120613.154602-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.tour.profile.detail/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.profile.detail' presentationname='tourapp-tour-profile-detail - Profile detail' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.profile.detail/0.8.0-SNAPSHOT/com.tourapp.tour.profile.detail-0.8.0-20120617.165057-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>13968</size>
+    <size>13969</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -4412,7 +4412,7 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.screen)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.screen;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.tour.profile.screen/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.profile.screen' presentationname='tourapp-tour-profile-screen - Profile screens' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.profile.screen/0.8.0-SNAPSHOT/com.tourapp.tour.profile.screen-0.8.0-20120613.154606-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.tour.profile.screen/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.profile.screen' presentationname='tourapp-tour-profile-screen - Profile screens' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.profile.screen/0.8.0-SNAPSHOT/com.tourapp.tour.profile.screen-0.8.0-20120617.165100-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
     <size>26140</size>
     <documentation>http://www.tourapp.com</documentation>
@@ -4448,9 +4448,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.screen)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.screen;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.tour.request.report/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.request.report' presentationname='tourapp-tour-request - Request reports' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.request.report/0.8.0-SNAPSHOT/com.tourapp.tour.request.report-0.8.0-20120613.154633-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.tour.request.report/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.request.report' presentationname='tourapp-tour-request - Request reports' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.request.report/0.8.0-SNAPSHOT/com.tourapp.tour.request.report-0.8.0-20120617.165111-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>19993</size>
+    <size>19991</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -4482,7 +4482,7 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.screen)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.screen;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.tour.request.db/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.request.db' presentationname='tourapp-tour-request-db - Request databases' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.request.db/0.8.0-SNAPSHOT/com.tourapp.tour.request.db-0.8.0-20120613.154610-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.tour.request.db/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.request.db' presentationname='tourapp-tour-request-db - Request databases' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.request.db/0.8.0-SNAPSHOT/com.tourapp.tour.request.db-0.8.0-20120617.165105-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
     <size>27403</size>
     <documentation>http://www.tourapp.com</documentation>
@@ -4511,9 +4511,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.screen)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.screen;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.tour.request.misc/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.request.misc' presentationname='tourapp-tour-request-misc - Request' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.request.misc/0.8.0-SNAPSHOT/com.tourapp.tour.request.misc-0.8.0-20120613.154636-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.tour.request.misc/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.request.misc' presentationname='tourapp-tour-request-misc - Request' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.request.misc/0.8.0-SNAPSHOT/com.tourapp.tour.request.misc-0.8.0-20120617.165119-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>16471</size>
+    <size>16470</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -4545,9 +4545,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.remote)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.remote;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.tour.request.screen/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.request.screen' presentationname='tourapp-tour-request-screen - Request screens' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.request.screen/0.8.0-SNAPSHOT/com.tourapp.tour.request.screen-0.8.0-20120613.154629-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.tour.request.screen/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.request.screen' presentationname='tourapp-tour-request-screen - Request screens' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.request.screen/0.8.0-SNAPSHOT/com.tourapp.tour.request.screen-0.8.0-20120617.165108-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>31056</size>
+    <size>31055</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -4589,9 +4589,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.screen)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.screen;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.tour.util/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.util' presentationname='tourapp-tour-util - Utilities' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.util/0.8.0-SNAPSHOT/com.tourapp.tour.util-0.8.0-20120613.154654-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.tour.util/0.8.0.SNAPSHOT' symbolicname='com.tourapp.tour.util' presentationname='tourapp-tour-util - Utilities' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/tour/com.tourapp.tour.util/0.8.0-SNAPSHOT/com.tourapp.tour.util-0.8.0-20120617.165136-1.jar' version='0.8.0.SNAPSHOT'>
     <description>tourapp-tour-util (Utilities)</description>
-    <size>51720</size>
+    <size>51718</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
