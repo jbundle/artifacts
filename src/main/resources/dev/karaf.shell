@@ -10,6 +10,7 @@ sleep 4000
 obr:addurl http://repository.jbundle.org:8081/nexus/content/repositories/repository/repository.xml
 
 obr:removeurl http://repository.jbundle.org:8081/nexus/content/repositories/repository/jbundle-repository-0.8.0-SNAPSHOT.xml
+obr:removeurl http://repository.jbundle.org:8081/nexus/content/repositories/repository/jbundle-util-osgi-repository-2.0.1.xml
 cave:create-repository jbundle
 cave:proxy-repository jbundle file:/home/don/.m2/repository/org/jbundle
 obr:removeurl http://repository.jbundle.org:8081/nexus/content/repositories/repository/tourapp-repository-0.8.0-SNAPSHOT.xml
