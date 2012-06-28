@@ -1,0 +1,72 @@
+<repository lastmodified='20120626100736.208'>
+  <resource id='org.jbundle.util.osgi/2.0.2.SNAPSHOT' symbolicname='org.jbundle.util.osgi' presentationname='jbundle-util-osgi - base bundle retrieval' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/org/jbundle/util/osgi/org.jbundle.util.osgi/2.0.2-SNAPSHOT/org.jbundle.util.osgi-2.0.2-20120627.050727-1.jar' version='2.0.2.SNAPSHOT'>
+    <description>Top level properties and features</description>
+    <size>32985</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.util.osgi'/>
+      <p n='presentationname' v='jbundle-util-osgi - base bundle retrieval'/>
+      <p n='version' t='version' v='2.0.2.SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.osgi'/>
+      <p n='version' t='version' v='2.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.osgi.finder'/>
+      <p n='version' t='version' v='2.0.2.SNAPSHOT'/>
+      <p n='uses:' v='org.jbundle.util.osgi,org.osgi.service.log,org.osgi.framework,org.jbundle.util.osgi.bundle'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.osgi.bundle'/>
+      <p n='version' t='version' v='2.0.2.SNAPSHOT'/>
+      <p n='uses:' v='org.jbundle.util.osgi,org.jbundle.util.osgi.finder,org.osgi.framework,org.osgi.service.cm'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.framework;resolution:=optional;version="[1.5,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.cm)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.service.cm;resolution:=optional;version="[1.3,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.log)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.service.log;resolution:=optional;version="[1.3,2)"</require>
+  </resource>
+  <resource id='org.jbundle.util.osgi.obr/2.0.2.SNAPSHOT' symbolicname='org.jbundle.util.osgi.obr' presentationname='jbundle-util-osgi-obr - obr bundle retrieval' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/org/jbundle/util/osgi/org.jbundle.util.osgi.obr/2.0.2-SNAPSHOT/org.jbundle.util.osgi.obr-2.0.2-20120627.050731-1.jar' version='2.0.2.SNAPSHOT'>
+    <description>Top level properties and features</description>
+    <size>8768</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.util.osgi.obr'/>
+      <p n='presentationname' v='jbundle-util-osgi-obr - obr bundle retrieval'/>
+      <p n='version' t='version' v='2.0.2.SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.osgi.obr'/>
+      <p n='version' t='version' v='2.0.2.SNAPSHOT'/>
+      <p n='uses:' v='org.jbundle.util.osgi,org.apache.felix.bundlerepository,org.jbundle.util.osgi.finder,org.osgi.framework'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.apache.felix.bundlerepository)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.felix.bundlerepository;resolution:=optional;version="[2.0,3)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.osgi)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.osgi;resolution:=optional;version="[2.0,3)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.osgi.finder)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.osgi.finder;resolution:=optional;version="[2.0,3)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.framework;resolution:=optional;version="[1.5,2)"</require>
+  </resource>
+  <resource id='org.jbundle.util.osgi.p2/2.0.2.SNAPSHOT' symbolicname='org.jbundle.util.osgi.p2' presentationname='jbundle-util-osgi-p2 - p2 bundle retrieval (Not finished)' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/org/jbundle/util/osgi/org.jbundle.util.osgi.p2/2.0.2-SNAPSHOT/org.jbundle.util.osgi.p2-2.0.2-20120627.050734-1.jar' version='2.0.2.SNAPSHOT'>
+    <description>Top level properties and features</description>
+    <size>3718</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.util.osgi.p2'/>
+      <p n='presentationname' v='jbundle-util-osgi-p2 - p2 bundle retrieval (Not finished)'/>
+      <p n='version' t='version' v='2.0.2.SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.osgi.p2'/>
+      <p n='version' t='version' v='2.0.2.SNAPSHOT'/>
+      <p n='uses:' v='org.jbundle.util.osgi.finder,org.osgi.framework'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.osgi.finder)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.osgi.finder;resolution:=optional;version="[2.0,3)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.osgi.obr))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.osgi.obr;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.framework;resolution:=optional;version="[1.5,2)"</require>
+  </resource>
+</repository>

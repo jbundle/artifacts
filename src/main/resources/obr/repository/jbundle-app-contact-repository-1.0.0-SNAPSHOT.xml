@@ -1,7 +1,7 @@
-<repository lastmodified='20120617034718.702'>
-  <resource id='org.jbundle.app.contact.db/1.0.0.SNAPSHOT' symbolicname='org.jbundle.app.contact.db' presentationname='jbundle-app-contact-db - Contact example' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/org/jbundle/app/contact/org.jbundle.app.contact.db/1.0.0-SNAPSHOT/org.jbundle.app.contact.db-1.0.0-20120617.224713-1.jar' version='1.0.0.SNAPSHOT'>
+<repository lastmodified='20120626095643.022'>
+  <resource id='org.jbundle.app.contact.db/1.0.0.SNAPSHOT' symbolicname='org.jbundle.app.contact.db' presentationname='jbundle-app-contact-db - Contact example' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/org/jbundle/app/contact/org.jbundle.app.contact.db/1.0.0-SNAPSHOT/org.jbundle.app.contact.db-1.0.0-20120627.045634-2.jar' version='1.0.0.SNAPSHOT'>
     <description>Top level properties and features</description>
-    <size>10786</size>
+    <size>10787</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -25,9 +25,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.db;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.model.screen)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.screen;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='org.jbundle.app.contact.screen/1.0.0.SNAPSHOT' symbolicname='org.jbundle.app.contact.screen' presentationname='jbundle-app-contact-screen - Contact example' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/org/jbundle/app/contact/org.jbundle.app.contact.screen/1.0.0-SNAPSHOT/org.jbundle.app.contact.screen-1.0.0-20120617.224715-1.jar' version='1.0.0.SNAPSHOT'>
+  <resource id='org.jbundle.app.contact.screen/1.0.0.SNAPSHOT' symbolicname='org.jbundle.app.contact.screen' presentationname='jbundle-app-contact-screen - Contact example' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/org/jbundle/app/contact/org.jbundle.app.contact.screen/1.0.0-SNAPSHOT/org.jbundle.app.contact.screen-1.0.0-20120627.045638-2.jar' version='1.0.0.SNAPSHOT'>
     <description>Top level properties and features</description>
-    <size>7876</size>
+    <size>7877</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -53,9 +53,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.screen)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.screen;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='org.jbundle.model.app.contact/1.0.0.SNAPSHOT' symbolicname='org.jbundle.model.app.contact' presentationname='jbundle-model-app-contact - Contact model' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/org/jbundle/app/contact/org.jbundle.model.app.contact/1.0.0-SNAPSHOT/org.jbundle.model.app.contact-1.0.0-20120617.224653-1.jar' version='1.0.0.SNAPSHOT'>
+  <resource id='org.jbundle.model.app.contact/1.0.0.SNAPSHOT' symbolicname='org.jbundle.model.app.contact' presentationname='jbundle-model-app-contact - Contact model' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/org/jbundle/app/contact/org.jbundle.model.app.contact/1.0.0-SNAPSHOT/org.jbundle.model.app.contact-1.0.0-20120627.045629-2.jar' version='1.0.0.SNAPSHOT'>
     <description>Top level properties and features</description>
-    <size>4168</size>
+    <size>4166</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -72,9 +72,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.db;resolution:=optional;version="[0.8,1)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.model.main.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.main.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='org.jbundle.res.app.contact/1.0.0.SNAPSHOT' symbolicname='org.jbundle.res.app.contact' presentationname='jbundle-res-app-contact - Contact resources' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/org/jbundle/app/contact/org.jbundle.res.app.contact/1.0.0-SNAPSHOT/org.jbundle.res.app.contact-1.0.0-20120617.224710-1.jar' version='1.0.0.SNAPSHOT'>
+  <resource id='org.jbundle.res.app.contact/1.0.0.SNAPSHOT' symbolicname='org.jbundle.res.app.contact' presentationname='jbundle-res-app-contact - Contact resources' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/org/jbundle/app/contact/org.jbundle.res.app.contact/1.0.0-SNAPSHOT/org.jbundle.res.app.contact-1.0.0-20120627.045631-2.jar' version='1.0.0.SNAPSHOT'>
     <description>Top level properties and features</description>
-    <size>4492</size>
+    <size>4493</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -92,9 +92,9 @@
       <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
     </capability>
   </resource>
-  <resource id='org.jbundle.thin.app.contact/1.0.0.SNAPSHOT' symbolicname='org.jbundle.thin.app.contact' presentationname='jbundle-thin-app-contact - Contact thin code' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/org/jbundle/app/contact/org.jbundle.thin.app.contact/1.0.0-SNAPSHOT/org.jbundle.thin.app.contact-1.0.0-20120617.224717-1.jar' version='1.0.0.SNAPSHOT'>
+  <resource id='org.jbundle.thin.app.contact/1.0.0.SNAPSHOT' symbolicname='org.jbundle.thin.app.contact' presentationname='jbundle-thin-app-contact - Contact thin code' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/org/jbundle/app/contact/org.jbundle.thin.app.contact/1.0.0-SNAPSHOT/org.jbundle.thin.app.contact-1.0.0-20120627.045641-2.jar' version='1.0.0.SNAPSHOT'>
     <description>Top level properties and features</description>
-    <size>6107</size>
+    <size>6106</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>

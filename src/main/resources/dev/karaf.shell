@@ -40,6 +40,7 @@ sleep 1000
 obr:deploy com.tourapp.config.web.other
 sleep 4000
 start com.tourapp.config.web.other
+sleep 1000
 
 osgi:install -s webbundle:mvn:org.jbundle.util.webapp/org.jbundle.util.webapp.webstart/1.2.1/war
 osgi:install -s webbundle:mvn:org.jbundle.util.webapp/org.jbundle.util.webapp.cgi/1.2.1/war?Bundle-SymbolicName=jbundle-util-webapp-cgi&Webapp-Context=/awstats
