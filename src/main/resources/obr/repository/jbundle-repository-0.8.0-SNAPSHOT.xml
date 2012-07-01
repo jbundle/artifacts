@@ -1,4 +1,4 @@
-<repository lastmodified='20120701043601.667'>
+<repository lastmodified='20120701104810.152'>
   <resource id='org.jbundle.app.program/0.8.0.SNAPSHOT' symbolicname='org.jbundle.app.program' presentationname='jbundle-app-program - Program framework' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/org/jbundle/app/program/org.jbundle.app.program/0.8.0-SNAPSHOT/org.jbundle.app.program-0.8.0-20120701.111813-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
     <size>328624</size>
@@ -2441,9 +2441,9 @@
       <p n='version' t='version' v='0.8.0.SNAPSHOT'/>
     </capability>
   </resource>
-  <resource id='org.jbundle.res.data/0.8.0.SNAPSHOT' symbolicname='org.jbundle.res.data' presentationname='jbundle-res-data - jbundle data' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/org/jbundle/res/org.jbundle.res.data/0.8.0-SNAPSHOT/org.jbundle.res.data-0.8.0-20120701.112128-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='org.jbundle.res.data/0.8.0.SNAPSHOT' symbolicname='org.jbundle.res.data' presentationname='jbundle-res-data - jbundle data' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/org/jbundle/res/org.jbundle.res.data/0.8.0-SNAPSHOT/org.jbundle.res.data-0.8.0-20120701.174734-2.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
-    <size>393365</size>
+    <size>393786</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -2537,9 +2537,9 @@
       <p n='manifestversion' v='2'/>
     </capability>
   </resource>
-  <resource id='org.jbundle.res.data.test/0.8.0.SNAPSHOT' symbolicname='org.jbundle.res.data.test' presentationname='jbundle-res-data-test - jbundle test data' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/org/jbundle/res/org.jbundle.res.data.test/0.8.0-SNAPSHOT/org.jbundle.res.data.test-0.8.0-20120701.112141-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='org.jbundle.res.data.test/0.8.0.SNAPSHOT' symbolicname='org.jbundle.res.data.test' presentationname='jbundle-res-data-test - jbundle test data' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/org/jbundle/res/org.jbundle.res.data.test/0.8.0-SNAPSHOT/org.jbundle.res.data.test-0.8.0-20120701.174807-2.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
-    <size>44768</size>
+    <size>44956</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>

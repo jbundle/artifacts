@@ -1,4 +1,4 @@
-<repository lastmodified='20120701043950.588'>
+<repository lastmodified='20120701104452.288'>
   <resource id='com.tourapp.res.tour.message/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.tour.message' presentationname='com.tourapp.res.tour.message - message resources' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.tour.message/0.8.0-SNAPSHOT/com.tourapp.res.tour.message-0.8.0-20120701.113654-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
     <size>4144</size>
@@ -426,9 +426,9 @@
     </capability>
     <require name='package' filter='(&amp;(package=org.jbundle.model.db)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.db;resolution:=optional;version="[0.8,1)"</require>
   </resource>
-  <resource id='com.tourapp.res.data.initial_data/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.data.initial_data' presentationname='tourapp-res-data - Tourapp data' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.data.initial_data/0.8.0-SNAPSHOT/com.tourapp.res.data.initial_data-0.8.0-20120701.113211-1.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.res.data.initial_data/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.data.initial_data' presentationname='tourapp-res-data - Tourapp data' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.data.initial_data/0.8.0-SNAPSHOT/com.tourapp.res.data.initial_data-0.8.0-20120701.174410-2.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>1498641</size>
+    <size>1483314</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -455,6 +455,10 @@
     </capability>
     <capability name='package'>
       <p n='package' v='com.tourapp.res.data.initial_data.current_initial_data.product_user.com.tourapp.tour.product.hotel.db'/>
+      <p n='version' t='version' v='0.8.0.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.tourapp.res.data.initial_data.current_initial_data.product_user.com.tourapp.tour.product.base.ota.db'/>
       <p n='version' t='version' v='0.8.0.SNAPSHOT'/>
     </capability>
     <capability name='package'>
