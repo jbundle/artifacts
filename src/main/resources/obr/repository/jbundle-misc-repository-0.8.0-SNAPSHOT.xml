@@ -1,7 +1,7 @@
-<repository lastmodified='20120626100034.441'>
-  <resource id='org.jbundle.base.screen.view.swing.jaxe/0.8.0.SNAPSHOT' symbolicname='org.jbundle.base.screen.view.swing.jaxe' presentationname='jbundle-base-screen-view-jaxe' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/org/jbundle/base/screen/org.jbundle.base.screen.view.swing.jaxe/0.8.0-SNAPSHOT/org.jbundle.base.screen.view.swing.jaxe-0.8.0-20120627.050033-2.jar' version='0.8.0.SNAPSHOT'>
+<repository lastmodified='20120701043651.390'>
+  <resource id='org.jbundle.base.screen.view.swing.jaxe/0.8.0.SNAPSHOT' symbolicname='org.jbundle.base.screen.view.swing.jaxe' presentationname='jbundle-base-screen-view-jaxe' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/org/jbundle/base/screen/org.jbundle.base.screen.view.swing.jaxe/0.8.0-SNAPSHOT/org.jbundle.base.screen.view.swing.jaxe-0.8.0-20120701.113649-1.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
-    <size>6842</size>
+    <size>6843</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
