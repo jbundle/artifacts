@@ -9,11 +9,11 @@ for dir in tourapp \
 ../wrapped \
 ../artifacts \
 ../jbundle/jbundle-parent \
-../jbundle/android \
+../../app/picture \
+../../app/dance \
+../../jbundle/android \
 ../../jbundle/jbundle \
 ../../jbundle/app/contact \
-../../../jbundle/app/picture \
-../../../jbundle/app/dance \
 ../../../jbundle/misc \
 ../../jbundle/util/biorhythm \
 ../../util/calendarpanel \

@@ -41,8 +41,8 @@ jbundle/jbundle-parent \
 jbundle/android \
 jbundle/jbundle \
 jbundle/app/contact \
-jbundle/app/picture \
-jbundle/app/dance \
+app/picture \
+app/dance \
 jbundle/misc \
 jbundle/util/biorhythm \
 jbundle/util/calendarpanel \

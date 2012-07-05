@@ -9,11 +9,11 @@ obsolete \
 wrapped \
 artifacts \
 jbundle/jbundle-parent \
+app/picture \
+app/dance \
 jbundle/android \
 jbundle/jbundle \
 jbundle/app/contact \
-jbundle/app/picture \
-jbundle/app/dance \
 jbundle/misc \
 jbundle/util/biorhythm \
 jbundle/util/calendarpanel \
