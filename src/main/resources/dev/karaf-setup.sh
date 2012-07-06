@@ -1,6 +1,6 @@
 export KARAF_DIST=apache-karaf-full-3.0.0-SNAPSHOT
 export KARAF_DIST=apache-servicemix-4.4.1-fuse-01-06
-KARAF_DIST=apache-karaf-2.2.7
+KARAF_DIST=apache-karaf-2.2.8
 # export KARAF_DIST=apache-servicemix-4.4.1
 # export KARAF_DIST=apache-servicemix-4.4.2
 
