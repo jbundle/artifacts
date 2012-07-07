@@ -1,5 +1,5 @@
 <repository lastmodified='20120613014325.543'>
-  <resource id='org.jbundle.util.osgi.webstart/1.6.0' symbolicname='org.jbundle.util.osgi.webstart' presentationname='jbundle-util-osgi-webstart - osgi to web start web bundle' uri='http://repo2.maven.org/maven2/org/jbundle/util/osgi/org.jbundle.util.osgi.webstart/1.6.0/org.jbundle.util.osgi.webstart-1.6.0.jar' version='1.6.0'>
+  <resource id='org.jbundle.util.osgi.webstart/1.6.0' symbolicname='org.jbundle.util.osgi.webstart' presentationname='jbundle-util-osgi-webstart - osgi to web start web bundle' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/osgi/org.jbundle.util.osgi.webstart/1.6.0/org.jbundle.util.osgi.webstart-1.6.0.jar' version='1.6.0'>
     <description>osgi to web start servlet</description>
     <size>51010</size>
     <documentation>http://www.jbundle.org</documentation>

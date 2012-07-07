@@ -2,7 +2,7 @@
 <?xml-stylesheet type='text/xsl' href='http://www.osgi.org/www/obr2html.xsl'?>
 
 <repository lastmodified='20120508163742.249' name='Untitled'>
-  <resource id='org.jbundle.util.wsdl.currencyconverter/1.0.0' presentationname='jbundle-util-wsdl-currencyconverter' symbolicname='org.jbundle.util.wsdl.currencyconverter' uri='http://repo2.maven.org/maven2/org/jbundle/util/wsdl/org.jbundle.util.wsdl.currencyconverter/1.0.0/org.jbundle.util.wsdl.currencyconverter-1.0.0.jar' version='1.0.0'>
+  <resource id='org.jbundle.util.wsdl.currencyconverter/1.0.0' presentationname='jbundle-util-wsdl-currencyconverter' symbolicname='org.jbundle.util.wsdl.currencyconverter' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/wsdl/org.jbundle.util.wsdl.currencyconverter/1.0.0/org.jbundle.util.wsdl.currencyconverter-1.0.0.jar' version='1.0.0'>
     <description>
       Top level properties and features
     </description>
@@ -36,7 +36,7 @@
       Import package javax.xml.namespace
     </require>
   </resource>
-  <resource id='org.jbundle.util.wsdl.wsdl11/1.0.0' presentationname='jbundle-wsdl-wsdl11 - wsdl 1.1 schema access' symbolicname='org.jbundle.util.wsdl.wsdl11' uri='http://repo2.maven.org/maven2/org/jbundle/util/wsdl/org.jbundle.util.wsdl.wsdl11/1.0.0/org.jbundle.util.wsdl.wsdl11-1.0.0.jar' version='1.0.0'>
+  <resource id='org.jbundle.util.wsdl.wsdl11/1.0.0' presentationname='jbundle-wsdl-wsdl11 - wsdl 1.1 schema access' symbolicname='org.jbundle.util.wsdl.wsdl11' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/wsdl/org.jbundle.util.wsdl.wsdl11/1.0.0/org.jbundle.util.wsdl.wsdl11-1.0.0.jar' version='1.0.0'>
     <description>
       Top level properties and features
     </description>
@@ -81,7 +81,7 @@
       Import package org.w3._2001.xmlschema
     </require>
   </resource>
-  <resource id='org.jbundle.util.wsdl.wsdl20/1.0.0' presentationname='jbundle-util-wsdl-wsdl20 - wsdl 2.0 schema access' symbolicname='org.jbundle.util.wsdl.wsdl20' uri='http://repo2.maven.org/maven2/org/jbundle/util/wsdl/org.jbundle.util.wsdl.wsdl20/1.0.0/org.jbundle.util.wsdl.wsdl20-1.0.0.jar' version='1.0.0'>
+  <resource id='org.jbundle.util.wsdl.wsdl20/1.0.0' presentationname='jbundle-util-wsdl-wsdl20 - wsdl 2.0 schema access' symbolicname='org.jbundle.util.wsdl.wsdl20' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/wsdl/org.jbundle.util.wsdl.wsdl20/1.0.0/org.jbundle.util.wsdl.wsdl20-1.0.0.jar' version='1.0.0'>
     <description>
       Top level properties and features
     </description>
@@ -118,7 +118,7 @@
       Import package javax.xml.namespace
     </require>
   </resource>
-  <resource id='org.jbundle.util.wsdl.xmlschema/1.0.0' presentationname='jbundle-util-wsdl-xmlschema - xml schema access' symbolicname='org.jbundle.util.wsdl.xmlschema' uri='http://repo2.maven.org/maven2/org/jbundle/util/wsdl/org.jbundle.util.wsdl.xmlschema/1.0.0/org.jbundle.util.wsdl.xmlschema-1.0.0.jar' version='1.0.0'>
+  <resource id='org.jbundle.util.wsdl.xmlschema/1.0.0' presentationname='jbundle-util-wsdl-xmlschema - xml schema access' symbolicname='org.jbundle.util.wsdl.xmlschema' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/wsdl/org.jbundle.util.wsdl.xmlschema/1.0.0/org.jbundle.util.wsdl.xmlschema-1.0.0.jar' version='1.0.0'>
     <description>
       Top level properties and features
     </description>

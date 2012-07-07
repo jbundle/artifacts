@@ -2,7 +2,7 @@
 <?xml-stylesheet type='text/xsl' href='http://www.osgi.org/www/obr2html.xsl'?>
 
 <repository lastmodified='20120508163742.249' name='Untitled'>
-  <resource id='org.jbundle.util.other.loaddist/0.7.6' presentationname='jbundle-util-other-loaddist - Load distributor' symbolicname='org.jbundle.util.other.loaddist' uri='http://repo2.maven.org/maven2/org/jbundle/util/other/org.jbundle.util.other.loaddist/0.7.6/org.jbundle.util.other.loaddist-0.7.6.jar' version='0.7.6'>
+  <resource id='org.jbundle.util.other.loaddist/0.7.6' presentationname='jbundle-util-other-loaddist - Load distributor' symbolicname='org.jbundle.util.other.loaddist' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/other/org.jbundle.util.other.loaddist/0.7.6/org.jbundle.util.other.loaddist-0.7.6.jar' version='0.7.6'>
     <description>
       Top level properties and features
     </description>
@@ -58,7 +58,7 @@
       Import package javax.swing
     </require>
   </resource>
-  <resource id='org.jbundle.util.paypal/0.7.6' presentationname='jbundle-util-paypal' symbolicname='org.jbundle.util.paypal' uri='http://repo2.maven.org/maven2/org/jbundle/util/paypal/org.jbundle.util.paypal/0.7.6/org.jbundle.util.paypal-0.7.6.jar' version='0.7.6'>
+  <resource id='org.jbundle.util.paypal/0.7.6' presentationname='jbundle-util-paypal' symbolicname='org.jbundle.util.paypal' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/paypal/org.jbundle.util.paypal/0.7.6/org.jbundle.util.paypal-0.7.6.jar' version='0.7.6'>
     <description>
       Top level properties and features
     </description>
@@ -89,7 +89,7 @@
       Import package com.paypal.platform.sdk.exception ;version=[0.7.0,1.0.0)
     </require>
   </resource>
-  <resource id='org.jbundle.util.paypal.lib/0.7.6' presentationname='jbundle-util-paypal-lib' symbolicname='org.jbundle.util.paypal.lib' uri='http://repo2.maven.org/maven2/org/jbundle/util/paypal/org.jbundle.util.paypal.lib/0.7.6/org.jbundle.util.paypal.lib-0.7.6.jar' version='0.7.6'>
+  <resource id='org.jbundle.util.paypal.lib/0.7.6' presentationname='jbundle-util-paypal-lib' symbolicname='org.jbundle.util.paypal.lib' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/paypal/org.jbundle.util.paypal.lib/0.7.6/org.jbundle.util.paypal.lib-0.7.6.jar' version='0.7.6'>
     <description>
       Top level properties and features
     </description>

@@ -2,7 +2,7 @@
 <?xml-stylesheet type='text/xsl' href='http://www.osgi.org/www/obr2html.xsl'?>
 
 <repository lastmodified='20120508163742.249' name='Untitled'>
-  <resource id='Untitled-2128233568/0.0.0' symbolicname='Untitled-2128233568' uri='http://repo2.maven.org/maven2/org/jbundle/util/osgi/wrapped/org.jbundle.util.osgi.wrapped.uk.org.pajhome.crypt.sha1/2.2.0/org.jbundle.util.osgi.wrapped.uk.org.pajhome.crypt.sha1-2.2.0-sources.jar' version='0.0.0'>
+  <resource id='Untitled-2128233568/0.0.0' symbolicname='Untitled-2128233568' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/osgi/wrapped/org.jbundle.util.osgi.wrapped.uk.org.pajhome.crypt.sha1/2.2.0/org.jbundle.util.osgi.wrapped.uk.org.pajhome.crypt.sha1-2.2.0-sources.jar' version='0.0.0'>
     <size>
       4094
     </size>
@@ -12,7 +12,7 @@
       <p n='version' t='version' v='0.0.0'/>
     </capability>
   </resource>
-  <resource id='org.jbundle.util.osgi.wrapped.jnlp.sample/1.0.0.02_ea_b021' presentationname='jbundle-util-osgi-wrapped-jnlp-sample - OSGi Jnlp servlet' symbolicname='org.jbundle.util.osgi.wrapped.jnlp.sample' uri='http://repo2.maven.org/maven2/org/jbundle/util/osgi/wrapped/org.jbundle.util.osgi.wrapped.jnlp.sample/1.0-6.0.02_ea_b02.1/org.jbundle.util.osgi.wrapped.jnlp.sample-1.0-6.0.02_ea_b02.1.jar' version='1.0.0.02_ea_b021'>
+  <resource id='org.jbundle.util.osgi.wrapped.jnlp.sample/1.0.0.02_ea_b021' presentationname='jbundle-util-osgi-wrapped-jnlp-sample - OSGi Jnlp servlet' symbolicname='org.jbundle.util.osgi.wrapped.jnlp.sample' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/osgi/wrapped/org.jbundle.util.osgi.wrapped.jnlp.sample/1.0-6.0.02_ea_b02.1/org.jbundle.util.osgi.wrapped.jnlp.sample-1.0-6.0.02_ea_b02.1.jar' version='1.0.0.02_ea_b021'>
     <description>
       Jnlp servlet
     </description>
@@ -77,7 +77,7 @@
       Import package org.xml.sax
     </require>
   </resource>
-  <resource id='org.jbundle.util.osgi.wrapped.org.apache.catalina.servlets/7.0.23' presentationname='jbundle-util-osgi-wrapped-servlets - catalina servlets' symbolicname='org.jbundle.util.osgi.wrapped.org.apache.catalina.servlets' uri='http://repo2.maven.org/maven2/org/jbundle/util/osgi/wrapped/org.jbundle.util.osgi.wrapped.org.apache.catalina.servlets/7.0.23/org.jbundle.util.osgi.wrapped.org.apache.catalina.servlets-7.0.23.jar' version='7.0.23'>
+  <resource id='org.jbundle.util.osgi.wrapped.org.apache.catalina.servlets/7.0.23' presentationname='jbundle-util-osgi-wrapped-servlets - catalina servlets' symbolicname='org.jbundle.util.osgi.wrapped.org.apache.catalina.servlets' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/osgi/wrapped/org.jbundle.util.osgi.wrapped.org.apache.catalina.servlets/7.0.23/org.jbundle.util.osgi.wrapped.org.apache.catalina.servlets-7.0.23.jar' version='7.0.23'>
     <description>
       Top level properties and features
     </description>
@@ -467,7 +467,7 @@
       Import package org.xml.sax.helpers
     </require>
   </resource>
-  <resource id='org.jbundle.util.osgi.wrapped.org.apache.http.client/4.1.2' presentationname='jbundle-util-osgi-wrapped-httpclient - httpclient osgi' symbolicname='org.jbundle.util.osgi.wrapped.org.apache.http.client' uri='http://repo2.maven.org/maven2/org/jbundle/util/osgi/wrapped/org.jbundle.util.osgi.wrapped.org.apache.http.client/4.1.2/org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2.jar' version='4.1.2'>
+  <resource id='org.jbundle.util.osgi.wrapped.org.apache.http.client/4.1.2' presentationname='jbundle-util-osgi-wrapped-httpclient - httpclient osgi' symbolicname='org.jbundle.util.osgi.wrapped.org.apache.http.client' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/osgi/wrapped/org.jbundle.util.osgi.wrapped.org.apache.http.client/4.1.2/org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2.jar' version='4.1.2'>
     <description>
       Top level properties and features
     </description>
@@ -666,7 +666,7 @@
       Import package org.ietf.jgss
     </require>
   </resource>
-  <resource id='org.jbundle.util.osgi.wrapped.org.jbundle.util.osgi.wrapped.c3p0/0.9.1.2' presentationname='jbundle-util-osgi-wrapped-c3p0 - c3p0 wrapped osgi' symbolicname='org.jbundle.util.osgi.wrapped.org.jbundle.util.osgi.wrapped.c3p0' uri='http://repo2.maven.org/maven2/org/jbundle/util/osgi/wrapped/org.jbundle.util.osgi.wrapped.c3p0/0.9.1.2/org.jbundle.util.osgi.wrapped.c3p0-0.9.1.2.jar' version='0.9.1.2'>
+  <resource id='org.jbundle.util.osgi.wrapped.org.jbundle.util.osgi.wrapped.c3p0/0.9.1.2' presentationname='jbundle-util-osgi-wrapped-c3p0 - c3p0 wrapped osgi' symbolicname='org.jbundle.util.osgi.wrapped.org.jbundle.util.osgi.wrapped.c3p0' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/osgi/wrapped/org.jbundle.util.osgi.wrapped.c3p0/0.9.1.2/org.jbundle.util.osgi.wrapped.c3p0-0.9.1.2.jar' version='0.9.1.2'>
     <description>
       Top level properties and features
     </description>

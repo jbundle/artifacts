@@ -2,7 +2,7 @@
 <?xml-stylesheet type='text/xsl' href='http://www.osgi.org/www/obr2html.xsl'?>
 
 <repository lastmodified='20120508163742.249' name='Untitled'>
-  <resource id='org.jbundle.util.jcalendarbutton/1.6.0' presentationname='jbundle-util-jcalendarbutton - Date and Time Popup Buttons' symbolicname='org.jbundle.util.jcalendarbutton' uri='http://repo2.maven.org/maven2/org/jbundle/util/jcalendarbutton/org.jbundle.util.jcalendarbutton/1.6.0/org.jbundle.util.jcalendarbutton-1.6.0.jar' version='1.6.0'>
+  <resource id='org.jbundle.util.jcalendarbutton/1.6.0' presentationname='jbundle-util-jcalendarbutton - Date and Time Popup Buttons' symbolicname='org.jbundle.util.jcalendarbutton' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/jcalendarbutton/org.jbundle.util.jcalendarbutton/1.6.0/org.jbundle.util.jcalendarbutton-1.6.0.jar' version='1.6.0'>
     <description>
       JCalendarButton is a simple java swing component that displays
        a popup calendar next to a date input field.

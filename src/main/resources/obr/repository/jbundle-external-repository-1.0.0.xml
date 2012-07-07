@@ -2,7 +2,7 @@
 <?xml-stylesheet type='text/xsl' href='http://www.osgi.org/www/obr2html.xsl'?>
 
 <repository lastmodified='20120508155649.483' name='Untitled'>
-  <resource id='Untitled--1861474817/0.0.0' symbolicname='Untitled--1861474817' uri='http://repo2.maven.org/maven2/javax/mail/mail/1.4.1/mail-1.4.1.jar' version='0.0.0'>
+  <resource id='Untitled--1861474817/0.0.0' symbolicname='Untitled--1861474817' uri='http://repo.maven.apache.org/maven2/javax/mail/mail/1.4.1/mail-1.4.1.jar' version='0.0.0'>
     <size>
       447676
     </size>
@@ -12,7 +12,7 @@
       <p n='version' t='version' v='0.0.0'/>
     </capability>
   </resource>
-  <resource id='Untitled-913626462/0.0.0' symbolicname='Untitled-913626462' uri='http://repo2.maven.org/maven2/javax/mail/mail/1.4/mail-1.4.jar' version='0.0.0'>
+  <resource id='Untitled-913626462/0.0.0' symbolicname='Untitled-913626462' uri='http://repo.maven.apache.org/maven2/javax/mail/mail/1.4/mail-1.4.jar' version='0.0.0'>
     <size>
       388864
     </size>
@@ -22,7 +22,7 @@
       <p n='version' t='version' v='0.0.0'/>
     </capability>
   </resource>
-  <resource id='biz.source_code.base64coder/1.0.0.2010-12-19' presentationname='Base64Coder' symbolicname='biz.source_code.base64coder' uri='http://repo2.maven.org/maven2/biz/source_code/base64coder/2010-12-19/base64coder-2010-12-19.jar' version='1.0.0.2010-12-19'>
+  <resource id='biz.source_code.base64coder/1.0.0.2010-12-19' presentationname='Base64Coder' symbolicname='biz.source_code.base64coder' uri='http://repo.maven.apache.org/maven2/biz/source_code/base64coder/2010-12-19/base64coder-2010-12-19.jar' version='1.0.0.2010-12-19'>
     <description>
       A Base64 encoder/decoder in Java.
     </description>
@@ -51,7 +51,7 @@
       Import package biz.source_code.base64Coder
     </require>
   </resource>
-  <resource id='com.mysql.jdbc/5.1.18' presentationname="Sun Microsystems' JDBC Driver for MySQL" symbolicname='com.mysql.jdbc' uri='http://repo2.maven.org/maven2/mysql/mysql-connector-java/5.1.18/mysql-connector-java-5.1.18.jar' version='5.1.18'>
+  <resource id='com.mysql.jdbc/5.1.18' presentationname="Sun Microsystems' JDBC Driver for MySQL" symbolicname='com.mysql.jdbc' uri='http://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.18/mysql-connector-java-5.1.18.jar' version='5.1.18'>
     <size>
       789885
     </size>
@@ -173,7 +173,7 @@
       Import package org.jboss.resource.adapter.jdbc.vendor
     </require>
   </resource>
-  <resource id='com.mysql.jdbc/5.1.20' presentationname="Sun Microsystems' JDBC Driver for MySQL" symbolicname='com.mysql.jdbc' uri='http://repo2.maven.org/maven2/mysql/mysql-connector-java/5.1.20/mysql-connector-java-5.1.20.jar' version='5.1.20'>
+  <resource id='com.mysql.jdbc/5.1.20' presentationname="Sun Microsystems' JDBC Driver for MySQL" symbolicname='com.mysql.jdbc' uri='http://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.20/mysql-connector-java-5.1.20.jar' version='5.1.20'>
     <size>
       802721
     </size>
@@ -295,7 +295,7 @@
       Import package org.jboss.resource.adapter.jdbc.vendor
     </require>
   </resource>
-  <resource id='com.mysql.jdbc/5.1.17' presentationname="Sun Microsystems' JDBC Driver for MySQL" symbolicname='com.mysql.jdbc' uri='http://repo2.maven.org/maven2/mysql/mysql-connector-java/5.1.17/mysql-connector-java-5.1.17.jar' version='5.1.17'>
+  <resource id='com.mysql.jdbc/5.1.17' presentationname="Sun Microsystems' JDBC Driver for MySQL" symbolicname='com.mysql.jdbc' uri='http://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.17/mysql-connector-java-5.1.17.jar' version='5.1.17'>
     <size>
       787920
     </size>
@@ -417,7 +417,7 @@
       Import package org.jboss.resource.adapter.jdbc.vendor
     </require>
   </resource>
-  <resource id='javax.mail/1.4.5' presentationname='JavaMail API (compat)' symbolicname='javax.mail' uri='http://repo2.maven.org/maven2/javax/mail/mail/1.4.5/mail-1.4.5.jar' version='1.4.5'>
+  <resource id='javax.mail/1.4.5' presentationname='JavaMail API (compat)' symbolicname='javax.mail' uri='http://repo.maven.apache.org/maven2/javax/mail/mail/1.4.5/mail-1.4.5.jar' version='1.4.5'>
     <description>
       JavaMail API (compat)
     </description>
@@ -574,7 +574,7 @@
       Import package sun.security.util
     </require>
   </resource>
-  <resource id='javax.mail/1.4.4' presentationname='JavaMail API (compat)' symbolicname='javax.mail' uri='http://repo2.maven.org/maven2/javax/mail/mail/1.4.4/mail-1.4.4.jar' version='1.4.4'>
+  <resource id='javax.mail/1.4.4' presentationname='JavaMail API (compat)' symbolicname='javax.mail' uri='http://repo.maven.apache.org/maven2/javax/mail/mail/1.4.4/mail-1.4.4.jar' version='1.4.4'>
     <description>
       JavaMail API (compat)
     </description>

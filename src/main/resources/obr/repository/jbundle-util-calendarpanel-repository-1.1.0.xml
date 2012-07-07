@@ -2,7 +2,7 @@
 <?xml-stylesheet type='text/xsl' href='http://www.osgi.org/www/obr2html.xsl'?>
 
 <repository lastmodified='20120508163742.249' name='Untitled'>
-  <resource id='org.jbundle.util.calendarpanel/1.1.0' presentationname='jbundle-util-calendarpanel - Calendar panel' symbolicname='org.jbundle.util.calendarpanel' uri='http://repo2.maven.org/maven2/org/jbundle/util/calendarpanel/org.jbundle.util.calendarpanel/1.1.0/org.jbundle.util.calendarpanel-1.1.0.jar' version='1.1.0'>
+  <resource id='org.jbundle.util.calendarpanel/1.1.0' presentationname='jbundle-util-calendarpanel - Calendar panel' symbolicname='org.jbundle.util.calendarpanel' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/calendarpanel/org.jbundle.util.calendarpanel/1.1.0/org.jbundle.util.calendarpanel-1.1.0.jar' version='1.1.0'>
     <description>
       Top level properties and features
     </description>
@@ -59,7 +59,7 @@
       Import package javax.swing.table
     </require>
   </resource>
-  <resource id='org.jbundle.util.calendarpanel.sample.rich/1.1.0' presentationname='jbundle-util-calendarpanel-sample-rich' symbolicname='org.jbundle.util.calendarpanel.sample.rich' uri='http://repo2.maven.org/maven2/org/jbundle/util/calendarpanel/org.jbundle.util.calendarpanel.sample.rich/1.1.0/org.jbundle.util.calendarpanel.sample.rich-1.1.0.jar' version='1.1.0'>
+  <resource id='org.jbundle.util.calendarpanel.sample.rich/1.1.0' presentationname='jbundle-util-calendarpanel-sample-rich' symbolicname='org.jbundle.util.calendarpanel.sample.rich' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/calendarpanel/org.jbundle.util.calendarpanel.sample.rich/1.1.0/org.jbundle.util.calendarpanel.sample.rich-1.1.0.jar' version='1.1.0'>
     <description>
       Top level properties and features
     </description>
@@ -108,7 +108,7 @@
       Import package org.jbundle.util.jcalendarbutton ;version=[1.6.0,2.0.0)
     </require>
   </resource>
-  <resource id='org.jbundle.util.calendarpanel.sample.simple/1.1.0' presentationname='jbundle-util-calendarpanel-sample-simple' symbolicname='org.jbundle.util.calendarpanel.sample.simple' uri='http://repo2.maven.org/maven2/org/jbundle/util/calendarpanel/org.jbundle.util.calendarpanel.sample.simple/1.1.0/org.jbundle.util.calendarpanel.sample.simple-1.1.0.jar' version='1.1.0'>
+  <resource id='org.jbundle.util.calendarpanel.sample.simple/1.1.0' presentationname='jbundle-util-calendarpanel-sample-simple' symbolicname='org.jbundle.util.calendarpanel.sample.simple' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/calendarpanel/org.jbundle.util.calendarpanel.sample.simple/1.1.0/org.jbundle.util.calendarpanel.sample.simple-1.1.0.jar' version='1.1.0'>
     <description>
       Top level properties and features
     </description>

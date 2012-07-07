@@ -2,7 +2,7 @@
 <?xml-stylesheet type='text/xsl' href='http://www.osgi.org/www/obr2html.xsl'?>
 
 <repository lastmodified='20120508163742.249' name='Untitled'>
-  <resource id='org.jbundle.util.apprunner/2.0.1' presentationname='jbundle-util-apprunner - Application runner' symbolicname='org.jbundle.util.apprunner' uri='http://repo2.maven.org/maven2/org/jbundle/util/org.jbundle.util.apprunner/2.0.1/org.jbundle.util.apprunner-2.0.1.jar' version='2.0.1'>
+  <resource id='org.jbundle.util.apprunner/2.0.1' presentationname='jbundle-util-apprunner - Application runner' symbolicname='org.jbundle.util.apprunner' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/org.jbundle.util.apprunner/2.0.1/org.jbundle.util.apprunner-2.0.1.jar' version='2.0.1'>
     <description>
       Top level properties and features
     </description>
@@ -30,7 +30,7 @@
       Import package javax.swing
     </require>
   </resource>
-  <resource id='org.jbundle.util.backup/2.0.1' presentationname='jbundle-util-backup - Standalone backup utility' symbolicname='org.jbundle.util.backup' uri='http://repo2.maven.org/maven2/org/jbundle/util/backup/org.jbundle.util.backup/2.0.1/org.jbundle.util.backup-2.0.1.jar' version='2.0.1'>
+  <resource id='org.jbundle.util.backup/2.0.1' presentationname='jbundle-util-backup - Standalone backup utility' symbolicname='org.jbundle.util.backup' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/backup/org.jbundle.util.backup/2.0.1/org.jbundle.util.backup-2.0.1.jar' version='2.0.1'>
     <description>
       Top level properties and features
     </description>
@@ -206,7 +206,7 @@
       Import package org.apache.log4j
     </require>
   </resource>
-  <resource id='org.jbundle.util.jbackup/2.0.1' presentationname='jbundle-util-jbackup - Backup utility' symbolicname='org.jbundle.util.jbackup' uri='http://repo2.maven.org/maven2/org/jbundle/util/org.jbundle.util.jbackup/2.0.1/org.jbundle.util.jbackup-2.0.1.jar' version='2.0.1'>
+  <resource id='org.jbundle.util.jbackup/2.0.1' presentationname='jbundle-util-jbackup - Backup utility' symbolicname='org.jbundle.util.jbackup' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/org.jbundle.util.jbackup/2.0.1/org.jbundle.util.jbackup-2.0.1.jar' version='2.0.1'>
     <description>
       Top level properties and features
     </description>
@@ -246,7 +246,7 @@
       Import package org.jbundle.util.apprunner ;version=[2.0.0,3.0.0)
     </require>
   </resource>
-  <resource id='org.jbundle.util.muffinmanager/2.0.1' presentationname='jbundle-util-muffinmanager - WebStart management' symbolicname='org.jbundle.util.muffinmanager' uri='http://repo2.maven.org/maven2/org/jbundle/util/org.jbundle.util.muffinmanager/2.0.1/org.jbundle.util.muffinmanager-2.0.1.jar' version='2.0.1'>
+  <resource id='org.jbundle.util.muffinmanager/2.0.1' presentationname='jbundle-util-muffinmanager - WebStart management' symbolicname='org.jbundle.util.muffinmanager' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/org.jbundle.util.muffinmanager/2.0.1/org.jbundle.util.muffinmanager-2.0.1.jar' version='2.0.1'>
     <description>
       Top level properties and features
     </description>

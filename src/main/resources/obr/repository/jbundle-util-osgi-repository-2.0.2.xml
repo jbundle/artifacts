@@ -1,5 +1,5 @@
 <repository lastmodified='20120628110842.123'>
-  <resource id='org.jbundle.util.osgi/2.0.2' symbolicname='org.jbundle.util.osgi' presentationname='jbundle-util-osgi - base bundle retrieval' uri='http://repo2.maven.org/maven2/org/jbundle/util/osgi/org.jbundle.util.osgi/2.0.2/org.jbundle.util.osgi-2.0.2.jar' version='2.0.2'>
+  <resource id='org.jbundle.util.osgi/2.0.2' symbolicname='org.jbundle.util.osgi' presentationname='jbundle-util-osgi - base bundle retrieval' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/osgi/org.jbundle.util.osgi/2.0.2/org.jbundle.util.osgi-2.0.2.jar' version='2.0.2'>
     <description>Top level properties and features</description>
     <size>32949</size>
     <documentation>http://www.jbundle.org</documentation>
@@ -28,7 +28,7 @@
     <require name='package' filter='(&amp;(package=org.osgi.service.cm)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.service.cm;resolution:=optional;version="[1.3,2)"</require>
     <require name='package' filter='(&amp;(package=org.osgi.service.log)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.service.log;resolution:=optional;version="[1.3,2)"</require>
   </resource>
-  <resource id='org.jbundle.util.osgi.obr/2.0.2' symbolicname='org.jbundle.util.osgi.obr' presentationname='jbundle-util-osgi-obr - obr bundle retrieval' uri='http://repo2.maven.org/maven2/org/jbundle/util/osgi/org.jbundle.util.osgi.obr/2.0.2/org.jbundle.util.osgi.obr-2.0.2.jar' version='2.0.2'>
+  <resource id='org.jbundle.util.osgi.obr/2.0.2' symbolicname='org.jbundle.util.osgi.obr' presentationname='jbundle-util-osgi-obr - obr bundle retrieval' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/osgi/org.jbundle.util.osgi.obr/2.0.2/org.jbundle.util.osgi.obr-2.0.2.jar' version='2.0.2'>
     <description>Top level properties and features</description>
     <size>8742</size>
     <documentation>http://www.jbundle.org</documentation>
@@ -49,7 +49,7 @@
     <require name='package' filter='(&amp;(package=org.jbundle.util.osgi.finder)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.osgi.finder;resolution:=optional;version="[2.0,3)"</require>
     <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.framework;resolution:=optional;version="[1.5,2)"</require>
   </resource>
-  <resource id='org.jbundle.util.osgi.p2/2.0.2' symbolicname='org.jbundle.util.osgi.p2' presentationname='jbundle-util-osgi-p2 - p2 bundle retrieval (Not finished)' uri='http://repo2.maven.org/maven2/org/jbundle/util/osgi/org.jbundle.util.osgi.p2/2.0.2/org.jbundle.util.osgi.p2-2.0.2.jar' version='2.0.2'>
+  <resource id='org.jbundle.util.osgi.p2/2.0.2' symbolicname='org.jbundle.util.osgi.p2' presentationname='jbundle-util-osgi-p2 - p2 bundle retrieval (Not finished)' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/osgi/org.jbundle.util.osgi.p2/2.0.2/org.jbundle.util.osgi.p2-2.0.2.jar' version='2.0.2'>
     <description>Top level properties and features</description>
     <size>3688</size>
     <documentation>http://www.jbundle.org</documentation>

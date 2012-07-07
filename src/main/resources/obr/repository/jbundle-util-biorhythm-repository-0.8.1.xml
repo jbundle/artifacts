@@ -2,7 +2,7 @@
 <?xml-stylesheet type='text/xsl' href='http://www.osgi.org/www/obr2html.xsl'?>
 
 <repository lastmodified='20120508163742.249' name='Untitled'>
-  <resource id='org.jbundle.util.biorhythm/0.8.1' presentationname='jbundle-util-biorhythm - Biorhythm' symbolicname='org.jbundle.util.biorhythm' uri='http://repo2.maven.org/maven2/org/jbundle/util/biorhythm/org.jbundle.util.biorhythm/0.8.1/org.jbundle.util.biorhythm-0.8.1.jar' version='0.8.1'>
+  <resource id='org.jbundle.util.biorhythm/0.8.1' presentationname='jbundle-util-biorhythm - Biorhythm' symbolicname='org.jbundle.util.biorhythm' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/biorhythm/org.jbundle.util.biorhythm/0.8.1/org.jbundle.util.biorhythm-0.8.1.jar' version='0.8.1'>
     <description>
       Biorhythm Theory states that our lives are influenced by a
        Physical,Emotional, and Intellectual cycle which begin at
@@ -44,7 +44,7 @@
       Import package org.jbundle.util.muffinmanager ;version=[2.0.0,3.0.0)
     </require>
   </resource>
-  <resource id='org.jbundle.util.biorhythm.i18n/0.8.1' presentationname='jbundle-util-biorhythm-i18n - Biorhythm internationalization' symbolicname='org.jbundle.util.biorhythm.i18n' uri='http://repo2.maven.org/maven2/org/jbundle/util/biorhythm/org.jbundle.util.biorhythm.i18n/0.8.1/org.jbundle.util.biorhythm.i18n-0.8.1.jar' version='0.8.1'>
+  <resource id='org.jbundle.util.biorhythm.i18n/0.8.1' presentationname='jbundle-util-biorhythm-i18n - Biorhythm internationalization' symbolicname='org.jbundle.util.biorhythm.i18n' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/biorhythm/org.jbundle.util.biorhythm.i18n/0.8.1/org.jbundle.util.biorhythm.i18n-0.8.1.jar' version='0.8.1'>
     <description>
       Biorhythm Theory states that our lives are influenced by a
        Physical,Emotional, and Intellectual cycle which begin at
@@ -73,7 +73,7 @@
       <p n='version' t='version' v='0.8.1'/>
     </capability>
   </resource>
-  <resource id='org.jbundle.util.biorhythm.osgi/0.8.1' presentationname='jbundle-util-biorhythm-osgi' symbolicname='org.jbundle.util.biorhythm.osgi' uri='http://repo2.maven.org/maven2/org/jbundle/util/biorhythm/org.jbundle.util.biorhythm.osgi/0.8.1/org.jbundle.util.biorhythm.osgi-0.8.1.jar' version='0.8.1'>
+  <resource id='org.jbundle.util.biorhythm.osgi/0.8.1' presentationname='jbundle-util-biorhythm-osgi' symbolicname='org.jbundle.util.biorhythm.osgi' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/biorhythm/org.jbundle.util.biorhythm.osgi/0.8.1/org.jbundle.util.biorhythm.osgi-0.8.1.jar' version='0.8.1'>
     <description>
       Biorhythm Theory states that our lives are influenced by a
        Physical,Emotional, and Intellectual cycle which begin at

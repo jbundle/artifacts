@@ -2,7 +2,7 @@
 <?xml-stylesheet type='text/xsl' href='http://www.osgi.org/www/obr2html.xsl'?>
 
 <repository lastmodified='20120508163742.249' name='Untitled'>
-  <resource id='org.jbundle.util.webapp.base/1.2.1' presentationname='jbundle-util-webapp-base - base servlet' symbolicname='org.jbundle.util.webapp.base' uri='http://repo2.maven.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.base/1.2.1/org.jbundle.util.webapp.base-1.2.1.jar' version='1.2.1'>
+  <resource id='org.jbundle.util.webapp.base/1.2.1' presentationname='jbundle-util-webapp-base - base servlet' symbolicname='org.jbundle.util.webapp.base' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.base/1.2.1/org.jbundle.util.webapp.base-1.2.1.jar' version='1.2.1'>
     <description>
       This project provides a template for a base servlet.      
         This servlet has simple functionality that is shared with
@@ -56,7 +56,7 @@
       Import package org.osgi.util.tracker ;version=[1.4.0,2.0.0)
     </require>
   </resource>
-  <resource id='org.jbundle.util.webapp.files/1.2.1' presentationname='jbundle-util-webapp-files - webapp files' symbolicname='org.jbundle.util.webapp.files' uri='http://repo2.maven.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.files/1.2.1/org.jbundle.util.webapp.files-1.2.1.jar' version='1.2.1'>
+  <resource id='org.jbundle.util.webapp.files/1.2.1' presentationname='jbundle-util-webapp-files - webapp files' symbolicname='org.jbundle.util.webapp.files' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.files/1.2.1/org.jbundle.util.webapp.files-1.2.1.jar' version='1.2.1'>
     <description>
       This project provides a template for a simple file download
        site.   Just drop your files into the root directory and your
@@ -110,7 +110,7 @@
       Import package org.osgi.service.http ;version=[1.2.0,2.0.0)
     </require>
   </resource>
-  <resource id='org.jbundle.util.webapp.proxy/1.2.1' presentationname='jbundle-util-webapp-proxy - proxy servlet' symbolicname='org.jbundle.util.webapp.proxy' uri='http://repo2.maven.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.proxy/1.2.1/org.jbundle.util.webapp.proxy-1.2.1.jar' version='1.2.1'>
+  <resource id='org.jbundle.util.webapp.proxy/1.2.1' presentationname='jbundle-util-webapp-proxy - proxy servlet' symbolicname='org.jbundle.util.webapp.proxy' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.proxy/1.2.1/org.jbundle.util.webapp.proxy-1.2.1.jar' version='1.2.1'>
     <description>
       This project provides a template for a proxy servlet.   This
        servlet will forward requests to another site and return 
@@ -170,7 +170,7 @@
       Import package org.osgi.framework ;version=[1.5.0,2.0.0)
     </require>
   </resource>
-  <resource id='org.jbundle.util.webapp.redirect/1.2.1' presentationname='jbundle-util-webapp-redirect - redirect servlet' symbolicname='org.jbundle.util.webapp.redirect' uri='http://repo2.maven.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.redirect/1.2.1/org.jbundle.util.webapp.redirect-1.2.1.jar' version='1.2.1'>
+  <resource id='org.jbundle.util.webapp.redirect/1.2.1' presentationname='jbundle-util-webapp-redirect - redirect servlet' symbolicname='org.jbundle.util.webapp.redirect' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.redirect/1.2.1/org.jbundle.util.webapp.redirect-1.2.1.jar' version='1.2.1'>
     <description>
       This project provides a template for a redirect servlet.  
             This servlet will automatically redirect matching urls
@@ -209,7 +209,7 @@
       Import package org.osgi.framework ;version=[1.5.0,2.0.0)
     </require>
   </resource>
-  <resource id='org.jbundle.util.webapp.sample/1.2.1' presentationname='jbundle-util-webapp-sample - Simple java sample app' symbolicname='org.jbundle.util.webapp.sample' uri='http://repo2.maven.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.sample/1.2.1/org.jbundle.util.webapp.sample-1.2.1.jar' version='1.2.1'>
+  <resource id='org.jbundle.util.webapp.sample/1.2.1' presentationname='jbundle-util-webapp-sample - Simple java sample app' symbolicname='org.jbundle.util.webapp.sample' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.sample/1.2.1/org.jbundle.util.webapp.sample-1.2.1.jar' version='1.2.1'>
     <description>
       Top level properties and features
     </description>
@@ -237,7 +237,7 @@
       Import package javax.swing
     </require>
   </resource>
-  <resource id='org.jbundle.util.webapp.upload/1.2.1' presentationname='jbundle-util-webapp-upload - web upload servlet' symbolicname='org.jbundle.util.webapp.upload' uri='http://repo2.maven.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.upload/1.2.1/org.jbundle.util.webapp.upload-1.2.1.jar' version='1.2.1'>
+  <resource id='org.jbundle.util.webapp.upload/1.2.1' presentationname='jbundle-util-webapp-upload - web upload servlet' symbolicname='org.jbundle.util.webapp.upload' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.upload/1.2.1/org.jbundle.util.webapp.upload-1.2.1.jar' version='1.2.1'>
     <description>
       This project provides a template for a file upload site.  
             Select a file in your web browser, and it will be uploaded
@@ -279,7 +279,7 @@
       Import package org.osgi.framework ;version=[1.5.0,2.0.0)
     </require>
   </resource>
-  <resource id='org.jbundle.util.webapp.upload.unjar/1.2.1' presentationname='jbundle-util-webapp-upload-unjar - unjar servlet' symbolicname='org.jbundle.util.webapp.upload.unjar' uri='http://repo2.maven.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.upload.unjar/1.2.1/org.jbundle.util.webapp.upload.unjar-1.2.1.jar' version='1.2.1'>
+  <resource id='org.jbundle.util.webapp.upload.unjar/1.2.1' presentationname='jbundle-util-webapp-upload-unjar - unjar servlet' symbolicname='org.jbundle.util.webapp.upload.unjar' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.upload.unjar/1.2.1/org.jbundle.util.webapp.upload.unjar-1.2.1.jar' version='1.2.1'>
     <description>
       Top level properties and features
     </description>
@@ -322,7 +322,7 @@
       Import package org.osgi.framework ;version=[1.5.0,2.0.0)
     </require>
   </resource>
-  <resource id='org.jbundle.util.webapp.webdav/1.2.1' presentationname='jbundle-util-webapp-webdav - webdav directory' symbolicname='org.jbundle.util.webapp.webdav' uri='http://repo2.maven.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.webdav/1.2.1/org.jbundle.util.webapp.webdav-1.2.1.jar' version='1.2.1'>
+  <resource id='org.jbundle.util.webapp.webdav/1.2.1' presentationname='jbundle-util-webapp-webdav - webdav directory' symbolicname='org.jbundle.util.webapp.webdav' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.webdav/1.2.1/org.jbundle.util.webapp.webdav-1.2.1.jar' version='1.2.1'>
     <description>
       This project provides a template for a webdav site.       
        You can read and write files to this site using most applications
@@ -368,7 +368,7 @@
       Import package org.osgi.framework ;version=[1.5.0,2.0.0)
     </require>
   </resource>
-  <resource id='org.jbundle.util.webapp.website/1.2.1' presentationname='jbundle-util-webapp-website - simple website' symbolicname='org.jbundle.util.webapp.website' uri='http://repo2.maven.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.website/1.2.1/org.jbundle.util.webapp.website-1.2.1.jar' version='1.2.1'>
+  <resource id='org.jbundle.util.webapp.website/1.2.1' presentationname='jbundle-util-webapp-website - simple website' symbolicname='org.jbundle.util.webapp.website' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.website/1.2.1/org.jbundle.util.webapp.website-1.2.1.jar' version='1.2.1'>
     <description>
       This project provides a template for a simple web site.   
            Just drop your html files into the root directory and
@@ -404,7 +404,7 @@
       Import package org.osgi.framework ;version=[1.5.0,2.0.0)
     </require>
   </resource>
-  <resource id='org.jbundle.util.webapp.xsl/1.2.1' presentationname='jbundle-util-webapp-xsl - xsl servlet' symbolicname='org.jbundle.util.webapp.xsl' uri='http://repo2.maven.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.xsl/1.2.1/org.jbundle.util.webapp.xsl-1.2.1.jar' version='1.2.1'>
+  <resource id='org.jbundle.util.webapp.xsl/1.2.1' presentationname='jbundle-util-webapp-xsl - xsl servlet' symbolicname='org.jbundle.util.webapp.xsl' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/webapp/org.jbundle.util.webapp.xsl/1.2.1/org.jbundle.util.webapp.xsl-1.2.1.jar' version='1.2.1'>
     <description>
       This project provides a template for a xsl servlet.       
        This servlet will automatically create xhtml from xml and
