@@ -1,5 +1,5 @@
-features:addurl mvn:org.apache.karaf.cave/apache-karaf-cave/3.0.0-SNAPSHOT/xml/features
-features:install cave-obr-server
+# features:addurl mvn:org.apache.karaf.cave/apache-karaf-cave/3.0.0-SNAPSHOT/xml/features
+# features:install cave-obr-server
 
 features:install http obr war
 sleep 4000
@@ -9,12 +9,12 @@ sleep 4000
 # obr:addurl mvn:org.jbundle.config/jbundle-artifacts/1.1.7/xml/repository
 obr:addurl http://repository.jbundle.org:8081/nexus/content/repositories/repository/repository.xml
 
-obr:removeurl http://repository.jbundle.org:8081/nexus/content/repositories/repository/jbundle-repository-0.8.0-SNAPSHOT.xml
-cave:create-repository jbundle
-cave:proxy-repository jbundle file:/home/don/.m2/repository/org/jbundle
-obr:removeurl http://repository.jbundle.org:8081/nexus/content/repositories/repository/tourapp-repository-0.8.0-SNAPSHOT.xml
-cave:create-repository tourapp
-cave:proxy-repository tourapp file:/home/don/.m2/repository/com/tourapp
+# obr:removeurl http://repository.jbundle.org:8081/nexus/content/repositories/repository/jbundle-repository-0.8.0-SNAPSHOT.xml
+# cave:create-repository jbundle
+# cave:proxy-repository jbundle file:/home/don/.m2/repository/org/jbundle
+# obr:removeurl http://repository.jbundle.org:8081/nexus/content/repositories/repository/tourapp-repository-0.8.0-SNAPSHOT.xml
+# cave:create-repository tourapp
+# cave:proxy-repository tourapp file:/home/don/.m2/repository/com/tourapp
 
 obr:start 'jbundle-util-osgi-obr - obr bundle retrieval'
 sleep 1000
@@ -31,14 +31,14 @@ config:propset readonly false
 config:propset listings true
 config:update
 
-obr:deploy 'tourapp-config-web-httpweb - Hybrid osgi webapp'
-sleep 4000
-start 'tourapp-config-web-httpweb - Hybrid osgi webapp'
-sleep 1000
-
 obr:deploy com.tourapp.config.web.other
 sleep 4000
 start com.tourapp.config.web.other
+sleep 1000
+
+obr:deploy 'tourapp-config-web-httpweb - Hybrid osgi webapp'
+sleep 4000
+start 'tourapp-config-web-httpweb - Hybrid osgi webapp'
 sleep 1000
 
 osgi:install -s webbundle:mvn:org.jbundle.util.webapp/org.jbundle.util.webapp.webstart/1.2.1/war
