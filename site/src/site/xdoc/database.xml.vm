@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://maven.apache.org/XDOC/2.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/XDOC/2.0 http://maven.apache.org/xsd/xdoc-2.0.xsd">
+  <properties>
+    <title>Welcome</title>
+    <author email="don@tourgeek.com">Don Corley</author>
+  </properties>
+  <body>
+    <section name="JBundle - Database Design">
+      <p>
+      The jbundle database is very simple. Fields stored in records, records stored in tables.
+      Navigation is also very simple. Just the essentials.
+      </p>
+      <p>
+      What makes the jbundle database different is real-time conflict resolution. Simultaneous changes to the
+      same record are usually resolved automatically. Clients are notified of changes as they
+      occur, so they can display up-to-date data.
+      </p>
+    </section>
+    <section name="JBundle - Database API">
+      <p>
+      Just the basic functions are included in the <a href="${APILocation}/org.jbundle.model-0.7.8-javadoc/org/jbundle/model/db/index.html">database API</a>:<br/>
+      <ul>
+    <li><a href="${APILocation}/org.jbundle.model-0.7.8-javadoc/org/jbundle/model/db/Table.html#add(org.jbundle.model.db.Rec)">open()</a> - Reset the current position and open the file.</li>
+    <li><a href="${APILocation}/org.jbundle.model-0.7.8-javadoc/org/jbundle/model/db/Table.html#close(org.jbundle.model.db.Rec)">close()</a> - Close the file.</li>
+    <li><a href="${APILocation}/org.jbundle.model-0.7.8-javadoc/org/jbundle/model/db/Table.html#addNew(org.jbundle.model.db.Rec)">addNew()</a> - Create a new empty record.</li>
+    <li><a href="${APILocation}/org.jbundle.model-0.7.8-javadoc/org/jbundle/model/db/Table.html#add(org.jbundle.model.db.Rec)">add()</a> - Add this record to this table.</li>
+    <li><a href="${APILocation}/org.jbundle.model-0.7.8-javadoc/org/jbundle/model/db/Table.html#edit(org.jbundle.model.db.Rec)">edit()</a> - Lock the current record.</li>
+    <li><a href="${APILocation}/org.jbundle.model-0.7.8-javadoc/org/jbundle/model/db/Table.html&#150;set(org.jbundle.model.db.Rec)">set()</a> - Set the current record to this (new) record.</li>
+    <li><a href="${APILocation}/org.jbundle.model-0.7.8-javadoc/org/jbundle/model/db/Table.html#remove(org.jbundle.model.db.Rec)">remove()</a> - Remove the current record.</li>
+    <li><a href="${APILocation}/org.jbundle.model-0.7.8-javadoc/org/jbundle/model/db/Table.html#seek(org.jbundle.model.db.Rec)">seek()</a> - Read the record that matches this record's current key.</li>
+    <li><a href="${APILocation}/org.jbundle.model-0.7.8-javadoc/org/jbundle/model/db/Table.html#move(org.jbundle.model.db.Rec)">move()</a> - Get the next record (return a null at EOF).</li>
+    <li><a href="${APILocation}/org.jbundle.model-0.7.8-javadoc/org/jbundle/model/db/Table.html#hasNext(org.jbundle.model.db.Rec)">hasNext()</a> - Does this list have a next record?</li>
+    <li><a href="${APILocation}/org.jbundle.model-0.7.8-javadoc/org/jbundle/model/db/Table.html#get(org.jbundle.model.db.Rec)">get()</a> - Returns the record at this absolute row position.</li>
+    <li><a href="${APILocation}/org.jbundle.model-0.7.8-javadoc/org/jbundle/model/db/Table.html#getHandle(org.jbundle.model.db.Rec)">getHandle()</a> - Get a unique object that can be used to reposition to this record.</li>
+    <li><a href="${APILocation}/org.jbundle.model-0.7.8-javadoc/org/jbundle/model/db/Table.html#setHandle(org.jbundle.model.db.Rec)">setHandle()</a> - Reposition to this record Using this bookmark.</li>
+    <li><a href="${APILocation}/org.jbundle.model-0.7.8-javadoc/org/jbundle/model/db/Table.html#getLastModified(org.jbundle.model.db.Rec)">getLastModified()</a> - Get the Handle to the last modified or added record.</li>
+        </ul><br/>
+        These commands make up the basic table access API. There are several other commands to handle transactions and less frequently used functions.
+      </p>
+    </section>
+  </body>
+</document>
+

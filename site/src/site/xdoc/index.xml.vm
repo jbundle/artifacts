@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://maven.apache.org/XDOC/2.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/XDOC/2.0 http://maven.apache.org/xsd/xdoc-2.0.xsd">
+  <properties>
+    <title>Welcome</title>
+    <author email="don@tourgeek.com">Don Corley</author>
+  </properties>
+  <body>
+    <section name="JBundle Application Framework!">
+      <p>
+        JBundle is a client-server application framework written in java.<br/>
+      </p>
+      <p>
+        The JBundle application framework simplifies the process building typical business applications.
+        This framework design is based on:<br/>
+        <ul>
+        <li><a href="project.html">A simple unified application model (client and server code)</a><br/></li>
+        <li><a href="database.html">A simple database access API</a><br/></li>
+        <!-- li><a href="realtime.html">Real-time display of data</a><br/></li -->
+        <li><a href="screen.html">A flexible display architecture (with several client choices)</a><br/></li>
+        <!-- li><a href="database.html">Built-in security</a><br/></li -->
+        </ul>
+      </p>
+      <p>
+        <a href="screen.html">Try this simple example.</a> From the menu you can proceed to a few simple screens.
+        Try running this example on another computer. Notice that changing information on one computer
+        will update the same information on all the other computers.  
+      </p>
+      <p>
+        Try this quick tutorial and 
+        <a href="example.html">create a sample application</a><br/>
+      </p>
+<p>
+<code>
+${project.organization.url}/repository.xml
+<!-- Import-Package: ${project.groupId};resolution:=optional;version=${project.version} -->
+</code>
+</p>
+    </section>
+  </body>
+</document>
+

@@ -9,89 +9,17 @@
     <relativePath>../jbundle/jbundle-parent</relativePath>
   </parent>
 
-  <artifactId>jbundle-artifacts</artifactId>
+  <groupId>org.jbundle.config.web</groupId>
+  <artifactId>jbundle-artifacts-reactor</artifactId>
   <version>1.2.3-SNAPSHOT</version>
-
+  
   <packaging>pom</packaging>
-  <name>jbundle-artifacts - scripts etc.</name>
-
-  <properties>
-    <resourceLocation>src/main/resources/org/jbundle/res</resourceLocation>
-  </properties>  
-
-  <build>
-        <resources>
-            <resource>
-                <directory>src/main/resources</directory>
-                <filtering>true</filtering>
-            </resource>
-        </resources>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-resources-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <id>filter</id>
-                        <phase>generate-resources</phase>
-                        <goals>
-                            <goal>resources</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-      <plugin>
-        <groupId>org.jbundle.app.program</groupId>
-        <artifactId>org.jbundle.app.program.plugin</artifactId>
-        <version>0.8.0-SNAPSHOT</version>
-        <executions>
-          <execution>
-            <id>execution1</id>
-            <phase>process-classes</phase>
-            <goals>
-              <goal>run-script</goal>
-            </goals>
-            <configuration>
-              <properties>
-                <process>org.jbundle.app.program.manual.convert.ConvertCode</process>
-                <listenerClass>org.jbundle.app.program.script.scan.XslRepositoryScanListener</listenerClass>
-                <sourceDir>${project.build.directory}/classes/obr/repository</sourceDir>
-                <destDir>${project.build.directory}/classes/obr</destDir>
-                <extension>.xml</extension>
-                <filter>repository.xml</filter>
-              </properties>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>build-helper-maven-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <id>attach-artifacts</id>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>attach-artifact</goal>
-                        </goals>
-                        <configuration>
-                            <artifacts>
-                                <artifact>
-                                    <file>target/classes/obr/repository.xml</file>
-                                    <type>xml</type>
-                                    <classifier>repository</classifier>
-                                </artifact>
-                                <artifact>
-                                    <file>target/classes/dev/karaf.shell</file>
-                                    <type>shell</type>
-                                    <classifier>karaf</classifier>
-                                </artifact>
-                            </artifacts>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-    </build>
+  <name>jbundle-config-web-reactor - Web packaging parent</name>
+  
+  <modules>
+    <module>artifacts</module>
+    <module>main-site</module>
+    <module>site</module>
+  </modules>
 
 </project>

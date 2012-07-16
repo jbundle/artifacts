@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://maven.apache.org/XDOC/2.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/XDOC/2.0 http://maven.apache.org/xsd/xdoc-2.0.xsd">
+  <properties>
+    <title>Welcome</title>
+    <author email="don@tourgeek.com">Don Corley</author>
+  </properties>
+  <body>
+    <section name="JBundle display clients">
+<p>
+        JBundle runs best as a
+        <ul>
+        <li>A java web applet. Give it a try:</li>
+        </ul>
+    <iframe src ="/webstart/docs/applet.html?appletClass=org.jbundle.util.calendarpanel.sample.rich.CalendarTestApplet" width="100%" height="350">
+      <p>Your browser does not support iframes.</p>
+    </iframe>
+</p>
+      <p>
+        JBundle has several other client implementations including:
+        <ul>
+        <li><a href="xx">A standalone java application</a></li>
+        <li><a href="xx">An Ajax application</a></li>
+        <li><a href="xx">An xhtml web page</a></li>
+        <li><a href="xx">A html web page</a></li>
+        <li>An Android client <font color="red">(coming soon)</font>.</li>
+        </ul>
+        <p/>
+        Give them a try! All of these views are running the exact same program.
+      </p>
+    </section>
+  </body>
+</document>
