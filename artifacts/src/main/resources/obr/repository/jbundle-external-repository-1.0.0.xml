@@ -1,27 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <?xml-stylesheet type='text/xsl' href='http://www.osgi.org/www/obr2html.xsl'?>
 
-<repository lastmodified='20120508155649.483' name='Untitled'>
-  <resource id='Untitled--1861474817/0.0.0' symbolicname='Untitled--1861474817' uri='http://repo.maven.apache.org/maven2/javax/mail/mail/1.4.1/mail-1.4.1.jar' version='0.0.0'>
-    <size>
-      447676
-    </size>
-    <capability name='bundle'>
-      <p n='manifestversion' v='1'/>
-      <p n='symbolicname' v='Untitled--1861474817'/>
-      <p n='version' t='version' v='0.0.0'/>
-    </capability>
-  </resource>
-  <resource id='Untitled-913626462/0.0.0' symbolicname='Untitled-913626462' uri='http://repo.maven.apache.org/maven2/javax/mail/mail/1.4/mail-1.4.jar' version='0.0.0'>
-    <size>
-      388864
-    </size>
-    <capability name='bundle'>
-      <p n='manifestversion' v='1'/>
-      <p n='symbolicname' v='Untitled-913626462'/>
-      <p n='version' t='version' v='0.0.0'/>
-    </capability>
-  </resource>
+<repository lastmodified='20120508155649.484' name='Untitled'>
   <resource id='biz.source_code.base64coder/1.0.0.2010-12-19' presentationname='Base64Coder' symbolicname='biz.source_code.base64coder' uri='http://repo.maven.apache.org/maven2/biz/source_code/base64coder/2010-12-19/base64coder-2010-12-19.jar' version='1.0.0.2010-12-19'>
     <description>
       A Base64 encoder/decoder in Java.
@@ -733,5 +713,34 @@
     <require extend='false' filter='(&amp;(package=sun.security.util)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
       Import package sun.security.util
     </require>
+  </resource>
+  <resource id='derby/10.9.1000000.1344872' symbolicname='derby' presentationname='Apache Derby 10.9' uri='http://repo.maven.apache.org/maven2/org/apache/derby/derby/10.9.1.0/derby-10.9.1.0.jar' version='10.9.1000000.1344872'>
+    <size>2703892</size>
+    <capability name='bundle'>
+      <p n='symbolicname' v='derby'/>
+      <p n='presentationname' v='Apache Derby 10.9'/>
+      <p n='version' t='version' v='10.9.1000000.1344872'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.authentication'/>
+      <p n='version' t='version' v='0.0.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.database'/>
+      <p n='version' t='version' v='0.0.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.io'/>
+      <p n='version' t='version' v='0.0.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.jdbc'/>
+      <p n='version' t='version' v='0.0.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.vti'/>
+      <p n='version' t='version' v='0.0.0'/>
+    </capability>
   </resource>
 </repository>
