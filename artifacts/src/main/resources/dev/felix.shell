@@ -9,3 +9,4 @@ deploy 'jbundle-base-remote - Remote server'
 deploy 'tourapp-config-web-httpweb - Hybrid osgi webapp'
 # deploy com.tourapp.config.web.other
 deploy 'com.tourapp.config.web.other'
+

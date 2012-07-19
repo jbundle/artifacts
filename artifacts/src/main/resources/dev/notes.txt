@@ -1,5 +1,31 @@
 Setup jbundle site
 
+
+
+config:edit org.jbundle.base.screen.control.swing.activator
+config:propset table Jdbc
+config:propset remote Jdbc
+config:propset local Jdbc
+config:propset jmsserver false
+# config:propset menu dev.tourapp.com
+config:propset background backgrounds/worldmapalpha.gif
+config:propset backgroundcolor \#EEEEFF
+# config:propset remotehost localhost
+# config:propset codebase localhost:8181/
+# config:propset connectionType proxy
+# config:propset mainSharedDBName main_base
+config:update
+obr:start org.jbundle.base.screen.control.swing
+
+
+repos add http://repository.jbundle.org:8081/nexus/content/repositories/repository/repository.xml
+repos remove http://repository.jbundle.org:8081/nexus/content/repositories/repository/jbundle-repository-0.8.0-SNAPSHOT.xml
+repos remove http://repository.jbundle.org:8081/nexus/content/repositories/repository/tourapp-repository-0.8.0-SNAPSHOT.xml
+repos add file:/usr/local/java/web/apache-karaf-2.2.8/cave/jbundle/repository.xml
+repos add file:/usr/local/java/web/apache-karaf-2.2.8/cave/tourapp/repository.xml
+
+deploy org.jbundle.app.program.manual
+
 # Start karaf
 shell:source file:/home/don/workspace/workspace/bin/dev/karaf.shell
 
