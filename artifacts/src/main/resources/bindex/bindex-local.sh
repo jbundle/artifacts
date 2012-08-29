@@ -18,6 +18,8 @@ mkdir biz
 rsync -r $REPOSITORY/biz/source_code biz/
 mkdir javax
 rsync -r $REPOSITORY/javax/mail javax/
+mkdir commons-collections
+rsync -r $REPOSITORY/commons-collections/commons-collections commons-collections/
 cd ..
 java -jar $BINDEX -quiet -r ~/.m2/jbundle-external-repository.xml -t file:/home/don/.m2/%p/%f ~/temp/repository
 mv repository maven2
