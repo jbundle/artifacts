@@ -1,5 +1,5 @@
-<repository lastmodified='20120708033234.294'>
-  <resource id='org.jbundle.util.paypal/0.7.7.SNAPSHOT' symbolicname='org.jbundle.util.paypal' presentationname='jbundle-util-paypal' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/org/jbundle/util/paypal/org.jbundle.util.paypal/0.7.7-SNAPSHOT/org.jbundle.util.paypal-0.7.7-20120708.223151-1.jar' version='0.7.7.SNAPSHOT'>
+<repository lastmodified='20120829124650.267'>
+  <resource id='org.jbundle.util.paypal/0.7.7.SNAPSHOT' symbolicname='org.jbundle.util.paypal' presentationname='jbundle-util-paypal' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/org/jbundle/util/paypal/org.jbundle.util.paypal/0.7.7-SNAPSHOT/org.jbundle.util.paypal-0.7.7-20120829.074614-1.jar' version='0.7.7.SNAPSHOT'>
     <description>Top level properties and features</description>
     <size>20546</size>
     <documentation>http://www.jbundle.org</documentation>
@@ -18,9 +18,9 @@
     <require name='package' filter='(&amp;(package=com.paypal.platform.sdk.core)(version&gt;=0.7.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package com.paypal.platform.sdk.core;resolution:=optional;version="[0.7,1)"</require>
     <require name='package' filter='(&amp;(package=com.paypal.platform.sdk.exception)(version&gt;=0.7.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package com.paypal.platform.sdk.exception;resolution:=optional;version="[0.7,1)"</require>
   </resource>
-  <resource id='org.jbundle.util.paypal.lib/0.7.7.SNAPSHOT' symbolicname='org.jbundle.util.paypal.lib' presentationname='jbundle-util-paypal-lib' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/org/jbundle/util/paypal/org.jbundle.util.paypal.lib/0.7.7-SNAPSHOT/org.jbundle.util.paypal.lib-0.7.7-20120708.223149-1.jar' version='0.7.7.SNAPSHOT'>
+  <resource id='org.jbundle.util.paypal.lib/0.7.7.SNAPSHOT' symbolicname='org.jbundle.util.paypal.lib' presentationname='jbundle-util-paypal-lib' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/org/jbundle/util/paypal/org.jbundle.util.paypal.lib/0.7.7-SNAPSHOT/org.jbundle.util.paypal.lib-0.7.7-20120829.074611-1.jar' version='0.7.7.SNAPSHOT'>
     <description>Top level properties and features</description>
-    <size>12854</size>
+    <size>12852</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -51,9 +51,9 @@
     <require name='package' filter='(&amp;(package=org.apache.http.params))' extend='false' multiple='false' optional='true'>Import package org.apache.http.params;resolution:=optional</require>
     <require name='package' filter='(&amp;(package=org.apache.http.util))' extend='false' multiple='false' optional='true'>Import package org.apache.http.util;resolution:=optional</require>
   </resource>
-  <resource id='com.tourapp.res.other.images/0.7.7.SNAPSHOT' symbolicname='com.tourapp.res.other.images' presentationname='tourapp-res-other-images - Other images' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/org/jbundle/config/other/com.tourapp.res.other.images/0.7.7-SNAPSHOT/com.tourapp.res.other.images-0.7.7-20120708.223222-1.jar' version='0.7.7.SNAPSHOT'>
+  <resource id='com.tourapp.res.other.images/0.7.7.SNAPSHOT' symbolicname='com.tourapp.res.other.images' presentationname='tourapp-res-other-images - Other images' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/org/jbundle/config/other/com.tourapp.res.other.images/0.7.7-SNAPSHOT/com.tourapp.res.other.images-0.7.7-20120829.074639-1.jar' version='0.7.7.SNAPSHOT'>
     <description>Top level properties and features</description>
-    <size>411558</size>
+    <size>411557</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
