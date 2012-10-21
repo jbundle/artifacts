@@ -16,11 +16,11 @@ obr:removeurl http://repository.jbundle.org:8081/nexus/content/repositories/repo
 cave:create-repository tourapp
 cave:proxy-repository tourapp file:/home/don/.m2/repository/com/tourapp
 
-obr:start 'jbundle-util-osgi-obr - obr bundle retrieval'
+obr:start -d 'jbundle-util-osgi-obr - obr bundle retrieval'
 sleep 1000
-obr:start 'jbundle-util-osgi-webstart - osgi to web start web bundle'
+obr:start -d 'jbundle-util-osgi-webstart - osgi to web start web bundle'
 sleep 1000
-obr:deploy 'jbundle-base-remote - Remote server'
+obr:deploy -d 'jbundle-base-remote - Remote server'
 sleep 4000
 start 'jbundle-base-remote - Remote server'
 sleep 4000
@@ -31,12 +31,12 @@ config:propset readonly false
 config:propset listings true
 config:update
 
-obr:deploy com.tourapp.config.web.other
+obr:deploy -d com.tourapp.config.web.other
 sleep 4000
 start com.tourapp.config.web.other
 sleep 1000
 
-obr:deploy 'tourapp-config-web-httpweb - Hybrid osgi webapp'
+obr:deploy -d 'tourapp-config-web-httpweb - Hybrid osgi webapp'
 sleep 4000
 start 'tourapp-config-web-httpweb - Hybrid osgi webapp'
 sleep 1000
