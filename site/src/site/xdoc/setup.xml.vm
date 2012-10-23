@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://maven.apache.org/XDOC/2.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/XDOC/2.0 http://maven.apache.org/xsd/xdoc-2.0.xsd">
+  <properties>
+    <title>JBundle - Setting up the jbundle environment</title>
+    <author email="don@tourgeek.com">Don Corley</author>
+  </properties>
+  <body>
+    <section name="Quick setup">
+      <p>
+      If you want jbundle up and running quickly, here's all you have to do:<br/>
+      </p>
+        <ul>
+          <li>Download, unzip, and start <a href="http://karaf.apache.org">apache-karaf</a>.</li>
+          <li>In karaf, type:<br/>
+            <code>
+            <i>karaf@root&gt;</i> shell:source mvn:org.jbundle.artifacts/setup/${project.version}/shell/setup
+            </code>
+          </li>
+        </ul>
+        <p>
+        That's it. You're ready to run jbundle. Try out the <a href="quickstart.html">quick start</a> or the 
+        <a href="example.html">quick development example</a>.
+        </p>
+    </section>
+    <section name="Step-by-step setup">
+      <p>
+      If you want to use another OSGi container or just want to see the karaf commands, here are the step-by-step instructions.
+      </p>
+      <p>
+      You will need the <a href="http://java.com">java</a> version 5 or greater.
+      </p>
+      <p>
+      First, download and install your favorite OSGi container.
+      I'll use <a href="http://karaf.apache.org">apache-karaf</a> for this example.<br/>
+      Unix:<br/>
+      <code>
+      <i>&gt;</i> bin/karaf<br/>
+      </code>
+      Windows:<br/>
+      <code>
+      <i>&gt;</i> bin\karaf.bat
+      </code>
+      </p>
+      <p>
+      Now add a web server and the jbundle module index:<br/>
+      <code>
+      <i>karaf@root&gt;</i> features:install http obr war<br/>
+      <i>karaf@root&gt;</i> obr:addurl http://repo.maven.apache.org/maven2/org/jbundle/jbundle-artifacts-${project.version}/repository.xml
+      </code>
+      </p>
+      <p>
+      You will need to run these processes:<br/>
+      <code>
+      <i>karaf@root&gt;</i> obr:start -d 'jbundle-util-osgi-obr - obr bundle retrieval' <i># This allows your code to be loaded on demand</i><br/>
+      <i>karaf@root&gt;</i> obr:start -d 'jbundle-util-osgi-webstart - osgi to web start web bundle' <i># Now you can run your applets on java web start</i><br/>
+      <i>karaf@root&gt;</i> obr:start -d 'jbundle-base-remote - Remote server' <i># The jbundle server</i><br/>
+      <i>karaf@root&gt;</i> obr:start -d 'jbundle-config-web-httpweb - Hybrid osgi webapp' <i># The jbundle web server</i><br/>
+      </code>
+      </p>
+      <p>
+      To confirm jbundle is up and running, point your broswer to <a href="http://localhost:8181">http://localhost:8181</a>.
+      </p>
+      <p>
+      Now you are ready to develop and run applications using jbundle!
+      </p>
+    </section>
+  </body>
+</document>

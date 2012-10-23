@@ -81,9 +81,9 @@
                                     <classifier>repository</classifier>
                                 </artifact>
                                 <artifact>
-                                    <file>target/classes/dev/karaf.shell</file>
+                                    <file>target/classes/dev/setup.shell</file>
                                     <type>shell</type>
-                                    <classifier>karaf</classifier>
+                                    <classifier>setup</classifier>
                                 </artifact>
                             </artifacts>
                         </configuration>

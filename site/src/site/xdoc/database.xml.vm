@@ -41,26 +41,26 @@
       </p>
     </section>
     <section name="Setting the database in OSGi">
-    To set a database in an osgi container, set the org.jbundle.base.util properties.
+    To set a database in an osgi container, set the org.jbundle.base.util properties.<br/>
     <code>
-    config:edit org.jbundle.base.util
-    config:propset databaseproduct mysql
+    config:edit org.jbundle.base.util<br/>
+    config:propset databaseproduct mysql<br/>
     config:update
     </code>
     </section>
     <section name="Setting the database in Maven">
     To run the jbundle client from maven, navigate to the jbundle/config/main program and type:<br/>
     <code>
-    mvn exec:java
+    mvn exec:java<br/>
     </code>
     You will need to have the jbundle server running for this to work.<br/>
-    Derby is the default database type. If you would like to run jbundle standalone, type:
+    Derby is the default database type. If you would like to run jbundle standalone, type:<br/>
     <code>
-    mvn exec:java -Pjdbc
+    mvn exec:java -Pjdbc<br/>
     </code>
     If you would like to access a different database, pass the database product type by typing:<br/>
     <code>
-    mvn exec:java -Pjdbc -Ddatabaseproduct=mysql
+    mvn exec:java -Pjdbc -Ddatabaseproduct=mysql<br/>
     </code>
     </section>
   </body>

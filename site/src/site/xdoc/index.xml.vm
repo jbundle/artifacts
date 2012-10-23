@@ -3,11 +3,11 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/XDOC/2.0 http://maven.apache.org/xsd/xdoc-2.0.xsd">
   <properties>
-    <title>Welcome</title>
+    <title>JBundle Application Framework</title>
     <author email="don@tourgeek.com">Don Corley</author>
   </properties>
   <body>
-    <section name="JBundle Application Framework!">
+    <section name="JBundle Application Framework">
       <p>
         JBundle is a client-server application framework written in java.<br/>
       </p>
@@ -22,21 +22,18 @@
         <!-- li><a href="database.html">Built-in security</a><br/></li -->
         </ul>
       </p>
+    <subsection name="JBundle examples">
       <p>
-        <a href="screen.html">Try this simple example.</a> From the menu you can proceed to a few simple screens.
-        Try running this example on another computer. Notice that changing information on one computer
-        will update the same information on all the other computers.  
+        Take a look at these <a href="sample.html">sample applications</a>.
       </p>
+      </subsection>
+    <subsection name="Development example">
       <p>
         Try this quick tutorial and 
-        <a href="example.html">create a sample application</a><br/>
+        <a href="example.html">create a sample application</a>
+        or start up a <a href="quickstart.html">jbundle server</a> and try some of the sample applications on your own computer.<br/>
       </p>
-<p>
-<code>
-${project.organization.url}/repository.xml
-<!-- Import-Package: ${project.groupId};resolution:=optional;version=${project.version} -->
-</code>
-</p>
+      </subsection>
     </section>
   </body>
 </document>

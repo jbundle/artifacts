@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://maven.apache.org/XDOC/2.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/XDOC/2.0 http://maven.apache.org/xsd/xdoc-2.0.xsd">
+  <properties>
+    <title>Welcome</title>
+    <author email="don@tourgeek.com">Don Corley</author>
+  </properties>
+  <body>
+    <section name="jbundle quick start">
+      <p>
+      With a few quick commands, you can have jbundle up and running:<br/>
+      </p>
+        <ul>
+          <li>Download, unzip, and start <a href="http://karaf.apache.org">apache-karaf</a>.</li>
+          <li>In karaf, type:<br/>
+            <code>
+            <i>karaf@root&gt;</i> shell:source mvn:org.jbundle.artifacts/setup/${project.version}/shell/setup
+            </code>
+          </li>
+          <li>Point your broswer to <a href="http://localhost:8181">http://localhost:8181</a>.</li>
+          <li>Click on the 'Example' icon to try out some of the jbundle sample apps.</li>
+        </ul>
+      <p>
+      Note: By default, jbundle uses the derby database engine. The database will be located in your home directory at '.derby'.
+      </p>
+    </section>
+  </body>
+</document>

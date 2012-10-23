@@ -9,40 +9,18 @@
   <body>
     <section name="JBundle - Creating a sample application">
       <p>
-      Before you start writing your first program, you'll want to start up the JBundle code generator.
-      The code generator will create the java code that you will need to access your databases.
+      First, <a href="setup.html">setup your jbundle server.</a>
       </p>
       <p>
-      Start by downloading and installing your favorite OSGi container.
-      I'll use <a href="karaf.apache.org">apache-karaf</a> for this example.<br/>
+      Now you can start your java client:<br/>
+      </p>
       <code>
-      cd apache-karaf.x.x.x
-      bin/karaf
+      <i>karaf@root&gt;</i> obr:deploy -d 'jbundle-base-screen-control-swing' <i># Load the swing client</i><br/>
+      <i>karaf@root&gt;</i> start 'jbundle-base-screen-control-swing' <i># Use this command anytime you want to start the swing client</i><br/>
       </code>
-      Now add a web server and JBundle OSGi OBR index to your OSGi container:
-      <code>
-      features:install http obr war
-      obr:addurl http://repo.maven.apache.org//maven2/org/jbundle/jbundle-artifacts-${project.version}/repository.xml
-      </code>
-      Start up the obr OSGi utility. The allows your code to be loaded on demand as it is needed.
-      <code>
-      obr:start 'jbundle-util-osgi-obr - obr bundle retrieval'
-      </code>
-      Next, start up the JBundle server.
-      <code>
-      obr:start 'jbundle-base-remote - Remote server'jbundle-base-screen-view-swing
-      </code>
-      Next, start up the JBundle client. You should see a startup screen.
-      <code>
-      obr:start 'jbundle-base-remote - Remote server'jbundle-base-screen-view-swing
-      </code>
-      The first time you start this screen, you will be asked for a database connections. Click default to
-      use the default database.
-      <p/>
+      <p>
       Now, you are ready to get started developing your application. Click on the 'Program Generator' icon.
       If this is your first time using JBundle, start by creating the <a href="example.html">Example application</a>.
-      <p/>
-      Happy coding!
       </p>
     </section>
   </body>
