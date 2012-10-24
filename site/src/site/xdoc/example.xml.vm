@@ -9,17 +9,31 @@
   <body>
     <section name="JBundle - Creating a sample application">
       <p>
-      First, <a href="setup.html">setup your jbundle server.</a>
+      In this example, we are going to create a simple address book application.
       </p>
       <p>
-      Now you can start your java client:<br/>
+      First, you will need <a href="http://java.com">java</a> and <a href="http://maven.apache.org">maven</a> installed.
+      </p>
+      <p>
+      Next, create your empty maven project.<br/>
       </p>
       <code>
-      <i>karaf@root&gt;</i> obr:deploy -d 'jbundle-base-screen-control-swing' <i># Load the JBundle client code</i><br/>
-      <i>karaf@root&gt;</i> start 'jbundle-base-screen-control-swing' <i># Use this command anytime you want to start the swing client</i><br/>
+      mvn archetype:generate -Dfilter=org.jbundle:
       </code>
       <p>
-      In this example, we are going to create a simple address book application.
+      Choose the jbundle-project template and enter your own group, artifact, and version number.
+      I'll use org.mycompany.sample, addressbook, and 1.0.0-SNAPSHOT, respectively.
+      </p>
+      <p>
+      To start the JBundle code generator, change to the new project directory and run maven.
+      (The first time this runs you will have to wait for all the program resources to be cached)
+      </p>
+      <code>
+      cd addressbook
+      mvn java:exec
+      </code>
+      <p>
+      The first screen of the code generator will ask for a project name.
       </p>
       <p>
       Now, you are ready to get started developing your application.<br/>
