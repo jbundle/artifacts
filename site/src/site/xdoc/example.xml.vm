@@ -15,12 +15,18 @@
       Now you can start your java client:<br/>
       </p>
       <code>
-      <i>karaf@root&gt;</i> obr:deploy -d 'jbundle-base-screen-control-swing' <i># Load the swing client</i><br/>
+      <i>karaf@root&gt;</i> obr:deploy -d 'jbundle-base-screen-control-swing' <i># Load the JBundle client code</i><br/>
       <i>karaf@root&gt;</i> start 'jbundle-base-screen-control-swing' <i># Use this command anytime you want to start the swing client</i><br/>
       </code>
       <p>
-      Now, you are ready to get started developing your application. Click on the 'Program Generator' icon.
-      If this is your first time using JBundle, start by creating the <a href="example.html">Example application</a>.
+      In this example, we are going to create a simple address book application.
+      </p>
+      <p>
+      Now, you are ready to get started developing your application.<br/>
+      Click on the <img src="/images/buttons/Folder.gif"/> 'Development menu' icon.<br/>
+      Then, click on the <img src="/images/buttons/Maint.gif"/> 'Program Generator' icon.
+      We'll call our record, "Contacts". Contacts should extend the 'VirtualRecord' class, which gives Contacts
+      some useful attributes like an automatic ID field.<br/>
       </p>
     </section>
   </body>
