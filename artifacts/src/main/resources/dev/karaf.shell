@@ -21,7 +21,7 @@ sleep 1000
 obr:start -d 'jbundle-util-osgi-webstart - osgi to web start web bundle'
 sleep 1000
 obr:deploy -d 'jbundle-base-remote - Remote server'
-sleep 4000
+sleep 5000
 start 'jbundle-base-remote - Remote server'
 sleep 4000
 
@@ -32,7 +32,7 @@ config:propset listings true
 config:update
 
 obr:deploy -d com.tourapp.config.web.other
-sleep 4000
+sleep 5000
 start com.tourapp.config.web.other
 sleep 1000
 
