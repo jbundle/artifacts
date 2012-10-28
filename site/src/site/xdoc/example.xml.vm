@@ -12,34 +12,44 @@
       In this example, we are going to create a simple address book application.
       </p>
       <p>
-      First, you will need <a href="http://java.com">java</a> and <a href="http://maven.apache.org">maven</a> installed.
+      You will need <a href="http://java.com">java</a> and <a href="http://maven.apache.org">maven</a>.
       </p>
       <p>
-      Next, create your empty maven project.<br/>
+      First, create your empty maven project:<br/>
       </p>
       <code>
       mvn archetype:generate -Dfilter=org.jbundle:
       </code>
       <p>
       Choose the jbundle-project template and enter your own group, artifact, and version number.
-      I'll use org.mycompany.sample, addressbook, and 1.0.0-SNAPSHOT, respectively.
+      To make things simple, use org.mycompany.sample, addressbook, and 1.0.0-SNAPSHOT, respectively.
       </p>
       <p>
-      To start the JBundle code generator, change to the new project directory and run maven.
-      (The first time this runs you will have to wait for all the program resources to be cached)
+      To start the JBundle code generator, change to the new project directory and run maven.<br/>
+      <span style="color: red;font-style: italic;">Note:</span>
+      <span style="font-style: italic;">Resources in maven are cached the first time it is run.
+      Resources in jbundle are loaded on demand from the Internet. Expect a short delay the first time you run any function.</span>
       </p>
       <code>
-      cd addressbook
+      cd addressbook<br/>
       mvn java:exec
       </code>
       <p>
-      The first screen of the code generator will ask for a project name.
+      The first screen of the code generator will display a menu.
       </p>
       <p>
-      Now, you are ready to get started developing your application.<br/>
-      Click on the <img src="/images/buttons/Folder.gif"/> 'Development menu' icon.<br/>
-      Then, click on the <img src="/images/buttons/Maint.gif"/> 'Program Generator' icon.
-      We'll call our record, "Contacts". Contacts should extend the 'VirtualRecord' class, which gives Contacts
+      Click on the <img src="/org/jbundle/res/images/icons/Folder.gif"/> 'Class projects' icon.
+      The JBundle framework project hierarchy will display.<br/>
+      To add your new project, click on the <img src="/org/jbundle/res/images/icons/Form.gif"/> 'Form' button.
+      Enter your project details. For this project, enter:<br/>
+      <code>
+      Name: addressbook<br/>
+      Package: com.mycompany.sample<br/>
+      </code>
+      </p>
+      <p>
+      Now we're ready to define our 'Contacts' record class.
+      Contacts should extend the 'VirtualRecord' class, which gives Contacts
       some useful attributes like an automatic ID field.<br/>
       </p>
     </section>

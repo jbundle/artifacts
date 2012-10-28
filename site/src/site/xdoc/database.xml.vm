@@ -48,6 +48,13 @@
     config:update
     </code>
     </section>
+    <section name="JBundle - Database capabilities">
+    The database model is very flexible.<p/>
+    To change the behavior of a record, just add a record listener. You can have it respond to database events such as
+    new, update, or delete record.<p/>
+    You may also attach a listener to a field. It can respond to changes from initialization, reading data, or user (screen) changes.<p/>
+    
+    </section>
     <section name="Setting the database in Maven">
     To run the jbundle client from maven, navigate to the jbundle/config/main program and type:<br/>
     <code>
