@@ -15,6 +15,7 @@ cave:proxy-repository jbundle file:/home/don/.m2/repository/org/jbundle
 obr:removeurl http://repository.jbundle.org:8081/nexus/content/repositories/repository/tourapp-repository-0.8.0-SNAPSHOT.xml
 cave:create-repository tourapp
 cave:proxy-repository tourapp file:/home/don/.m2/repository/com/tourapp
+obr:removeurl http://repository.jbundle.org:8081/nexus/content/repositories/repository/repository.xml
 
 obr:start -d 'jbundle-util-osgi-obr - obr bundle retrieval'
 sleep 1000
