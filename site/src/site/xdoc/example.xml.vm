@@ -28,14 +28,14 @@
       To start the JBundle code generator, change to the new project directory and run maven.<br/>
       <span style="color: red;font-style: italic;">Note:</span>
       <span style="font-style: italic;">Resources in maven are cached the first time it is run.
-      Resources in jbundle are loaded on demand from the Internet. Expect a short delay the first time you run any function.</span>
+      Resources in jbundle are loaded on demand from the Internet. Expect a delay the first time you run any function.</span>
       </p>
       <code>
       cd addressbook<br/>
       mvn java:exec
       </code>
       <p>
-      The first screen of the code generator will display a menu.
+      The first screen of the code generator will display the JBundle development menu.
       </p>
       <p>
       Click on the <img src="/org/jbundle/res/images/icons/Folder.gif"/> 'Class projects' icon.
@@ -43,7 +43,7 @@
       To add your new project, click on the <img src="/org/jbundle/res/images/icons/Form.gif"/> 'Form' button.
       Enter your project details. For this project, enter:<br/>
       <code>
-      Name: addressbook<br/>
+      Name: addressbook<br/> <i>Should match your maven project name.</i>
       Package: com.mycompany.sample<br/>
       </code>
       </p>
@@ -51,7 +51,14 @@
       Now we're ready to define our 'Contacts' record class.
       Contacts should extend the 'VirtualRecord' class, which gives Contacts
       some useful attributes like an automatic ID field.<br/>
+      Click on the <img src="/org/jbundle/res/images/icons/Source.gif"/> Class Detail button,
+      then click on the <img src="/org/jbundle/res/images/icons/Form.gif"/> Form button to enter a new class.<br/>
+      We'll call our class AddressBook. 
       </p>
+      <code>
+      Name: AddressBook<br/> <i>Should match your maven project name.</i>
+      Package: com.mycompany.sample<br/>
+      </code>
     </section>
   </body>
 </document>
