@@ -9,13 +9,13 @@
   <body>
     <section name="JBundle - Creating a sample application">
       <p>
-      In this example, we are going to create a simple address book application.
+      In this example, we're going to create a simple address book application. Your finished application should look like <a href="addressbook.html">this</a>.
       </p>
       <p>
       You will need <a href="http://java.com">java</a> and <a href="http://maven.apache.org">maven</a>.
       </p>
       <p>
-      First, create your empty maven project:<br/>
+      First, create your new maven project:<br/>
       </p>
       <code>
       mvn archetype:generate -Dfilter=org.jbundle:
@@ -27,8 +27,8 @@
       <p>
       To start the JBundle code generator, change to the new project directory and run maven.<br/>
       <span style="color: red;font-style: italic;">Note:</span>
-      <span style="font-style: italic;">Resources in maven are cached the first time it is run.
-      Resources in jbundle are loaded on demand from the Internet. Expect a delay the first time you run any function.</span>
+      <span style="font-style: italic;">Be patient! Resources in maven and
+      jbundle are loaded on demand from the Internet. Expect a delay the first time you run any function.</span>
       </p>
       <code>
       cd addressbook<br/>
@@ -43,22 +43,29 @@
       To add your new project, click on the <img src="/org/jbundle/res/images/icons/Form.gif"/> 'Form' button.
       Enter your project details. For this project, enter:<br/>
       <code>
-      Name: addressbook<br/> <i>Should match your maven project name.</i>
+      Name: addressbook <i>(Must match your maven project directory)</i><br/>
       Package: com.mycompany.sample<br/>
       </code>
       </p>
       <p>
       Now we're ready to define our 'Contacts' record class.
       Contacts should extend the 'VirtualRecord' class, which gives Contacts
-      some useful attributes like an automatic ID field.<br/>
-      Click on the <img src="/org/jbundle/res/images/icons/Source.gif"/> Class Detail button,
-      then click on the <img src="/org/jbundle/res/images/icons/Form.gif"/> Form button to enter a new class.<br/>
-      We'll call our class AddressBook. 
+      some useful attributes like an ID field.<br/>
+      Click on the <img src="/org/jbundle/res/images/icons/Source.gif"/> Class Detail button to display the classes
+      for this project (There aren't any yet!).
+      Now click on the <img src="/org/jbundle/res/images/icons/Form.gif"/> Form button to enter a new class.<br/>
+      We'll call our database record class <b>AddressBook</b>.
       </p>
       <code>
-      Name: AddressBook<br/> <i>Should match your maven project name.</i>
-      Package: com.mycompany.sample<br/>
+      Class name: AddressBook<br/>
+      Base class: VirtualRecord<br/>
+      Package: .db <i>(Starting a package name with a '.' makes it relative to the project package)</i><br/>
       </code>
+      <p>
+      Now we are ready to enter the fields in our database. Click on the 'Fields' button.
+      </p>
+      <p>
+      </p>
     </section>
   </body>
 </document>
