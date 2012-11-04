@@ -22,7 +22,7 @@
       </code>
       <p>
       Choose the jbundle-project template and enter your own group, artifact, and version number.
-      To make things simple, use org.mycompany.sample, addressbook, and 1.0.0-SNAPSHOT, respectively.
+      To make things simple, use org.mycompany.sample, com.mycompany.sample.addressbook, and 1.0.0-SNAPSHOT, respectively.
       </p>
       <p>
       To start the JBundle code generator, change to the new project directory and run maven.<br/>
@@ -31,7 +31,7 @@
       jbundle are loaded on demand from the Internet. Expect a delay the first time you run any function.</span>
       </p>
       <code>
-      cd addressbook<br/>
+      cd com.mycompany.sample.addressbook<br/>
       mvn java:exec
       </code>
       <p>
