@@ -29,8 +29,8 @@
       	<a href="/webstart/docs/applet.html?org.jbundle.util.osgi.webstart.appletClass=org.jbundle.Main&amp;org.jbundle.util.osgi.webstart.codebase=/&amp;org.jbundle.util.osgi.webstart.webStartComponents=/org/jbundle/res/webstart/tour.properties,/org/jbundle/res/webstart/thick.properties,/org/jbundle/res/webstart/thin.properties&amp;connectionType=Proxy&amp;menu=DemoMenu&amp;background=backgrounds/worldmapalpha.gif&amp;backgroundcolor=#EEEEFF">full screen web applet</a>, but it can also run as a
       	<a href="/webstart/runme.jnlp?org.jbundle.util.osgi.webstart.mainClass=org.jbundle.Main&amp;org.jbundle.util.osgi.webstart.codebase=/&amp;org.jbundle.util.osgi.webstart.webStartComponents=/org/jbundle/res/webstart/tour.properties,/org/jbundle/res/webstart/thick.properties,/org/jbundle/res/webstart/thin.properties&amp;connectionType=Proxy&amp;menu=DemoMenu&amp;background=backgrounds/worldmapalpha.gif&amp;backgroundcolor=#EEEEFF">standalone application</a>,
       	an <a href="/?menu=DemoMenu">Ajax application</a>,
-      	an <a href="/tourappxhtml?menu=DemoMenu">xhtml web page</a>,
-      	or as an <a href="/tourapphtml?menu=DemoMenu">html web page</a>.<br/>
+      	an <a href="/appxhtml?menu=DemoMenu">xhtml web page</a>,
+      	or as an <a href="/apphtml?menu=DemoMenu">html web page</a>.<br/>
       	All of these views are running the exact same program.
       </p>
       <p>

@@ -123,9 +123,14 @@
       shell:source mvn:org.jbundle.config/jbundle-artifacts/${project.version}/shell/setup<br/>
       install mvn:com.mycompany.sample/com.mycompany.sample.addressbook<br/>
       </code>
-      Your code is ready to run. Open a web browser and navigate to
-<a href="http://localhost:8181/tourappxsl#?applet=org.jbundle.Main&record=com.mycompany.sample.addressbook.db.AddressBook&otherPackages=com.mycompany.sample.addressbook.db&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties">http://localhost:8181/tourappxsl#?applet=org.jbundle.Main&record=com.mycompany.sample.addressbook.db.AddressBook&otherPackages=com.mycompany.sample.addressbook.db&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties</a><br/>
+      Your code is ready to run. Open your web browser and navigate to
+<source>
+<a href="http://localhost:8181/appxsl#?applet=org.jbundle.Main&record=com.mycompany.sample.addressbook.db.AddressBook&otherPackages=com.mycompany.sample.addressbook.db&webStartPropertiesFile=/org/jbundle/res/webstart/app.properties">http://localhost:8181/appxsl#?applet=org.jbundle.Main&record=com.mycompany.sample.addressbook.db.AddressBook&otherPackages=com.mycompany.sample.addressbook.db&webStartPropertiesFile=/org/jbundle/res/webstart/app.properties</a><br/>
 <!--
+ok
+http://localhost:8181/appxsl#?applet=org.jbundle.Main&record=com.mycompany.sample.addressbook.db.AddressBook&otherPackages=com.mycompany.sample.addressbook.db&org.jbundle.util.osgi.webstart.appletClass=org.jbundle.Main&org.jbundle.util.osgi.webstart.codebase=/&org.jbundle.util.osgi.webstart.initialHeapSize=128m&org.jbundle.util.osgi.webstart.maxHeapSize=512m&org.jbundle.util.osgi.webstart.webStartComponents=/org/jbundle/res/webstart/thick.properties,/org/jbundle/res/webstart/thin.properties,/org/jbundle/res/webstart/resource.properties&connectionType=Proxy
+ok
+http://localhost:8181/appxsl#?applet=org.jbundle.Main&record=com.mycompany.sample.addressbook.db.AddressBook&otherPackages=com.mycompany.sample.addressbook.db&org.jbundle.util.osgi.webstart.codebase=/&org.jbundle.util.osgi.webstart.initialHeapSize=128m&org.jbundle.util.osgi.webstart.maxHeapSize=512m&org.jbundle.util.osgi.webstart.webStartComponents=/org/jbundle/res/webstart/thick.properties,/org/jbundle/res/webstart/thin.properties,/org/jbundle/res/webstart/resource.properties&connectionType=Proxy
 ok
 http://localhost:8181/webstart/docs/applet.html?screen=com.tourapp.tour.genled.screen.misc.AccountGridScreen&userid=&applet=org.jbundle.Main&user=&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
 ok
@@ -145,10 +150,12 @@ http://localhost:8181/webstart?applet=org.jbundle.thin.base.screen.BaseApplet&ba
 ok - webstart
 http://localhost:8181/webstart/docs/applet.html?record=com.mycompany.sample.addressbook.db.AddressBook&applet=org.jbundle.Main&org.jbundle.util.osgi.webstart.codebase=/&org.jbundle.util.osgi.webstart.initialHeapSize=128m&org.jbundle.util.osgi.webstart.maxHeapSize=512m&org.jbundle.util.osgi.webstart.webStartComponents=/org/jbundle/res/webstart/thick.properties&connectionType=Proxy&background=backgrounds/worldmapalpha.gif&backgroundcolor=%23EEEEFF&otherPackages=com.mycompany.sample.addressbook.db
 tourapp:
-http://localhost:8181/tourappxsl#?screen=com.tourapp.tour.genled.screen.misc.AccountGridScreen&applet=org.jbundle.Main&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
+http://localhost:8181/appxsl#?screen=com.tourapp.tour.genled.screen.misc.AccountGridScreen&applet=org.jbundle.Main&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
 tourapp:
-http://localhost:8181/tourappxsl#?applet=org.jbundle.Main&record=com.mycompany.sample.addressbook.db.AddressBook&otherPackages=com.mycompany.sample.addressbook.db&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
+http://localhost:8181/appxsl#?applet=org.jbundle.Main&record=com.mycompany.sample.addressbook.db.AddressBook&otherPackages=com.mycompany.sample.addressbook.db&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
 -->
+</source>
+jbundle contains a nice javascript wrapper and and OSGi to webstart converter.
       </p>
       <p>
       </p>

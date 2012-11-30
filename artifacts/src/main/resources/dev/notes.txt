@@ -55,24 +55,24 @@ http://localhost:8181/webstart/docs/applet.html?webStartPropertiesFile=/org/jbun
 http://localhost:8181/webstart?applet=org.jbundle.Main&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
 http://localhost:8181/webstart?applet=org.jbundle.util.biorhythm.Biorhythm&language=es
 
-http://localhost:8181/tourappxsl#webstart?webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
+http://localhost:8181/appxsl#webstart?webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
 
 -----Yes-----
-http://localhost:8181/tourappxsl#webstart?applet=org.jbundle.Main&userid=1&webStart=thick&menu=dev.tourapp.com
-http://localhost:8181/tourappxsl#webstart?applet=org.jbundle.Main&userid=1&webStart=thick&menu=dev.tourapp.com&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
-http://localhost:8181/tourappxsl#webstart?applet=org.jbundle.Main&userid=1&menu=dev.tourapp.com&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
-http://localhost:8181/tourappxsl#?applet=&userid=1&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
+http://localhost:8181/appxsl#webstart?applet=org.jbundle.Main&userid=1&webStart=thick&menu=dev.tourapp.com
+http://localhost:8181/appxsl#webstart?applet=org.jbundle.Main&userid=1&webStart=thick&menu=dev.tourapp.com&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
+http://localhost:8181/appxsl#webstart?applet=org.jbundle.Main&userid=1&menu=dev.tourapp.com&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
+http://localhost:8181/appxsl#?applet=&userid=1&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
 
-http://localhost:8181/tourappxsl#%3Fmenu%3Dapp%26userid%3D1%26applet%3D%
-http://localhost:8181/tourappxsl#?menu=app&userid=1&applet=&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
+http://localhost:8181/appxsl#%3Fmenu%3Dapp%26userid%3D1%26applet%3D%
+http://localhost:8181/appxsl#?menu=app&userid=1&applet=&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
 
-http://localhost:8181/tourappxsl#%3Fmenu%3Dapp%26userid%3D1&applet%3D%26webStartPropertiesFile%3D/org/jbundle/res/webstart/tourapp.properties
-http://localhost:8181/tourappxsl#%3Fmenu%3Doperation%26background%3Dbackgrounds%252Fworldmapalpha.gif%26userid%3D1%26applet%3D
+http://localhost:8181/appxsl#%3Fmenu%3Dapp%26userid%3D1&applet%3D%26webStartPropertiesFile%3D/org/jbundle/res/webstart/tourapp.properties
+http://localhost:8181/appxsl#%3Fmenu%3Doperation%26background%3Dbackgrounds%252Fworldmapalpha.gif%26userid%3D1%26applet%3D
 
 
-http://localhost:8181/tourappxsl#?menu=app&userid=1&applet=org.jbundle.Main
-http://localhost:8181/tourappxsl#webstart%3Fapplet%3Dorg.jbundle.Main%26userid%3D1%26menu%3Ddev.tourapp.com%26webStartPropertiesFile%3D/org/jbundle/res/webstart/tourapp.properties
-http://localhost:8181/tourappxsl#%3Fmenu%3Dapp%26background%3Dbackgrounds%252Fworldmapalpha.gif%26userid%3D1%26applet%3D%26webStartPropertiesFile%3D/org/jbundle/res/webstart/tourapp.properties
+http://localhost:8181/appxsl#?menu=app&userid=1&applet=org.jbundle.Main
+http://localhost:8181/appxsl#webstart%3Fapplet%3Dorg.jbundle.Main%26userid%3D1%26menu%3Ddev.tourapp.com%26webStartPropertiesFile%3D/org/jbundle/res/webstart/tourapp.properties
+http://localhost:8181/appxsl#%3Fmenu%3Dapp%26background%3Dbackgrounds%252Fworldmapalpha.gif%26userid%3D1%26applet%3D%26webStartPropertiesFile%3D/org/jbundle/res/webstart/tourapp.properties
 
 install mvn:javax.ws.rs/javax.ws.rs-api/2.0-m14
 features:addurl mvn:org.apache.servicemix/apache-servicemix/4.4.2/xml/features
@@ -90,4 +90,4 @@ http://192.168.1.66:8181/webstart/docs/applet.html?webStartPropertiesFile=org/jb
 http://192.168.1.66:8181/webstart/docs/applet.html?userid=1&menu=dev.tourapp.com&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
 
 &org.jbundle.util.osgi.webstart.webStartComponents=/org/jbundle/res/webstart/tour.properties,/org/jbundle/res/webstart/thick.properties,/org/jbundle/res/webstart/thin.properties,/org/jbundle/res/webstart/resource.properties&mainPackage=org.jbundle
-&org.jbundle.util.osgi.webstart.maxHeapSize=512m&code=org.jbundle.Main&record=com.tourapp.tour.booking.db.Booking&draggable=true&url=http://wilma.demo.tourgeek.com:8181/tourappxsl&appletClass=org.jbundle.Main&org.jbundle.util.osgi.webstart.codebase=/&org.jbundle.util.osgi.webstart.appletClass=org.jbundle.Main&datatype=jnlpapplet&background=backgrounds/worldmapalpha.gif&baseURL=wilma.demo.tourgeek.com:8181/&org.jbundle.util.osgi.webstart.initialHeapSize=128m&connectionType=Proxy&org.jbundle.util.osgi.webstart.webStartComponents=/org/jbundle/res/webstart/tour.properties,/org/jbundle/res/webstart/thick.properties,/org/jbundle/res/webstart/thin.properties,/org/jbundle/res/webstart/resource.properties&backgroundcolor=#EEEEFF&user=kate@tourgeek.com&domain=wilma.demo.tourgeek.com&mainPackage=org.jbundle
+&org.jbundle.util.osgi.webstart.maxHeapSize=512m&code=org.jbundle.Main&record=com.tourapp.tour.booking.db.Booking&draggable=true&url=http://wilma.demo.tourgeek.com:8181/appxsl&appletClass=org.jbundle.Main&org.jbundle.util.osgi.webstart.codebase=/&org.jbundle.util.osgi.webstart.appletClass=org.jbundle.Main&datatype=jnlpapplet&background=backgrounds/worldmapalpha.gif&baseURL=wilma.demo.tourgeek.com:8181/&org.jbundle.util.osgi.webstart.initialHeapSize=128m&connectionType=Proxy&org.jbundle.util.osgi.webstart.webStartComponents=/org/jbundle/res/webstart/tour.properties,/org/jbundle/res/webstart/thick.properties,/org/jbundle/res/webstart/thin.properties,/org/jbundle/res/webstart/resource.properties&backgroundcolor=#EEEEFF&user=kate@tourgeek.com&domain=wilma.demo.tourgeek.com&mainPackage=org.jbundle
