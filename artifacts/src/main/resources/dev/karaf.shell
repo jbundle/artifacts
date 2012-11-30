@@ -1,22 +1,21 @@
 features:addurl mvn:org.apache.karaf.cave/apache-karaf-cave/3.0.0-SNAPSHOT/xml/features
 features:install cave-obr-server
-
 features:install http obr war
 sleep 4000
-
-# obr:addurl file:/home/don/workspace/workspace/artifacts/target/classes/obr/repository/repository.xml
+# Add repository URL
+obr:addurl file:/home/don/workspace/workspace/artifacts/artifacts/target/classes/obr/repository/repository.xml
 # obr:addurl file:/home/don/workspace/workspace/artifacts/target/classes/obr/local-repository.xml
-# obr:addurl mvn:org.jbundle.config/jbundle-artifacts/1.1.7/xml/repository
-obr:addurl http://repository.jbundle.org:8081/nexus/content/repositories/repository/repository.xml
-
-obr:removeurl http://repository.jbundle.org:8081/nexus/content/repositories/repository/jbundle-repository-0.8.0-SNAPSHOT.xml
+# obr:addurl mvn:org.jbundle.config/jbundle-artifacts/1.2.4-SNAPSHOT/xml/repository
+# obr:addurl http://repository.jbundle.org:8081/nexus/content/repositories/repository/repository.xml
+# Update obr
+obr:removeurl file:/home/don/workspace/workspace/artifacts/artifacts/target/classes/obr/repository/jbundle-repository-0.8.0-SNAPSHOT.xml
 cave:create-repository jbundle
 cave:proxy-repository jbundle file:/home/don/.m2/repository/org/jbundle
-obr:removeurl http://repository.jbundle.org:8081/nexus/content/repositories/repository/tourapp-repository-0.8.0-SNAPSHOT.xml
+obr:removeurl file:/home/don/workspace/workspace/artifacts/artifacts/target/classes/obr/repository/tourapp-repository-0.8.0-SNAPSHOT.xml
 cave:create-repository tourapp
 cave:proxy-repository tourapp file:/home/don/.m2/repository/com/tourapp
-obr:removeurl http://repository.jbundle.org:8081/nexus/content/repositories/repository/repository.xml
-
+obr:removeurl file:/home/don/workspace/workspace/artifacts/artifacts/target/classes/obr/repository/repository.xml
+# Start remote service
 obr:start -d 'jbundle-util-osgi-obr - obr bundle retrieval'
 sleep 1000
 obr:start -d 'jbundle-util-osgi-webstart - osgi to web start web bundle'
@@ -25,22 +24,22 @@ obr:deploy -d 'jbundle-base-remote - Remote server'
 sleep 5000
 start 'jbundle-base-remote - Remote server'
 sleep 4000
-
+# Configure webdav
 config:edit org.jbundle.util.webapp.webdav
 config:propset basePath /space/web/jbundle/site
 config:propset readonly false
 config:propset listings true
 config:update
-
+# Start other web app
 obr:deploy -d com.tourapp.config.web.other
 sleep 5000
 start com.tourapp.config.web.other
 sleep 1000
-
+# Start the tour application
 obr:deploy -d 'tourapp-config-web-httpweb - Hybrid osgi webapp'
 sleep 4000
 start 'tourapp-config-web-httpweb - Hybrid osgi webapp'
 sleep 1000
-
+# Start up wars
 osgi:install -s webbundle:mvn:org.jbundle.util.webapp/org.jbundle.util.webapp.webstart/1.3.0/war
 osgi:install -s webbundle:mvn:org.jbundle.util.webapp/org.jbundle.util.webapp.cgi/1.3.0/war?Bundle-SymbolicName=jbundle-util-webapp-cgi&Webapp-Context=/awstats

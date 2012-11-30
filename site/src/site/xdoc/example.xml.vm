@@ -22,7 +22,11 @@
       </code>
       <p>
       Choose the jbundle-project template and enter your own group, artifact, and version number.
-      To make things simple, use org.mycompany.sample, com.mycompany.sample.addressbook, and 1.0.0-SNAPSHOT, respectively.
+      To make things simple, use<br/>
+      <code>com.mycompany.sample</code>,<br/>
+      <code>com.mycompany.sample.addressbook</code>, and
+      <code>1.0.0-SNAPSHOT</code>,
+      respectively.
       </p>
       <p>
       To start the JBundle code generator, change to the new project directory and run maven.<br/>
@@ -32,7 +36,7 @@
       </p>
       <code>
       cd com.mycompany.sample.addressbook<br/>
-      mvn java:exec
+      mvn exec:java
       </code>
       <p>
       The first screen of the code generator will display the JBundle development menu.
@@ -43,8 +47,8 @@
       To add your new project, click on the <img src="/org/jbundle/res/images/icons/Form.gif"/> 'Form' button.
       Enter your project details. For this project, enter:<br/>
       <code>
-      Name: addressbook <i>(Must match your maven project directory)</i><br/>
-      Package: com.mycompany.sample<br/>
+      Project name: com.mycompany.sample.addressbook <i>(Must match your maven project directory)</i><br/>
+      Package: com.mycompany.sample.addressbook<br/>
       </code>
       </p>
       <p>
@@ -60,9 +64,66 @@
       Class name: AddressBook<br/>
       Base class: VirtualRecord<br/>
       Package: .db <i>(Starting a package name with a '.' makes it relative to the project package)</i><br/>
+      Class type: record
       </code>
       <p>
-      Now we are ready to enter the fields in our database. Click on the 'Fields' button.
+      Enter the database name by clicking on the File header button.<br/>
+      <code>
+      Database name: test
+      </code>
+      </p>
+      <p>
+      Now we are ready to enter the fields in our database. Click on the 'Fields' button.<br/>
+      Enter two fields:<br/>
+      <code>
+      Name<br/>
+      Address
+      </code>
+      </p>
+      <!-- p>
+      Now we'll specify the indexes for this record: <i>(ID is already the primary key)</i><br/>
+      <code>
+      Type: Not Unique<br/>
+      Key Field 1: Name
+      </code>
+      </p -->
+      <p>
+      Now, let's take a look at the the java source code that was created for this record.<br/>
+      Close the window and take a look in your maven 'src/main/java' directory. You will find several files:<br/>
+      <code>com/mycompany/sample/addressbook/model/db/AddressBookModel.java</code> is the interface file that represents your record.<br/>
+      <code>com/mycompany/sample/addressbook/db/AddressBook.java</code> is the thick implementation of this record.<br/>
+      <code>com/mycompany/sample/addressbook/thin/db/AddressBook.java</code> is the lightweight implementation of this record.<br/>
+      <code>com/mycompany/sample/addressbook/res/db/AddressBookResources.properties</code> is the string resource file for your record.<br/>
+      When you create a more complex application, these files would be place in different jar files (OSGi bundles).
+      </p>
+      <p>
+      To compile you code, at the command line type:<br/>
+      <code>
+      mvn clean install<br/>
+      </code>
+      </p>
+      <p>
+      Now we're ready to test our code. Let's run an application using a our record. Just type:<br/>
+      <code>
+      mvn exec:java -D record=com.mycompany.sample.addressbook.db.AddressBook<br/>
+      </code>
+      You should be able to add, delete, and modify records in your new application.<br/>
+      </p>
+      <p>
+      Deploying this application to the web is just as easy. Start up your favorite OSGi container,
+      then add the jbundle framework and your new module.<br/>
+      I'll use <a href="http://karaf.apache.org">apache karaf</a>. Unzip and start karaf:<br/>
+      <code>
+      tar zxvf apache-karaf-x.x.x.tar.gz<br/>
+      cd apache-karaf-x.x.x<br/>
+      bin/karaf<br/>
+      </code>
+      Once karaf is started, add the jbundle framework and your new bundle:<br/>
+      <code>
+      shell:source mvn:org.jbundle.config/jbundle-artifacts/${project.version}/shell/setup<br/>
+      install mvn:com.mycompany.sample/com.mycompany.sample.addressbook<br/>
+      </code>
+      Your code is ready to run. Open a web browser and navigate to <a href="http://localhost:8181">http://localhost:8181</a>
       </p>
       <p>
       </p>
