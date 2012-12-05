@@ -23,7 +23,7 @@
       <p>
       Choose the jbundle-project template and enter your own group, artifact, and version number.
       To make things simple, use<br/>
-      <code>com.mycompany.sample</code>,<br/>
+      <code>com.mycompany.sample</code>,
       <code>com.mycompany.sample.addressbook</code>, and
       <code>1.0.0-SNAPSHOT</code>,
       respectively.
@@ -53,12 +53,12 @@
       </p>
       <p>
       Now we're ready to define our 'Contacts' record class.
-      Contacts should extend the 'VirtualRecord' class, which gives Contacts
-      some useful attributes like an ID field.<br/>
       Click on the <img src="/org/jbundle/res/images/icons/Source.gif"/> Class Detail button to display the classes
       for this project (There aren't any yet!).
       Now click on the <img src="/org/jbundle/res/images/icons/Form.gif"/> Form button to enter a new class.<br/>
-      We'll call our database record class <b>AddressBook</b>.
+      We'll call our database record class <b>AddressBook</b>. 
+      Contacts should extend the 'VirtualRecord' class, which gives Contacts
+      some useful attributes like an ID field.<br/>
       </p>
       <code>
       Class name: AddressBook<br/>
@@ -124,8 +124,8 @@
       install mvn:com.mycompany.sample/com.mycompany.sample.addressbook<br/>
       </code>
       Your code is ready to run. Open your web browser and navigate to
-<source>
-<a href="http://localhost:8181/appxsl#?applet=org.jbundle.Main&record=com.mycompany.sample.addressbook.db.AddressBook&otherPackages=com.mycompany.sample.addressbook.db&webStartPropertiesFile=/org/jbundle/res/webstart/app.properties">http://localhost:8181/appxsl#?applet=org.jbundle.Main&record=com.mycompany.sample.addressbook.db.AddressBook&otherPackages=com.mycompany.sample.addressbook.db&webStartPropertiesFile=/org/jbundle/res/webstart/app.properties</a><br/>
+<code>
+<a href="http://localhost:8181/appxsl?applet=#?applet=org.jbundle.Main&amp;record=com.mycompany.sample.addressbook.db.AddressBook&amp;otherPackages=com.mycompany.sample.addressbook.db&amp;webStartPropertiesFile=/org/jbundle/res/webstart/app.properties">http://localhost:8181/appxsl?applet=#?applet=org.jbundle.Main&amp;record=com.mycompany.sample.addressbook.db.AddressBook&amp;otherPackages=com.mycompany.sample.addressbook.db&amp;webStartPropertiesFile=/org/jbundle/res/webstart/app.properties</a><br/>
 <!--
 ok
 http://localhost:8181/appxsl#?applet=org.jbundle.Main&record=com.mycompany.sample.addressbook.db.AddressBook&otherPackages=com.mycompany.sample.addressbook.db&org.jbundle.util.osgi.webstart.appletClass=org.jbundle.Main&org.jbundle.util.osgi.webstart.codebase=/&org.jbundle.util.osgi.webstart.initialHeapSize=128m&org.jbundle.util.osgi.webstart.maxHeapSize=512m&org.jbundle.util.osgi.webstart.webStartComponents=/org/jbundle/res/webstart/thick.properties,/org/jbundle/res/webstart/thin.properties,/org/jbundle/res/webstart/resource.properties&connectionType=Proxy
@@ -153,11 +153,38 @@ tourapp:
 http://localhost:8181/appxsl#?screen=com.tourapp.tour.genled.screen.misc.AccountGridScreen&applet=org.jbundle.Main&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
 tourapp:
 http://localhost:8181/appxsl#?applet=org.jbundle.Main&record=com.mycompany.sample.addressbook.db.AddressBook&otherPackages=com.mycompany.sample.addressbook.db&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
--->
-</source>
-jbundle contains a nice javascript wrapper and and OSGi to webstart converter.
+menu
+http://localhost:8181/appxsl#?menu=Development&userid=&applet=org.jbundle.Main&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties-->
+
+
+
+
+?
+http://localhost:8181/appxsl#webstart%3Fapplet%3Dorg.jbundle.thin.base.screen.BaseApplet%26userid%3D11%26webStart%3Dthin%26menu%3DThin
+no
+http://localhost:8181/app?applet=org.jbundle.thin.base.screen.BaseApplet&screen=com.tourapp.thin.app.request.PopupMainScreen&webStart=thin
+yes
+http://localhost:8181/webstart?applet=org.jbundle.thin.base.screen.BaseApplet&backgroundcolor=%23eeeeff&background=backgrounds%2Fworldmapalpha.gif&menu=Thin&userid=11&jnlpjars=lib%2Fjbundle-thin-base-screen-core&jbundleversion=0.7.3-SNAPSHOT&splash=&jnlpextensions=docs%2Fjnlp%2Fthin%2Cdocs%2Fjnlp%2Fthintest%2Cdocs%2Fjnlp%2Fthintour&screen=org.jbundle.thin.base.screen.menu.JRemoteMenuScreen
+yes
+http://localhost:8181/webstart?applet=org.jbundle.Main&userid=&webStartPropertiesFile=%2Forg%2Fjbundle%2Fres%2Fwebstart%2Ftourapp.properties
+?
+http://localhost:8181/app?applet=org.jbundle.Main&userid=&webStartPropertiesFile=%2Forg%2Fjbundle%2Fres%2Fwebstart%2Ftourapp.properties
+?
+http://localhost:8181/apphtml?applet=org.jbundle.Main&userid=&webStartPropertiesFile=%2Forg%2Fjbundle%2Fres%2Fwebstart%2Ftourapp.properties
+http://localhost:8181/app?applet=org.jbundle.Main&userid=&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
+
+
+
+view-source:http://localhost:8181/app?applet=org.jbundle.Main&userid=&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
+view-source:http://localhost:8181/webstart?applet=org.jbundle.Main&userid=&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
+view-source:http://localhost:8181/webstart/docs/jsapplet.html?webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
+
+</code>.
+        jbundle contains a nice javascript wrapper and and OSGi to webstart converter. Try opening this window in another browser and notice that changes on one screen are
+        automatically updated on the other.
       </p>
       <p>
+        Congraturaltions! You have just finished your first jbundle application. Now you're ready to try some of the more advanced features in the <a href="./example2.html">next tutorial</a>.
       </p>
     </section>
   </body>
