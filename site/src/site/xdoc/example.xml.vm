@@ -125,66 +125,13 @@
       </code>
       Your code is ready to run. Open your web browser and navigate to
 <code>
-<a href="http://localhost:8181/appxsl?applet=#?applet=org.jbundle.Main&amp;record=com.mycompany.sample.addressbook.db.AddressBook&amp;otherPackages=com.mycompany.sample.addressbook.db&amp;webStartPropertiesFile=/org/jbundle/res/webstart/app.properties">http://localhost:8181/appxsl?applet=#?applet=org.jbundle.Main&amp;record=com.mycompany.sample.addressbook.db.AddressBook&amp;otherPackages=com.mycompany.sample.addressbook.db&amp;webStartPropertiesFile=/org/jbundle/res/webstart/app.properties</a><br/>
-<!--
-ok
-http://localhost:8181/appxsl#?applet=org.jbundle.Main&record=com.mycompany.sample.addressbook.db.AddressBook&otherPackages=com.mycompany.sample.addressbook.db&org.jbundle.util.osgi.webstart.appletClass=org.jbundle.Main&org.jbundle.util.osgi.webstart.codebase=/&org.jbundle.util.osgi.webstart.initialHeapSize=128m&org.jbundle.util.osgi.webstart.maxHeapSize=512m&org.jbundle.util.osgi.webstart.webStartComponents=/org/jbundle/res/webstart/thick.properties,/org/jbundle/res/webstart/thin.properties,/org/jbundle/res/webstart/resource.properties&connectionType=Proxy
-ok
-http://localhost:8181/appxsl#?applet=org.jbundle.Main&record=com.mycompany.sample.addressbook.db.AddressBook&otherPackages=com.mycompany.sample.addressbook.db&org.jbundle.util.osgi.webstart.codebase=/&org.jbundle.util.osgi.webstart.initialHeapSize=128m&org.jbundle.util.osgi.webstart.maxHeapSize=512m&org.jbundle.util.osgi.webstart.webStartComponents=/org/jbundle/res/webstart/thick.properties,/org/jbundle/res/webstart/thin.properties,/org/jbundle/res/webstart/resource.properties&connectionType=Proxy
-ok
-http://localhost:8181/webstart/docs/applet.html?screen=com.tourapp.tour.genled.screen.misc.AccountGridScreen&userid=&applet=org.jbundle.Main&user=&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
-ok
-http://localhost:8181/webstart/docs/applet.html?screen=com.tourapp.tour.genled.screen.misc.AccountGridScreen&userid=&applet=org.jbundle.Main&user=&org.jbundle.util.osgi.webstart.appletClass=org.jbundle.Main&org.jbundle.util.osgi.webstart.codebase=/&org.jbundle.util.osgi.webstart.initialHeapSize=128m&org.jbundle.util.osgi.webstart.maxHeapSize=512m&org.jbundle.util.osgi.webstart.webStartComponents=/org/jbundle/res/webstart/tour.properties,/org/jbundle/res/webstart/thick.properties,/org/jbundle/res/webstart/thin.properties&connectionType=Proxy&background=backgrounds/worldmapalpha.gif&backgroundcolor=%23EEEEFF
-ok
-http://localhost:8181/webstart?applet=org.jbundle.Main&userid=&org.jbundle.util.osgi.webstart.initialHeapSize=128m&org.jbundle.util.osgi.webstart.maxHeapSize=512m&connectionType=Proxy&org.jbundle.util.osgi.webstart.webStartComponents=/org/jbundle/res/webstart/tour.properties,/org/jbundle/res/webstart/thick.properties,/org/jbundle/res/webstart/thin.properties
-ok
-http://localhost:8181/webstart?applet=org.jbundle.Main&connectionType=Proxy&org.jbundle.util.osgi.webstart.webStartComponents=/org/jbundle/res/webstart/tour.properties,/org/jbundle/res/webstart/thick.properties,/org/jbundle/res/webstart/thin.properties
-ok
-http://localhost:8181/webstart?applet=org.jbundle.Main&connectionType=Proxy&org.jbundle.util.osgi.webstart.webStartComponents=/org/jbundle/res/webstart/tour.properties,/org/jbundle/res/webstart/thick.properties&org.jbundle.util.osgi.webstart.otherPackages=org.jbundle.thin.base.db,org.jbundle.res.webstart,org.jbundle.res.images.buttons,org.jbundle.thin.base.screen,org.jbundle.thin.base.screen.cal.grid,org.jbundle.thin.base.screen.cal.opt,org.jbundle.thin.base.screen.grid,org.jbundle.thin.base.screen.util,org.jbundle.thin.opt.location,org.jbundle.util.calendarpanel,org.jbundle.thin.base.screen.jcalendarbutton
-ok
-http://localhost:8181/webstart?applet=org.jbundle.Main&connectionType=Proxy&org.jbundle.util.osgi.webstart.webStartComponents=/org/jbundle/res/webstart/tour.properties&org.jbundle.util.osgi.webstart.otherPackages=org.jbundle.thin.base.db,org.jbundle.res.webstart,org.jbundle.res.images.buttons,org.jbundle.thin.base.screen,org.jbundle.thin.base.screen.cal.grid,org.jbundle.thin.base.screen.cal.opt,org.jbundle.thin.base.screen.grid,org.jbundle.thin.base.screen.util,org.jbundle.thin.opt.location,org.jbundle.util.calendarpanel,org.jbundle.thin.base.screen.jcalendarbutton,org.jbundle.base.db.client,org.jbundle.base.message.opt,org.jbundle.base.screen.view.swing,org.jbundle.base.db.proxy,org.jbundle.base.db.mapped,org.jbundle.base.db.serial,org.jbundle.base.db.net,org.jbundle.base.db.xml,org.jbundle.main.screen,org.jbundle.res.data.initial_data.current_initial_data.main_base_user.org.jbundle.main.user.db,org.jbundle.base.screen.view.swing.opt.jaxe,org.jbundle.main.calendar.db,org.jbundle.main.msg.db
-zz
-http://localhost:8181/webstart?applet=org.jbundle.Main&connectionType=Proxy&org.jbundle.util.osgi.webstart.otherPackages=org.jbundle.thin.base.db,org.jbundle.res.webstart,org.jbundle.res.images.buttons,org.jbundle.thin.base.screen,org.jbundle.thin.base.screen.cal.grid,org.jbundle.thin.base.screen.cal.opt,org.jbundle.thin.base.screen.grid,org.jbundle.thin.base.screen.util,org.jbundle.thin.opt.location,org.jbundle.util.calendarpanel,org.jbundle.thin.base.screen.jcalendarbutton,org.jbundle.base.db.client,org.jbundle.base.message.opt,org.jbundle.base.screen.view.swing,org.jbundle.base.db.proxy,org.jbundle.base.db.mapped,org.jbundle.base.db.serial,org.jbundle.base.db.net,org.jbundle.base.db.xml,org.jbundle.main.screen,org.jbundle.res.data.initial_data.current_initial_data.main_base_user.org.jbundle.main.user.db,org.jbundle.base.screen.view.swing.opt.jaxe,org.jbundle.main.calendar.db,org.jbundle.main.msg.db,com.tourapp
-ok - thin
-http://localhost:8181/webstart?applet=org.jbundle.thin.base.screen.BaseApplet&backgroundcolor=%23eeeeff&background=backgrounds%2Fworldmapalpha.gif&menu=Thin&userid=&splash=&jnlpextensions=docs%2Fjnlp%2Fthin%2Cdocs%2Fjnlp%2Fthintest%2Cdocs%2Fjnlp%2Fthintour&screen=org.jbundle.thin.base.screen.menu.JRemoteMenuScreen
-ok - webstart
-http://localhost:8181/webstart/docs/applet.html?record=com.mycompany.sample.addressbook.db.AddressBook&applet=org.jbundle.Main&org.jbundle.util.osgi.webstart.codebase=/&org.jbundle.util.osgi.webstart.initialHeapSize=128m&org.jbundle.util.osgi.webstart.maxHeapSize=512m&org.jbundle.util.osgi.webstart.webStartComponents=/org/jbundle/res/webstart/thick.properties&connectionType=Proxy&background=backgrounds/worldmapalpha.gif&backgroundcolor=%23EEEEFF&otherPackages=com.mycompany.sample.addressbook.db
-tourapp:
-http://localhost:8181/appxsl#?screen=com.tourapp.tour.genled.screen.misc.AccountGridScreen&applet=org.jbundle.Main&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
-tourapp:
-http://localhost:8181/appxsl#?applet=org.jbundle.Main&record=com.mycompany.sample.addressbook.db.AddressBook&otherPackages=com.mycompany.sample.addressbook.db&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
-menu
-http://localhost:8181/appxsl#?menu=Development&userid=&applet=org.jbundle.Main&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties-->
-
-
-
-
-?
-http://localhost:8181/appxsl#webstart%3Fapplet%3Dorg.jbundle.thin.base.screen.BaseApplet%26userid%3D11%26webStart%3Dthin%26menu%3DThin
-no
-http://localhost:8181/app?applet=org.jbundle.thin.base.screen.BaseApplet&screen=com.tourapp.thin.app.request.PopupMainScreen&webStart=thin
-yes
-http://localhost:8181/webstart?applet=org.jbundle.thin.base.screen.BaseApplet&backgroundcolor=%23eeeeff&background=backgrounds%2Fworldmapalpha.gif&menu=Thin&userid=11&jnlpjars=lib%2Fjbundle-thin-base-screen-core&jbundleversion=0.7.3-SNAPSHOT&splash=&jnlpextensions=docs%2Fjnlp%2Fthin%2Cdocs%2Fjnlp%2Fthintest%2Cdocs%2Fjnlp%2Fthintour&screen=org.jbundle.thin.base.screen.menu.JRemoteMenuScreen
-yes
-http://localhost:8181/webstart?applet=org.jbundle.Main&userid=&webStartPropertiesFile=%2Forg%2Fjbundle%2Fres%2Fwebstart%2Ftourapp.properties
-?
-http://localhost:8181/app?applet=org.jbundle.Main&userid=&webStartPropertiesFile=%2Forg%2Fjbundle%2Fres%2Fwebstart%2Ftourapp.properties
-?
-http://localhost:8181/apphtml?applet=org.jbundle.Main&userid=&webStartPropertiesFile=%2Forg%2Fjbundle%2Fres%2Fwebstart%2Ftourapp.properties
-http://localhost:8181/app?applet=org.jbundle.Main&userid=&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
-
-
-
-view-source:http://localhost:8181/app?applet=org.jbundle.Main&userid=&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
-view-source:http://localhost:8181/webstart?applet=org.jbundle.Main&userid=&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
-view-source:http://localhost:8181/webstart/docs/jsapplet.html?webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
-
-</code>.
+<a href="http://localhost:8181/webstart/docs/jsapplet.html#?record=com.mycompany.sample.addressbook.db.AddressBook&amp;otherPackages=com.mycompany.sample.addressbook.db&amp;webStartPropertiesFile=/org/jbundle/res/webstart/app.properties">http://localhost:8181/webstart/docs/jsapplet.html#?record=com.mycompany.sample.addressbook.db.AddressBook&amp;otherPackages=com.mycompany.sample.addressbook.db&amp;webStartPropertiesFile=/org/jbundle/res/webstart/app.properties</a>
+</code>.<br/>
         jbundle contains a nice javascript wrapper and and OSGi to webstart converter. Try opening this window in another browser and notice that changes on one screen are
         automatically updated on the other.
       </p>
       <p>
-        Congraturaltions! You have just finished your first jbundle application. Now you're ready to try some of the more advanced features in the <a href="./example2.html">next tutorial</a>.
+        Congratulations! You have just finished your first jbundle application. Now you're ready to try some of the more advanced features in the <a href="./example2.html">next tutorial</a>.
       </p>
     </section>
   </body>
