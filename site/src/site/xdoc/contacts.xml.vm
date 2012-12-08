@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://maven.apache.org/XDOC/2.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/XDOC/2.0 http://maven.apache.org/xsd/xdoc-2.0.xsd">
+  <properties>
+    <title>Welcome</title>
+    <author email="don@tourgeek.com">Don Corley</author>
+  </properties>
+  <body>
+    <section name="JBundle - Creating a sample application">
+      <p>
+      In this example, we're going to create a simple organizer application.
+      This application will include a contact list and a calendar.
+      Your finished application should look like <a href="contacts.html">this</a>.
+      </p>
+      <p>
+      The finished project is <a href="http://www.github.com/">here in our source repository</a>.
+      We'll start with this project and show you all of the components.
+      </p>
+      <p>
+      First, check out the project from github:
+      </p>
+      <source>
+      git clone http://www.github.com/kjlkjl
+      </source>
+      <p>
+      Move to the new project directory and run maven.<br/>
+      </p>
+      <source>
+      cd contacts
+      mvn exec:java
+      </source>
+      <p>
+      The first screen of the code generator will display the JBundle development menu.
+      </p>
+      <p>
+      Click on the <img src="/org/jbundle/res/images/icons/Folder.gif"/> 'Class projects' icon,
+      and navigate to the <img src="/org/jbundle/res/images/icons/Grid.gif"/> contacts application.<br/>
+      </p>
+      <p>
+      Next, click on the <img src="/org/jbundle/res/images/icons/Source.gif"/> Class Detail button to display the classes
+      for this project. Let's take a look at the
+      Contacts <img src="/org/jbundle/res/images/icons/Form.gif"/> table.<br/>
+      Click on the 'Fields' button to display the record detail. Here you can see the standard fields for a contact record.<br/>
+      </p>
+      <p>
+      Click on the 'keys' button to display the indexes for this record.
+      </p>
+      <p>
+      Now, let's take a look at the the screen we use to display this record.<br/>
+      Click on the <img src="/org/jbundle/res/images/icons/Back.gif"/> 'Back' button until you are at the class display.
+      Select the <img src="/org/jbundle/res/images/icons/Form.gif"/> Contacts Grid Screen. Now, click on the
+      <img src="/org/jbundle/res/images/icons/Form.gif"/> 'Screen' button to display the screen detail. These
+      items specify the fields to display and where they will appear on the screen.
+      </p>
+      <p>
+      Next, let's set up the calendar application. The record design is a bit more complicated here, since we
+      want to have one-time event as well as recurring events. We'll actually set up two different formats in the same
+      record. Take a look at the 'Anniversary' and 'Appointments' records.
+      </p>
+      <p>
+      Instead of displaying the calendar in form or grid, we'll display them in a calendar screen. Look at the
+      'CalendarScreen' class. You will notice that is inherits from the 'Calendar' class. When you override this
+      class, all you have to supply is the event date.
+      </p>
+      <p>
+      You'll probably want a menu to navigate between the screens in you application. From the main screen,
+      click on the 'menu' item. You will find menu items that display a sub-menu or display a screen.
+      </p>
+      <p>
+      Now, let's take a look at the application in action...
+      </p>
+      <p>
+      Exit the program builder and compile you code. At the command line type:<br/>
+      <code>
+      mvn clean install<br/>
+      </code>
+      </p>
+      <p>
+      Now we're ready to try our try. I've include some initial data so you can see how it works.
+      TO run the application, type:<br/>
+      <code>
+      mvn exec:java -P run<br/>
+      </code>
+      You should be able to add, delete, and modify records in your new application.<br/>
+      </p>
+      <p>
+      Deploying this application to the web is just as easy. Start up your favorite OSGi container,
+      then add the jbundle framework and your new module.<br/>
+      I'll use <a href="http://karaf.apache.org">apache karaf</a>. Unzip and start karaf:<br/>
+      <code>
+      tar zxvf apache-karaf-x.x.x.tar.gz<br/>
+      cd apache-karaf-x.x.x<br/>
+      bin/karaf<br/>
+      </code>
+      Once karaf is started, add the jbundle framework and your new bundle:<br/>
+      <code>
+      shell:source mvn:org.jbundle.config/jbundle-artifacts/${project.version}/shell/setup<br/>
+      install mvn:com.mycompany.sample/com.mycompany.sample.addressbook<br/>
+      </code>
+      Your code is ready to run. Open your web browser and navigate to
+<code>
+<a href="http://localhost:8181/webstart/docs/jsapplet.html#?record=com.mycompany.sample.addressbook.db.AddressBook&amp;otherPackages=com.mycompany.sample.addressbook.db&amp;webStartPropertiesFile=/org/jbundle/res/webstart/app.properties">http://localhost:8181/webstart/docs/jsapplet.html#?record=com.mycompany.sample.addressbook.db.AddressBook&amp;otherPackages=com.mycompany.sample.addressbook.db&amp;webStartPropertiesFile=/org/jbundle/res/webstart/app.properties</a>
+</code>.<br/>
+        jbundle contains a nice javascript wrapper and and OSGi to webstart converter. Try opening this window in another browser and notice that changes on one screen are
+        automatically updated on the other.
+      </p>
+      <p>
+        Congratulations! You have just finished your first jbundle application. Now you're ready to try some of the more advanced features in the <a href="./example2.html">next tutorial</a>.
+      </p>
+    </section>
+  </body>
+</document>

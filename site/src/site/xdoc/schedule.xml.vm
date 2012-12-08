@@ -136,16 +136,16 @@ cd
       </p>
       <p>
       	Now you're ready to try it out!<br></br>
-      	Open your favorite browser and type <a href="http://localhost:8080/contact">http://localhost:8080/contact</a> into the location bar.
+      	Open your favorite browser and type <a href="http://localhost:8181/contact">http://localhost:8181/contact</a> into the location bar.
       	Select the <strong>Contact Application</strong> and you're in!
       	<br/>
       	Try this url:
       	<br/>
-      	http://localhost:8080/contact/tourapp?applet=org.jbundle.Main&amp;jnlpjars=lib%2Fjbundle-base-screen-view-swing&amp;userid=1&amp;jnlpextensions=docs%2Fjnlp%2Fapp%2Cdocs%2Fjnlp%2Fthin%2Cdocs%2Fjnlp%2Fthick%2C&amp;background=backgrounds%2Fworldmapalpha.gif&amp;backgroundcolor=%23eeeeff&amp;jbundleversion=&amp;menu=dev.tourapp.com
+      	http://localhost:8181/contact/tourapp?applet=org.jbundle.Main&amp;jnlpjars=lib%2Fjbundle-base-screen-view-swing&amp;userid=1&amp;jnlpextensions=docs%2Fjnlp%2Fapp%2Cdocs%2Fjnlp%2Fthin%2Cdocs%2Fjnlp%2Fthick%2C&amp;background=backgrounds%2Fworldmapalpha.gif&amp;backgroundcolor=%23eeeeff&amp;jbundleversion=&amp;menu=dev.tourapp.com
       	<br/>
-      	http://localhost:8080/contact/tourapp?applet=org.jbundle.Main&amp;jnlpjars=lib%2Fjbundle-base-screen-view-swing&amp;userid=1&amp;jnlpextensions=docs%2Fjnlp%2Fapp%2Cdocs%2Fjnlp%2Fthin%2Cdocs%2Fjnlp%2Fthick%2C&amp;background=backgrounds%2Fworldmapalpha.gif&amp;backgroundcolor=%23eeeeff&amp;jbundleversion=&amp;screen=org.jbundle.app.contact.screen.ContactGridScreen
+      	http://localhost:8181/contact/tourapp?applet=org.jbundle.Main&amp;jnlpjars=lib%2Fjbundle-base-screen-view-swing&amp;userid=1&amp;jnlpextensions=docs%2Fjnlp%2Fapp%2Cdocs%2Fjnlp%2Fthin%2Cdocs%2Fjnlp%2Fthick%2C&amp;background=backgrounds%2Fworldmapalpha.gif&amp;backgroundcolor=%23eeeeff&amp;jbundleversion=&amp;screen=org.jbundle.app.contact.screen.ContactGridScreen
       	<br/>
-      	http://localhost:8080/contact/tourapp?applet=org.jbundle.Main&amp;jnlpjars=lib%2Fjbundle-base-screen-view-swing&amp;userid=1&amp;jnlpextensions=docs%2Fjnlp%2Fapp%2Cdocs%2Fjnlp%2Fthin%2Cdocs%2Fjnlp%2Fthick%2C&amp;background=backgrounds%2Fworldmapalpha.gif&amp;backgroundcolor=%23eeeeff&amp;jbundleversion=&amp;menu=dev.tourapp.com#%3Fscreen%3Dorg.jbundle.app.contact.screen.ContactGridScreen%26jnlpjars%3Dlib%252Fjbundle-base-screen-view-swing%26background%3Dbackgrounds%252Fworldmapalpha.gif%26userid%3D1%26applet%3Dorg.jbundle.Main%26backgroundcolor%3D%2523eeeeff%26jnlpextensions%3Ddocs%252Fjnlp%252Fapp%252Cdocs%252Fjnlp%252Fthin%252Cdocs%252Fjnlp%252Fthick%252C
+      	http://localhost:8181/contact/tourapp?applet=org.jbundle.Main&amp;jnlpjars=lib%2Fjbundle-base-screen-view-swing&amp;userid=1&amp;jnlpextensions=docs%2Fjnlp%2Fapp%2Cdocs%2Fjnlp%2Fthin%2Cdocs%2Fjnlp%2Fthick%2C&amp;background=backgrounds%2Fworldmapalpha.gif&amp;backgroundcolor=%23eeeeff&amp;jbundleversion=&amp;menu=dev.tourapp.com#%3Fscreen%3Dorg.jbundle.app.contact.screen.ContactGridScreen%26jnlpjars%3Dlib%252Fjbundle-base-screen-view-swing%26background%3Dbackgrounds%252Fworldmapalpha.gif%26userid%3D1%26applet%3Dorg.jbundle.Main%26backgroundcolor%3D%2523eeeeff%26jnlpextensions%3Ddocs%252Fjnlp%252Fapp%252Cdocs%252Fjnlp%252Fthin%252Cdocs%252Fjnlp%252Fthick%252C
       	<br/>
       </p>
       <p>
@@ -169,13 +169,13 @@ cd
         
       	<br/>
 
-      	http://localhost:8080/contact/tourapp?applet=org.jbundle.Main&amp;jnlpjars=lib%2Fjbundle-base-screen-view-swing&amp;userid=1&amp;jnlpextensions=docs%2Fjnlp%2Fapp%2Cdocs%2Fjnlp%2Fthin%2Cdocs%2Fjnlp%2Fthick%2C&amp;background=backgrounds%2Fworldmapalpha.gif&amp;backgroundcolor=%23eeeeff&amp;jbundleversion=&amp;menu=dev.tourapp.com
+      	http://localhost:8181/contact/tourapp?applet=org.jbundle.Main&amp;jnlpjars=lib%2Fjbundle-base-screen-view-swing&amp;userid=1&amp;jnlpextensions=docs%2Fjnlp%2Fapp%2Cdocs%2Fjnlp%2Fthin%2Cdocs%2Fjnlp%2Fthick%2C&amp;background=backgrounds%2Fworldmapalpha.gif&amp;backgroundcolor=%23eeeeff&amp;jbundleversion=&amp;menu=dev.tourapp.com
       	<br/>
-      	http://localhost:8080/contact/tourapp?applet=org.jbundle.Main&amp;jnlpjars=lib%2Fjbundle-base-screen-view-swing&amp;userid=1&amp;jnlpextensions=docs%2Fjnlp%2Fapp%2Cdocs%2Fjnlp%2Fthin%2Cdocs%2Fjnlp%2Fthick%2C&amp;background=backgrounds%2Fworldmapalpha.gif&amp;backgroundcolor=%23eeeeff&amp;jbundleversion=&amp;screen=org.jbundle.app.contact.screen.ContactGridScreen
+      	http://localhost:8181/contact/tourapp?applet=org.jbundle.Main&amp;jnlpjars=lib%2Fjbundle-base-screen-view-swing&amp;userid=1&amp;jnlpextensions=docs%2Fjnlp%2Fapp%2Cdocs%2Fjnlp%2Fthin%2Cdocs%2Fjnlp%2Fthick%2C&amp;background=backgrounds%2Fworldmapalpha.gif&amp;backgroundcolor=%23eeeeff&amp;jbundleversion=&amp;screen=org.jbundle.app.contact.screen.ContactGridScreen
       	<br/>
-      	http://localhost:8080/tourapp?applet=org.jbundle.Main&amp;jnlpjars=lib%2Fjbundle-base-screen-view-swing&amp;userid=1&amp;jnlpextensions=docs%2Fjnlp%2Fapp%2Cdocs%2Fjnlp%2Fthin%2Cdocs%2Fjnlp%2Fthick%2C&amp;background=backgrounds%2Fworldmapalpha.gif&amp;backgroundcolor=%23eeeeff&amp;jbundleversion=&amp;screen=org.jbundle.app.contact.screen.ContactGridScreen
+      	http://localhost:8181/tourapp?applet=org.jbundle.Main&amp;jnlpjars=lib%2Fjbundle-base-screen-view-swing&amp;userid=1&amp;jnlpextensions=docs%2Fjnlp%2Fapp%2Cdocs%2Fjnlp%2Fthin%2Cdocs%2Fjnlp%2Fthick%2C&amp;background=backgrounds%2Fworldmapalpha.gif&amp;backgroundcolor=%23eeeeff&amp;jbundleversion=&amp;screen=org.jbundle.app.contact.screen.ContactGridScreen
       	<br/>
-      	http://localhost:8080/contact/tourapp?applet=org.jbundle.Main&amp;jnlpjars=lib%2Fjbundle-base-screen-view-swing&amp;userid=1&amp;jnlpextensions=docs%2Fjnlp%2Fapp%2Cdocs%2Fjnlp%2Fthin%2Cdocs%2Fjnlp%2Fthick%2C&amp;background=backgrounds%2Fworldmapalpha.gif&amp;backgroundcolor=%23eeeeff&amp;jbundleversion=&amp;menu=dev.tourapp.com#%3Fscreen%3Dorg.jbundle.app.contact.screen.ContactGridScreen%26jnlpjars%3Dlib%252Fjbundle-base-screen-view-swing%26background%3Dbackgrounds%252Fworldmapalpha.gif%26userid%3D1%26applet%3Dorg.jbundle.Main%26backgroundcolor%3D%2523eeeeff%26jnlpextensions%3Ddocs%252Fjnlp%252Fapp%252Cdocs%252Fjnlp%252Fthin%252Cdocs%252Fjnlp%252Fthick%252C
+      	http://localhost:8181/contact/tourapp?applet=org.jbundle.Main&amp;jnlpjars=lib%2Fjbundle-base-screen-view-swing&amp;userid=1&amp;jnlpextensions=docs%2Fjnlp%2Fapp%2Cdocs%2Fjnlp%2Fthin%2Cdocs%2Fjnlp%2Fthick%2C&amp;background=backgrounds%2Fworldmapalpha.gif&amp;backgroundcolor=%23eeeeff&amp;jbundleversion=&amp;menu=dev.tourapp.com#%3Fscreen%3Dorg.jbundle.app.contact.screen.ContactGridScreen%26jnlpjars%3Dlib%252Fjbundle-base-screen-view-swing%26background%3Dbackgrounds%252Fworldmapalpha.gif%26userid%3D1%26applet%3Dorg.jbundle.Main%26backgroundcolor%3D%2523eeeeff%26jnlpextensions%3Ddocs%252Fjnlp%252Fapp%252Cdocs%252Fjnlp%252Fthin%252Cdocs%252Fjnlp%252Fthick%252C
       	<br/>
       </p>
       <p>
