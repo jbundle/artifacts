@@ -12,6 +12,7 @@ for dir in tourapp \
 ../../app/picture \
 ../../app/dance \
 ../../jbundle/android \
+../../jbundle/javafx \
 ../../jbundle/jbundle \
 ../../jbundle/app/contact \
 ../../../jbundle/misc \

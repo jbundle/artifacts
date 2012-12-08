@@ -12,6 +12,7 @@ jbundle/jbundle-parent \
 app/picture \
 app/dance \
 jbundle/android \
+jbundle/javafx \
 jbundle/jbundle \
 jbundle/app/contact \
 jbundle/misc \

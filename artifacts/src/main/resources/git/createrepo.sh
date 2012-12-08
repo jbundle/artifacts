@@ -39,6 +39,7 @@ wrapped \
 artifacts \
 jbundle/jbundle-parent \
 jbundle/android \
+jbundle/javafx \
 jbundle/jbundle \
 jbundle/app/contact \
 app/picture \
