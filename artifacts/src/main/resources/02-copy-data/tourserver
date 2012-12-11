@@ -9,7 +9,7 @@ export CLASSPATH=$TOURAPP/WEB-INF/lib/jbundle-base-screen-control-servlet-$VERSI
 export COMMAND="java -classpath \
 $CLASSPATH \
 -Xms256m -Xmx512m -Djava.rmi.server.codebase=http://$SERVER/classes/ \
--Djava.security.policy=$POLICY_ALL org.jbundle.server.Server jmsserver=true \
+-Djava.security.policy=$POLICY_ALL org.jbundle.server.Server messageserver=true \
 appname=org.jbundle.main.msg.app.MessageServerActivator provider=$SERVER"
 su -l don -c "$COMMAND" &
 

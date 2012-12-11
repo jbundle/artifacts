@@ -14,7 +14,7 @@ background=backgrounds/worldmapalpha.gif \
 backgroundcolor=#CCFFFF \
 remotehost=$SERVER \
 codebase=$CODE_BASE \
-dbSuffix=_test \
+systemname=_test \
 mainUserDBName=main \
 programSharedDBName=program_test \
 local=Jdbc table=Jdbc remote=Jdbc

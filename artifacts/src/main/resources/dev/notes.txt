@@ -3,7 +3,7 @@ config:edit org.jbundle.base.screen.control.swing.activator
 config:propset table Jdbc
 config:propset remote Jdbc
 config:propset local Jdbc
-config:propset jmsserver false
+config:propset messageserver false
 # config:propset menu dev.tourapp.com
 config:propset background backgrounds/worldmapalpha.gif
 config:propset backgroundcolor '#EEEEFF'

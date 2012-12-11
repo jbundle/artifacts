@@ -10,5 +10,5 @@ DEBUG='-agentlib:jdwp=transport=dt_socket,address=8001,server=y,suspend=n'
 else
 DEBUG=''
 fi
-java $DEBUG -Xms256m -Xmx512m -Djava.rmi.server.codebase=http://$SERVER/classes/ -Djava.security.policy=$POLICY_ALL org.jbundle.server.Server jmsserver=true appname=org.jbundle.main.msg.app.MessageServerActivator provider=$SERVER &
+java $DEBUG -Xms256m -Xmx512m -Djava.rmi.server.codebase=http://$SERVER/classes/ -Djava.security.policy=$POLICY_ALL org.jbundle.server.Server messageserver=true appname=org.jbundle.main.msg.app.MessageServerActivator provider=$SERVER &
 

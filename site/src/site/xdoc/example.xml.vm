@@ -18,7 +18,7 @@
       First, create your new maven project:<br/>
       </p>
       <code>
-      mvn archetype:generate -Dfilter=org.jbundle:
+      mvn archetype:generate --define filter=org.jbundle:
       </code>
       <p>
       Choose the jbundle-project template and enter your own group, artifact, and version number.
@@ -36,7 +36,7 @@
       </p>
       <code>
       cd com.mycompany.sample.addressbook<br/>
-      mvn exec:java
+      mvn exec:java --activate-profiles dev,local
       </code>
       <p>
       The first screen of the code generator will display the JBundle development menu.
@@ -67,10 +67,7 @@
       Class type: record
       </code>
       <p>
-      Enter the database name by clicking on the File header button.<br/>
-      <code>
-      Database name: test
-      </code>
+      Display the database screen by clicking on the File header button. The default values are fine.<br/>
       </p>
       <p>
       Now we are ready to enter the fields in our database. Click on the 'Fields' button.<br/>
@@ -105,7 +102,7 @@
       <p>
       Now we're ready to test our code. Let's run an application using a our record. Just type:<br/>
       <code>
-      mvn exec:java -D record=com.mycompany.sample.addressbook.db.AddressBook<br/>
+      mvn exec:java  --activateprofiles local --define record=com.mycompany.sample.addressbook.db.AddressBook<br/>
       </code>
       You should be able to add, delete, and modify records in your new application.<br/>
       </p>
@@ -123,12 +120,12 @@
       shell:source mvn:org.jbundle.config/jbundle-artifacts/${project.version}/shell/setup<br/>
       install mvn:com.mycompany.sample/com.mycompany.sample.addressbook<br/>
       </code>
-      Your code is ready to run. Open your web browser and navigate to
-<code>
-<a href="http://localhost:8181/webstart/docs/jsapplet.html#?record=com.mycompany.sample.addressbook.db.AddressBook&amp;otherPackages=com.mycompany.sample.addressbook.db&amp;webStartPropertiesFile=/org/jbundle/res/webstart/app.properties">http://localhost:8181/webstart/docs/jsapplet.html#?record=com.mycompany.sample.addressbook.db.AddressBook&amp;otherPackages=com.mycompany.sample.addressbook.db&amp;webStartPropertiesFile=/org/jbundle/res/webstart/app.properties</a>
-</code>.<br/>
-        jbundle contains a nice javascript wrapper and and OSGi to webstart converter. Try opening this window in another browser and notice that changes on one screen are
-        automatically updated on the other.
+      Your code is ready to run.
+        <a target="_blank" href="http://localhost:8181/webstart/docs/jsapplet.html#?record=com.mycompany.sample.addressbook.db.AddressBook&amp;otherPackages=com.mycompany.sample.addressbook.db&amp;systemname=com.mycompany.sample&amp;webStartPropertiesFile=/org/jbundle/res/webstart/app.properties">click here</a> to start your app in a new browser window.<br/>
+      <span style="color: red;font-style: italic;">Note:</span>
+      <span style="font-style: italic;">This will take a while the first time.</span>
+        jbundle contains a nice javascript wrapper and and OSGi to webstart converter.
+        Try opening this window in another browser and notice that changes on one screen areautomatically updated on the other.
       </p>
       <p>
         Congratulations! You have just finished your first jbundle application. Now you're ready to try some of the more advanced features in the <a href="./example2.html">next tutorial</a>.

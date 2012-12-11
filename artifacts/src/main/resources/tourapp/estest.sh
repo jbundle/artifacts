@@ -9,4 +9,4 @@ else
   DEBUG=''
 fi
 
-java $DEBUG -Xms256m -Xmx512m org.jbundle.Main background=backgrounds/worldmapalpha.gif backgroundcolor=#CCCCFF remotehost=$SERVER codebase=$CODE_BASE dbSuffix=_test mainUserDBName=main programSharedDBName=program_test local=Jdbc table=Jdbc remote=Jdbc language=es
+java $DEBUG -Xms256m -Xmx512m org.jbundle.Main background=backgrounds/worldmapalpha.gif backgroundcolor=#CCCCFF remotehost=$SERVER codebase=$CODE_BASE systemname=_test mainUserDBName=main programSharedDBName=program_test local=Jdbc table=Jdbc remote=Jdbc language=es
