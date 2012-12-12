@@ -102,7 +102,7 @@
       <p>
       Now we're ready to test our code. Let's run an application using a our record. Just type:<br/>
       <code>
-      mvn exec:java  --activateprofiles local --define record=com.mycompany.sample.addressbook.db.AddressBook<br/>
+      mvn exec:java  --activate-profiles local --define record=com.mycompany.sample.addressbook.db.AddressBook<br/>
       </code>
       You should be able to add, delete, and modify records in your new application.<br/>
       </p>
@@ -121,9 +121,9 @@
       install mvn:com.mycompany.sample/com.mycompany.sample.addressbook<br/>
       </code>
       Your code is ready to run.
-        <a target="_blank" href="http://localhost:8181/webstart/docs/jsapplet.html#?record=com.mycompany.sample.addressbook.db.AddressBook&amp;otherPackages=com.mycompany.sample.addressbook.db&amp;systemname=com.mycompany.sample&amp;webStartPropertiesFile=/org/jbundle/res/webstart/app.properties">click here</a> to start your app in a new browser window.<br/>
+        <a target="_blank" href="http://localhost:8181/webstart/docs/jsapplet.html#?record=com.mycompany.sample.addressbook.db.AddressBook&amp;otherPackages=com.mycompany.sample.addressbook.db&amp;systemname=com.mycompany.sample&amp;webStartPropertiesFile=/org/jbundle/res/webstart/app.properties">Click here</a> to start your app in a new browser window.
       <span style="color: red;font-style: italic;">Note:</span>
-      <span style="font-style: italic;">This will take a while the first time.</span>
+      <span style="font-style: italic;">This will take a while the first time.</span><br/>
         jbundle contains a nice javascript wrapper and and OSGi to webstart converter.
         Try opening this window in another browser and notice that changes on one screen areautomatically updated on the other.
       </p>
