@@ -125,10 +125,16 @@
       <span style="color: red;font-style: italic;">Note:</span>
       <span style="font-style: italic;">This will take a while the first time.</span><br/>
         jbundle contains a nice javascript wrapper and and OSGi to webstart converter.
-        Try opening this window in another browser and notice that changes on one screen areautomatically updated on the other.
+        Try opening this window in another browser and notice that changes on one screen are automatically updated on the other.
       </p>
       <p>
-        Congratulations! You have just finished your first jbundle application. Now you're ready to try some of the more advanced features in the <a href="./example2.html">next tutorial</a>.
+      Now that you have finished your application, you may want to save the application and program data. Click on the
+      <img src="/org/jbundle/res/images/icons/Export.gif"/> Export icon this display the Export Screen. Now click on the
+      Export button to export your program's data and then click on the Export System Data button to export your program
+      parameters. You will find your data in the src/main/resources directory.
+      </p>
+      <p>
+        Congratulations! You have just finished your first jbundle application. Now you're ready to try some of the more advanced features in the <a href="./office.html">next tutorial</a>.
       </p>
     </section>
   </body>

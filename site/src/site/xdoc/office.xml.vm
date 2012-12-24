@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://maven.apache.org/XDOC/2.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/XDOC/2.0 http://maven.apache.org/xsd/xdoc-2.0.xsd">
+  <properties>
+    <title>Welcome</title>
+    <author email="don@tourgeek.com">Don Corley</author>
+  </properties>
+  <body>
+    <section name="JBundle - Creating the office application">
+      <p>
+      In this example, we're going to create a simple office application, consisting of a contact list and a calendar.
+      Your finished application should look like <a href="office.html">this</a>.
+      </p>
+      <p>
+      In this example, we'll start with a finished application and examine the program parameters.
+      </p>
+      <p>
+      Let's start out by checking this application out. This application is in github at <a href="https://github.com/jbundle/app-office">https://github.com/jbundle/app-office</a>
+      To check out this application and build it, type:<br/>
+      <code>git clone https://github.com/jbundle/app-office<br/>
+      mvn clean install</code><br/>
+      </p>
+      </p>
+      <p>
+    </section>
+  </body>
+</document>
