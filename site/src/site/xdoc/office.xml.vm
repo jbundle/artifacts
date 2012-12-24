@@ -21,8 +21,8 @@
       <code>git clone https://github.com/jbundle/app-office<br/>
       mvn clean install</code><br/>
       </p>
-      </p>
       <p>
+      </p>
     </section>
   </body>
 </document>
