@@ -19,6 +19,7 @@
       Let's start out by checking this application out. This application is in github at <a href="https://github.com/jbundle/app-office">https://github.com/jbundle/app-office</a>
       To check out this application and build it, type:<br/>
       <code>git clone https://github.com/jbundle/app-office<br/>
+      cd app-office<br/>
       mvn clean install</code><br/>
       </p>
       <p>
