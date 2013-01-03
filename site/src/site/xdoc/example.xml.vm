@@ -94,7 +94,7 @@
       When you create a more complex application, these files would be place in different jar files (OSGi bundles).
       </p>
       <p>
-      To compile you code, at the command line type:<br/>
+      To compile your code, at the command line type:<br/>
       <code>
       mvn clean install<br/>
       </code>
@@ -102,7 +102,7 @@
       <p>
       Now we're ready to test our code. Let's run an application using a our record. Just type:<br/>
       <code>
-      mvn exec:java  --activate-profiles local --define record=com.mycompany.sample.addressbook.db.AddressBook<br/>
+      mvn exec:java --activate-profiles local --define record=com.mycompany.sample.addressbook.db.AddressBook<br/>
       </code>
       You should be able to add, delete, and modify records in your new application.<br/>
       </p>
@@ -123,7 +123,7 @@
       Your code is ready to run.
         <a target="_blank" href="http://localhost:8181/webstart/docs/jsapplet.html#?record=com.mycompany.sample.addressbook.db.AddressBook&amp;otherPackages=com.mycompany.sample.addressbook.db&amp;systemname=com.mycompany.sample&amp;webStartPropertiesFile=/org/jbundle/res/webstart/app.properties">Click here</a> to start your app in a new browser window.
       <span style="color: red;font-style: italic;">Note:</span>
-      <span style="font-style: italic;">This will take a while the first time.</span><br/>
+      <span style="font-style: italic;">This may take a while the first time this is run.</span><br/>
         jbundle contains a nice javascript wrapper and and OSGi to webstart converter.
         Try opening this window in another browser and notice that changes on one screen are automatically updated on the other.
       </p>
@@ -134,7 +134,7 @@
       parameters. You will find your data in the src/main/resources directory.
       </p>
       <p>
-        Congratulations! You have just finished your first jbundle application. Now you're ready to try some of the more advanced features in the <a href="./office.html">next tutorial</a>.
+      Congratulations! You have just finished your first jbundle application. Now you're ready to try some of the more advanced features in the <a href="./office.html">next tutorial</a>.
       </p>
     </section>
   </body>

@@ -5,7 +5,7 @@
   <referral depth="10" url="jbundle-repository-${jbundleVersion}.xml"/>
   <referral depth="10" url="tourapp-repository-${tourappVersion}.xml"/>
 
-  <referral depth="10" url="jbundle-app-contact-repository-${jbundleAppContactVersion}.xml"/>
+  <referral depth="10" url="jbundle-app-office-repository-${jbundleAppOfficeVersion}.xml"/>
   <referral depth="10" url="jbundle-app-dance-repository-${jbundleAppDanceVersion}.xml"/>
   <referral depth="10" url="jbundle-app-picture-repository-${jbundleAppPictureVersion}.xml"/>
   
