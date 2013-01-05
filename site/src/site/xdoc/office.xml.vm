@@ -16,11 +16,17 @@
       In this example, we'll start with a finished application and examine the program parameters.
       </p>
       <p>
-      Let's start out by checking this application out. This application is in github at <a href="https://github.com/jbundle/app-office">https://github.com/jbundle/app-office</a>
+      Let's start out by retrieving the application source code.
+      This application is in github at <a href="https://github.com/jbundle/app-office">https://github.com/jbundle/app-office</a>
       To check out this application and build it, type:<br/>
       <code>git clone https://github.com/jbundle/app-office<br/>
       cd app-office<br/>
       mvn clean install</code><br/>
+      </p>
+      <p>
+      Now we're ready to run the examples. Change your directory to 'app' and run this application:<br/>
+      <code>cd app<br/>
+      mvn exec:java --activate-profiles local</code><br/>
       </p>
       <p>
       </p>
