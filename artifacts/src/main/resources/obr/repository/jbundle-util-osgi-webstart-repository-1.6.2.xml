@@ -1,0 +1,2795 @@
+<repository lastmodified='20130106080729.010'>
+  <resource id='org.jbundle.res.docs.styles/1.6.2' symbolicname='org.jbundle.res.docs.styles' presentationname='jbundle-util-osgi-docs-styles javascript utilities' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/osgi/org.jbundle.res.docs.styles/1.6.2/org.jbundle.res.docs.styles-1.6.2.jar' version='1.6.2'>
+    <description>javascript utilities</description>
+    <size>33150</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.res.docs.styles'/>
+      <p n='presentationname' v='jbundle-util-osgi-docs-styles javascript utilities'/>
+      <p n='version' t='version' v='1.6.2'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.jbundle.xsl'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.css'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.jbundle'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+  </resource>
+  <resource id='org.jbundle.util.osgi.webstart/1.6.2' symbolicname='org.jbundle.util.osgi.webstart' presentationname='jbundle-util-osgi-webstart - osgi to web start web bundle' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/osgi/org.jbundle.util.osgi.webstart/1.6.2/org.jbundle.util.osgi.webstart-1.6.2.jar' version='1.6.2'>
+    <description>osgi to web start servlet</description>
+    <size>53775</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.util.osgi.webstart'/>
+      <p n='presentationname' v='jbundle-util-osgi-webstart - osgi to web start web bundle'/>
+      <p n='version' t='version' v='1.6.2'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.osgi.webstart'/>
+      <p n='version' t='version' v='1.6.2'/>
+      <p n='uses:' v='org.osgi.framework,org.jbundle.util.webapp.base,javax.servlet,javax.servlet.http,org.jbundle.util.osgi,org.jbundle.util.osgi.finder,org.osgi.service.http,org.jibx.schema.net.java.jnlp_6_0,org.jibx.runtime'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.servlet))' extend='false' multiple='false' optional='true'>Import package javax.servlet;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.servlet.http))' extend='false' multiple='false' optional='true'>Import package javax.servlet.http;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.osgi)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.osgi;resolution:=optional;version="[2.0,3)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.osgi.finder)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.osgi.finder;resolution:=optional;version="[2.0,3)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.webapp.base)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.webapp.base;resolution:=optional;version="[1.3,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.net.java.jnlp_6_0)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.schema.net.java.jnlp_6_0;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.framework;resolution:=optional;version="[1.5,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.http)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.service.http;resolution:=optional;version="[1.2,2)"</require>
+  </resource>
+  <resource id='org.jbundle.util.osgi.webstart.browser/1.6.2' symbolicname='org.jbundle.util.osgi.webstart.browser' presentationname='jbundle-util-osgi-webstart-browser - java to javascript link' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/osgi/org.jbundle.util.osgi.webstart.browser/1.6.2/org.jbundle.util.osgi.webstart.browser-1.6.2.jar' version='1.6.2'>
+    <description>java to javascript link</description>
+    <size>5103</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.util.osgi.webstart.browser'/>
+      <p n='presentationname' v='jbundle-util-osgi-webstart-browser - java to javascript link'/>
+      <p n='version' t='version' v='1.6.2'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.osgi.webstart.browser'/>
+      <p n='version' t='version' v='1.6.2'/>
+      <p n='uses:' v='netscape.javascript,org.jbundle.util.osgi.webstart.util'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=netscape.javascript))' extend='false' multiple='false' optional='true'>Import package netscape.javascript;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.osgi.webstart.util)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.osgi.webstart.util;resolution:=optional;version="[1.6,2)"</require>
+  </resource>
+  <resource id='org.jbundle.res.dojo/1.6.2' symbolicname='org.jbundle.res.dojo' presentationname='jbundle-util-osgi-webstart-dojo - dojo project' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/osgi/org.jbundle.res.dojo/1.6.2/org.jbundle.res.dojo-1.6.2.jar' version='1.6.2'>
+    <description>dojo toolkit osgi package</description>
+    <size>11400939</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.res.dojo'/>
+      <p n='presentationname' v='jbundle-util-osgi-webstart-dojo - dojo project'/>
+      <p n='version' t='version' v='1.6.2'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.mobile.themes.common.domButtons.compat'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit._editor.nls.es'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.cldr.nls.zh-tw'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.mdnd.resources'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.collections'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.nls.ko'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.form.nls.hu'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.nls.kk'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.data.s3'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.drawing.resources'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit._editor.nls.fi'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.form.nls.it'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.form.nls.hr'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.form.nls.he'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.app.utils'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit._editor.nls.fr'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.mobile.build'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.html.resources'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.help'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.nls.zh'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.gantt'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.form.nls.ja'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.treemap'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.gfx.resources'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit._tree'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.wire'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.form.nls'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.themes.claro'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.cldr.nls.zh'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.embed.resources'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit._editor.nls.cs'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.nls.it'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.nls'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.gesture'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.nls.ar'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.xmpp.widget.templates'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.themes'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.cldr.nls'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit._editor.nls.da'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit._editor.nls.de'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.themes.nihilo.form'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.atom.io'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.resources.icons'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.drawing.ui'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.css3'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.form.nls.ja'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.mobile.themes.android.compat'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.form.nls.he'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.analytics.logger'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.nls.ja'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.form.nls.hr'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.form.nls.it'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.cometd'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.geo.charting.resources'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.layout.ext-dijit.layout'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit._editor.nls.el'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.plugins'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.mobile.themes.blackberry.compat'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.form.nls.hu'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.nls.sv'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit._editor.nls.ja'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.nls.sl'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.nls.sk'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.charting'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.form.nls.es'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.form.nls.da'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.nls.zh-tw'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.html'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.nls.th'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo._base'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.form.nls.de'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.form.nls.el'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.testing'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.SortList'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.themes.soria.layout'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.mobile.themes.iphone.dijit'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.nls.pt'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.mobile.dh'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.nls.ru'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.form.nls.cs'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.form.nls.fi'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.nls.ro'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.cldr.nls.en-gb'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.nls.tr'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.form.nls.ca'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.drawing'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.drawing.plugins.drawing'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.dtl.ext-dojo'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.dgauges.components.grey'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.nls.pl'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit._editor.nls.ko'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit._editor.nls.kk'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.form.nls.fr'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit._editor.nls.zh-tw'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.themes.claro'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.nls.sv'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.validate'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.form.nls.ca'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.Portlet'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.nls.sk'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.encoding.crypto'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.nls.sl'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.resources.emoticons'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.app.widgets'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.Pager'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.resources.images.nihilo'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.drawing.plugins.tools'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.form.nls.fi'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.nls.th'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit._editor.nls.hr'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.form.nls.cs'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.resources.images.claro'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.rotator'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.dgauges.components.green'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.form.nls.fr'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit._editor.nls.he'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.nls'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.atom.widget.nls.zh-tw'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit._editor.plugins'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.mobile.themes.iphone.compat'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.form.nls.de'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.form.nls.da'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.themes.nihilo.images'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.cldr.nls.pt-pt'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.form.nls.es'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.nls.ru'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.fx.ext-dojo'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.FisheyeList'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.nls.ro'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.charting.scaler'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit._editor.nls.hu'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.form.uploader'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.mobile.themes.common.compat'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.sketch'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.nls.tr'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.plugins.filter'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.mdnd.adapter'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.themes.soria.form'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.dtl.tag'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.nls.nb'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit._editor.nls.it'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.cldr'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.form.nls.pt-pt'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.lang.functional'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.storage'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.nls.nl'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.form.nls.el'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.nls.ca'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.errors'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.dnd'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit._editor.nls.nl'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.selector'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.nls.nb'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.mobile.app'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.mobile.themes.custom.images'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.math'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.TitleGroup'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.nls.pt-pt'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.form'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit._editor.nls.nb'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.cldr.nls.da'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.cldr.nls.de'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.nls.fi'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.atom.widget.nls.az'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.drawing.library'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.Dialog'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.resources.images.tundra'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.atom.widget.nls.ar'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.form.nls.ar'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.nls.fr'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.nls.da'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.templates'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.form.nls.az'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.layout.resources'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.cldr.nls.cs'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.nls.fi'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.nls.cs'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.cldr.nls.ca'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.nls.el'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.nls.fr'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.nls.nl'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.mobile.themes.android.images'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.nls.pl'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.form.nls.ro'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.date.zoneinfo'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.rails'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.nls.de'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.form.nls.ru'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.nls.pt'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.nls.es'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.geo.openlayers'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.nls'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.mobile.themes.android.dijit.compat'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.themes.nihilo'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.uuid'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.date.buddhist'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.atom.widget.nls.ca'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.nls.zh-tw'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.nls.nb'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.nls'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.color.api'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.resources.images'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.charting.themes'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.image'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.UpgradeBar'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo._firebug'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.geo.charting.resources.data'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.data.util'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.nls.hr'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.gantt.resources'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.nls.it'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.nls.hu'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.atom.widget.nls.cs'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.nls.az'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.cldr.nls.ar'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.nls.he'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.nls.ar'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.form.nls'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.nls.he'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.nls.pt-pt'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.themes.nihilo.layout'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.highlight.resources.pygments'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.form.nls.pl'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.nls.nl'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.form.nls.az'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.nls.hr'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.xmpp.widget'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.nls.pl'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.themes.soria.images'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.nls.hu'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.Portlet.images'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.nls.az'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.form.nls.pt'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.rpc'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.form.nls.ar'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.mobile.themes.common'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.mobile.themes.common.domButtons'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.nls.pt'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.math.random'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.nls.ar'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.nls.de'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.charting.widget'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.nls.ca'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.nls.da'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.form.nls.nb'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit._editor.nls.ru'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.cldr.nls.hu'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.nls.ca'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.charting.plot3d'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.nls.it'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.atom.widget.nls.el'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.highlight.languages.pygments'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit._editor.nls.ro'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.themes.tundra.images'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.nls.kk'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.atom.widget.nls.es'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.nls.ko'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit._base'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.nls.cs'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.gauge'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.io'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.cldr.nls.he'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.av.widget.resources'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.mdnd'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.atom.widget.nls.da'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.atom.widget.nls.de'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.MultiSelectCalendar'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.nls.ca'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.charting.plot2d'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.nls.he'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.nls.az'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.themes.tundra.images'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit._editor.nls.sv'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.form.uploader.plugins'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.data'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.request'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit._editor.nls.sl'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.date'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.form.nls.nl'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.nls.ar'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.nls.cs'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit._editor.nls.sk'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.resources'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.nls.hu'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.form.resources.images'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.data.util'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.nls.ja'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.nls.hr'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.app'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.mobile.themes.iphone.dijit.compat'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.nls.ja'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.mobile.themes.blackberry'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.drawing.ui.dom'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.highlight.languages'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.treemap.themes'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.nls.fi'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.flash'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.themes.claro.form'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.gauges'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit._editor.nls.pt'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.cldr.nls.fr'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.themes.a11y'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.nls.fr'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.nls.it'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.nls.kk'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.form.nls.ko'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.mobile.themes.blackberry.dijit'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit._editor.nls.pl'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.nls.ko'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.form.nls.kk'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.nls.el'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.cldr.nls.fi'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.nls.el'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.NodeList'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.nls.es'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.nls.es'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.nls.da'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.nls.de'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.cldr.nls.en'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.router'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.cldr.nls.el'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.Dialog.images'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.nls.de'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.nls.el'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.cldr.nls.es'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.fx'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.nls.da'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.atom.widget.nls.fi'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.nls.es'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.nls.cs'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.resources.images.blockelems'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.themes.iphone'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.atom.widget.nls.fr'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.nls.fi'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.color'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.atom.widget.nls.zh'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.nls.fr'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.fx.resources'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.embed'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.xml'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.nls.fi'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.resources.images'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.resources.icons.nihilo'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.Loader.icons'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.geo.charting.resources.img'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.nls.nb'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.nls.nl'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.date.hebrew'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.store'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.nls.hu'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.nls.nl'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.atom.widget.nls'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.jsonPath'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.nls.fr'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.cldr.nls.ko'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.sketch.resources'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.themes.tundra'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.nls.el'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit._editor.nls.th'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.nls'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.nls.hu'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.atom.widget.nls.pt-pt'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.tree'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.lang'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.Calendar'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.themes.claro.layout'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.drawing.plugins'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.socket'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.nls.hr'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.string'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.nls.he'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.form.nls.zh-tw'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.nls.es'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.promise'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit._editor.nls.tr'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.form.nls.zh'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.dgauges'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calc.templates'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.nls.fi'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.nls.ja'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.nls.he'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.analytics.profiles'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.form.nls.sv'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.resources'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.cldr.nls.fr-ch'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.nls.pl'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.nls.it'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.nls.zh-tw'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.drawing.tools'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.nls.pt-pt'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.nls.hu'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.charting.themes.PlotKit'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.nls.pt'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.form.nls.th'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.nls.pl'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.cldr.nls.it'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.mdnd.dropMode'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.nls.hr'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.nls.fr'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.app.layout'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.nls.zh'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.encoding.digests'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.geo.charting.resources.markers'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.mobile.themes.common.transitions'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.nls.pt'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.geo.charting'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.gfx'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.cldr.nls.ja'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.data.api'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.Loader'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.resources.images.soria'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.form.nls.tr'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.mobile.themes.iphone'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.drawing.annotations'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.layout'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.geo.charting.widget'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.nls.el'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.atom.widget.nls.tr'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.RollingList'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.nls.es'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.nls.az'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.nls.da'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.geo'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.mobile.themes.common.dijit'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.themes.nihilo'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.nls.it'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.dtl.utils'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.atom.widget.nls.th'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.nls.de'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.cldr.nls.zh-hant'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.form.nls.zh'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.FilePicker'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.mobile.themes.blackberry.images'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.nls.kk'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.nls.ko'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.atom.widget.nls.sv'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.nls.ja'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.themes.tundra.layout'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.nls.ja'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.lang.aspect'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.nls.ca'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.layout.resources.icons'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.nls.zh-tw'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.atom.widget.nls.sl'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.io.proxy'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.atom.widget.nls.sk'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.cldr.nls.pl'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.atom.widget.nls.ro'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.nls.kk'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.charting.action2d'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.nls.kk'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.nls.ko'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.cldr.nls.pt'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.form.manager'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.nls.ar'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.atom.widget.nls.ru'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.nls.cs'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.nls.da'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.form.nls.tr'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.io'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.nls.nb'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.date.islamic'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.nls.de'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.gantt.resources.images'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.nls.ko'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.html.ext-dojo'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.image.resources.images'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.nls.zh-tw'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.themes.claro.images'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.mobile.themes.blackberry.dijit.compat'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.data'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.nls.nb'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.nls.ca'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit._editor.nls.zh'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.cldr.nls.zh-hk'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.jq'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.dtl.filter'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.cldr.nls.nb'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.date'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.form.nls.sv'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.form.nls.sk'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.cldr.nls.nl'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.form.nls.sl'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.dtl.contrib'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.mobile.themes.custom.dijit'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit._editor'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.atom.widget.nls.pl'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.form.nls.th'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.nls.nl'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.xmpp'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.templates'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.nls.ar'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.gfx3d'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.atom.widget.nls.pt'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.nls.cs'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.av.resources'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.layout'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.resources.claro'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.secure'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.nls.tr'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.drawing.resources.images'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.Pager.images'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.atom'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.form.nls.nb'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.wire.ml'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.themes.soria.images'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.nls.th'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.themes.tundra'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.store.util'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.store.api'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.cldr.nls.sv'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.resources.images'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.geo.openlayers.widget'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.nls.pl'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.av.widget'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.cldr.nls.sk'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.cldr.nls.sl'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.nls.zh'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.nls'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.app.schema'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.nls.sk'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.nls.sl'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.encoding'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.drawing.util'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.atom.widget.nls.nl'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.Toaster'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.nls.pt'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.dgauges.components.default'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.cldr.nls.en-ca'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.cldr.nls.tr'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.form.nls.nl'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.mobile.themes.custom.compat'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.cldr.nls.th'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.nls.sv'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.nls.ro'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.dgauges.components.classic'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.Standby.images'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.json'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.resources.icons.claro'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.sql'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.mobile.themes.android.dijit'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.atom.widget.nls.nb'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.dtl'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.themes.soria'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.form.nls.ko'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.icons'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.nls.ru'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.form.nls.kk'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.FilePicker.images'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.dgauges.components.black'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.cells'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.nls.pt-pt'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.nls.ru'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.nls.ro'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.fx'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.timing'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.cldr.nls.ro'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.nls.zh'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.nls.sl'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.nls.sk'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.cldr.nls.ru'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.store'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.charting.resources'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.resources.images'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.analytics'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.image.resources'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.DocTester'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.sketch.resources.images'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.nls.ro'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.Wizard'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.atom.widget.nls.kk'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.nls.ru'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.nls.sv'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.themes.nihilo.images'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.resources.icons.soria'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.atom.widget.nls.ko'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit._editor.nls.ca'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.themes.claro.images'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.themes.claro.form.images'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.dtl.render'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.nls.ro'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.layout.dnd'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.nls.th'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.analytics.plugins'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.lang.async'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.themes.tundra.form'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.dnd'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.atom.widget'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.app.module'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.drawing.manager'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calc.resources'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.nls.tr'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.resources'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.nls.sv'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.form.nls.zh-tw'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.nls.sl'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.highlight.widget'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.drawing.tools.custom'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.form.nls.sk'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.mobile.themes.custom.dijit.compat'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.nls.sk'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calendar.nls.zh'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.nls.sl'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.form.nls.sl'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.dgauges.components'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.app.controllers'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.nls.sk'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.rpc.SMDLibrary'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.form.nls.ro'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.highlight.resources'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.mvc'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.robot'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.form'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit._editor.nls.az'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.form.nls.ru'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.nls.th'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.drawing.stencil'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.nls.ru'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.nls'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.mobile.themes.android'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.mobile.themes.iphone.images'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.nls.pt-pt'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit._editor.nls.ar'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.cldr.nls.en-au'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit._editor.nls'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.av'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.atom.widget.templates'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.resources'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit._editor.nls.pt-pt'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.nls.tr'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.form.nls.pl'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.mobile.themes.custom'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.nls.tr'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.ColorPicker'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.nls.th'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.mobile'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.rpc'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.form.resources'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.icons.images'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.themes.claro.layout.images'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.atom.widget.nls.it'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dijit.themes.soria'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.resources.css'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.atom.widget.nls.ja'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.form.nls.pt-pt'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.nls.sv'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.lang.oo'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.av.widget.resources.images'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojo.nls.pt-pt'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.atom.widget.nls.he'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.plugins.exporter'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.encoding.compression'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.highlight'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.resources'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.nls.zh'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.atom.widget.templates.css'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.calc'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.charting.axis2d'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.form.nls.pt'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.grid.enhanced.resources.tundra'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.nls.zh-tw'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.editor.plugins.resources.icons.tundra'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.atom.widget.nls.hr'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.atom.widget.nls.hu'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.dojox.widget.ColorPicker.images'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+  </resource>
+  <resource id='org.jbundle.util.osgi.webstart.util/1.6.2' symbolicname='org.jbundle.util.osgi.webstart.util' presentationname='jbundle-util-osgi-webstart-util - url utilities' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/osgi/org.jbundle.util.osgi.webstart.util/1.6.2/org.jbundle.util.osgi.webstart.util-1.6.2.jar' version='1.6.2'>
+    <description>url utilities</description>
+    <size>4627</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.util.osgi.webstart.util'/>
+      <p n='presentationname' v='jbundle-util-osgi-webstart-util - url utilities'/>
+      <p n='version' t='version' v='1.6.2'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.osgi.webstart.util'/>
+      <p n='version' t='version' v='1.6.2'/>
+    </capability>
+  </resource>
+</repository>
