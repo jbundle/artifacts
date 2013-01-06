@@ -1,7 +1,7 @@
-<repository lastmodified='20130106080729.010'>
+<repository lastmodified='20130106082623.520'>
   <resource id='org.jbundle.res.docs.styles/1.6.2' symbolicname='org.jbundle.res.docs.styles' presentationname='jbundle-util-osgi-docs-styles javascript utilities' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/osgi/org.jbundle.res.docs.styles/1.6.2/org.jbundle.res.docs.styles-1.6.2.jar' version='1.6.2'>
     <description>javascript utilities</description>
-    <size>33150</size>
+    <size>33151</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -25,7 +25,7 @@
   </resource>
   <resource id='org.jbundle.util.osgi.webstart/1.6.2' symbolicname='org.jbundle.util.osgi.webstart' presentationname='jbundle-util-osgi-webstart - osgi to web start web bundle' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/osgi/org.jbundle.util.osgi.webstart/1.6.2/org.jbundle.util.osgi.webstart-1.6.2.jar' version='1.6.2'>
     <description>osgi to web start servlet</description>
-    <size>53775</size>
+    <size>53776</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -51,7 +51,7 @@
   </resource>
   <resource id='org.jbundle.util.osgi.webstart.browser/1.6.2' symbolicname='org.jbundle.util.osgi.webstart.browser' presentationname='jbundle-util-osgi-webstart-browser - java to javascript link' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/osgi/org.jbundle.util.osgi.webstart.browser/1.6.2/org.jbundle.util.osgi.webstart.browser-1.6.2.jar' version='1.6.2'>
     <description>java to javascript link</description>
-    <size>5103</size>
+    <size>5102</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -70,7 +70,7 @@
   </resource>
   <resource id='org.jbundle.res.dojo/1.6.2' symbolicname='org.jbundle.res.dojo' presentationname='jbundle-util-osgi-webstart-dojo - dojo project' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/osgi/org.jbundle.res.dojo/1.6.2/org.jbundle.res.dojo-1.6.2.jar' version='1.6.2'>
     <description>dojo toolkit osgi package</description>
-    <size>11400939</size>
+    <size>11400937</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
