@@ -42,26 +42,13 @@
       There is also an <a href="http://localhost:8181/apphtml?systemname=office">html implementation</a> and
       a <a href="http://localhost:8181/appxhtml?systemname=office">strict (x)html implementation</a>.
       </p>
+      <p>
       Where jbundle shines is in it's java clients. You can run the full java client in a browser that you ran just ran locally.
-      <a href="localhost:8181/appxsl#?applet=org.jbundle.app.office.Main&amp;webStartComponents=org/jbundle/res/webstart/thick.properties,org/jbundle/res/webstart/thin.properties&amp;connectionType=Proxy&amp;systemname=office">Click here to give it a try</a>.
-      <p>
+      <a href="http://localhost:8181/appxsl#?applet=org.jbundle.app.office.Main&amp;systemname=office&amp;webStartPropertiesFile=org/jbundle/res/webstart/app.properties">Click here to give it a try</a>.
       </p>
-      <!--
-      
-      localhost:8181/appxsl#?applet=org.jbundle.app.office.Main&webStartComponents=org/jbundle/res/webstart/thick.properties,org/jbundle/res/webstart/thin.properties&connectionType=Proxy&systemname=office
-      
-      
-      
-      http://localhost:8181/appxsl#?applet=org.jbundle.thin.Thin&webStartComponents=org/jbundle/res/webstart/thin.properties&systemname=office&menu=Thin&org.jbundle.util.osgi.webstart.otherPackages=org.jbundle.thin.app.office.calendar.app,org.jbundle.thin.app.office.contact.app
-      
-      
-      
-      localhost:8181/appxsl#?applet=org.jbundle.app.office.Main&webStartComponents=org/jbundle/res/webstart/thick.properties,org/jbundle/res/webstart/thin.properties&connectionType=Proxy&systemname=office&org.jbundle.util.osgi.webstart.mainClass=org.jbundle.app.office.Main
-      
-      -->
-      If you are delivering your app over the a slow Internet connection, you can write a thin client with the provided framework.
-      <a href="http://localhost:8181/appxhtml?systemname=office">Click here to see the thin client</a>.      
       <p>
+      If you are delivering your app over the a slow Internet connection, you can write a thin client with the provided framework.
+      <a href="http://localhost:8181/appxsl#?applet=org.jbundle.thin.Thin&amp;webStartPropertiesFile=org/jbundle/app/office/thinapp.properties">Click here to see the thin client</a>.      
       </p>
     </section>
   </body>
