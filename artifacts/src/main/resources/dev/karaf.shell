@@ -3,11 +3,17 @@ features:install cave-obr-server
 features:install http obr war
 sleep 4000
 # Add repository URL
-obr:addurl file:/home/don/workspace/workspace/artifacts/artifacts/target/classes/obr/repository/repository.xml
-# obr:addurl file:/home/don/workspace/workspace/artifacts/target/classes/obr/local-repository.xml
-# obr:addurl mvn:org.jbundle.config/jbundle-artifacts/1.2.4-SNAPSHOT/xml/repository
-# obr:addurl http://repository.jbundle.org:8081/nexus/content/repositories/repository/repository.xml
+# obr:addurl file:/home/don/workspace/workspace/artifacts/artifacts/target/classes/obr/repository/repository.xml
+# obr:addurl file:/home/don/workspace/workspace/artifacts/artifacts/target/classes/obr/local-repository.xml
+# obr:addurl mvn:org.jbundle.config/jbundle-artifacts//xml/repository
 # Update obr
+
+obr:addurl file:/home/don/workspace/workspace/artifacts/artifacts/target/classes/obr/repository/jbundle-external-repository-1.0.0.xml
+obr:addurl file:/home/don/workspace/workspace/artifacts/artifacts/target/classes/obr/repository/jbundle-util-osgi-wrapped-repository-1.0.4.xml
+obr:addurl http://www.jibx.org/repository/repository.xml
+obr:addurl http://chameleon.ow2.org/repository/chameleon-releases.xml
+obr:addurl http://chameleon.ow2.org/repository/chameleon-commons.xml
+
 obr:removeurl file:/home/don/workspace/workspace/artifacts/artifacts/target/classes/obr/repository/jbundle-repository-0.8.0-SNAPSHOT.xml
 cave:create-repository jbundle
 cave:proxy-repository jbundle file:/home/don/.m2/repository/org/jbundle
@@ -41,5 +47,5 @@ sleep 4000
 start 'tourapp-config-web-httpweb - Hybrid osgi webapp'
 sleep 1000
 # Start up wars
-osgi:install -s webbundle:mvn:org.jbundle.util.webapp/org.jbundle.util.webapp.webstart/1.3.0/war
-osgi:install -s webbundle:mvn:org.jbundle.util.webapp/org.jbundle.util.webapp.cgi/1.3.0/war?Bundle-SymbolicName=jbundle-util-webapp-cgi&Webapp-Context=/awstats
+osgi:install -s webbundle:mvn:org.jbundle.util.webapp/org.jbundle.util.webapp.webstart//war
+osgi:install -s webbundle:mvn:org.jbundle.util.webapp/org.jbundle.util.webapp.cgi//war?Bundle-SymbolicName=jbundle-util-webapp-cgi&Webapp-Context=/awstats
