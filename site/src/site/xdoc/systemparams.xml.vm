@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://maven.apache.org/XDOC/2.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/XDOC/2.0 http://maven.apache.org/xsd/xdoc-2.0.xsd">
+  <properties>
+    <title>Welcome</title>
+    <author email="don@tourgeek.com">Don Corley</author>
+  </properties>
+  <body>
+    <section name="JBundle - Setting system parameters">
+      <p>
+      System parameters or properties come from several sources. In order of retrieval the come from:
+      </p>
+        <ul>
+        <li>The OSGi properties</li>
+        <li>The environment properties (passed in on system startup [from main or servlet params])</li>
+        <li>Menu properties (which can be set from a domain name)</li->
+        <li>User properties (which are set when you sign-in)</li>
+        </ul>
+      <p>
+      System parameters or properties come from several sources. In order of retrieval the come from:
+      </p>
+    </section>
+  </body>
+</document>
