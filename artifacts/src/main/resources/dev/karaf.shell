@@ -10,10 +10,12 @@ sleep 4000
 
 obr:addurl file:/home/don/workspace/workspace/artifacts/artifacts/target/classes/obr/repository/jbundle-external-repository-1.0.0.xml
 obr:addurl file:/home/don/workspace/workspace/artifacts/artifacts/target/classes/obr/repository/jbundle-util-osgi-wrapped-repository-1.0.4.xml
-obr:addurl http://www.jibx.org/repository/repository.xml
+# obr:addurl http://www.jibx.org/repository/repository.xml
 obr:addurl http://chameleon.ow2.org/repository/chameleon-releases.xml
 obr:addurl http://chameleon.ow2.org/repository/chameleon-commons.xml
 
+cave:create-repository jibx
+cave:proxy-repository jibx file:/home/don/.m2/repository/org/jibx
 obr:removeurl file:/home/don/workspace/workspace/artifacts/artifacts/target/classes/obr/repository/jbundle-repository-0.8.0-SNAPSHOT.xml
 cave:create-repository jbundle
 cave:proxy-repository jbundle file:/home/don/.m2/repository/org/jbundle
@@ -49,3 +51,4 @@ sleep 1000
 # Start up wars
 osgi:install -s webbundle:mvn:org.jbundle.util.webapp/org.jbundle.util.webapp.webstart//war
 osgi:install -s webbundle:mvn:org.jbundle.util.webapp/org.jbundle.util.webapp.cgi//war?Bundle-SymbolicName=jbundle-util-webapp-cgi&Webapp-Context=/awstats
+
