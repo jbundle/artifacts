@@ -36,7 +36,7 @@
     </plugins>
     <resources>
       <resource>	<!-- Move the obr index to the site root -->
-        <directory>${jbundle.workspace}/bin/obr</directory>
+        <directory>${jbundle-workspace}/bin/obr</directory>
         <filtering>false</filtering>
         <targetPath>${basedir}/target/site</targetPath>
       </resource>
