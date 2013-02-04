@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
 <?xml-stylesheet type='text/xsl' href='http://www.osgi.org/www/obr2html.xsl'?>
 
-<repository lastmodified='20120508155122.599' name='Untitled'>
+<repository lastmodified='20130202155122.599' name='jbundle-main-repository'>
   <referral depth="10" url="jbundle-repository-${jbundle-version}.xml"/>
+  <referral depth="10" url="jbundle-view-swing-repository-${jbundle-swing-version}.xml"/>
   <referral depth="10" url="tourapp-repository-${tourapp-version}.xml"/>
 
   <referral depth="10" url="jbundle-app-office-repository-${jbundle-app-office-version}.xml"/>
   <referral depth="10" url="jbundle-app-dance-repository-${jbundle-app-dance-version}.xml"/>
   <referral depth="10" url="jbundle-app-picture-repository-${jbundle-app-picture-version}.xml"/>
   
-  <!-- referral depth="10" url="jbundle-misc-repository-${jbundle-misc-version}.xml"/ -->
-  <!-- referral depth="10" url="jbundle-util-other-repository-${jbundle-other-version}.xml"/ -->
+  <referral depth="10" url="jbundle-util-other-repository-${jbundle-util-other-version}.xml"/>
   
   <referral depth="10" url="jbundle-util-repository-${jbundle-util-version}.xml"/>
   <referral depth="10" url="jbundle-util-osgi-repository-${jbundle-osgi-version}.xml"/>
-  <referral depth="10" url="jbundle-util-osgi-webstart-repository-${jbundle-auto-webstart-version}.xml"/>
+  <referral depth="10" url="jbundle-util-auto-webstart-repository-${jbundle-auto-webstart-version}.xml"/>
   <referral depth="10" url="jbundle-util-calendarpanel-repository-${jbundle-calendarpanel-version}.xml"/>
   <referral depth="10" url="jbundle-util-jcalendarbutton-repository-${jbundle-jcalendarbutton-version}.xml"/>
   <referral depth="10" url="jbundle-util-other-repository-${jbundle-util-other-version}.xml"/>

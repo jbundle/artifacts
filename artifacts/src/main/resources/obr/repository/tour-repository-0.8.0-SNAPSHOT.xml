@@ -1,0 +1,37 @@
+<repository lastmodified='20130204081035.220'>
+  <resource id='com.tourapp.config.main/0.8.0.SNAPSHOT' symbolicname='com.tourapp.config.main' presentationname='tourapp-config-app - Run standalone tourapp' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/config/com.tourapp.config.main/0.8.0-SNAPSHOT/com.tourapp.config.main-0.8.0-20130204.161034-1.jar' version='0.8.0.SNAPSHOT'>
+    <description>Parent project for tour applications</description>
+    <size>4015</size>
+    <documentation>http://www.tourapp.com</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.tourapp.config.main'/>
+      <p n='presentationname' v='tourapp-config-app - Run standalone tourapp'/>
+      <p n='version' t='version' v='0.8.0.SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.tourapp'/>
+      <p n='version' t='version' v='0.8.0.SNAPSHOT'/>
+      <p n='uses:' v='org.jbundle'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.tourapp.tour.acctpay.air.ticket)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package com.tourapp.tour.acctpay.air.ticket;resolution:=optional;version="[0.8,1)"</require>
+    <require name='package' filter='(&amp;(package=com.tourapp.tour.acctpay.report)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package com.tourapp.tour.acctpay.report;resolution:=optional;version="[0.8,1)"</require>
+    <require name='package' filter='(&amp;(package=com.tourapp.tour.acctpay.screen.vendor)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package com.tourapp.tour.acctpay.screen.vendor;resolution:=optional;version="[0.8,1)"</require>
+    <require name='package' filter='(&amp;(package=com.tourapp.tour.acctrec.report.cashplan)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package com.tourapp.tour.acctrec.report.cashplan;resolution:=optional;version="[0.8,1)"</require>
+    <require name='package' filter='(&amp;(package=com.tourapp.tour.acctrec.screen.misc)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package com.tourapp.tour.acctrec.screen.misc;resolution:=optional;version="[0.8,1)"</require>
+    <require name='package' filter='(&amp;(package=com.tourapp.tour.assetdr.process)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package com.tourapp.tour.assetdr.process;resolution:=optional;version="[0.8,1)"</require>
+    <require name='package' filter='(&amp;(package=com.tourapp.tour.assetdr.report)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package com.tourapp.tour.assetdr.report;resolution:=optional;version="[0.8,1)"</require>
+    <require name='package' filter='(&amp;(package=com.tourapp.tour.assetdr.screen)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package com.tourapp.tour.assetdr.screen;resolution:=optional;version="[0.8,1)"</require>
+    <require name='package' filter='(&amp;(package=com.tourapp.tour.booking.entry.base)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package com.tourapp.tour.booking.entry.base;resolution:=optional;version="[0.8,1)"</require>
+    <require name='package' filter='(&amp;(package=com.tourapp.tour.booking.report.voucher)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package com.tourapp.tour.booking.report.voucher;resolution:=optional;version="[0.8,1)"</require>
+    <require name='package' filter='(&amp;(package=com.tourapp.tour.genled.report)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package com.tourapp.tour.genled.report;resolution:=optional;version="[0.8,1)"</require>
+    <require name='package' filter='(&amp;(package=com.tourapp.tour.genled.screen.misc)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package com.tourapp.tour.genled.screen.misc;resolution:=optional;version="[0.8,1)"</require>
+    <require name='package' filter='(&amp;(package=com.tourapp.tour.payroll.report.payroll)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package com.tourapp.tour.payroll.report.payroll;resolution:=optional;version="[0.8,1)"</require>
+    <require name='package' filter='(&amp;(package=com.tourapp.tour.payroll.screen.misc)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package com.tourapp.tour.payroll.screen.misc;resolution:=optional;version="[0.8,1)"</require>
+    <require name='package' filter='(&amp;(package=com.tourapp.tour.product.base.screen)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package com.tourapp.tour.product.base.screen;resolution:=optional;version="[0.8,1)"</require>
+    <require name='package' filter='(&amp;(package=com.tourapp.tour.profile.screen)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package com.tourapp.tour.profile.screen;resolution:=optional;version="[0.8,1)"</require>
+    <require name='package' filter='(&amp;(package=com.tourapp.tour.request.report)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package com.tourapp.tour.request.report;resolution:=optional;version="[0.8,1)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle;resolution:=optional;version="[1.0,2)"</require>
+  </resource>
+</repository>
