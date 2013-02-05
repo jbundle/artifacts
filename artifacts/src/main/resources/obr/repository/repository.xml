@@ -4,13 +4,11 @@
 <repository lastmodified='20130202155122.599' name='jbundle-main-repository'>
   <referral depth="10" url="jbundle-repository-${jbundle-version}.xml"/>
   <referral depth="10" url="jbundle-view-swing-repository-${jbundle-swing-version}.xml"/>
-  <referral depth="10" url="tourapp-repository-${tourapp-version}.xml"/>
 
+  <referral depth="10" url="tourapp-repository-${tourapp-version}.xml"/>
   <referral depth="10" url="jbundle-app-office-repository-${jbundle-app-office-version}.xml"/>
   <referral depth="10" url="jbundle-app-dance-repository-${jbundle-app-dance-version}.xml"/>
   <referral depth="10" url="jbundle-app-picture-repository-${jbundle-app-picture-version}.xml"/>
-  
-  <referral depth="10" url="jbundle-util-other-repository-${jbundle-util-other-version}.xml"/>
   
   <referral depth="10" url="jbundle-util-repository-${jbundle-util-version}.xml"/>
   <referral depth="10" url="jbundle-util-osgi-repository-${jbundle-osgi-version}.xml"/>
