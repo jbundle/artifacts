@@ -11,19 +11,25 @@
       <item name="JBundle" href="http://www.jbundle.org/" />
     </links>
 
+    <menu name="Overview">
+      <item name="Description" href="index.html"/>
+    </menu>
+
+    <menu name="App framework">
+        <item name="Quick start" href="quickstart.html"/>
+        <item name="Sample App" href="example.html"/>
+        <item name="App architecture" href="project.html"/>
+        <item name="Database API" href="database.html"/>
+        <item name="Display design" href="screen.html"/>
+    </menu>
+
     <menu name="JBundle Projects">
-      <item name="App framework" href="//jbundle">
-        <item name="Quick start" href="/jbundle/quickstart.html"/>
-        <item name="Sample App" href="/jbundle/example.html"/>
-        <item name="App architecture" href="/jbundle/project.html"/>
-        <item name="Database API" href="/jbundle/database.html"/>
-        <item name="Display design" href="/jbundle/screen.html"/>
-      </item>
-      <item name="OSGi Web Servlet" href="/osgi-webstart"/>
-      <item name="OSGi Utilities" href="/osgi"/>
-      <item name="Simple Servlets" href="/simpleservlets"/>
-      <item name="JCalendarButton" href="/jcalendarbutton"/>
-      <item name="Calendar Panel" href="/calendarpanel"/>      
+      <item name="App framework" href="../jbundle"/>
+      <item name="Auto Web Start" href="../auto-webstart"/>
+      <item name="OSGi Utilities" href="../osgi"/>
+      <item name="Simple Servlets" href="../simpleservlets"/>
+      <item name="JCalendarButton" href="../jcalendarbutton"/>
+      <item name="Calendar Panel" href="../calendarpanel"/>      
     </menu>
   
   <menu ref="reports"/>

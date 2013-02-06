@@ -67,3 +67,8 @@ sleep 1000
 obr:start -d org.jibx.schema.org.opentravel._2012B.hotel.ws.rest
 sleep 1000
 obr:start -d org.jibx.schema.org.opentravel._2012B.hotel.ws.soap
+sleep 1000
+osgi:install wrap:mvn:org.jbundle.javafx.example/org.jbundle.javafx.example.helloworld
+osgi:install wrap:mvn:org.apache.lucene/lucene-grouping/3.2.0
+osgi:install wrap:mvn:org.apache.lucene/lucene-core/3.2.0
+osgi:install wrap:mvn:org.jbundle.javafx.example/org.jbundle.javafx.example.ensemble

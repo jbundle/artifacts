@@ -21,26 +21,7 @@
           <locales>en,fr</locales>
         </configuration>
       </plugin>
-    
-      <plugin>
-        <artifactId>maven-resources-plugin</artifactId>
-	   <executions>
-	     <execution>
-	     <phase>site</phase>
-	       <goals>
-		 <goal>resources</goal>
-	       </goals>
-	     </execution>
-	   </executions>
-      </plugin>
     </plugins>
-    <resources>
-      <resource>	<!-- Move the obr index to the site root -->
-        <directory>${jbundle-workspace}/bin/obr</directory>
-        <filtering>false</filtering>
-        <targetPath>${basedir}/target/site</targetPath>
-      </resource>
-    </resources>
   </build>
 
   <distributionManagement>
@@ -49,4 +30,5 @@
       <url>${documentationURL}/jbundle/jbundle/</url>
     </site>
   </distributionManagement>
+
 </project>
