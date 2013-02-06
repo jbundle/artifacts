@@ -54,7 +54,8 @@
       <dependency>
         <groupId>org.jbundle.config</groupId>
         <artifactId>jbundle-artifacts</artifactId>
-        <version>${project.version}</version>  
+        <version>${project.version}</version>
+	<type>pom</type>
       </dependency>
   </dependencies>
 
