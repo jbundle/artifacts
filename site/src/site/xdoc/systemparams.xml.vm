@@ -14,7 +14,7 @@
         <ul>
         <li>The OSGi properties</li>
         <li>The environment properties (passed in on system startup [from main or servlet params])</li>
-        <li>Menu properties (which can be set from a domain name)</li->
+        <li>Menu properties (which can be set from a domain name)</li>
         <li>User properties (which are set when you sign-in)</li>
         </ul>
       <p>
