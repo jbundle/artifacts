@@ -22,6 +22,12 @@
     <module>site</module>
   </modules>
 
+  <scm>
+    <url>https://github.com/jbundle/artifacts</url>
+    <connection>scm:git:git://github.com/jbundle/artifacts</connection>
+    <developerConnection>scm:git:git@github.com:jbundle/artifacts</developerConnection>
+  </scm>
+
   <repositories>
     <repository>
       <id>sonatype-nexus-snapshots</id>
