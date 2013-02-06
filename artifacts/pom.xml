@@ -16,6 +16,7 @@
 
   <properties>
     <resourceLocation>src/main/resources/org/jbundle/res</resourceLocation>
+    <cxf-version>2.7.2</cxf-version>
   </properties>  
 
   <build>
@@ -85,7 +86,12 @@
                                     <type>shell</type>
                                     <classifier>setup</classifier>
                                 </artifact>
-                            </artifacts>
+                                <artifact>
+                                    <file>target/classes/dev/demo.shell</file>
+                                    <type>shell</type>
+                                    <classifier>demo</classifier>
+                                </artifact>
+                                </artifacts>
                         </configuration>
                     </execution>
                 </executions>
