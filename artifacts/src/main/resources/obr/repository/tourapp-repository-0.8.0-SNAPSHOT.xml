@@ -1,4 +1,4 @@
-<repository lastmodified='20130207053243.176'>
+<repository lastmodified='20130208114422.618'>
   <resource id='com.tourapp.res.tour.message/0.8.0.SNAPSHOT' symbolicname='com.tourapp.res.tour.message' presentationname='com.tourapp.res.tour.message - message resources' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/res/com.tourapp.res.tour.message/0.8.0-SNAPSHOT/com.tourapp.res.tour.message-0.8.0-20130205.220905-2.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
     <size>4190</size>
@@ -72,9 +72,9 @@
     </capability>
     <require name='package' filter='(&amp;(package=org.jbundle.config.web.httpservice)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.config.web.httpservice;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='com.tourapp.config.web.other/0.8.0.SNAPSHOT' symbolicname='com.tourapp.config.web.other' presentationname='tourapp-config-web-other - deploy webapps' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/config/com.tourapp.config.web.other/0.8.0-SNAPSHOT/com.tourapp.config.web.other-0.8.0-20130208.013241-7.jar' version='0.8.0.SNAPSHOT'>
+  <resource id='com.tourapp.config.web.other/0.8.0.SNAPSHOT' symbolicname='com.tourapp.config.web.other' presentationname='tourapp-config-web-other - deploy webapps' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/com/tourapp/config/com.tourapp.config.web.other/0.8.0-SNAPSHOT/com.tourapp.config.web.other-0.8.0-20130208.194421-9.jar' version='0.8.0.SNAPSHOT'>
     <description>Parent project for tour applications</description>
-    <size>7443</size>
+    <size>7530</size>
     <documentation>http://www.tourapp.com</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -86,7 +86,7 @@
     <capability name='package'>
       <p n='package' v='com.tourapp.config.web.other'/>
       <p n='version' t='version' v='0.8.0.SNAPSHOT'/>
-      <p n='uses:' v='org.jbundle.util.webapp.base,org.jbundle.util.osgi,jnlp.sample.servlet,org.jbundle.base.util,org.jbundle.util.osgi.finder,org.jbundle.base.model,org.apache.catalina.servlets,org.jbundle.util.webapp.files,org.jbundle.model,org.jbundle.util.webapp.proxy,javax.servlet,org.jbundle.util.webapp.webdav,org.osgi.util.tracker,org.jbundle.util.webapp.upload,org.osgi.framework,org.jbundle.util.webapp.redirect,org.osgi.service.http'/>
+      <p n='uses:' v='org.jbundle.util.webapp.base,org.jbundle.util.osgi,jnlp.sample.servlet,org.jbundle.base.util,org.jbundle.util.osgi.finder,org.jbundle.base.model,org.jbundle.util.webapp.files,org.apache.catalina.servlets,org.jbundle.model,org.jbundle.util.webapp.proxy,javax.servlet,org.jbundle.util.webapp.webdav,org.osgi.util.tracker,org.osgi.framework,org.jbundle.util.webapp.upload,org.jbundle.util.webapp.redirect,org.osgi.service.http'/>
     </capability>
     <require name='package' filter='(&amp;(package=javax.servlet)(version&gt;=2.5.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package javax.servlet;resolution:=optional;version="[2.5,3)"</require>
     <require name='package' filter='(&amp;(package=jnlp.sample.servlet)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package jnlp.sample.servlet;resolution:=optional;version="[1.0,2)"</require>

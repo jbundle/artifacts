@@ -1,41 +1,34 @@
 # Web Server, OBR index, war support, tour system, demo stuff, jibx demos
-
 echo Starting up cxf
 features:addurl mvn:org.apache.cxf.karaf/apache-cxf/${cxf-version}/xml/features
 features:install war cxf cxf-databinding-jibx http obr
 # note: 'war' is included in cxf (if I start it again, I have problems)
-
 echo Starting up the jbundle framework. Please wait... this may take a few moments
 sleep 5000
 obr:addurl mvn:org.jbundle.config/jbundle-artifacts/${project.version}/xml/repository
-
+# obr:addurl file:/web/jbundle/repository/repository.xml
 echo Start the OBR resource retrieval utility
 obr:start -d 'jbundle-util-osgi-obr - obr bundle retrieval'
 sleep 1000
-
 echo Start the OSGi to WebStart servlet
 obr:start -d 'jbundle-util-osgi-webstart - osgi to web start web bundle'
 sleep 1000
-
 echo Start the jbundle web services app
 obr:deploy -d 'jbundle-base-remote - Remote server'
 sleep 4000
 start 'jbundle-base-remote - Remote server'
 sleep 4000
-
 echo Configure webdav
 config:edit org.jbundle.util.webapp.webdav
 config:propset basePath /space/web/jbundle/site
 config:propset readonly false
 config:propset listings true
 config:update
-
 echo Start other web app
 obr:deploy -d com.tourapp.config.web.other
-sleep 5000
+sleep 6000
 start com.tourapp.config.web.other
 sleep 1000
-
 echo Start the tour application
 obr:deploy -d 'tourapp-config-web-httpweb - Hybrid osgi webapp'
 sleep 4000
@@ -44,7 +37,6 @@ sleep 1000
 echo Start up wars
 osgi:install -s webbundle:mvn:org.jbundle.util.webapp/org.jbundle.util.webapp.webstart//war
 osgi:install -s webbundle:mvn:org.jbundle.util.webapp/org.jbundle.util.webapp.cgi//war?Bundle-SymbolicName=jbundle-util-webapp-cgi&Webapp-Context=/awstats
-
 echo Start the JiBX demos
 install -s mvn:org.jibx.test.examples/org.jibx.examples.cxf.ws
 sleep 1000
@@ -68,7 +60,7 @@ obr:start -d org.jibx.schema.org.opentravel._2012B.hotel.ws.rest
 sleep 1000
 obr:start -d org.jibx.schema.org.opentravel._2012B.hotel.ws.soap
 sleep 1000
-osgi:install wrap:mvn:org.jbundle.javafx.example/org.jbundle.javafx.example.helloworld
+osgi:install mvn:org.jbundle.javafx.example/org.jbundle.javafx.example.helloworld
 osgi:install wrap:mvn:org.apache.lucene/lucene-grouping/3.2.0
 osgi:install wrap:mvn:org.apache.lucene/lucene-core/3.2.0
 osgi:install wrap:mvn:org.jbundle.javafx.example/org.jbundle.javafx.example.ensemble
