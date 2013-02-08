@@ -1,0 +1,27 @@
+<repository lastmodified='20130208092953.386'>
+  <resource id='org.jbundle.javafx.example.helloworld/1.0.0.1' symbolicname='org.jbundle.javafx.example.helloworld' presentationname='jbundle-javafx.example' uri='http://repo.maven.apache.org/maven2/org/jbundle/javafx/example/org.jbundle.javafx.example.helloworld/1.0.0.1/org.jbundle.javafx.example.helloworld-1.0.0.1.jar' version='1.0.0.1'>
+    <description>javafx example</description>
+    <size>7806</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.javafx.example.helloworld'/>
+      <p n='presentationname' v='jbundle-javafx.example'/>
+      <p n='version' t='version' v='1.0.0.1'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.javafx.example.helloworld'/>
+      <p n='version' t='version' v='1.0.0.1'/>
+      <p n='uses:' v='javafx.embed.swing,javafx.application,javax.swing,javafx.scene,javafx.scene.paint,javafx.scene.text,javafx.collections,javafx.stage'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javafx.application))' extend='false' multiple='false' optional='true'>Import package javafx.application;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javafx.collections))' extend='false' multiple='false' optional='true'>Import package javafx.collections;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javafx.embed.swing))' extend='false' multiple='false' optional='true'>Import package javafx.embed.swing;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javafx.scene))' extend='false' multiple='false' optional='true'>Import package javafx.scene;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javafx.scene.paint))' extend='false' multiple='false' optional='true'>Import package javafx.scene.paint;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javafx.scene.text))' extend='false' multiple='false' optional='true'>Import package javafx.scene.text;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javafx.stage))' extend='false' multiple='false' optional='true'>Import package javafx.stage;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.swing))' extend='false' multiple='false' optional='true'>Import package javax.swing;resolution:=optional</require>
+  </resource>
+</repository>
