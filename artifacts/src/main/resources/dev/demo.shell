@@ -1,4 +1,15 @@
 # Web Server, OBR index, war support, tour system, demo stuff, jibx demos
+config:edit org.ops4j.pax.url.mvn
+config:propset org.ops4j.pax.url.mvn.repositories http://repo1.maven.org/maven2,\
+http://repository.apache.org/content/groups/snapshots-group@snapshots@noreleases,\
+http://svn.apache.org/repos/asf/servicemix/m2-repo,\
+http://repository.springsource.com/maven/bundles/release,\
+http://repository.springsource.com/maven/bundles/external,\
+http://oss.sonatype.org/content/repositories/releases/,\
+https://oss.sonatype.org/content/repositories/snapshots@snapshots@noreleases,\
+http://repository.jbundle.org:8081/nexus/content/repositories/snapshots@snapshots@noreleases,\
+http://repository.jbundle.org:8081/nexus/content/repositories/releases
+config:update
 echo Starting up cxf
 features:addurl mvn:org.apache.cxf.karaf/apache-cxf/${cxf-version}/xml/features
 features:install war cxf cxf-databinding-jibx http obr
