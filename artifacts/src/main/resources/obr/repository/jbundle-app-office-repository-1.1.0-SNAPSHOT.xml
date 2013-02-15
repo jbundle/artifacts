@@ -1,7 +1,7 @@
-<repository lastmodified='20130204100151.091'>
-  <resource id='org.jbundle.app.office/1.1.0.SNAPSHOT' symbolicname='org.jbundle.app.office' presentationname='jbundle-app-office' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/office/org.jbundle.app.office/1.1.0-SNAPSHOT/org.jbundle.app.office-1.1.0-20130204.180144-1.jar' version='1.1.0.SNAPSHOT'>
+<repository lastmodified='20130214025422.356'>
+  <resource id='org.jbundle.app.office/1.1.0.SNAPSHOT' symbolicname='org.jbundle.app.office' presentationname='jbundle-app-office' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/office/org.jbundle.app.office/1.1.0-SNAPSHOT/org.jbundle.app.office-1.1.0-20130214.225415-2.jar' version='1.1.0.SNAPSHOT'>
     <description>Top level properties and features</description>
-    <size>4662</size>
+    <size>4665</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -23,9 +23,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.app.office.calendar.app)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.app.office.calendar.app;resolution:=optional;version="[1.1,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.app.office.contact.app)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.app.office.contact.app;resolution:=optional;version="[1.1,2)"</require>
   </resource>
-  <resource id='org.jbundle.app.office.calendar.screen/1.1.0.SNAPSHOT' symbolicname='org.jbundle.app.office.calendar.screen' presentationname='jbundle-app-office-calendar-screen - Calendar' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/office/org.jbundle.app.office.calendar.screen/1.1.0-SNAPSHOT/org.jbundle.app.office.calendar.screen-1.1.0-20130204.180050-1.jar' version='1.1.0.SNAPSHOT'>
+  <resource id='org.jbundle.app.office.calendar.screen/1.1.0.SNAPSHOT' symbolicname='org.jbundle.app.office.calendar.screen' presentationname='jbundle-app-office-calendar-screen - Calendar' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/office/org.jbundle.app.office.calendar.screen/1.1.0-SNAPSHOT/org.jbundle.app.office.calendar.screen-1.1.0-20130214.225321-2.jar' version='1.1.0.SNAPSHOT'>
     <description>Top level properties and features</description>
-    <size>5035</size>
+    <size>5036</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -47,9 +47,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.util.calendarpanel)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.calendarpanel;resolution:=optional;version="[1.1,2)"</require>
   </resource>
-  <resource id='org.jbundle.app.office.calendar.screen.view.swing/1.1.0.SNAPSHOT' symbolicname='org.jbundle.app.office.calendar.screen.view.swing' presentationname='jbundle-app-office-calendar-screen-view-swing' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/office/org.jbundle.app.office.calendar.screen.view.swing/1.1.0-SNAPSHOT/org.jbundle.app.office.calendar.screen.view.swing-1.1.0-20130204.180100-1.jar' version='1.1.0.SNAPSHOT'>
+  <resource id='org.jbundle.app.office.calendar.screen.view.swing/1.1.0.SNAPSHOT' symbolicname='org.jbundle.app.office.calendar.screen.view.swing' presentationname='jbundle-app-office-calendar-screen-view-swing' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/office/org.jbundle.app.office.calendar.screen.view.swing/1.1.0-SNAPSHOT/org.jbundle.app.office.calendar.screen.view.swing-1.1.0-20130214.225332-2.jar' version='1.1.0.SNAPSHOT'>
     <description>Top level properties and features</description>
-    <size>5602</size>
+    <size>5603</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -72,9 +72,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.screen.cal.popup)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.screen.cal.popup;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.util.calendarpanel)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.calendarpanel;resolution:=optional;version="[1.1,2)"</require>
   </resource>
-  <resource id='org.jbundle.app.office.contact.db/1.1.0.SNAPSHOT' symbolicname='org.jbundle.app.office.contact.db' presentationname='jbundle-app-office-contact-db - Contact db' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/office/org.jbundle.app.office.contact.db/1.1.0-SNAPSHOT/org.jbundle.app.office.contact.db-1.1.0-20130204.180020-1.jar' version='1.1.0.SNAPSHOT'>
+  <resource id='org.jbundle.app.office.contact.db/1.1.0.SNAPSHOT' symbolicname='org.jbundle.app.office.contact.db' presentationname='jbundle-app-office-contact-db - Contact db' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/office/org.jbundle.app.office.contact.db/1.1.0-SNAPSHOT/org.jbundle.app.office.contact.db-1.1.0-20130214.225251-2.jar' version='1.1.0.SNAPSHOT'>
     <description>Top level properties and features</description>
-    <size>10492</size>
+    <size>10493</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -98,9 +98,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.db;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.model.screen)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.screen;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.res.app.office.contact/1.1.0.SNAPSHOT' symbolicname='org.jbundle.res.app.office.contact' presentationname='jbundle-app-office-contact-res' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/office/org.jbundle.res.app.office.contact/1.1.0-SNAPSHOT/org.jbundle.res.app.office.contact-1.1.0-20130204.175929-1.jar' version='1.1.0.SNAPSHOT'>
+  <resource id='org.jbundle.res.app.office.contact/1.1.0.SNAPSHOT' symbolicname='org.jbundle.res.app.office.contact' presentationname='jbundle-app-office-contact-res' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/office/org.jbundle.res.app.office.contact/1.1.0-SNAPSHOT/org.jbundle.res.app.office.contact-1.1.0-20130214.225203-2.jar' version='1.1.0.SNAPSHOT'>
     <description>Top level properties and features</description>
-    <size>4760</size>
+    <size>4763</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -118,7 +118,7 @@
       <p n='version' t='version' v='1.1.0.SNAPSHOT'/>
     </capability>
   </resource>
-  <resource id='org.jbundle.app.office.contact.res.data/1.1.0.SNAPSHOT' symbolicname='org.jbundle.app.office.contact.res.data' presentationname='jbundle-app-office-contact-res-data' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/office/org.jbundle.app.office.contact.res.data/1.1.0-SNAPSHOT/org.jbundle.app.office.contact.res.data-1.1.0-20130204.175938-1.jar' version='1.1.0.SNAPSHOT'>
+  <resource id='org.jbundle.app.office.contact.res.data/1.1.0.SNAPSHOT' symbolicname='org.jbundle.app.office.contact.res.data' presentationname='jbundle-app-office-contact-res-data' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/office/org.jbundle.app.office.contact.res.data/1.1.0-SNAPSHOT/org.jbundle.app.office.contact.res.data-1.1.0-20130214.225211-2.jar' version='1.1.0.SNAPSHOT'>
     <description>Top level properties and features</description>
     <size>10181</size>
     <documentation>http://www.jbundle.org</documentation>
@@ -138,9 +138,9 @@
       <p n='version' t='version' v='1.1.0.SNAPSHOT'/>
     </capability>
   </resource>
-  <resource id='org.jbundle.app.office.contact.res.dev/1.1.0.SNAPSHOT' symbolicname='org.jbundle.app.office.contact.res.dev' presentationname='jbundle-app-office-contact-res-dev' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/office/org.jbundle.app.office.contact.res.dev/1.1.0-SNAPSHOT/org.jbundle.app.office.contact.res.dev-1.1.0-20130204.175947-1.jar' version='1.1.0.SNAPSHOT'>
+  <resource id='org.jbundle.app.office.contact.res.dev/1.1.0.SNAPSHOT' symbolicname='org.jbundle.app.office.contact.res.dev' presentationname='jbundle-app-office-contact-res-dev' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/office/org.jbundle.app.office.contact.res.dev/1.1.0-SNAPSHOT/org.jbundle.app.office.contact.res.dev-1.1.0-20130214.225220-2.jar' version='1.1.0.SNAPSHOT'>
     <description>Top level properties and features</description>
-    <size>36752</size>
+    <size>36751</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -182,9 +182,9 @@
       <p n='version' t='version' v='1.1.0.SNAPSHOT'/>
     </capability>
   </resource>
-  <resource id='org.jbundle.app.office.contact.screen/1.1.0.SNAPSHOT' symbolicname='org.jbundle.app.office.contact.screen' presentationname='jbundle-app-office-contact-screen - Contact example' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/office/org.jbundle.app.office.contact.screen/1.1.0-SNAPSHOT/org.jbundle.app.office.contact.screen-1.1.0-20130204.180033-1.jar' version='1.1.0.SNAPSHOT'>
+  <resource id='org.jbundle.app.office.contact.screen/1.1.0.SNAPSHOT' symbolicname='org.jbundle.app.office.contact.screen' presentationname='jbundle-app-office-contact-screen - Contact example' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/office/org.jbundle.app.office.contact.screen/1.1.0-SNAPSHOT/org.jbundle.app.office.contact.screen-1.1.0-20130214.225304-2.jar' version='1.1.0.SNAPSHOT'>
     <description>Top level properties and features</description>
-    <size>7861</size>
+    <size>7862</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -210,9 +210,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.screen)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.screen;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.model.app.office.contact/1.1.0.SNAPSHOT' symbolicname='org.jbundle.model.app.office.contact' presentationname='jbundle-model-app-office-contact - model' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/office/org.jbundle.model.app.office.contact/1.1.0-SNAPSHOT/org.jbundle.model.app.office.contact-1.1.0-20130204.175958-1.jar' version='1.1.0.SNAPSHOT'>
+  <resource id='org.jbundle.model.app.office.contact/1.1.0.SNAPSHOT' symbolicname='org.jbundle.model.app.office.contact' presentationname='jbundle-model-app-office-contact - model' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/office/org.jbundle.model.app.office.contact/1.1.0-SNAPSHOT/org.jbundle.model.app.office.contact-1.1.0-20130214.225230-2.jar' version='1.1.0.SNAPSHOT'>
     <description>Top level properties and features</description>
-    <size>4464</size>
+    <size>4468</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -229,9 +229,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.db;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.model.main.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.main.db;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.thin.app.office.calendar.app/1.1.0.SNAPSHOT' symbolicname='org.jbundle.thin.app.office.calendar.app' presentationname='jbundle-thin-app-office-calendar-app - Thin calendar' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/office/org.jbundle.thin.app.office.calendar.app/1.1.0-SNAPSHOT/org.jbundle.thin.app.office.calendar.app-1.1.0-20130204.180131-1.jar' version='1.1.0.SNAPSHOT'>
+  <resource id='org.jbundle.thin.app.office.calendar.app/1.1.0.SNAPSHOT' symbolicname='org.jbundle.thin.app.office.calendar.app' presentationname='jbundle-thin-app-office-calendar-app - Thin calendar' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/office/org.jbundle.thin.app.office.calendar.app/1.1.0-SNAPSHOT/org.jbundle.thin.app.office.calendar.app-1.1.0-20130214.225404-2.jar' version='1.1.0.SNAPSHOT'>
     <description>Top level properties and features</description>
-    <size>13617</size>
+    <size>13620</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -264,9 +264,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.util.calendarpanel.event)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.calendarpanel.event;resolution:=optional;version="[1.1,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.util.calendarpanel.model)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.calendarpanel.model;resolution:=optional;version="[1.1,2)"</require>
   </resource>
-  <resource id='org.jbundle.thin.app.office.contact.db/1.1.0.SNAPSHOT' symbolicname='org.jbundle.thin.app.office.contact.db' presentationname='jbundle-thin-app-office-contact - thin code' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/office/org.jbundle.thin.app.office.contact.db/1.1.0-SNAPSHOT/org.jbundle.thin.app.office.contact.db-1.1.0-20130204.180010-1.jar' version='1.1.0.SNAPSHOT'>
+  <resource id='org.jbundle.thin.app.office.contact.db/1.1.0.SNAPSHOT' symbolicname='org.jbundle.thin.app.office.contact.db' presentationname='jbundle-thin-app-office-contact - thin code' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/office/org.jbundle.thin.app.office.contact.db/1.1.0-SNAPSHOT/org.jbundle.thin.app.office.contact.db-1.1.0-20130214.225240-2.jar' version='1.1.0.SNAPSHOT'>
     <description>Top level properties and features</description>
-    <size>6422</size>
+    <size>6423</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -284,9 +284,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.main.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.main.db;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.thin.app.office.contact.app/1.1.0.SNAPSHOT' symbolicname='org.jbundle.thin.app.office.contact.app' presentationname='jbundle-thin-app-office-contact-app' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/office/org.jbundle.thin.app.office.contact.app/1.1.0-SNAPSHOT/org.jbundle.thin.app.office.contact.app-1.1.0-20130204.180121-1.jar' version='1.1.0.SNAPSHOT'>
+  <resource id='org.jbundle.thin.app.office.contact.app/1.1.0.SNAPSHOT' symbolicname='org.jbundle.thin.app.office.contact.app' presentationname='jbundle-thin-app-office-contact-app' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/office/org.jbundle.thin.app.office.contact.app/1.1.0-SNAPSHOT/org.jbundle.thin.app.office.contact.app-1.1.0-20130214.225353-2.jar' version='1.1.0.SNAPSHOT'>
     <description>Top level properties and features</description>
-    <size>10628</size>
+    <size>10629</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>

@@ -1,5 +1,5 @@
-<repository lastmodified='20130204102029.151'>
-  <resource id='org.jbundle.base.screen.control.swing/1.0.0.SNAPSHOT' symbolicname='org.jbundle.base.screen.control.swing' presentationname='jbundle-base-screen-control-swing' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/screen/org.jbundle.base.screen.control.swing/1.0.0-SNAPSHOT/org.jbundle.base.screen.control.swing-1.0.0-20130204.182008-1.jar' version='1.0.0.SNAPSHOT'>
+<repository lastmodified='20130214025132.380'>
+  <resource id='org.jbundle.base.screen.control.swing/1.0.0.SNAPSHOT' symbolicname='org.jbundle.base.screen.control.swing' presentationname='jbundle-base-screen-control-swing' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/screen/org.jbundle.base.screen.control.swing/1.0.0-SNAPSHOT/org.jbundle.base.screen.control.swing-1.0.0-20130214.225126-2.jar' version='1.0.0.SNAPSHOT'>
     <description>Top level properties and features</description>
     <size>5703</size>
     <documentation>http://www.jbundle.org</documentation>
@@ -25,9 +25,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.util)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.util;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.framework;resolution:=optional;version="[1.5,2)"</require>
   </resource>
-  <resource id='org.jbundle.base.screen.view.swing/1.0.0.SNAPSHOT' symbolicname='org.jbundle.base.screen.view.swing' presentationname='jbundle-base-screen-view-swing' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/screen/org.jbundle.base.screen.view.swing/1.0.0-SNAPSHOT/org.jbundle.base.screen.view.swing-1.0.0-20130204.181949-1.jar' version='1.0.0.SNAPSHOT'>
+  <resource id='org.jbundle.base.screen.view.swing/1.0.0.SNAPSHOT' symbolicname='org.jbundle.base.screen.view.swing' presentationname='jbundle-base-screen-view-swing' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/screen/org.jbundle.base.screen.view.swing/1.0.0-SNAPSHOT/org.jbundle.base.screen.view.swing-1.0.0-20130214.224753-2.jar' version='1.0.0.SNAPSHOT'>
     <description>Top level properties and features</description>
-    <size>150812</size>
+    <size>150813</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
