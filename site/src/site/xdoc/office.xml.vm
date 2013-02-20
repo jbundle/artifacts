@@ -17,15 +17,15 @@
       </p>
       <p>
       Let's start out by retrieving the application source code.
-      This application is in github at <a href="https://github.com/jbundle/app-office">https://github.com/jbundle/app-office</a>
+      This application is in github at <a href="https://github.com/jbundle/office">https://github.com/jbundle/office</a>
       To check out this application and build it, type:<br/>
-      <code>git clone https://github.com/jbundle/app-office<br/>
-      cd app-office<br/>
+      <code>git clone https://github.com/jbundle/office<br/>
+      cd office<br/>
       mvn clean install</code><br/>
       </p>
       <p>
-      Now we're ready to run the examples. Change your directory to 'app' and run this application:<br/>
-      <code>cd app<br/>
+      Now we're ready to run the examples. Change your directory to 'main' and run this application:<br/>
+      <code>cd main<br/>
       mvn exec:java --activate-profiles local</code><br/>
       </p>
       <p>
@@ -33,17 +33,27 @@
       </p>
       <p>
       Now, Let's bring up the web server and try out the application:<br/>
-      <code>cd app<br/>
-      mvn exec:java --activate-profiles local</code><br/>
+      Download and start up <a href="http://karaf.apache.org">apache karaf</a>, and load the server code.<br/>
+      <code>
+      tar zxvf apache-karaf-x.x.x.tar.gz<br/>
+      cd apache-karaf-x.x.x<br/>
+      bin/karaf<br/>
+      </code>
+      Once karaf is started, add the jbundle framework and your new bundle:<br/>
+      <code>
+      shell:source mvn:org.jbundle.config/jbundle-artifacts/${project.version}/shell/setup<br/>
+      </code>
+      The sample office code is already available to karaf. You can start your client application by typing:<br/>
+      <code>mvn exec:java</code><br/>
       Click <a href="http://localhost:8181/?systemname=office">here to run the ajax implementation</a>. This is the same java program, run from a web browser.
-      You notice that the ajax implementation is not fully implemented yet because of the difficulty of programming in javascript.
+      You'll notice that the ajax implementation is not fully implemented yet because of the difficulty of programming in javascript.
       The calendar displays your appointments as a table and the real-time messaging has
       not been implemented yet. The form functionality is adequately implemented.<br/>
-      There is also an <a href="http://localhost:8181/apphtml?systemname=office">html implementation</a> and
-      a <a href="http://localhost:8181/appxhtml?systemname=office">strict (x)html implementation</a>.
+      There is also an <a href="http://localhost:8181/apphtml?systemname=office">HTML implementation</a> and
+      a <a href="http://localhost:8181/appxhtml?systemname=office">strict XHTML implementation</a>.
       </p>
       <p>
-      Where jbundle shines is in it's java clients. You can run the full java client in a browser that you ran just ran locally.
+      Where jbundle shines is in it's java clients. You can run the full java client in a web browser.
       <a href="http://localhost:8181/appxsl#?applet=org.jbundle.app.office.Main&amp;systemname=office&amp;webStartPropertiesFile=org/jbundle/res/webstart/app.properties">Click here to give it a try</a>.
       </p>
       <p>

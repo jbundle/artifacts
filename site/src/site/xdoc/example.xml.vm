@@ -100,7 +100,7 @@
       </code>
       </p>
       <p>
-      Now we're ready to test our code. Let's run an application using a our record. Just type:<br/>
+      Now we're ready to test our code. Let's run an application using our record. Just type:<br/>
       <code>
       mvn exec:java --activate-profiles local --define record=com.mycompany.sample.addressbook.db.AddressBook<br/>
       </code>
