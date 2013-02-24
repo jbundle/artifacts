@@ -76,6 +76,7 @@
 					<li>XML client - This client uses <a href="http://cocoon.apache.org">apache cocoon</a> to render beautiful web pages</li>
                     <li>HTML client - Where the user has limited resources and bandwidth</li>
                     <li>Android client - <font color="red">In development.</font></li>
+                    <li>JavaFX client - <font color="red">In development.</font></li>
 				</ul></td>
 			</tr>
 			<tr>
