@@ -23,9 +23,9 @@
       <p>
       Choose the jbundle-project template and enter your own group, artifact, and version number.
       To make things simple, use<br/>
-      <code>com.mycompany.sample</code>,
-      <code>com.mycompany.sample.addressbook</code>, and
-      <code>1.0.0-SNAPSHOT</code>,
+      <code>com.mycompany.sample</code>,<br/>
+      <code>com.mycompany.sample.addressbook</code>, and<br/>
+      <code>1.0.0-SNAPSHOT</code>,<br/>
       respectively.
       </p>
       <p>
@@ -39,17 +39,28 @@
       mvn exec:java --activate-profiles dev,local
       </code>
       <p>
+      <img src="images/example/01-menu.png"/>
+      </p>
+      <p>
       The first screen of the code generator will display the JBundle development menu.
       </p>
       <p>
       Click on the <img src="/org/jbundle/res/images/icons/Folder.gif"/> 'Class projects' icon.
       The JBundle framework project hierarchy will display.<br/>
+      </p>
+      <p>
+      <img src="images/example/02-projects.png"/>
+      </p>
+      <p>
       To add your new project, click on the <img src="/org/jbundle/res/images/icons/Form.gif"/> 'Form' button.
       Enter your project details. For this project, enter:<br/>
       <code>
       Project name: com.mycompany.sample.addressbook <i>(Must match your maven project directory)</i><br/>
       Package: com.mycompany.sample.addressbook<br/>
       </code>
+      </p>
+      <p>
+      <img src="images/example/03-project.png"/>
       </p>
       <p>
       Now we're ready to define our 'Contacts' record class.
@@ -67,7 +78,13 @@
       Class type: record
       </code>
       <p>
+      <img src="images/example/04-class.png"/>
+      </p>
+      <p>
       Display the database screen by clicking on the File header button. The default values are fine.<br/>
+      </p>
+      <p>
+      <img src="images/example/05-file.png"/>
       </p>
       <p>
       Now we are ready to enter the fields in our database. Click on the 'Fields' button.<br/>
@@ -76,6 +93,9 @@
       Name<br/>
       Address
       </code>
+      </p>
+      <p>
+      <img src="images/example/06-fields.png"/>
       </p>
       <!-- p>
       Now we'll specify the indexes for this record: <i>(ID is already the primary key)</i><br/>
