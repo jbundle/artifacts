@@ -16,12 +16,14 @@
     </menu>
 
     <menu name="App framework">
-        <item name="Quick start" href="quickstart.html"/>
-        <item name="Sample App" href="example.html"/>
         <item name="App architecture" href="project.html"/>
         <item name="Database API" href="database.html"/>
         <item name="Display design" href="screen.html"/>
-    </menu>
+        <item name="Quick start" href="quickstart.html"/>
+        <item name="Simple App" href="example.html"/>
+        <item name="Office App" href="office.html"/>
+        <item name="Sample App" href="sample.html"/>
+        </menu>
 
     <menu name="JBundle Projects">
       <item name="App framework" href="../jbundle"/>

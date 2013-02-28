@@ -1,4 +1,4 @@
-<repository lastmodified='20130222010426.719'>
+<repository lastmodified='20130227042152.841'>
   <resource id='org.jbundle.app.office/1.1.0.SNAPSHOT' symbolicname='org.jbundle.app.office' presentationname='jbundle-app-office' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/office/org.jbundle.app.office/1.1.0-SNAPSHOT/org.jbundle.app.office-1.1.0-20130222.210419-3.jar' version='1.1.0.SNAPSHOT'>
     <description>Top level properties and features</description>
     <size>4665</size>
@@ -138,9 +138,9 @@
       <p n='version' t='version' v='1.1.0.SNAPSHOT'/>
     </capability>
   </resource>
-  <resource id='org.jbundle.app.office.contact.res.dev/1.1.0.SNAPSHOT' symbolicname='org.jbundle.app.office.contact.res.dev' presentationname='jbundle-app-office-contact-res-dev' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/office/org.jbundle.app.office.contact.res.dev/1.1.0-SNAPSHOT/org.jbundle.app.office.contact.res.dev-1.1.0-20130222.210228-3.jar' version='1.1.0.SNAPSHOT'>
+  <resource id='org.jbundle.app.office.contact.res.dev/1.1.0.SNAPSHOT' symbolicname='org.jbundle.app.office.contact.res.dev' presentationname='jbundle-app-office-contact-res-dev' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/office/org.jbundle.app.office.contact.res.dev/1.1.0-SNAPSHOT/org.jbundle.app.office.contact.res.dev-1.1.0-20130228.002144-4.jar' version='1.1.0.SNAPSHOT'>
     <description>Top level properties and features</description>
-    <size>36751</size>
+    <size>36764</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>

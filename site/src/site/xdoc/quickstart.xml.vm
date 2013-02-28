@@ -19,10 +19,10 @@
             </code>
           </li>
           <li>Point your broswer to <a href="http://localhost:8181">http://localhost:8181</a>.</li>
-          <li>Click on the 'Example' icon to try out some of the jbundle sample apps.</li>
+          <li>Click on the application icons to try out some of the jbundle sample apps.</li>
         </ul>
       <p>
-      Note: By default, jbundle uses the derby database engine. The database will be located in your home directory at '.derby'.
+      Note: By default, jbundle uses the derby database engine. The database will be located in your home directory at '.jbundle'.
       </p>
     </section>
   </body>

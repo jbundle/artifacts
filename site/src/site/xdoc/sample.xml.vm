@@ -15,28 +15,27 @@
     Try out some of these sample applications.
     </p>
     <p>
-        <iframe src="/webstart/docs/applet.html?org.jbundle.util.osgi.webstart.appletClass=org.jbundle.Main&amp;org.jbundle.util.osgi.webstart.codebase=/&amp;org.jbundle.util.osgi.webstart.webStartComponents=/org/jbundle/res/webstart/tour.properties,/org/jbundle/res/webstart/thick.properties,/org/jbundle/res/webstart/thin.properties&amp;connectionType=Proxy&amp;menu=DemoMenu&amp;background=backgrounds/worldmapalpha.gif&amp;backgroundcolor=#EEEEFF" width="100%" height="350">
+        <iframe src="/webstart/applet.html?applet=org.jbundle.app.office.Main&amp;systemname=office&amp;webStartPropertiesFile=org/jbundle/res/webstart/app.properties" width="100%" height="350">
           <p>Your browser does not support iframes.</p>
         </iframe>
     </p>
       <p>
         Bring up another copy of this application in
-        <a href="/webstart/runme.jnlp?org.jbundle.util.osgi.webstart.mainClass=org.jbundle.Main&amp;org.jbundle.util.osgi.webstart.codebase=/&amp;org.jbundle.util.osgi.webstart.webStartComponents=/org/jbundle/res/webstart/tour.properties,/org/jbundle/res/webstart/thick.properties,/org/jbundle/res/webstart/thin.properties&amp;connectionType=Proxy&amp;menu=DemoMenu&amp;background=backgrounds/worldmapalpha.gif&amp;backgroundcolor=#EEEEFF">Web Start</a>
+        <a href="/webstart?mainClass=org.jbundle.app.office.Main&amp;systemname=office&amp;webStartPropertiesFile=org/jbundle/res/webstart/app.properties">Web Start</a>
         and notice that any changes are reflected in all the open windows.
       </p>
       <p>
       	JBundle runs best as a
-      	<a href="/webstart/docs/applet.html?org.jbundle.util.osgi.webstart.appletClass=org.jbundle.Main&amp;org.jbundle.util.osgi.webstart.codebase=/&amp;org.jbundle.util.osgi.webstart.webStartComponents=/org/jbundle/res/webstart/tour.properties,/org/jbundle/res/webstart/thick.properties,/org/jbundle/res/webstart/thin.properties&amp;connectionType=Proxy&amp;menu=DemoMenu&amp;background=backgrounds/worldmapalpha.gif&amp;backgroundcolor=#EEEEFF">full screen web applet</a>, but it can also run as a
-      	<a href="/webstart/runme.jnlp?org.jbundle.util.osgi.webstart.mainClass=org.jbundle.Main&amp;org.jbundle.util.osgi.webstart.codebase=/&amp;org.jbundle.util.osgi.webstart.webStartComponents=/org/jbundle/res/webstart/tour.properties,/org/jbundle/res/webstart/thick.properties,/org/jbundle/res/webstart/thin.properties&amp;connectionType=Proxy&amp;menu=DemoMenu&amp;background=backgrounds/worldmapalpha.gif&amp;backgroundcolor=#EEEEFF">standalone application</a>,
-      	an <a href="/?menu=DemoMenu">Ajax application</a>,
-      	an <a href="/appxhtml?menu=DemoMenu">xhtml web page</a>,
-      	or as an <a href="/apphtml?menu=DemoMenu">html web page</a>.<br/>
+      	<a href="/webstart/applet.html?applet=org.jbundle.app.office.Main&amp;systemname=office&amp;webStartPropertiesFile=org/jbundle/res/webstart/app.properties">full screen web applet</a>, but it can also run as a
+      	<a href="/webstart?mainClass=org.jbundle.app.office.Main&amp;systemname=office&amp;webStartPropertiesFile=org/jbundle/res/webstart/app.properties">standalone application</a>,
+      	an <a href="/?systemname=office">Ajax application</a>,
+      	an <a href="/appxhtml?systemname=office">xhtml web page</a>,
+      	or as an <a href="/apphtml?systemname=office">html web page</a>.<br/>
       	All of these views are running the exact same program.
       </p>
       <p>
         More interesting is what you don't see. You are probably behind a restrictive firewall.
-        You didn't receive any security warning notices. JBundle is very careful to
-        stay within your computer's security constraints.
+        JBundle is very careful to stay within your computer's security constraints.
       </p>
     </section>
   </body>

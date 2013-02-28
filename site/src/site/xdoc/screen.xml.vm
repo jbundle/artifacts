@@ -18,12 +18,13 @@
     </iframe>
 </p>
       <p>
-        JBundle has several other client implementations including:
+        JBundle has several client implementations. Try this simple contact list implemented as a:
         <ul>
-        <li><a href="xx">A standalone java application</a></li>
-        <li><a href="xx">An Ajax application</a></li>
-        <li><a href="xx">An xhtml web page</a></li>
-        <li><a href="xx">A html web page</a></li>
+        <li><a href="/webstart/applet.html?applet=org.jbundle.app.office.Main&amp;systemname=office&amp;webStartPropertiesFile=org/jbundle/res/webstart/app.properties">A java applet</a></li>
+        <li><a href="/webstart?mainClass=org.jbundle.app.office.Main&amp;systemname=office&amp;webStartPropertiesFile=org/jbundle/res/webstart/app.properties">A standalone java application</a></li>
+        <li><a href="/?systemname=office">An Ajax application</a></li>
+        <li><a href="/appxhtml?systemname=office">An xhtml web page</a></li>
+        <li><a href="/apphtml?systemname=office">A html web page</a></li>
         <li>An Android client <font color="red">(coming soon)</font>.</li>
         </ul>
         <p/>

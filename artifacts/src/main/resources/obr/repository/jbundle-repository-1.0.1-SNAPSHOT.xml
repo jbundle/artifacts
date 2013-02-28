@@ -1,4 +1,4 @@
-<repository lastmodified='20130226044605.435'>
+<repository lastmodified='20130227032357.071'>
   <resource id='org.jbundle.app.program.db/1.0.1.SNAPSHOT' symbolicname='org.jbundle.app.program.db' presentationname='jbundle-app-program-db - Program databases' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/program/org.jbundle.app.program.db/1.0.1-SNAPSHOT/org.jbundle.app.program.db-1.0.1-20130226.162551-6.jar' version='1.0.1.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
     <size>74588</size>
@@ -2455,9 +2455,9 @@
       <p n='version' t='version' v='1.0.1.SNAPSHOT'/>
     </capability>
   </resource>
-  <resource id='org.jbundle.res.data/1.0.1.SNAPSHOT' symbolicname='org.jbundle.res.data' presentationname='jbundle-res-data - jbundle data' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res.data/1.0.1-SNAPSHOT/org.jbundle.res.data-1.0.1-20130226.234000-9.jar' version='1.0.1.SNAPSHOT'>
+  <resource id='org.jbundle.res.data/1.0.1.SNAPSHOT' symbolicname='org.jbundle.res.data' presentationname='jbundle-res-data - jbundle data' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res.data/1.0.1-SNAPSHOT/org.jbundle.res.data-1.0.1-20130227.232344-10.jar' version='1.0.1.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
-    <size>418032</size>
+    <size>418001</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>

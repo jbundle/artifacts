@@ -63,11 +63,11 @@
     You will need to have the jbundle server running for this to work.<br/>
     Derby is the default database type. If you would like to run jbundle standalone, type:<br/>
     <code>
-    mvn exec:java -Pjdbc<br/>
+    mvn exec:java --activate-profiles local<br/>
     </code>
     If you would like to access a different database, pass the database product type by typing:<br/>
     <code>
-    mvn exec:java -Pjdbc -Ddatabaseproduct=mysql<br/>
+    mvn exec:java --activate-profiles local --define databaseproduct=mysql<br/>
     </code>
     </section>
   </body>
