@@ -9,11 +9,20 @@
   <body>
     <section name="JBundle - Creating a sample multi-project application">
       <p>
-      In this example, we're going to create a simple address book application. Your finished application should look like 
-      <a target="_blank" href="http://localhost:8181/webstart/docs/jsapplet.html#?record=org.jbundle.app.office.sample.addressbook.db.AddressBook&amp;systemname=office&amp;webStartPropertiesFile=/org/jbundle/res/webstart/app.properties">this</a>.
+      A jbundle application is usually segmented into logical components. The model and resources are
+      typically in their own OSGi bundles. Thin and thick resources are usually separate since they are
+      not used in the same applications, but they both share the same resources and models.
       </p>
       <p>
-      Congratulations! You have just finished your first jbundle application. Now you're ready to try some of the more advanced features in the <a href="./office.html">next tutorial</a>.
+      When you create a project, you can specify different locations for the different kinds of resources.
+      For example:
+      </p>
+      <p>
+      <img src="images/multiproject/01-project.png"/>
+      </p>
+      <p>
+      You mat create the maven project files manually, or press the <img src="/org/jbundle/res/images/buttons/Run.gif"/> 'Create maven projects' button to create
+      a skeleton project file in each of the project directories and in the parent directory.
       </p>
     </section>
   </body>

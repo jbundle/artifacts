@@ -24,6 +24,7 @@
         <item name="Office App" href="office.html"/>
         <item name="Sample App" href="sample.html"/>
         <item name="Multi-project App" href="multiproject.html"/>
+        <item name="OSGi OBR index" href="obr.html"/>
         </menu>
 
     <menu name="JBundle Projects">

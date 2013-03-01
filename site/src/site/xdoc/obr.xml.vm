@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://maven.apache.org/XDOC/2.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/XDOC/2.0 http://maven.apache.org/xsd/xdoc-2.0.xsd">
+  <properties>
+    <title>Welcome</title>
+    <author email="don@tourgeek.com">Don Corley</author>
+  </properties>
+  <body>
+    <section name="JBundle - Creating an obr index for your project">
+      <p>
+      In all of the examples presented here, you had to manually add each project to the OSGi container.
+      As you probably know, there are easier ways to add OSGi bundles.
+      </p>
+      <p>
+      The easiest way to add bundles is to create an OBR index for your bundles. This is pretty easy.
+      All you have to do is instruct the bundle plugin to update an OSGi index whenever it does a
+      deploy or a release. Take a look at the <a href="http://search.maven.org/#search%7Cga%7C1%7Cjbundle-parent">jbundle-parent</a>
+      project file for an example of how this is done.
+      </p>
+      <p>
+      </p>
+    </section>
+  </body>
+</document>
