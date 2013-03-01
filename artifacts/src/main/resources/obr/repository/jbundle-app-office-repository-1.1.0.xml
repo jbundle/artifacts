@@ -1,0 +1,360 @@
+<repository lastmodified='20130301074204.473'>
+  <resource id='org.jbundle.app.office.sample.addressbook/1.1.0' symbolicname='org.jbundle.app.office.sample.addressbook' presentationname='Basic application' uri='http://repo.maven.apache.org/maven2/org/jbundle/app/office/org.jbundle.app.office.sample.addressbook/1.1.0/org.jbundle.app.office.sample.addressbook-1.1.0.jar' version='1.1.0'>
+    <description>Top level properties and features</description>
+    <size>8008</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.app.office.sample.addressbook'/>
+      <p n='presentationname' v='Basic application'/>
+      <p n='version' t='version' v='1.1.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.app.office.sample.addressbook.res.db'/>
+      <p n='version' t='version' v='1.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.app.office.sample.addressbook.model.db'/>
+      <p n='version' t='version' v='1.1.0'/>
+      <p n='uses:' v='org.jbundle.model.db'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.app.office.sample.addressbook.db'/>
+      <p n='version' t='version' v='1.1.0'/>
+      <p n='uses:' v='org.jbundle.base.db,org.jbundle.base.model,org.jbundle.app.office.sample.addressbook.model.db,org.jbundle.base.field'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.app.office.sample.addressbook.thin.db'/>
+      <p n='version' t='version' v='1.1.0'/>
+      <p n='uses:' v='org.jbundle.app.office.sample.addressbook.model.db,org.jbundle.thin.base.db'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jbundle.base.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.db;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.base.field)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.field;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.base.model)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.model;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.model.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.db;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[1.0,2)"</require>
+  </resource>
+  <resource id='org.jbundle.app.office/1.1.0' symbolicname='org.jbundle.app.office' presentationname='jbundle-app-office' uri='http://repo.maven.apache.org/maven2/org/jbundle/app/office/org.jbundle.app.office/1.1.0/org.jbundle.app.office-1.1.0.jar' version='1.1.0'>
+    <description>Top level properties and features</description>
+    <size>4651</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.app.office'/>
+      <p n='presentationname' v='jbundle-app-office'/>
+      <p n='version' t='version' v='1.1.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.app.office'/>
+      <p n='version' t='version' v='1.1.0'/>
+      <p n='uses:' v='org.jbundle'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jbundle)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.app.office.calendar.screen)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.app.office.calendar.screen;resolution:=optional;version="[1.1,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.app.office.calendar.screen.view.swing)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.app.office.calendar.screen.view.swing;resolution:=optional;version="[1.1,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.app.office.contact.screen)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.app.office.contact.screen;resolution:=optional;version="[1.1,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.res.app.office.contact.db)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.res.app.office.contact.db;resolution:=optional;version="[1.1,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.thin.app.office.calendar.app)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.app.office.calendar.app;resolution:=optional;version="[1.1,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.thin.app.office.contact.app)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.app.office.contact.app;resolution:=optional;version="[1.1,2)"</require>
+  </resource>
+  <resource id='org.jbundle.app.office.calendar.screen/1.1.0' symbolicname='org.jbundle.app.office.calendar.screen' presentationname='jbundle-app-office-calendar-screen - Calendar' uri='http://repo.maven.apache.org/maven2/org/jbundle/app/office/org.jbundle.app.office.calendar.screen/1.1.0/org.jbundle.app.office.calendar.screen-1.1.0.jar' version='1.1.0'>
+    <description>Top level properties and features</description>
+    <size>5001</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.app.office.calendar.screen'/>
+      <p n='presentationname' v='jbundle-app-office-calendar-screen - Calendar'/>
+      <p n='version' t='version' v='1.1.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.app.office.calendar.screen'/>
+      <p n='version' t='version' v='1.1.0'/>
+      <p n='uses:' v='org.jbundle.util.calendarpanel,org.jbundle.base.db,org.jbundle.base.model,org.jbundle.base.screen.model,org.jbundle.base.screen.model.util,org.jbundle.thin.base.db,org.jbundle.main.calendar.screen'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jbundle.base.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.db;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.base.model)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.model;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.base.screen.model)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.screen.model;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.base.screen.model.util)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.screen.model.util;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.main.calendar.screen)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.main.calendar.screen;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.calendarpanel)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.calendarpanel;resolution:=optional;version="[1.1,2)"</require>
+  </resource>
+  <resource id='org.jbundle.app.office.calendar.screen.view.swing/1.1.0' symbolicname='org.jbundle.app.office.calendar.screen.view.swing' presentationname='jbundle-app-office-calendar-screen-view-swing' uri='http://repo.maven.apache.org/maven2/org/jbundle/app/office/org.jbundle.app.office.calendar.screen.view.swing/1.1.0/org.jbundle.app.office.calendar.screen.view.swing-1.1.0.jar' version='1.1.0'>
+    <description>Top level properties and features</description>
+    <size>5569</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.app.office.calendar.screen.view.swing'/>
+      <p n='presentationname' v='jbundle-app-office-calendar-screen-view-swing'/>
+      <p n='version' t='version' v='1.1.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.app.office.calendar.screen.view.swing'/>
+      <p n='version' t='version' v='1.1.0'/>
+      <p n='uses:' v='org.jbundle.thin.base.screen.cal.popup,javax.swing,org.jbundle.thin.base.screen,org.jbundle.util.calendarpanel,org.jbundle.base.screen.view.swing,org.jbundle.base.model,org.jbundle.base.screen.model,org.jbundle.model.screen'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.swing))' extend='false' multiple='false' optional='true'>Import package javax.swing;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.base.model)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.model;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.base.screen.model)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.screen.model;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.base.screen.view.swing)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.screen.view.swing;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.model.screen)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.screen;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.thin.base.screen)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.screen;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.thin.base.screen.cal.popup)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.screen.cal.popup;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.calendarpanel)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.calendarpanel;resolution:=optional;version="[1.1,2)"</require>
+  </resource>
+  <resource id='org.jbundle.app.office.contact.db/1.1.0' symbolicname='org.jbundle.app.office.contact.db' presentationname='jbundle-app-office-contact-db - Contact db' uri='http://repo.maven.apache.org/maven2/org/jbundle/app/office/org.jbundle.app.office.contact.db/1.1.0/org.jbundle.app.office.contact.db-1.1.0.jar' version='1.1.0'>
+    <description>Top level properties and features</description>
+    <size>10461</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.app.office.contact.db'/>
+      <p n='presentationname' v='jbundle-app-office-contact-db - Contact db'/>
+      <p n='version' t='version' v='1.1.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.app.office.contact.db'/>
+      <p n='version' t='version' v='1.1.0'/>
+      <p n='uses:' v='org.jbundle.base.db,org.jbundle.base.field,org.jbundle.base.field.event,org.jbundle.model.db,org.jbundle.model.app.office.contact.db,org.jbundle.base.model,org.jbundle.model,org.jbundle.model.screen,org.jbundle.main.db'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jbundle.base.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.db;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.base.field)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.field;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.base.field.event)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.field.event;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.base.model)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.model;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.main.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.main.db;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.model)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.model.app.office.contact.db)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.app.office.contact.db;resolution:=optional;version="[1.1,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.model.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.db;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.model.screen)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.screen;resolution:=optional;version="[1.0,2)"</require>
+  </resource>
+  <resource id='org.jbundle.res.app.office.contact/1.1.0' symbolicname='org.jbundle.res.app.office.contact' presentationname='jbundle-app-office-contact-res' uri='http://repo.maven.apache.org/maven2/org/jbundle/app/office/org.jbundle.res.app.office.contact/1.1.0/org.jbundle.res.app.office.contact-1.1.0.jar' version='1.1.0'>
+    <description>Top level properties and features</description>
+    <size>4723</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.res.app.office.contact'/>
+      <p n='presentationname' v='jbundle-app-office-contact-res'/>
+      <p n='version' t='version' v='1.1.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.app.office.contact.db'/>
+      <p n='version' t='version' v='1.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.app.office.contact.screen'/>
+      <p n='version' t='version' v='1.1.0'/>
+    </capability>
+  </resource>
+  <resource id='org.jbundle.app.office.contact.res.data/1.1.0' symbolicname='org.jbundle.app.office.contact.res.data' presentationname='jbundle-app-office-contact-res-data' uri='http://repo.maven.apache.org/maven2/org/jbundle/app/office/org.jbundle.app.office.contact.res.data/1.1.0/org.jbundle.app.office.contact.res.data-1.1.0.jar' version='1.1.0'>
+    <description>Top level properties and features</description>
+    <size>11683</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.app.office.contact.res.data'/>
+      <p n='presentationname' v='jbundle-app-office-contact-res-data'/>
+      <p n='version' t='version' v='1.1.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.app_office_user.org.jbundle.app.office.sample.addressbook.db'/>
+      <p n='version' t='version' v='1.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.app_shared.org.jbundle.app.office.contact.db'/>
+      <p n='version' t='version' v='1.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.app_office_user.org.jbundle.app.office.contact.db'/>
+      <p n='version' t='version' v='1.1.0'/>
+    </capability>
+  </resource>
+  <resource id='org.jbundle.app.office.contact.res.dev/1.1.0' symbolicname='org.jbundle.app.office.contact.res.dev' presentationname='jbundle-app-office-contact-res-dev' uri='http://repo.maven.apache.org/maven2/org/jbundle/app/office/org.jbundle.app.office.contact.res.dev/1.1.0/org.jbundle.app.office.contact.res.dev-1.1.0.jar' version='1.1.0'>
+    <description>Top level properties and features</description>
+    <size>36949</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.app.office.contact.res.dev'/>
+      <p n='presentationname' v='jbundle-app-office-contact-res-dev'/>
+      <p n='version' t='version' v='1.1.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.main_office_user.org.jbundle.main.calendar.db'/>
+      <p n='version' t='version' v='1.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.main_office_user.org.jbundle.main.user.db'/>
+      <p n='version' t='version' v='1.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.program_office_shared'/>
+      <p n='version' t='version' v='1.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.main_office_shared.org.jbundle.main.calendar.db'/>
+      <p n='version' t='version' v='1.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.program_office_shared.org.jbundle.app.program.db'/>
+      <p n='version' t='version' v='1.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.main_office_shared.org.jbundle.main.db'/>
+      <p n='version' t='version' v='1.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.program_office_user.org.jbundle.app.program.db'/>
+      <p n='version' t='version' v='1.1.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.main_office_user.org.jbundle.main.msg.db'/>
+      <p n='version' t='version' v='1.1.0'/>
+    </capability>
+  </resource>
+  <resource id='org.jbundle.app.office.contact.screen/1.1.0' symbolicname='org.jbundle.app.office.contact.screen' presentationname='jbundle-app-office-contact-screen - Contact example' uri='http://repo.maven.apache.org/maven2/org/jbundle/app/office/org.jbundle.app.office.contact.screen/1.1.0/org.jbundle.app.office.contact.screen-1.1.0.jar' version='1.1.0'>
+    <description>Top level properties and features</description>
+    <size>7860</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.app.office.contact.screen'/>
+      <p n='presentationname' v='jbundle-app-office-contact-screen - Contact example'/>
+      <p n='version' t='version' v='1.1.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.app.office.contact.screen'/>
+      <p n='version' t='version' v='1.1.0'/>
+      <p n='uses:' v='org.jbundle.model.db,org.jbundle.base.db,org.jbundle.app.office.contact.db,org.jbundle.base.model,org.jbundle.base.screen.model.util,org.jbundle.thin.base.db,org.jbundle.base.field.event,org.jbundle.model.screen,org.jbundle.base.screen.model,org.jbundle.base.db.filter,org.jbundle.base.field'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jbundle.app.office.contact.db)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.app.office.contact.db;resolution:=optional;version="[1.1,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.base.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.db;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.base.db.filter)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.db.filter;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.base.field)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.field;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.base.field.event)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.field.event;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.base.model)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.model;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.base.screen.model)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.screen.model;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.base.screen.model.util)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.screen.model.util;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.model.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.db;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.model.screen)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.screen;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[1.0,2)"</require>
+  </resource>
+  <resource id='org.jbundle.model.app.office.contact/1.1.0' symbolicname='org.jbundle.model.app.office.contact' presentationname='jbundle-model-app-office-contact - model' uri='http://repo.maven.apache.org/maven2/org/jbundle/app/office/org.jbundle.model.app.office.contact/1.1.0/org.jbundle.model.app.office.contact-1.1.0.jar' version='1.1.0'>
+    <description>Top level properties and features</description>
+    <size>4428</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.model.app.office.contact'/>
+      <p n='presentationname' v='jbundle-model-app-office-contact - model'/>
+      <p n='version' t='version' v='1.1.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.model.app.office.contact.db'/>
+      <p n='version' t='version' v='1.1.0'/>
+      <p n='uses:' v='org.jbundle.model.db,org.jbundle.model.main.db'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jbundle.model.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.db;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.model.main.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.main.db;resolution:=optional;version="[1.0,2)"</require>
+  </resource>
+  <resource id='org.jbundle.thin.app.office.calendar.app/1.1.0' symbolicname='org.jbundle.thin.app.office.calendar.app' presentationname='jbundle-thin-app-office-calendar-app - Thin calendar' uri='http://repo.maven.apache.org/maven2/org/jbundle/app/office/org.jbundle.thin.app.office.calendar.app/1.1.0/org.jbundle.thin.app.office.calendar.app-1.1.0.jar' version='1.1.0'>
+    <description>Top level properties and features</description>
+    <size>13587</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.thin.app.office.calendar.app'/>
+      <p n='presentationname' v='jbundle-thin-app-office-calendar-app - Thin calendar'/>
+      <p n='version' t='version' v='1.1.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.thin.app.office.calendar.app'/>
+      <p n='version' t='version' v='1.1.0'/>
+      <p n='uses:' v='org.jbundle.model.db,javax.swing,org.jbundle.thin.base.remote,org.jbundle.thin.base.screen,org.jbundle.thin.main.calendar.db,org.jbundle.thin.base.db,org.jbundle.thin.base.screen.util.cal,org.jbundle.thin.base.screen.cal.popup,org.jbundle.util.calendarpanel.model,org.jbundle.thin.base.screen.cal.grid,org.jbundle.util.calendarpanel,org.jbundle.thin.base.message,org.jbundle.model.screen,org.jbundle.model,org.jbundle.util.calendarpanel.event,org.jbundle.thin.base.util.message,org.jbundle.thin.base.util,org.jbundle.thin.base.screen.menu'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.swing))' extend='false' multiple='false' optional='true'>Import package javax.swing;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.model)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.model.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.db;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.model.screen)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.screen;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.thin.base.message)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.message;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.thin.base.remote)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.remote;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.thin.base.screen)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.screen;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.thin.base.screen.cal.grid)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.screen.cal.grid;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.thin.base.screen.cal.popup)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.screen.cal.popup;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.thin.base.screen.menu)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.screen.menu;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.thin.base.screen.util.cal)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.screen.util.cal;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.thin.base.util)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.util;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.thin.base.util.message)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.util.message;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.thin.main.calendar.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.main.calendar.db;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.calendarpanel)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.calendarpanel;resolution:=optional;version="[1.1,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.calendarpanel.event)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.calendarpanel.event;resolution:=optional;version="[1.1,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.calendarpanel.model)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.calendarpanel.model;resolution:=optional;version="[1.1,2)"</require>
+  </resource>
+  <resource id='org.jbundle.thin.app.office.contact.db/1.1.0' symbolicname='org.jbundle.thin.app.office.contact.db' presentationname='jbundle-thin-app-office-contact - thin code' uri='http://repo.maven.apache.org/maven2/org/jbundle/app/office/org.jbundle.thin.app.office.contact.db/1.1.0/org.jbundle.thin.app.office.contact.db-1.1.0.jar' version='1.1.0'>
+    <description>Top level properties and features</description>
+    <size>6388</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.thin.app.office.contact.db'/>
+      <p n='presentationname' v='jbundle-thin-app-office-contact - thin code'/>
+      <p n='version' t='version' v='1.1.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.thin.app.office.contact.db'/>
+      <p n='version' t='version' v='1.1.0'/>
+      <p n='uses:' v='org.jbundle.thin.main.db,org.jbundle.model.app.office.contact.db,org.jbundle.thin.base.db'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jbundle.model.app.office.contact.db)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.app.office.contact.db;resolution:=optional;version="[1.1,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.thin.main.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.main.db;resolution:=optional;version="[1.0,2)"</require>
+  </resource>
+  <resource id='org.jbundle.thin.app.office.contact.app/1.1.0' symbolicname='org.jbundle.thin.app.office.contact.app' presentationname='jbundle-thin-app-office-contact-app' uri='http://repo.maven.apache.org/maven2/org/jbundle/app/office/org.jbundle.thin.app.office.contact.app/1.1.0/org.jbundle.thin.app.office.contact.app-1.1.0.jar' version='1.1.0'>
+    <description>Top level properties and features</description>
+    <size>10594</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.thin.app.office.contact.app'/>
+      <p n='presentationname' v='jbundle-thin-app-office-contact-app'/>
+      <p n='version' t='version' v='1.1.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.thin.app.office.contact.app'/>
+      <p n='version' t='version' v='1.1.0'/>
+      <p n='uses:' v='org.jbundle.model.db,org.jbundle.thin.base.screen.grid,javax.swing,org.jbundle.thin.base.screen,javax.swing.table,org.jbundle.thin.base.db,org.jbundle.thin.base.message,org.jbundle.thin.base.util.message,org.jbundle.thin.app.office.contact.db,org.jbundle.model.screen,org.jbundle.model,org.jbundle.thin.base.screen.util,org.jbundle.thin.base.remote,org.jbundle.thin.base.util,org.jbundle.thin.base.screen.util.cal'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.swing))' extend='false' multiple='false' optional='true'>Import package javax.swing;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.swing.table))' extend='false' multiple='false' optional='true'>Import package javax.swing.table;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.model)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.model.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.db;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.model.screen)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.screen;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.res.app.office.contact.db)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.res.app.office.contact.db;resolution:=optional;version="[1.1,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.thin.app.office.contact.db)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.app.office.contact.db;resolution:=optional;version="[1.1,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.thin.base.message)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.message;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.thin.base.remote)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.remote;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.thin.base.screen)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.screen;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.thin.base.screen.grid)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.screen.grid;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.thin.base.screen.util)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.screen.util;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.thin.base.screen.util.cal)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.screen.util.cal;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.thin.base.util)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.util;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.thin.base.util.message)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.util.message;resolution:=optional;version="[1.0,2)"</require>
+  </resource>
+</repository>

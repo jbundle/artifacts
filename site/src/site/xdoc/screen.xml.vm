@@ -18,14 +18,15 @@
     </iframe>
 </p>
       <p>
-        JBundle has several client implementations. Try this simple contact list implemented as a:
+        JBundle has several client implementations. Try this simple contact list app implemented as a:
         <ul>
-        <li><a href="/webstart/applet.html?applet=org.jbundle.app.office.Main&amp;systemname=office&amp;webStartPropertiesFile=org/jbundle/res/webstart/app.properties">A java applet</a></li>
+        <li><a href="/webstart/applet.html?applet=org.jbundle.app.office.Main&amp;systemname=office&amp;webStartPropertiesFile=org/jbundle/res/webstart/app.properties" target="_blank">A java applet</a></li>
         <li><a href="/webstart?mainClass=org.jbundle.app.office.Main&amp;systemname=office&amp;webStartPropertiesFile=org/jbundle/res/webstart/app.properties">A standalone java application</a></li>
-        <li><a href="/?systemname=office">An Ajax application</a></li>
-        <li><a href="/appxhtml?systemname=office">An xhtml web page</a></li>
-        <li><a href="/apphtml?systemname=office">A html web page</a></li>
+        <li><a href="/?systemname=office" target="_blank">An Ajax application</a></li>
+        <li><a href="/appxhtml?systemname=office" target="_blank">A xhtml web page</a></li>
+        <li><a href="/apphtml?systemname=office" target="_blank">A html web page</a></li>
         <li>An Android client <font color="red">(coming soon)</font>.</li>
+        <li>A JavaFX client <font color="red">(coming soon)</font>.</li>
         </ul>
         <p/>
         Give them a try! All of these views are running the exact same program.

@@ -23,6 +23,7 @@
         <item name="Simple App" href="example.html"/>
         <item name="Office App" href="office.html"/>
         <item name="Sample App" href="sample.html"/>
+        <item name="Multi-project App" href="multiproject.html"/>
         </menu>
 
     <menu name="JBundle Projects">

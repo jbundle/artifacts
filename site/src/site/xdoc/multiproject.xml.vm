@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://maven.apache.org/XDOC/2.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/XDOC/2.0 http://maven.apache.org/xsd/xdoc-2.0.xsd">
+  <properties>
+    <title>Welcome</title>
+    <author email="don@tourgeek.com">Don Corley</author>
+  </properties>
+  <body>
+    <section name="JBundle - Creating a sample multi-project application">
+      <p>
+      In this example, we're going to create a simple address book application. Your finished application should look like 
+      <a target="_blank" href="http://localhost:8181/webstart/docs/jsapplet.html#?record=org.jbundle.app.office.sample.addressbook.db.AddressBook&amp;systemname=office&amp;webStartPropertiesFile=/org/jbundle/res/webstart/app.properties">this</a>.
+      </p>
+      <p>
+      Congratulations! You have just finished your first jbundle application. Now you're ready to try some of the more advanced features in the <a href="./office.html">next tutorial</a>.
+      </p>
+    </section>
+  </body>
+</document>
