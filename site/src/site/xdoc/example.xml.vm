@@ -10,7 +10,7 @@
     <section name="JBundle - Creating a sample application">
       <p>
       In this example, we're going to create a simple address book application. Your finished application should look like 
-      <a target="_blank" href="http://localhost:8181/webstart/docs/jsapplet.html#?record=org.jbundle.app.office.sample.addressbook.db.AddressBook&amp;systemname=office&amp;webStartPropertiesFile=/org/jbundle/res/webstart/app.properties">this</a>.
+      <a target="_blank" href="http://localhost:8181/webstart/docs/jsapplet.html?applet=org.jbundle.Main&amp;record=org.jbundle.app.office.sample.addressbook.db.AddressBook&amp;otherPackages=org.jbundle.app.office.sample.addressbook.db&amp;systemname=office&amp;webStartPropertiesFile=/org/jbundle/res/webstart/app.properties">this</a>.
       </p>
       <p>
       You will need <a href="http://java.com">java</a> and <a href="http://maven.apache.org">maven</a>.
@@ -149,7 +149,7 @@
       install mvn:com.mycompany.sample/com.mycompany.sample.addressbook<br/>
       </code>
       Your code is ready to run.
-        <a target="_blank" href="http://localhost:8181/webstart/docs/jsapplet.html#?record=com.mycompany.sample.addressbook.db.AddressBook&amp;otherPackages=com.mycompany.sample.addressbook.db&amp;systemname=com.mycompany.sample&amp;webStartPropertiesFile=/org/jbundle/res/webstart/app.properties">Click here</a> to start your app in a new browser window.
+        <a target="_blank" href="http://localhost:8181/webstart/docs/jsapplet.html?applet=org.jbundle.Main&amp;record=com.mycompany.sample.addressbook.db.AddressBook&amp;otherPackages=com.mycompany.sample.addressbook.db&amp;systemname=com.mycompany.sample&amp;webStartPropertiesFile=/org/jbundle/res/webstart/app.properties">Click here</a> to start your app in a new browser window.
       <span style="color: red;font-style: italic;">Note:</span>
       <span style="font-style: italic;">This may take a while the first time this is run.</span><br/>
         jbundle contains a nice javascript wrapper and and OSGi to webstart converter.
