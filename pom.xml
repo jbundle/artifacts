@@ -24,8 +24,8 @@
 
   <scm>
     <url>https://github.com/jbundle/artifacts</url>
-    <connection>scm:git:git://github.com/jbundle/artifacts</connection>
-    <developerConnection>scm:git:git@github.com:jbundle/artifacts</developerConnection>
+    <connection>scm:git:git://github.com/jbundle/artifacts.git</connection>
+    <developerConnection>scm:git:git@github.com:jbundle/artifacts.git</developerConnection>
   </scm>
 
   <repositories>
