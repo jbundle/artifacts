@@ -11,7 +11,7 @@
 
   <groupId>org.jbundle.config.web</groupId>
   <artifactId>jbundle-artifacts-reactor</artifactId>
-  <version>1.2.6</version>
+  <version>1.2.7-SNAPSHOT</version>
   
   <packaging>pom</packaging>
   <name>jbundle-config-web-reactor - Web packaging parent</name>
