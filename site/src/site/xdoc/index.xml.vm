@@ -10,6 +10,10 @@
     <section name="JBundle Application Framework">
       <p>
         JBundle is a client-server application framework written in java.<br/>
+        The JBundle application framework simplifies the process building typical business applications.
+        This framework includes a database framework, a client server communication framework, a MVC screen
+        framework with several implementations including java swing, AJAX, etc. Web deployment of a java
+        client is simple with a zero-configuration java web start deployer.
       </p>
       <p>
         The JBundle application framework simplifies the process building typical business applications.

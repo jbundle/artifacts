@@ -11,6 +11,11 @@
       <p>
         JBundle is a collection of open-source tools for writing applications for the Internet.
       </p>
+      <subsection name="Client Server Java Framework">
+        <p>
+        An <a href="jbundle">Client Server Java Framework</a>. Create a java client server application.
+        </p>
+      </subsection>
       <subsection name="Auto Web Start Project">
         <p>
         An <a href="auto-webstart">Auto Web Start servlet</a>. Deploy your apps to a web client with zero-configuration.
