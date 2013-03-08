@@ -1,7 +1,7 @@
-<repository lastmodified='20130303104846.924'>
+<repository lastmodified='20130304012543.395'>
   <resource id='org.jibx.schema.org.opentravel.example.jbundle.opentravel.touractivity.db/1.1.0' symbolicname='org.jibx.schema.org.opentravel.example.jbundle.opentravel.touractivity.db' presentationname='jibx-example-jbundle-opentravel-touractivity-db' uri='http://repo.maven.apache.org/maven2/org/jibx/schema/org/opentravel/example/jbundle/org.jibx.schema.org.opentravel.example.jbundle.opentravel.touractivity.db/1.1.0/org.jibx.schema.org.opentravel.example.jbundle.opentravel.touractivity.db-1.1.0.jar' version='1.1.0'>
     <description>Top level properties and features</description>
-    <size>8724</size>
+    <size>8722</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -28,7 +28,7 @@
   </resource>
   <resource id='org.jibx.schema.org.opentravel.example.jbundle.opentravel.touractivity.model/1.1.0' symbolicname='org.jibx.schema.org.opentravel.example.jbundle.opentravel.touractivity.model' presentationname='jibx-example-jbundle-opentravel-touractivity-model' uri='http://repo.maven.apache.org/maven2/org/jibx/schema/org/opentravel/example/jbundle/org.jibx.schema.org.opentravel.example.jbundle.opentravel.touractivity.model/1.1.0/org.jibx.schema.org.opentravel.example.jbundle.opentravel.touractivity.model-1.1.0.jar' version='1.1.0'>
     <description>Top level properties and features</description>
-    <size>5519</size>
+    <size>5518</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -46,7 +46,7 @@
   </resource>
   <resource id='org.jibx.schema.org.opentravel.example.jbundle.opentravel.touractivity.res/1.1.0' symbolicname='org.jibx.schema.org.opentravel.example.jbundle.opentravel.touractivity.res' presentationname='jibx-example-jbundle-opentravel-touractivity-res' uri='http://repo.maven.apache.org/maven2/org/jibx/schema/org/opentravel/example/jbundle/org.jibx.schema.org.opentravel.example.jbundle.opentravel.touractivity.res/1.1.0/org.jibx.schema.org.opentravel.example.jbundle.opentravel.touractivity.res-1.1.0.jar' version='1.1.0'>
     <description>Top level properties and features</description>
-    <size>4889</size>
+    <size>4888</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -62,7 +62,7 @@
   </resource>
   <resource id='org.jibx.schema.org.opentravel.example.jbundle.opentravel.touractivity.screen/1.1.0' symbolicname='org.jibx.schema.org.opentravel.example.jbundle.opentravel.touractivity.screen' presentationname='jibx-example-jbundle-opentravel-touractivity-screen' uri='http://repo.maven.apache.org/maven2/org/jibx/schema/org/opentravel/example/jbundle/org.jibx.schema.org.opentravel.example.jbundle.opentravel.touractivity.screen/1.1.0/org.jibx.schema.org.opentravel.example.jbundle.opentravel.touractivity.screen-1.1.0.jar' version='1.1.0'>
     <description>Top level properties and features</description>
-    <size>9656</size>
+    <size>9654</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -107,7 +107,7 @@
   </resource>
   <resource id='org.jibx.schema.org.opentravel.example.jbundle.opentravel.touractivity.thin.app/1.1.0' symbolicname='org.jibx.schema.org.opentravel.example.jbundle.opentravel.touractivity.thin.app' presentationname='jibx-example-jbundle-opentravel-touractivity-thin-app' uri='http://repo.maven.apache.org/maven2/org/jibx/schema/org/opentravel/example/jbundle/org.jibx.schema.org.opentravel.example.jbundle.opentravel.touractivity.thin.app/1.1.0/org.jibx.schema.org.opentravel.example.jbundle.opentravel.touractivity.thin.app-1.1.0.jar' version='1.1.0'>
     <description>Top level properties and features</description>
-    <size>17104</size>
+    <size>17101</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -144,7 +144,7 @@
   </resource>
   <resource id='org.jibx.schema.org.opentravel.example.jbundle.res.dev/1.1.0' symbolicname='org.jibx.schema.org.opentravel.example.jbundle.res.dev' presentationname='jibx-example-jbundle-res-data' uri='http://repo.maven.apache.org/maven2/org/jibx/schema/org/opentravel/example/jbundle/org.jibx.schema.org.opentravel.example.jbundle.res.dev/1.1.0/org.jibx.schema.org.opentravel.example.jbundle.res.dev-1.1.0.jar' version='1.1.0'>
     <description>Top level properties and features</description>
-    <size>7424</size>
+    <size>7422</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -156,7 +156,7 @@
   </resource>
   <resource id='org.jibx.schema.org.opentravel.example.jbundle.res.data/1.1.0' symbolicname='org.jibx.schema.org.opentravel.example.jbundle.res.data' presentationname='jibx-example-jbundle-res-dev' uri='http://repo.maven.apache.org/maven2/org/jibx/schema/org/opentravel/example/jbundle/org.jibx.schema.org.opentravel.example.jbundle.res.data/1.1.0/org.jibx.schema.org.opentravel.example.jbundle.res.data-1.1.0.jar' version='1.1.0'>
     <description>Top level properties and features</description>
-    <size>29613</size>
+    <size>29612</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>

@@ -1,0 +1,110 @@
+<repository lastmodified='20130308101602.765'>
+  <resource id='com.tourapp.res.docs/0.8.1.SNAPSHOT' symbolicname='com.tourapp.res.docs' presentationname='tourapp-res-docs' uri='https://oss.sonatype.org/content/groups/public/com/tourapp/res/com.tourapp.res.docs/0.8.1-SNAPSHOT/com.tourapp.res.docs-0.8.1-20130308.181548-2.jar' version='0.8.1.SNAPSHOT'>
+    <description>Parent project for tour applications</description>
+    <size>604098</size>
+    <documentation>http://www.tourapp.com</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.tourapp.res.docs'/>
+      <p n='presentationname' v='tourapp-res-docs'/>
+      <p n='version' t='version' v='0.8.1.SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.tourapp.res.docs.com.tourstudio'/>
+      <p n='version' t='version' v='0.8.1.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.tourapp.res.docs.com.tourapp'/>
+      <p n='version' t='version' v='0.8.1.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.tourapp.res.images.com.donandann'/>
+      <p n='version' t='version' v='0.8.1.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.tourapp.res.docs.com.tourgeek.www.WEB-INF'/>
+      <p n='version' t='version' v='0.8.1.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.tourapp.res.images.com.tourapplication'/>
+      <p n='version' t='version' v='0.8.1.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.tourapp.res.images.com.tourloco'/>
+      <p n='version' t='version' v='0.8.1.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.tourapp.res.images.com.tourstudio'/>
+      <p n='version' t='version' v='0.8.1.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.tourapp.res.images.com.tourvisualizer'/>
+      <p n='version' t='version' v='0.8.1.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.tourapp.res.docs.com.tourgeek.www.images'/>
+      <p n='version' t='version' v='0.8.1.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.tourapp.res.docs.com.tourdemo'/>
+      <p n='version' t='version' v='0.8.1.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.tourapp.res.docs.com.tourloco'/>
+      <p n='version' t='version' v='0.8.1.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.tourapp.res.images.com.tourgeek'/>
+      <p n='version' t='version' v='0.8.1.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.tourapp.res.docs.com.tourgeek.www.brochures'/>
+      <p n='version' t='version' v='0.8.1.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.tourapp.res.docs.com.tourapplication'/>
+      <p n='version' t='version' v='0.8.1.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.tourapp.res.docs.com.tourgeek.www'/>
+      <p n='version' t='version' v='0.8.1.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.tourapp.res.images.com.tourmarketplace'/>
+      <p n='version' t='version' v='0.8.1.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.tourapp.res.images.com'/>
+      <p n='version' t='version' v='0.8.1.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.tourapp.res.images.com.tourdemo'/>
+      <p n='version' t='version' v='0.8.1.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.tourapp.res.docs.com.tourmarketplace'/>
+      <p n='version' t='version' v='0.8.1.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.tourapp.res.docs.com.donandann'/>
+      <p n='version' t='version' v='0.8.1.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.tourapp.res.images.com.tourdemo.trips'/>
+      <p n='version' t='version' v='0.8.1.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.tourapp.res.docs.com.tourgeek'/>
+      <p n='version' t='version' v='0.8.1.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.tourapp.res.docs.com.tourvisualizer'/>
+      <p n='version' t='version' v='0.8.1.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.tourapp.res.images.com.tourapp'/>
+      <p n='version' t='version' v='0.8.1.SNAPSHOT'/>
+    </capability>
+  </resource>
+</repository>
