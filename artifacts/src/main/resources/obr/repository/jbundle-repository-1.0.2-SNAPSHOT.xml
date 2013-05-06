@@ -1,0 +1,77 @@
+<repository lastmodified='20130502114150.482'>
+  <resource id='org.jbundle.res.docs.styles.xsl/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res.docs.styles.xsl' presentationname='jbundle-res-docs-styles-xsl' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res.docs.styles.xsl/1.0.2-SNAPSHOT/org.jbundle.res.docs.styles.xsl-1.0.2-20130502.184132-2.jar' version='1.0.2.SNAPSHOT'>
+    <description>Parent project for the jbundle framework</description>
+    <size>235221</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.res.docs.styles.xsl'/>
+      <p n='presentationname' v='jbundle-res-docs-styles-xsl'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.xsl.com.tourgeek'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.xsl.cocoon'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.xsl.cocoon.tour'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.xsl.flat.base'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.xsl.openoffice'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.xsl.tour.message'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.xsl.cocoon.base'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.xsl.cocoon.extendedbase'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.xsl.cocoon.all'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.xsl.program'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.xsl.cocoon.program'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.xsl.cocoon.other'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.xsl.jaxe'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.xsl.cocoon.system'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.xsl.ajax.base'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jbundle.res.docs.styles.css.jbundle))' extend='false' multiple='false' optional='true'>Import package org.jbundle.res.docs.styles.css.jbundle;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.res.docs.styles.css.jbundle.xsl))' extend='false' multiple='false' optional='true'>Import package org.jbundle.res.docs.styles.css.jbundle.xsl;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.res.docs.styles.js))' extend='false' multiple='false' optional='true'>Import package org.jbundle.res.docs.styles.js;resolution:=optional</require>
+  </resource>
+</repository>
