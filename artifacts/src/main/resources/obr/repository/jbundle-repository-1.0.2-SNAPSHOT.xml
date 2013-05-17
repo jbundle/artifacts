@@ -1,7 +1,359 @@
-<repository lastmodified='20130502114150.482'>
-  <resource id='org.jbundle.res.docs.styles.xsl/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res.docs.styles.xsl' presentationname='jbundle-res-docs-styles-xsl' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res.docs.styles.xsl/1.0.2-SNAPSHOT/org.jbundle.res.docs.styles.xsl-1.0.2-20130502.184132-2.jar' version='1.0.2.SNAPSHOT'>
+<repository lastmodified='20130510025555.540'>
+  <resource id='org.jbundle.res/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res' presentationname='jbundle-res - Resources' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res/1.0.2-SNAPSHOT/org.jbundle.res-1.0.2-20130510.213941-1.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
-    <size>235221</size>
+    <size>37072</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.res'/>
+      <p n='presentationname' v='jbundle-res - Resources'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.webstart'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.base.screen'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.thin.base.screen'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+  </resource>
+  <resource id='org.jbundle.res.app.program/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res.app.program' presentationname='jbundle-res-app-program - Resources - program' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res.app.program/1.0.2-SNAPSHOT/org.jbundle.res.app.program-1.0.2-20130510.214417-1.jar' version='1.0.2.SNAPSHOT'>
+    <description>Parent project for the jbundle framework</description>
+    <size>23797</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.res.app.program'/>
+      <p n='presentationname' v='jbundle-res-app-program - Resources - program'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.app.program.script.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.app.program.issue.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.app.program.project.report'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.app.program.screen'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.app.program.resource.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.app.program.packages.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.app.program.packages.screen'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.app.program.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.app.program.project.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.app.program.issue.screen'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.app.program.program'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.app.program.script.data.importfix.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.app.program.resource.screen'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+  </resource>
+  <resource id='org.jbundle.res.data/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res.data' presentationname='jbundle-res-data - jbundle data' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res.data/1.0.2-SNAPSHOT/org.jbundle.res.data-1.0.2-20130510.214737-1.jar' version='1.0.2.SNAPSHOT'>
+    <description>Parent project for the jbundle framework</description>
+    <size>418018</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.res.data'/>
+      <p n='presentationname' v='jbundle-res-data - jbundle data'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.program_base_shared'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.main_es_shared.org.jbundle.main.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.main_shared.org.jbundle.main.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.program_base_user.org.jbundle.app.program.packages.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.main_base_shared.org.jbundle.main.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.main_user.org.jbundle.main.msg.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.main_base_user.org.jbundle.main.calendar.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.main_base_shared.org.jbundle.main.calendar.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.program_base_shared.org.jbundle.app.program.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.program_base_user.org.jbundle.app.program.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.main_base_shared'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.main_es_shared'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.main_base_shared.org.jbundle.main.db.base'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.main_user.org.jbundle.main.user.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.program_base_user.org.jbundle.app.program.script.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.main_base_user.org.jbundle.main.msg.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.main_base_user.org.jbundle.main.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.main_base_shared.org.jbundle.main.user.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.main_base_user.org.jbundle.main.user.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.program_base_user.org.jbundle.app.program.resource.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.main_base_shared.org.jbundle.main.msg.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.program_base_user.org.jbundle.app.program.project.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+  </resource>
+  <resource id='org.jbundle.res.data.app/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res.data.app' presentationname='jbundle-res-data-app - jbundle app data' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res.data.app/1.0.2-SNAPSHOT/org.jbundle.res.data.app-1.0.2-20130510.214950-1.jar' version='1.0.2.SNAPSHOT'>
+    <description>Parent project for the jbundle framework</description>
+    <size>378015</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.res.data.app'/>
+      <p n='presentationname' v='jbundle-res-data-app - jbundle app data'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.program_app_user.org.jbundle.app.program.packages.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.app_user.org.jbundle.app.dance.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.program_app_shared'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.app_shared.org.jbundle.app.picture.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.app_shared.org.jbundle.app.dance.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.program_app_shared.org.jbundle.app.program.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.program_app_user.org.jbundle.app.program.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.app_user.org.jbundle.app.picture.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.main_shared'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.program_shared'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+  </resource>
+  <resource id='org.jbundle.res.data.test/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res.data.test' presentationname='jbundle-res-data-test - jbundle test data' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res.data.test/1.0.2-SNAPSHOT/org.jbundle.res.data.test-1.0.2-20130510.215158-1.jar' version='1.0.2.SNAPSHOT'>
+    <description>Parent project for the jbundle framework</description>
+    <size>46814</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.res.data.test'/>
+      <p n='presentationname' v='jbundle-res-data-test - jbundle test data'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.test_es_shared.org.jbundle.app.test.test.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.test_user.org.jbundle.app.test.vet.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.program_test_shared.org.jbundle.app.program.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.test_es_shared'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.program_test_user.org.jbundle.app.program.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.program_test_user.org.jbundle.app.program.project.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.program_test_user.org.jbundle.app.program.script.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.test_shared'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.program_es_shared.org.jbundle.app.program.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.program_test_shared'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.test_user.org.jbundle.app.test.test.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.data.initial_data.current_initial_data.program_test_user.org.jbundle.app.program.packages.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+  </resource>
+  <resource id='org.jbundle.res.project.template/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res.project.template' presentationname='jbundle-res-demo - jbundle demo project template' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res.project.template/1.0.2-SNAPSHOT/org.jbundle.res.project.template-1.0.2-20130510.215412-1.jar' version='1.0.2.SNAPSHOT'>
+    <description>Parent project for the jbundle framework</description>
+    <size>6303</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.res.project.template'/>
+      <p n='presentationname' v='jbundle-res-demo - jbundle demo project template'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.project.template'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.project.template.res'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.project.template.thin'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.project.template.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.project.template.model'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+  </resource>
+  <resource id='org.jbundle.res.docs.help/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res.docs.help' presentationname='jbundle-res-docs-help' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res.docs.help/1.0.2-SNAPSHOT/org.jbundle.res.docs.help-1.0.2-20130510.212118-1.jar' version='1.0.2.SNAPSHOT'>
+    <description>Parent project for the jbundle framework</description>
+    <size>78742</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.res.docs.help'/>
+      <p n='presentationname' v='jbundle-res-docs-help'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.help.user.basic'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.help.specifications'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+  </resource>
+  <resource id='org.jbundle.res.docs.styles.xsl/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res.docs.styles.xsl' presentationname='jbundle-res-docs-styles-xsl' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res.docs.styles.xsl/1.0.2-SNAPSHOT/org.jbundle.res.docs.styles.xsl-1.0.2-20130510.211834-3.jar' version='1.0.2.SNAPSHOT'>
+    <description>Parent project for the jbundle framework</description>
+    <size>235351</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -73,5 +425,327 @@
     <require name='package' filter='(&amp;(package=org.jbundle.res.docs.styles.css.jbundle))' extend='false' multiple='false' optional='true'>Import package org.jbundle.res.docs.styles.css.jbundle;resolution:=optional</require>
     <require name='package' filter='(&amp;(package=org.jbundle.res.docs.styles.css.jbundle.xsl))' extend='false' multiple='false' optional='true'>Import package org.jbundle.res.docs.styles.css.jbundle.xsl;resolution:=optional</require>
     <require name='package' filter='(&amp;(package=org.jbundle.res.docs.styles.js))' extend='false' multiple='false' optional='true'>Import package org.jbundle.res.docs.styles.js;resolution:=optional</require>
+  </resource>
+  <resource id='org.jbundle.res.docs.tech/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res.docs.tech' presentationname='jbundle-res-docs-tech' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res.docs.tech/1.0.2-SNAPSHOT/org.jbundle.res.docs.tech-1.0.2-20130510.212316-1.jar' version='1.0.2.SNAPSHOT'>
+    <description>Parent project for the jbundle framework</description>
+    <size>5691616</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.res.docs.tech'/>
+      <p n='presentationname' v='jbundle-res-docs-tech'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.programmer.tour.agency'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.test'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.test.xslt'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.programmer.tour.market'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.programmer.diagrams'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.programmer.pl1.bk'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.test.ajax.xsl.ie'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.test.ajax.xsl.remove'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.programmer.tour.product'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.programmer.tour.acctrec'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.programmer.docs'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.programmer.pl1.tk'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.programmer.tour.screen'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.test.xml'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.programmer.pl1.pr'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.test.ajax.sha1'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.programmer.tour'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.programmer.pl1.ad'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.programmer.tour.payroll'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.programmer.tour.booking'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.test.itin'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.test.applet'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.test.map'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.test.ajax.undo'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.programmer.pl1.gl'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.programmer.pl1.ar'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.programmer.tour.genled'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.programmer'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.programmer.tour.assetdr'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.test.manifest'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.test.xml.itin'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.programmer.tour.acctpay'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.test.ajax'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.programmer.pl1.am'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.programmer.pl1.ap'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.test.xml.alex'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.programmer.pl1.Other'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.programmer.tour.ticket'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.programmer.tour.screen.util'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.test.css'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.ser.main'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.ser.test'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.test.ajax.xsl'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.test.ajax.undo.browser'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.test.ajax.dojo'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+  </resource>
+  <resource id='org.jbundle.res.images/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res.images' presentationname='jbundle-res-images' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res.images/1.0.2-SNAPSHOT/org.jbundle.res.images-1.0.2-20130510.213359-1.jar' version='1.0.2.SNAPSHOT'>
+    <description>Parent project for the jbundle framework</description>
+    <size>68263</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.res.images'/>
+      <p n='presentationname' v='jbundle-res-images'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.images.buttons'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.images.icons'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.images.svg'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+  </resource>
+  <resource id='org.jbundle.res.images.misc/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res.images.misc' presentationname='jbundle-res-images-misc' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res.images.misc/1.0.2-SNAPSHOT/org.jbundle.res.images.misc-1.0.2-20130510.213649-1.jar' version='1.0.2.SNAPSHOT'>
+    <description>Parent project for the jbundle framework</description>
+    <size>129290</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.res.images.misc'/>
+      <p n='presentationname' v='jbundle-res-images-misc'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.images.graphics'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.images.nav'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.images.flags'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.images.backgrounds'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+  </resource>
+  <resource id='org.jbundle.res.main/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res.main' presentationname='jbundle-res-main - Resources' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res.main/1.0.2-SNAPSHOT/org.jbundle.res.main-1.0.2-20130510.214127-1.jar' version='1.0.2.SNAPSHOT'>
+    <description>Parent project for the jbundle framework</description>
+    <size>25316</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.res.main'/>
+      <p n='presentationname' v='jbundle-res-main - Resources'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.main.user.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.main.msg.screen'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.main.db.base'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.main.calendar.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.main.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.main.msg.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.main.properties.db'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.main.msg.process'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+    </capability>
+  </resource>
+  <resource id='org.jbundle.config.web.httpservice/1.0.2.SNAPSHOT' symbolicname='org.jbundle.config.web.httpservice' presentationname='jbundle-web-httpservice - Hybrid osgi webapp' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/config/web/org.jbundle.config.web.httpservice/1.0.2-SNAPSHOT/org.jbundle.config.web.httpservice-1.0.2-20130510.211151-1.jar' version='1.0.2.SNAPSHOT'>
+    <description>web osgi httpservice</description>
+    <size>7515</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.config.web.httpservice'/>
+      <p n='presentationname' v='jbundle-web-httpservice - Hybrid osgi webapp'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.config.web.httpservice'/>
+      <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
+      <p n='uses:' v='org.jbundle.util.webapp.base,org.jbundle.base.util,org.jbundle.base.message.trx.transport.jaxm,org.jbundle.base.screen.control.servlet.html,jnlp.sample.servlet,org.jbundle.base.remote.proxy,org.jbundle.base.screen.control.xslservlet,org.jbundle.model,javax.servlet,org.jbundle.base.screen.control.servlet.message.trx.transport.xml,org.osgi.util.tracker,org.jbundle.base.screen.control.servlet.xml,org.osgi.framework,org.jbundle.util.webapp.redirect,org.jbundle.base.screen.control.servlet.message.trx.transport.html,org.osgi.service.http,javax.servlet.http'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.servlet)(version&gt;=2.5.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package javax.servlet;resolution:=optional;version="[2.5,3)"</require>
+    <require name='package' filter='(&amp;(package=javax.servlet.http)(version&gt;=2.5.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package javax.servlet.http;resolution:=optional;version="[2.5,3)"</require>
+    <require name='package' filter='(&amp;(package=jnlp.sample.servlet)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package jnlp.sample.servlet;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.base.message.trx.transport.jaxm)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.message.trx.transport.jaxm;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.base.remote.proxy)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.remote.proxy;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.base.screen.control.servlet.html)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.screen.control.servlet.html;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.base.screen.control.servlet.message.trx.transport.html)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.screen.control.servlet.message.trx.transport.html;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.base.screen.control.servlet.message.trx.transport.xml)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.screen.control.servlet.message.trx.transport.xml;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.base.screen.control.servlet.xml)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.screen.control.servlet.xml;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.base.screen.control.xslservlet)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.screen.control.xslservlet;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.base.util)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.util;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.model)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.webapp.base)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.webapp.base;resolution:=optional;version="[1.3,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.webapp.redirect)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.webapp.redirect;resolution:=optional;version="[1.3,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.framework;resolution:=optional;version="[1.5,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.http)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.service.http;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.util.tracker)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.util.tracker;resolution:=optional;version="[1.4,2)"</require>
   </resource>
 </repository>

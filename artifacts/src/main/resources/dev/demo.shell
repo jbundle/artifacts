@@ -48,6 +48,7 @@ sleep 1000
 echo Start up wars
 osgi:install -s webbundle:mvn:org.jbundle.util.webapp/org.jbundle.util.webapp.webstart//war
 osgi:install -s webbundle:mvn:org.jbundle.util.webapp/org.jbundle.util.webapp.cgi//war?Bundle-SymbolicName=jbundle-util-webapp-cgi&Webapp-Context=/awstats
+osgi:install -s webbundle:mvn:org.jbundle.util.biorhythm/jbundle-util-biorhythm-jnlp//war?Webapp-Context=/bio
 echo Start the JiBX demos
 install -s mvn:org.jibx.test.examples/org.jibx.examples.cxf.ws
 sleep 1000
