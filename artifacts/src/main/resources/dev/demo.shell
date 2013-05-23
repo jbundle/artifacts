@@ -28,7 +28,7 @@ echo Start the jbundle web services app
 obr:deploy -d 'jbundle-base-remote - Remote server'
 sleep 4000
 start 'jbundle-base-remote - Remote server'
-sleep 4000
+sleep 8000
 echo Configure webdav
 config:edit org.jbundle.util.webapp.webdav
 config:propset basePath /space/web/jbundle/site

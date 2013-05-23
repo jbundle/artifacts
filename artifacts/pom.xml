@@ -16,7 +16,6 @@
 
   <properties>
     <resourceLocation>src/main/resources/org/jbundle/res</resourceLocation>
-    <cxf-version>2.7.4</cxf-version>
   </properties>  
 
   <build>
