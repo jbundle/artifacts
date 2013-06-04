@@ -19,6 +19,7 @@ repos remove http://repository.jbundle.org:8081/nexus/content/repositories/repos
 repos remove http://repository.jbundle.org:8081/nexus/content/repositories/repository/tourapp-repository-0.8.0-SNAPSHOT.xml
 repos add file:/usr/local/java/web/apache-karaf-2.2.8/cave/jbundle/repository.xml
 repos add file:/usr/local/java/web/apache-karaf-2.2.8/cave/tourapp/repository.xml
+obr:addurl mvn:org.jbundle.config/jbundle-artifacts/1.2.6/xml/repository
 
 deploy org.jbundle.app.program.manual
 
@@ -36,6 +37,12 @@ cave:create-repository cave-repo
 cave:proxy-repository cave-repo file:/home/don/.m2/repository/org/jbundle
 cave:proxy-repository cave-repo file:/home/don/.m2/repository/com/tourapp
 cave:proxy-repository cave-repo file:/home/don/.m2/repository/org/jibx
+
+config:edit org.jbundle.util.webapp.redirect
+config:propset alias /org/jbundle/res/docs/styles/js
+config:propset basePath file:/home/don/workspace/workspace/jbundle/util/osgi-webstart/js/src/main/resources/org/jbundle/res/docs/styles/js/
+config:update
+obr:start -d org.jbundle.util.webapp.redirect
 
 bin/client -h donandann.com -u don -p donwpp
 
@@ -91,9 +98,9 @@ http://192.168.1.66:8181/webstart/docs/applet.html?userid=1&menu=dev.tourapp.com
 &org.jbundle.util.osgi.webstart.webStartComponents=/org/jbundle/res/webstart/tour.properties,/org/jbundle/res/webstart/thick.properties,/org/jbundle/res/webstart/thin.properties,/org/jbundle/res/webstart/resource.properties&mainPackage=org.jbundle
 &org.jbundle.util.osgi.webstart.maxHeapSize=512m&code=org.jbundle.Main&record=com.tourapp.tour.booking.db.Booking&draggable=true&url=http://wilma.demo.tourgeek.com:8181/appxsl&appletClass=org.jbundle.Main&org.jbundle.util.osgi.webstart.codebase=/&org.jbundle.util.osgi.webstart.appletClass=org.jbundle.Main&datatype=jnlpapplet&background=backgrounds/worldmapalpha.gif&baseURL=wilma.demo.tourgeek.com:8181/&org.jbundle.util.osgi.webstart.initialHeapSize=128m&connectionType=Proxy&org.jbundle.util.osgi.webstart.webStartComponents=/org/jbundle/res/webstart/tour.properties,/org/jbundle/res/webstart/thick.properties,/org/jbundle/res/webstart/thin.properties,/org/jbundle/res/webstart/resource.properties&backgroundcolor=#EEEEFF&user=kate@tourgeek.com&domain=wilma.demo.tourgeek.com&mainPackage=org.jbundle
 
- 506  obr:deploy -d org.jbundle.util.webapp.redirect
-  507  config:edit org.jbundle.util.webapp.redirect
-  508  config:propset basePath file:/web/pictures/dojo/
-  509  config:propset alias /test
-  510  config:update
+obr:deploy -d org.jbundle.util.webapp.redirect
+config:edit org.jbundle.util.webapp.redirect
+config:propset basePath file:/web/pictures/dojo/
+config:propset alias /test
+config:update
 
