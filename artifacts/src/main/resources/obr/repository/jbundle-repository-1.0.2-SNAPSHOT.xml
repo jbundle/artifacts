@@ -1,7 +1,7 @@
-<repository lastmodified='20130531062945.840'>
-  <resource id='org.jbundle.app.program.db/1.0.2.SNAPSHOT' symbolicname='org.jbundle.app.program.db' presentationname='jbundle-app-program-db - Program databases' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/program/org.jbundle.app.program.db/1.0.2-SNAPSHOT/org.jbundle.app.program.db-1.0.2-20130601.011311-1.jar' version='1.0.2.SNAPSHOT'>
+<repository lastmodified='20130613031823.751'>
+  <resource id='org.jbundle.app.program.db/1.0.2.SNAPSHOT' symbolicname='org.jbundle.app.program.db' presentationname='jbundle-app-program-db - Program databases' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/program/org.jbundle.app.program.db/1.0.2-SNAPSHOT/org.jbundle.app.program.db-1.0.2-20130610.191423-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
-    <size>74586</size>
+    <size>74588</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -43,9 +43,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.thread)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.thread;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.app.program.demo/1.0.2.SNAPSHOT' symbolicname='org.jbundle.app.program.demo' presentationname='jbundle-app-program-demo - Demo code' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/program/org.jbundle.app.program.demo/1.0.2-SNAPSHOT/org.jbundle.app.program.demo-1.0.2-20130601.012405-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.app.program.demo/1.0.2.SNAPSHOT' symbolicname='org.jbundle.app.program.demo' presentationname='jbundle-app-program-demo - Demo code' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/program/org.jbundle.app.program.demo/1.0.2-SNAPSHOT/org.jbundle.app.program.demo-1.0.2-20130610.192534-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
-    <size>24669</size>
+    <size>24668</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -94,9 +94,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.util.osgi.webstart)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.osgi.webstart;resolution:=optional;version="[1.6,2)"</require>
     <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.framework;resolution:=optional;version="[1.5,2)"</require>
   </resource>
-  <resource id='org.jbundle.app.program.manual.backup/1.0.2.SNAPSHOT' symbolicname='org.jbundle.app.program.manual.backup' presentationname='jbundle-app-program-manual-backup - Backup' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/program/org.jbundle.app.program.manual.backup/1.0.2-SNAPSHOT/org.jbundle.app.program.manual.backup-1.0.2-20130601.012344-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.app.program.manual.backup/1.0.2.SNAPSHOT' symbolicname='org.jbundle.app.program.manual.backup' presentationname='jbundle-app-program-manual-backup - Backup' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/program/org.jbundle.app.program.manual.backup/1.0.2-SNAPSHOT/org.jbundle.app.program.manual.backup-1.0.2-20130610.192513-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
-    <size>12942</size>
+    <size>12940</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -129,9 +129,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.thread)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.thread;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.util.message)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.util.message;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.app.program.manual.importexport/1.0.2.SNAPSHOT' symbolicname='org.jbundle.app.program.manual.importexport' presentationname='jbundle-app-program-manual-importexport' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/program/org.jbundle.app.program.manual.importexport/1.0.2-SNAPSHOT/org.jbundle.app.program.manual.importexport-1.0.2-20130601.012335-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.app.program.manual.importexport/1.0.2.SNAPSHOT' symbolicname='org.jbundle.app.program.manual.importexport' presentationname='jbundle-app-program-manual-importexport' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/program/org.jbundle.app.program.manual.importexport/1.0.2-SNAPSHOT/org.jbundle.app.program.manual.importexport-1.0.2-20130610.192502-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
-    <size>4977</size>
+    <size>4976</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -144,9 +144,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.base.thread)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.thread;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.model)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.app.program.manual.jtidy/1.0.2.SNAPSHOT' symbolicname='org.jbundle.app.program.manual.jtidy' presentationname='jbundle-app-program-manual-jtidy - JTidy' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/program/org.jbundle.app.program.manual.jtidy/1.0.2-SNAPSHOT/org.jbundle.app.program.manual.jtidy-1.0.2-20130601.012354-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.app.program.manual.jtidy/1.0.2.SNAPSHOT' symbolicname='org.jbundle.app.program.manual.jtidy' presentationname='jbundle-app-program-manual-jtidy - JTidy' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/program/org.jbundle.app.program.manual.jtidy/1.0.2-SNAPSHOT/org.jbundle.app.program.manual.jtidy-1.0.2-20130610.192523-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
-    <size>7718</size>
+    <size>7716</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -171,7 +171,7 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.screen)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.screen;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.w3c.tidy))' extend='false' multiple='false' optional='true'>Import package org.w3c.tidy;resolution:=optional</require>
   </resource>
-  <resource id='org.jbundle.app.program.manual.util/1.0.2.SNAPSHOT' symbolicname='org.jbundle.app.program.manual.util' presentationname='jbundle-app-program-manual-util - Program util' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/program/org.jbundle.app.program.manual.util/1.0.2-SNAPSHOT/org.jbundle.app.program.manual.util-1.0.2-20130601.012322-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.app.program.manual.util/1.0.2.SNAPSHOT' symbolicname='org.jbundle.app.program.manual.util' presentationname='jbundle-app-program-manual-util - Program util' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/program/org.jbundle.app.program.manual.util/1.0.2-SNAPSHOT/org.jbundle.app.program.manual.util-1.0.2-20130610.192449-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
     <size>69193</size>
     <documentation>http://www.jbundle.org</documentation>
@@ -215,7 +215,7 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.thread)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.thread;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.util)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.util;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.app.program.packages/1.0.2.SNAPSHOT' symbolicname='org.jbundle.app.program.packages' presentationname='jbundle-app-program-packages - Program framework' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/program/org.jbundle.app.program.packages/1.0.2-SNAPSHOT/org.jbundle.app.program.packages-1.0.2-20130601.012300-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.app.program.packages/1.0.2.SNAPSHOT' symbolicname='org.jbundle.app.program.packages' presentationname='jbundle-app-program-packages - Program framework' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/program/org.jbundle.app.program.packages/1.0.2-SNAPSHOT/org.jbundle.app.program.packages-1.0.2-20130610.192431-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
     <size>38874</size>
     <documentation>http://www.jbundle.org</documentation>
@@ -261,7 +261,7 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.thread)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.thread;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.util)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.util;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.app.program.project/1.0.2.SNAPSHOT' symbolicname='org.jbundle.app.program.project' presentationname='jbundle-app-program-project - Program framework' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/program/org.jbundle.app.program.project/1.0.2-SNAPSHOT/org.jbundle.app.program.project-1.0.2-20130601.011339-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.app.program.project/1.0.2.SNAPSHOT' symbolicname='org.jbundle.app.program.project' presentationname='jbundle-app-program-project - Program framework' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/program/org.jbundle.app.program.project/1.0.2-SNAPSHOT/org.jbundle.app.program.project-1.0.2-20130610.191451-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
     <size>73591</size>
     <documentation>http://www.jbundle.org</documentation>
@@ -321,9 +321,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.util.calendarpanel.model)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.calendarpanel.model;resolution:=optional;version="[1.1,2)"</require>
   </resource>
-  <resource id='org.jbundle.app.program.screen/1.0.2.SNAPSHOT' symbolicname='org.jbundle.app.program.screen' presentationname='jbundle-app-program-screen - Program framework' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/program/org.jbundle.app.program.screen/1.0.2-SNAPSHOT/org.jbundle.app.program.screen-1.0.2-20130601.012248-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.app.program.screen/1.0.2.SNAPSHOT' symbolicname='org.jbundle.app.program.screen' presentationname='jbundle-app-program-screen - Program framework' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/program/org.jbundle.app.program.screen/1.0.2-SNAPSHOT/org.jbundle.app.program.screen-1.0.2-20130610.192418-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
-    <size>80071</size>
+    <size>80070</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -363,7 +363,7 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.thread)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.thread;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.util)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.util;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.app.program.script/1.0.2.SNAPSHOT' symbolicname='org.jbundle.app.program.script' presentationname='jbundle-app-program-script - Program manual code' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/program/org.jbundle.app.program.script/1.0.2-SNAPSHOT/org.jbundle.app.program.script-1.0.2-20130601.011326-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.app.program.script/1.0.2.SNAPSHOT' symbolicname='org.jbundle.app.program.script' presentationname='jbundle-app-program-script - Program manual code' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/program/org.jbundle.app.program.script/1.0.2-SNAPSHOT/org.jbundle.app.program.script-1.0.2-20130610.191437-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
     <size>105572</size>
     <documentation>http://www.jbundle.org</documentation>
@@ -448,7 +448,7 @@
     <require name='package' filter='(&amp;(package=org.xml.sax.helpers))' extend='false' multiple='false' optional='true'>Import package org.xml.sax.helpers;resolution:=optional</require>
     <require name='package' filter='(&amp;(package=sun.security.action))' extend='false' multiple='false' optional='true'>Import package sun.security.action;resolution:=optional</require>
   </resource>
-  <resource id='org.jbundle.app.test.db/1.0.2.SNAPSHOT' symbolicname='org.jbundle.app.test.db' presentationname='jbundle-app-test-db - Test code' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/test/org.jbundle.app.test.db/1.0.2-SNAPSHOT/org.jbundle.app.test.db-1.0.2-20130601.012506-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.app.test.db/1.0.2.SNAPSHOT' symbolicname='org.jbundle.app.test.db' presentationname='jbundle-app-test-db - Test code' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/test/org.jbundle.app.test.db/1.0.2-SNAPSHOT/org.jbundle.app.test.db-1.0.2-20130610.192633-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
     <size>30617</size>
     <documentation>http://www.jbundle.org</documentation>
@@ -487,9 +487,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.screen)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.screen;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.app.test.manual/1.0.2.SNAPSHOT' symbolicname='org.jbundle.app.test.manual' presentationname='jbundle-app-test-manual - Test code' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/test/org.jbundle.app.test.manual/1.0.2-SNAPSHOT/org.jbundle.app.test.manual-1.0.2-20130601.012532-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.app.test.manual/1.0.2.SNAPSHOT' symbolicname='org.jbundle.app.test.manual' presentationname='jbundle-app-test-manual - Test code' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/test/org.jbundle.app.test.manual/1.0.2-SNAPSHOT/org.jbundle.app.test.manual-1.0.2-20130610.192658-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
-    <size>63740</size>
+    <size>63741</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -595,7 +595,7 @@
     <require name='package' filter='(&amp;(package=org.w3._2006._01.wsdl)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.w3._2006._01.wsdl;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.w3c.dom))' extend='false' multiple='false' optional='true'>Import package org.w3c.dom;resolution:=optional</require>
   </resource>
-  <resource id='org.jbundle.app.test.test/1.0.2.SNAPSHOT' symbolicname='org.jbundle.app.test.test' presentationname='jbundle-app-test-test - Test code' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/test/org.jbundle.app.test.test/1.0.2-SNAPSHOT/org.jbundle.app.test.test-1.0.2-20130601.012519-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.app.test.test/1.0.2.SNAPSHOT' symbolicname='org.jbundle.app.test.test' presentationname='jbundle-app-test-test - Test code' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/test/org.jbundle.app.test.test/1.0.2-SNAPSHOT/org.jbundle.app.test.test-1.0.2-20130610.192646-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
     <size>74930</size>
     <documentation>http://www.jbundle.org</documentation>
@@ -690,7 +690,7 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.thread)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.thread;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.util)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.util;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.base/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base' presentationname='jbundle-base' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/org.jbundle.base/1.0.2-SNAPSHOT/org.jbundle.base-1.0.2-20130601.010722-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.base/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base' presentationname='jbundle-base' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/org.jbundle.base/1.0.2-SNAPSHOT/org.jbundle.base-1.0.2-20130610.190840-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
     <size>543515</size>
     <documentation>http://www.jbundle.org</documentation>
@@ -841,9 +841,9 @@
     <require name='package' filter='(&amp;(package=org.w3c.dom))' extend='false' multiple='false' optional='true'>Import package org.w3c.dom;resolution:=optional</require>
     <require name='package' filter='(&amp;(package=org.xml.sax))' extend='false' multiple='false' optional='true'>Import package org.xml.sax;resolution:=optional</require>
   </resource>
-  <resource id='org.jbundle.base.db.client/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.db.client' presentationname='jbundle-base-db-client' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/db/org.jbundle.base.db.client/1.0.2-SNAPSHOT/org.jbundle.base.db.client-1.0.2-20130601.012009-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.base.db.client/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.db.client' presentationname='jbundle-base-db-client' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/db/org.jbundle.base.db.client/1.0.2-SNAPSHOT/org.jbundle.base.db.client-1.0.2-20130610.192138-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle db framework</description>
-    <size>13239</size>
+    <size>13237</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -870,7 +870,7 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.remote)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.remote;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.util)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.util;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.base.db.jdbc/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.db.jdbc' presentationname='jbundle-base-db-jdbc - Jdbc database' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/db/org.jbundle.base.db.jdbc/1.0.2-SNAPSHOT/org.jbundle.base.db.jdbc-1.0.2-20130601.012020-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.base.db.jdbc/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.db.jdbc' presentationname='jbundle-base-db-jdbc - Jdbc database' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/db/org.jbundle.base.db.jdbc/1.0.2-SNAPSHOT/org.jbundle.base.db.jdbc-1.0.2-20130610.192150-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle db framework</description>
     <size>43439</size>
     <documentation>http://www.jbundle.org</documentation>
@@ -913,9 +913,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.util.osgi.finder)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.osgi.finder;resolution:=optional;version="[2.0,3)"</require>
     <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.framework;resolution:=optional;version="[1.5,2)"</require>
   </resource>
-  <resource id='org.jbundle.base.db.mapped/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.db.mapped' presentationname='jbundle-base-db-mapped' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/db/org.jbundle.base.db.mapped/1.0.2-SNAPSHOT/org.jbundle.base.db.mapped-1.0.2-20130601.012054-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.base.db.mapped/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.db.mapped' presentationname='jbundle-base-db-mapped' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/db/org.jbundle.base.db.mapped/1.0.2-SNAPSHOT/org.jbundle.base.db.mapped-1.0.2-20130610.192222-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle db framework</description>
-    <size>6694</size>
+    <size>6692</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -939,9 +939,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db.mem.base)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db.mem.base;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db.mem.memory)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db.mem.memory;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.base.db.memory/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.db.memory' presentationname='jbundle-base-db-memory' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/db/org.jbundle.base.db.memory/1.0.2-SNAPSHOT/org.jbundle.base.db.memory-1.0.2-20130601.012044-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.base.db.memory/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.db.memory' presentationname='jbundle-base-db-memory' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/db/org.jbundle.base.db.memory/1.0.2-SNAPSHOT/org.jbundle.base.db.memory-1.0.2-20130610.192212-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle db framework</description>
-    <size>4724</size>
+    <size>4722</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -962,9 +962,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db.mem.base)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db.mem.base;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db.mem.memory)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db.mem.memory;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.base.db.net/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.db.net' presentationname='jbundle-base-db-net' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/db/org.jbundle.base.db.net/1.0.2-SNAPSHOT/org.jbundle.base.db.net-1.0.2-20130601.012103-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.base.db.net/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.db.net' presentationname='jbundle-base-db-net' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/db/org.jbundle.base.db.net/1.0.2-SNAPSHOT/org.jbundle.base.db.net-1.0.2-20130610.192232-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle db framework</description>
-    <size>4304</size>
+    <size>4301</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -985,7 +985,7 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db.mem.base)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db.mem.base;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db.mem.net)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db.mem.net;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.base.db.physical/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.db.physical' presentationname='jbundle-base-db-physical' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/db/org.jbundle.base.db.physical/1.0.2-SNAPSHOT/org.jbundle.base.db.physical-1.0.2-20130601.012031-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.base.db.physical/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.db.physical' presentationname='jbundle-base-db-physical' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/db/org.jbundle.base.db.physical/1.0.2-SNAPSHOT/org.jbundle.base.db.physical-1.0.2-20130610.192200-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle db framework</description>
     <size>7970</size>
     <documentation>http://www.jbundle.org</documentation>
@@ -1011,9 +1011,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db.mem.net)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db.mem.net;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db.model)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db.model;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.base.db.proxy/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.db.proxy' presentationname='jbundle-base-db-proxy' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/db/org.jbundle.base.db.proxy/1.0.2-SNAPSHOT/org.jbundle.base.db.proxy-1.0.2-20130601.012113-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.base.db.proxy/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.db.proxy' presentationname='jbundle-base-db-proxy' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/db/org.jbundle.base.db.proxy/1.0.2-SNAPSHOT/org.jbundle.base.db.proxy-1.0.2-20130610.192241-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle db framework</description>
-    <size>4353</size>
+    <size>4354</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -1034,9 +1034,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db.mem.base)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db.mem.base;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db.mem.proxy)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db.mem.proxy;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.base.db.serial/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.db.serial' presentationname='jbundle-base-db-serial' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/db/org.jbundle.base.db.serial/1.0.2-SNAPSHOT/org.jbundle.base.db.serial-1.0.2-20130601.012122-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.base.db.serial/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.db.serial' presentationname='jbundle-base-db-serial' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/db/org.jbundle.base.db.serial/1.0.2-SNAPSHOT/org.jbundle.base.db.serial-1.0.2-20130610.192251-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle db framework</description>
-    <size>4319</size>
+    <size>4317</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -1057,9 +1057,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db.mem.base)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db.mem.base;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db.mem.serial)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db.mem.serial;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.base.db.xml/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.db.xml' presentationname='jbundle-base-db-xml' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/db/org.jbundle.base.db.xml/1.0.2-SNAPSHOT/org.jbundle.base.db.xml-1.0.2-20130601.012132-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.base.db.xml/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.db.xml' presentationname='jbundle-base-db-xml' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/db/org.jbundle.base.db.xml/1.0.2-SNAPSHOT/org.jbundle.base.db.xml-1.0.2-20130610.192300-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle db framework</description>
-    <size>6424</size>
+    <size>6422</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -1083,7 +1083,7 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db.mem.base)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db.mem.base;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db.mem.memory)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db.mem.memory;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.base.message.core/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.message.core' presentationname='jbundle-base-message-core' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/message/org.jbundle.base.message.core/1.0.2-SNAPSHOT/org.jbundle.base.message.core-1.0.2-20130601.010704-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.base.message.core/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.message.core' presentationname='jbundle-base-message-core' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/message/org.jbundle.base.message.core/1.0.2-SNAPSHOT/org.jbundle.base.message.core-1.0.2-20130610.190823-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Messaging parent</description>
     <size>26883</size>
     <documentation>http://www.jbundle.org</documentation>
@@ -1132,9 +1132,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.remote)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.remote;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.util)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.util;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.base.message.jaxm/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.message.jaxm' presentationname='jbundle-base-message-jaxm' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/message/org.jbundle.base.message.jaxm/1.0.2-SNAPSHOT/org.jbundle.base.message.jaxm-1.0.2-20130601.012225-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.base.message.jaxm/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.message.jaxm' presentationname='jbundle-base-message-jaxm' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/message/org.jbundle.base.message.jaxm/1.0.2-SNAPSHOT/org.jbundle.base.message.jaxm-1.0.2-20130610.192356-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Messaging parent</description>
-    <size>31377</size>
+    <size>31378</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -1162,7 +1162,7 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.screen)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.screen;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.message)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.message;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.base.message.jibx/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.message.jibx' presentationname='jbundle-base-message-jibx - JiBX Messaging' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/message/org.jbundle.base.message.jibx/1.0.2-SNAPSHOT/org.jbundle.base.message.jibx-1.0.2-20130601.012215-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.base.message.jibx/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.message.jibx' presentationname='jbundle-base-message-jibx - JiBX Messaging' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/message/org.jbundle.base.message.jibx/1.0.2-SNAPSHOT/org.jbundle.base.message.jibx-1.0.2-20130610.192346-2.jar' version='1.0.2.SNAPSHOT'>
     <description>JiBX Messaging</description>
     <size>10832</size>
     <documentation>http://www.jbundle.org</documentation>
@@ -1191,9 +1191,9 @@
     <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.2,2)"</require>
     <require name='package' filter='(&amp;(package=org.w3c.dom))' extend='false' multiple='false' optional='true'>Import package org.w3c.dom;resolution:=optional</require>
   </resource>
-  <resource id='org.jbundle.base.message.remote/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.message.remote' presentationname='jbundle-base-message-remote' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/message/org.jbundle.base.message.remote/1.0.2-SNAPSHOT/org.jbundle.base.message.remote-1.0.2-20130601.010948-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.base.message.remote/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.message.remote' presentationname='jbundle-base-message-remote' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/message/org.jbundle.base.message.remote/1.0.2-SNAPSHOT/org.jbundle.base.message.remote-1.0.2-20130610.191106-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Messaging parent</description>
-    <size>7052</size>
+    <size>7051</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -1217,9 +1217,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.util.osgi.finder)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.osgi.finder;resolution:=optional;version="[2.0,3)"</require>
     <require name='package' filter='(&amp;(package=org.w3c.dom))' extend='false' multiple='false' optional='true'>Import package org.w3c.dom;resolution:=optional</require>
   </resource>
-  <resource id='org.jbundle.base.message.service/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.message.service' presentationname='jbundle-base-message-service' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/message/org.jbundle.base.message.service/1.0.2-SNAPSHOT/org.jbundle.base.message.service-1.0.2-20130601.012235-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.base.message.service/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.message.service' presentationname='jbundle-base-message-service' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/message/org.jbundle.base.message.service/1.0.2-SNAPSHOT/org.jbundle.base.message.service-1.0.2-20130610.192406-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Messaging parent</description>
-    <size>8327</size>
+    <size>8326</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -1246,9 +1246,9 @@
     <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.framework;resolution:=optional;version="[1.5,2)"</require>
     <require name='package' filter='(&amp;(package=org.w3c.dom))' extend='false' multiple='false' optional='true'>Import package org.w3c.dom;resolution:=optional</require>
   </resource>
-  <resource id='org.jbundle.base.message.trx/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.message.trx' presentationname='jbundle-base-message-trx' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/message/org.jbundle.base.message.trx/1.0.2-SNAPSHOT/org.jbundle.base.message.trx-1.0.2-20130601.010803-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.base.message.trx/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.message.trx' presentationname='jbundle-base-message-trx' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/message/org.jbundle.base.message.trx/1.0.2-SNAPSHOT/org.jbundle.base.message.trx-1.0.2-20130610.190922-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Messaging parent</description>
-    <size>95658</size>
+    <size>95656</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -1359,7 +1359,7 @@
     <require name='package' filter='(&amp;(package=org.joda.time)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.joda.time;resolution:=optional;version="[2.1,3)"</require>
     <require name='package' filter='(&amp;(package=org.w3c.dom))' extend='false' multiple='false' optional='true'>Import package org.w3c.dom;resolution:=optional</require>
   </resource>
-  <resource id='org.jbundle.base.model/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.model' presentationname='jbundle-base-model' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/org.jbundle.base.model/1.0.2-SNAPSHOT/org.jbundle.base.model-1.0.2-20130601.010636-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.base.model/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.model' presentationname='jbundle-base-model' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/org.jbundle.base.model/1.0.2-SNAPSHOT/org.jbundle.base.model-1.0.2-20130610.190755-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
     <size>29288</size>
     <documentation>http://www.jbundle.org</documentation>
@@ -1387,9 +1387,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.util)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.util;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.w3c.dom))' extend='false' multiple='false' optional='true'>Import package org.w3c.dom;resolution:=optional</require>
   </resource>
-  <resource id='org.jbundle.base.remote/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.remote' presentationname='jbundle-base-remote - Remote server' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/org.jbundle.base.remote/1.0.2-SNAPSHOT/org.jbundle.base.remote-1.0.2-20130601.010938-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.base.remote/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.remote' presentationname='jbundle-base-remote - Remote server' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/org.jbundle.base.remote/1.0.2-SNAPSHOT/org.jbundle.base.remote-1.0.2-20130610.191055-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
-    <size>88320</size>
+    <size>88543</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -1421,7 +1421,7 @@
     <capability name='package'>
       <p n='package' v='org.jbundle.base.remote.proxy.transport'/>
       <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
-      <p n='uses:' v='org.jbundle.base.screen.control.servlet,org.jbundle.thin.base.util.base64,org.jbundle.thin.base.remote.proxy.transport,org.jbundle.thin.base.message,org.jbundle.base.model,org.json,org.jbundle.model,javax.servlet,org.jbundle.model.util,javax.servlet.http,org.jbundle.base.util,org.jbundle.base.remote.proxy,org.jbundle.thin.base.remote.proxy,org.jbundle.base.remote.db,org.jbundle.thin.base.remote,org.jbundle.thin.base.util'/>
+      <p n='uses:' v='org.jbundle.thin.base.util.base64,org.jbundle.base.screen.control.servlet,org.jbundle.thin.base.remote.proxy.transport,org.jbundle.util.osgi,org.jbundle.thin.base.message,org.jbundle.base.model,org.jbundle.util.osgi.finder,org.json,org.jbundle.model,javax.servlet,org.jbundle.model.util,javax.servlet.http,org.jbundle.base.util,org.jbundle.base.remote.proxy,org.jbundle.thin.base.remote.proxy,org.jbundle.base.remote.db,org.jbundle.thin.base.remote,org.jbundle.thin.base.util'/>
     </capability>
     <capability name='package'>
       <p n='package' v='org.jbundle.base.remote.proxy.transport.test'/>
@@ -1483,9 +1483,9 @@
     <require name='package' filter='(&amp;(package=org.json))' extend='false' multiple='false' optional='true'>Import package org.json;resolution:=optional</require>
     <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.framework;resolution:=optional;version="[1.5,2)"</require>
   </resource>
-  <resource id='org.jbundle.base.screen.control.servlet/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.screen.control.servlet' presentationname='jbundle-base-screen-control-servlet' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/screen/org.jbundle.base.screen.control.servlet/1.0.2-SNAPSHOT/org.jbundle.base.screen.control.servlet-1.0.2-20130601.010926-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.base.screen.control.servlet/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.screen.control.servlet' presentationname='jbundle-base-screen-control-servlet' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/screen/org.jbundle.base.screen.control.servlet/1.0.2-SNAPSHOT/org.jbundle.base.screen.control.servlet-1.0.2-20130610.191043-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
-    <size>36591</size>
+    <size>36590</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -1547,9 +1547,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.util.base64)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.util.base64;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.util.webapp.base)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.webapp.base;resolution:=optional;version="[1.3,2)"</require>
   </resource>
-  <resource id='org.jbundle.base.screen.control.xslservlet/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.screen.control.xslservlet' presentationname='jbundle-base-screen-control-xslservlet' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/screen/org.jbundle.base.screen.control.xslservlet/1.0.2-SNAPSHOT/org.jbundle.base.screen.control.xslservlet-1.0.2-20130601.012141-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.base.screen.control.xslservlet/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.screen.control.xslservlet' presentationname='jbundle-base-screen-control-xslservlet' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/screen/org.jbundle.base.screen.control.xslservlet/1.0.2-SNAPSHOT/org.jbundle.base.screen.control.xslservlet-1.0.2-20130610.192310-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
-    <size>9156</size>
+    <size>9157</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -1574,9 +1574,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.base.screen.control.servlet.xml)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.screen.control.servlet.xml;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.model)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.base.screen.model/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.screen.model' presentationname='jbundle-base-screen-model' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/screen/org.jbundle.base.screen.model/1.0.2-SNAPSHOT/org.jbundle.base.screen.model-1.0.2-20130601.010748-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.base.screen.model/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.screen.model' presentationname='jbundle-base-screen-model' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/screen/org.jbundle.base.screen.model/1.0.2-SNAPSHOT/org.jbundle.base.screen.model-1.0.2-20130610.190907-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
-    <size>164820</size>
+    <size>164821</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -1660,7 +1660,7 @@
     <require name='package' filter='(&amp;(package=org.jbundle.util.osgi)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.osgi;resolution:=optional;version="[2.0,3)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.util.osgi.finder)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.osgi.finder;resolution:=optional;version="[2.0,3)"</require>
   </resource>
-  <resource id='org.jbundle.base.screen.view.data/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.screen.view.data' presentationname='jbundle-base-screen-view-data' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/screen/org.jbundle.base.screen.view.data/1.0.2-SNAPSHOT/org.jbundle.base.screen.view.data-1.0.2-20130601.011146-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.base.screen.view.data/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.screen.view.data' presentationname='jbundle-base-screen-view-data' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/screen/org.jbundle.base.screen.view.data/1.0.2-SNAPSHOT/org.jbundle.base.screen.view.data-1.0.2-20130610.191303-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
     <size>13766</size>
     <documentation>http://www.jbundle.org</documentation>
@@ -1705,9 +1705,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.util.osgi.webstart)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.osgi.webstart;resolution:=optional;version="[1.6,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.util.webapp.base)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.webapp.base;resolution:=optional;version="[1.3,2)"</require>
   </resource>
-  <resource id='org.jbundle.base.screen.view.html/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.screen.view.html' presentationname='jbundle-base-screen-view-html' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/screen/org.jbundle.base.screen.view.html/1.0.2-SNAPSHOT/org.jbundle.base.screen.view.html-1.0.2-20130601.012152-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.base.screen.view.html/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.screen.view.html' presentationname='jbundle-base-screen-view-html' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/screen/org.jbundle.base.screen.view.html/1.0.2-SNAPSHOT/org.jbundle.base.screen.view.html-1.0.2-20130610.192323-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
-    <size>60144</size>
+    <size>60142</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -1765,9 +1765,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.screen)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.screen;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.thread)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.thread;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.base.screen.view.xml/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.screen.view.xml' presentationname='jbundle-base-screen-view-xml' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/screen/org.jbundle.base.screen.view.xml/1.0.2-SNAPSHOT/org.jbundle.base.screen.view.xml-1.0.2-20130601.012204-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.base.screen.view.xml/1.0.2.SNAPSHOT' symbolicname='org.jbundle.base.screen.view.xml' presentationname='jbundle-base-screen-view-xml' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/base/screen/org.jbundle.base.screen.view.xml/1.0.2-SNAPSHOT/org.jbundle.base.screen.view.xml-1.0.2-20130610.192335-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
-    <size>60651</size>
+    <size>60652</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -1823,9 +1823,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.screen)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.screen;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.thread)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.thread;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.config.web.httpweb/1.0.2.SNAPSHOT' symbolicname='org.jbundle.config.web.httpweb' presentationname='jbundle-config-web-httpweb - Hybrid osgi webapp' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/config/web/org.jbundle.config.web.httpweb/1.0.2-SNAPSHOT/org.jbundle.config.web.httpweb-1.0.2-20130601.012709-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.config.web.httpweb/1.0.2.SNAPSHOT' symbolicname='org.jbundle.config.web.httpweb' presentationname='jbundle-config-web-httpweb - Hybrid osgi webapp' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/config/web/org.jbundle.config.web.httpweb/1.0.2-SNAPSHOT/org.jbundle.config.web.httpweb-1.0.2-20130610.192824-2.jar' version='1.0.2.SNAPSHOT'>
     <description>web osgi httpweb bundle</description>
-    <size>12867650</size>
+    <size>12867357</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -1841,7 +1841,7 @@
     </capability>
     <require name='package' filter='(&amp;(package=org.jbundle.config.web.httpservice)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.config.web.httpservice;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.main.calendar/1.0.2.SNAPSHOT' symbolicname='org.jbundle.main.calendar' presentationname='jbundle-main-calendar' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/main/org.jbundle.main.calendar/1.0.2-SNAPSHOT/org.jbundle.main.calendar-1.0.2-20130601.011117-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.main.calendar/1.0.2.SNAPSHOT' symbolicname='org.jbundle.main.calendar' presentationname='jbundle-main-calendar' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/main/org.jbundle.main.calendar/1.0.2-SNAPSHOT/org.jbundle.main.calendar-1.0.2-20130610.191232-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
     <size>36336</size>
     <documentation>http://www.jbundle.org</documentation>
@@ -1887,9 +1887,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.util)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.util;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.util.calendarpanel.model)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.calendarpanel.model;resolution:=optional;version="[1.1,2)"</require>
   </resource>
-  <resource id='org.jbundle.main.db/1.0.2.SNAPSHOT' symbolicname='org.jbundle.main.db' presentationname='jbundle-main-db' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/main/org.jbundle.main.db/1.0.2-SNAPSHOT/org.jbundle.main.db-1.0.2-20130601.011105-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.main.db/1.0.2.SNAPSHOT' symbolicname='org.jbundle.main.db' presentationname='jbundle-main-db' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/main/org.jbundle.main.db/1.0.2-SNAPSHOT/org.jbundle.main.db-1.0.2-20130610.191220-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
-    <size>87872</size>
+    <size>87870</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -1935,9 +1935,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.screen)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.screen;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.main.msg/1.0.2.SNAPSHOT' symbolicname='org.jbundle.main.msg' presentationname='jbundle-main-msg' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/main/org.jbundle.main.msg/1.0.2-SNAPSHOT/org.jbundle.main.msg-1.0.2-20130601.011202-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.main.msg/1.0.2.SNAPSHOT' symbolicname='org.jbundle.main.msg' presentationname='jbundle-main-msg' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/main/org.jbundle.main.msg/1.0.2-SNAPSHOT/org.jbundle.main.msg-1.0.2-20130610.191316-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
-    <size>112964</size>
+    <size>112965</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -2001,7 +2001,7 @@
     <require name='package' filter='(&amp;(package=org.jbundle.util.osgi.finder)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.osgi.finder;resolution:=optional;version="[2.0,3)"</require>
     <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.framework;resolution:=optional;version="[1.5,2)"</require>
   </resource>
-  <resource id='org.jbundle.main.msg.wsdl/1.0.2.SNAPSHOT' symbolicname='org.jbundle.main.msg.wsdl' presentationname='jbundle-main-msg-wsdl' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/main/org.jbundle.main.msg.wsdl/1.0.2-SNAPSHOT/org.jbundle.main.msg.wsdl-1.0.2-20130601.012558-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.main.msg.wsdl/1.0.2.SNAPSHOT' symbolicname='org.jbundle.main.msg.wsdl' presentationname='jbundle-main-msg-wsdl' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/main/org.jbundle.main.msg.wsdl/1.0.2-SNAPSHOT/org.jbundle.main.msg.wsdl-1.0.2-20130610.192727-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
     <size>37402</size>
     <documentation>http://www.jbundle.org</documentation>
@@ -2046,9 +2046,9 @@
     <require name='package' filter='(&amp;(package=org.xmlsoap.schemas.wsdl)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.xmlsoap.schemas.wsdl;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.xmlsoap.schemas.wsdl.soap)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.xmlsoap.schemas.wsdl.soap;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.main.remote/1.0.2.SNAPSHOT' symbolicname='org.jbundle.main.remote' presentationname='jbundle-main-remote' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/main/org.jbundle.main.remote/1.0.2-SNAPSHOT/org.jbundle.main.remote-1.0.2-20130601.011214-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.main.remote/1.0.2.SNAPSHOT' symbolicname='org.jbundle.main.remote' presentationname='jbundle-main-remote' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/main/org.jbundle.main.remote/1.0.2-SNAPSHOT/org.jbundle.main.remote-1.0.2-20130610.191329-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
-    <size>11812</size>
+    <size>11811</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -2078,9 +2078,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.db;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.model.screen)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.screen;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.main.schedule/1.0.2.SNAPSHOT' symbolicname='org.jbundle.main.schedule' presentationname='jbundle-main-schedule' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/main/org.jbundle.main.schedule/1.0.2-SNAPSHOT/org.jbundle.main.schedule-1.0.2-20130601.011226-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.main.schedule/1.0.2.SNAPSHOT' symbolicname='org.jbundle.main.schedule' presentationname='jbundle-main-schedule' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/main/org.jbundle.main.schedule/1.0.2-SNAPSHOT/org.jbundle.main.schedule-1.0.2-20130610.191342-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
-    <size>8942</size>
+    <size>8941</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -2108,7 +2108,7 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.util)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.util;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.util.message)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.util.message;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.main.screen/1.0.2.SNAPSHOT' symbolicname='org.jbundle.main.screen' presentationname='jbundle-main-screen' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/main/org.jbundle.main.screen/1.0.2-SNAPSHOT/org.jbundle.main.screen-1.0.2-20130601.011128-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.main.screen/1.0.2.SNAPSHOT' symbolicname='org.jbundle.main.screen' presentationname='jbundle-main-screen' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/main/org.jbundle.main.screen/1.0.2-SNAPSHOT/org.jbundle.main.screen-1.0.2-20130610.191244-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
     <size>65893</size>
     <documentation>http://www.jbundle.org</documentation>
@@ -2163,7 +2163,7 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.util)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.util;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.util.muffinmanager)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.muffinmanager;resolution:=optional;version="[2.0,3)"</require>
   </resource>
-  <resource id='org.jbundle.model/1.0.2.SNAPSHOT' symbolicname='org.jbundle.model' presentationname='jbundle-model - Base Application model' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/org.jbundle.model/1.0.2-SNAPSHOT/org.jbundle.model-1.0.2-20130601.005543-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.model/1.0.2.SNAPSHOT' symbolicname='org.jbundle.model' presentationname='jbundle-model - Base Application model' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/org.jbundle.model/1.0.2-SNAPSHOT/org.jbundle.model-1.0.2-20130610.190429-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
     <size>37634</size>
     <documentation>http://www.jbundle.org</documentation>
@@ -2207,9 +2207,9 @@
     <require name='package' filter='(&amp;(package=org.w3c.dom))' extend='false' multiple='false' optional='true'>Import package org.w3c.dom;resolution:=optional</require>
     <require name='package' filter='(&amp;(package=org.xml.sax))' extend='false' multiple='false' optional='true'>Import package org.xml.sax;resolution:=optional</require>
   </resource>
-  <resource id='org.jbundle.model.app.program/1.0.2.SNAPSHOT' symbolicname='org.jbundle.model.app.program' presentationname='jbundle-model-app-program - Record interfaces' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/model/org.jbundle.model.app.program/1.0.2-SNAPSHOT/org.jbundle.model.app.program-1.0.2-20130601.005934-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.model.app.program/1.0.2.SNAPSHOT' symbolicname='org.jbundle.model.app.program' presentationname='jbundle-model-app-program - Record interfaces' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/model/org.jbundle.model.app.program/1.0.2-SNAPSHOT/org.jbundle.model.app.program-1.0.2-20130610.190503-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
-    <size>28635</size>
+    <size>28634</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -2257,9 +2257,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.db;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.model.main.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.main.db;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.model.app.test/1.0.2.SNAPSHOT' symbolicname='org.jbundle.model.app.test' presentationname='jbundle-model-app-test - Test model' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/test/org.jbundle.model.app.test/1.0.2-SNAPSHOT/org.jbundle.model.app.test-1.0.2-20130601.012431-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.model.app.test/1.0.2.SNAPSHOT' symbolicname='org.jbundle.model.app.test' presentationname='jbundle-model-app-test - Test model' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/test/org.jbundle.model.app.test/1.0.2-SNAPSHOT/org.jbundle.model.app.test-1.0.2-20130610.192600-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
-    <size>10530</size>
+    <size>10531</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -2285,9 +2285,9 @@
     </capability>
     <require name='package' filter='(&amp;(package=org.jbundle.model.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.db;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.model.main/1.0.2.SNAPSHOT' symbolicname='org.jbundle.model.main' presentationname='jbundle-model-main - Record interfaces' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/model/org.jbundle.model.main/1.0.2-SNAPSHOT/org.jbundle.model.main-1.0.2-20130601.005704-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.model.main/1.0.2.SNAPSHOT' symbolicname='org.jbundle.model.main' presentationname='jbundle-model-main - Record interfaces' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/model/org.jbundle.model.main/1.0.2-SNAPSHOT/org.jbundle.model.main-1.0.2-20130610.190442-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
-    <size>32378</size>
+    <size>32377</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -2331,9 +2331,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.message)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.message;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.model.screen)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.screen;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.res/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res' presentationname='jbundle-res - Resources' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res/1.0.2-SNAPSHOT/org.jbundle.res-1.0.2-20130601.010647-2.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.res/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res' presentationname='jbundle-res - Resources' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res/1.0.2-SNAPSHOT/org.jbundle.res-1.0.2-20130610.190805-3.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
-    <size>37073</size>
+    <size>37072</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -2355,9 +2355,9 @@
       <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
     </capability>
   </resource>
-  <resource id='org.jbundle.res.app.program/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res.app.program' presentationname='jbundle-res-app-program - Resources - program' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res.app.program/1.0.2-SNAPSHOT/org.jbundle.res.app.program-1.0.2-20130601.010201-2.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.res.app.program/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res.app.program' presentationname='jbundle-res-app-program - Resources - program' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res.app.program/1.0.2-SNAPSHOT/org.jbundle.res.app.program-1.0.2-20130610.190521-3.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
-    <size>23800</size>
+    <size>23798</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -2419,7 +2419,7 @@
       <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
     </capability>
   </resource>
-  <resource id='org.jbundle.res.app.test/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res.app.test' presentationname='jbundle-res-app-test - Test code' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/test/org.jbundle.res.app.test/1.0.2-SNAPSHOT/org.jbundle.res.app.test-1.0.2-20130601.012421-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.res.app.test/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res.app.test' presentationname='jbundle-res-app-test - Test code' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/test/org.jbundle.res.app.test/1.0.2-SNAPSHOT/org.jbundle.res.app.test-1.0.2-20130610.192550-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
     <size>10223</size>
     <documentation>http://www.jbundle.org</documentation>
@@ -2455,9 +2455,9 @@
       <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
     </capability>
   </resource>
-  <resource id='org.jbundle.res.data/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res.data' presentationname='jbundle-res-data - jbundle data' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res.data/1.0.2-SNAPSHOT/org.jbundle.res.data-1.0.2-20130601.011745-2.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.res.data/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res.data' presentationname='jbundle-res-data - jbundle data' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res.data/1.0.2-SNAPSHOT/org.jbundle.res.data-1.0.2-20130610.191859-3.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
-    <size>418008</size>
+    <size>417981</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -2555,9 +2555,9 @@
       <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
     </capability>
   </resource>
-  <resource id='org.jbundle.res.data.app/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res.data.app' presentationname='jbundle-res-data-app - jbundle app data' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res.data.app/1.0.2-SNAPSHOT/org.jbundle.res.data.app-1.0.2-20130601.011759-2.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.res.data.app/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res.data.app' presentationname='jbundle-res-data-app - jbundle app data' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res.data.app/1.0.2-SNAPSHOT/org.jbundle.res.data.app-1.0.2-20130610.191914-3.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
-    <size>392708</size>
+    <size>392706</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -2607,7 +2607,7 @@
       <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
     </capability>
   </resource>
-  <resource id='org.jbundle.res.data.test/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res.data.test' presentationname='jbundle-res-data-test - jbundle test data' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res.data.test/1.0.2-SNAPSHOT/org.jbundle.res.data.test-1.0.2-20130601.011813-2.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.res.data.test/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res.data.test' presentationname='jbundle-res-data-test - jbundle test data' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res.data.test/1.0.2-SNAPSHOT/org.jbundle.res.data.test-1.0.2-20130610.191930-3.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
     <size>46813</size>
     <documentation>http://www.jbundle.org</documentation>
@@ -2667,9 +2667,9 @@
       <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
     </capability>
   </resource>
-  <resource id='org.jbundle.res.project.template/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res.project.template' presentationname='jbundle-res-demo - jbundle demo project template' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res.project.template/1.0.2-SNAPSHOT/org.jbundle.res.project.template-1.0.2-20130601.011822-2.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.res.project.template/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res.project.template' presentationname='jbundle-res-demo - jbundle demo project template' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res.project.template/1.0.2-SNAPSHOT/org.jbundle.res.project.template-1.0.2-20130610.191942-3.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
-    <size>6302</size>
+    <size>6303</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -2699,7 +2699,7 @@
       <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
     </capability>
   </resource>
-  <resource id='org.jbundle.res.docs.help/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res.docs.help' presentationname='jbundle-res-docs-help' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res.docs.help/1.0.2-SNAPSHOT/org.jbundle.res.docs.help-1.0.2-20130601.011423-2.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.res.docs.help/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res.docs.help' presentationname='jbundle-res-docs-help' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res.docs.help/1.0.2-SNAPSHOT/org.jbundle.res.docs.help-1.0.2-20130610.191535-3.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
     <size>78743</size>
     <documentation>http://www.jbundle.org</documentation>
@@ -2719,9 +2719,9 @@
       <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
     </capability>
   </resource>
-  <resource id='org.jbundle.res.docs.styles.xsl/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res.docs.styles.xsl' presentationname='jbundle-res-docs-styles-xsl' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res.docs.styles.xsl/1.0.2-SNAPSHOT/org.jbundle.res.docs.styles.xsl-1.0.2-20130601.011405-4.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.res.docs.styles.xsl/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res.docs.styles.xsl' presentationname='jbundle-res-docs-styles-xsl' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res.docs.styles.xsl/1.0.2-SNAPSHOT/org.jbundle.res.docs.styles.xsl-1.0.2-20130613.221807-6.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
-    <size>235400</size>
+    <size>234590</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -2792,11 +2792,11 @@
     </capability>
     <require name='package' filter='(&amp;(package=org.jbundle.res.docs.styles.css.jbundle))' extend='false' multiple='false' optional='true'>Import package org.jbundle.res.docs.styles.css.jbundle;resolution:=optional</require>
     <require name='package' filter='(&amp;(package=org.jbundle.res.docs.styles.css.jbundle.xsl))' extend='false' multiple='false' optional='true'>Import package org.jbundle.res.docs.styles.css.jbundle.xsl;resolution:=optional</require>
-    <require name='package' filter='(&amp;(package=org.jbundle.res.docs.styles.js))' extend='false' multiple='false' optional='true'>Import package org.jbundle.res.docs.styles.js;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.res.docs.styles.js)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.res.docs.styles.js;resolution:=optional;version="[1.6,2)"</require>
   </resource>
-  <resource id='org.jbundle.res.docs.tech/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res.docs.tech' presentationname='jbundle-res-docs-tech' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res.docs.tech/1.0.2-SNAPSHOT/org.jbundle.res.docs.tech-1.0.2-20130601.011436-2.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.res.docs.tech/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res.docs.tech' presentationname='jbundle-res-docs-tech' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res.docs.tech/1.0.2-SNAPSHOT/org.jbundle.res.docs.tech-1.0.2-20130610.191550-3.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
-    <size>5691616</size>
+    <size>5691617</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -2986,7 +2986,7 @@
       <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
     </capability>
   </resource>
-  <resource id='org.jbundle.res.images/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res.images' presentationname='jbundle-res-images' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res.images/1.0.2-SNAPSHOT/org.jbundle.res.images-1.0.2-20130601.011708-2.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.res.images/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res.images' presentationname='jbundle-res-images' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res.images/1.0.2-SNAPSHOT/org.jbundle.res.images-1.0.2-20130610.191821-3.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
     <size>68262</size>
     <documentation>http://www.jbundle.org</documentation>
@@ -3010,9 +3010,9 @@
       <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
     </capability>
   </resource>
-  <resource id='org.jbundle.res.images.misc/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res.images.misc' presentationname='jbundle-res-images-misc' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res.images.misc/1.0.2-SNAPSHOT/org.jbundle.res.images.misc-1.0.2-20130601.011722-2.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.res.images.misc/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res.images.misc' presentationname='jbundle-res-images-misc' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res.images.misc/1.0.2-SNAPSHOT/org.jbundle.res.images.misc-1.0.2-20130610.191836-3.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
-    <size>129289</size>
+    <size>129290</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -3038,7 +3038,7 @@
       <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
     </capability>
   </resource>
-  <resource id='org.jbundle.res.main/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res.main' presentationname='jbundle-res-main - Resources' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res.main/1.0.2-SNAPSHOT/org.jbundle.res.main-1.0.2-20130601.011237-2.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.res.main/1.0.2.SNAPSHOT' symbolicname='org.jbundle.res.main' presentationname='jbundle-res-main - Resources' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/res/org.jbundle.res.main/1.0.2-SNAPSHOT/org.jbundle.res.main-1.0.2-20130610.191351-3.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
     <size>25316</size>
     <documentation>http://www.jbundle.org</documentation>
@@ -3082,9 +3082,9 @@
       <p n='version' t='version' v='1.0.2.SNAPSHOT'/>
     </capability>
   </resource>
-  <resource id='org.jbundle.thin.app.program/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.app.program' presentationname='jbundle-thin-app-program-reactor - Thin program app' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/app/org.jbundle.thin.app.program/1.0.2-SNAPSHOT/org.jbundle.thin.app.program-1.0.2-20130601.011953-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.thin.app.program/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.app.program' presentationname='jbundle-thin-app-program-reactor - Thin program app' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/app/org.jbundle.thin.app.program/1.0.2-SNAPSHOT/org.jbundle.thin.app.program-1.0.2-20130610.192119-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Top level properties and features</description>
-    <size>50032</size>
+    <size>50031</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -3140,9 +3140,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.main.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.main.db;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.thin.app.test/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.app.test' presentationname='jbundle-thin-app-test - Test code' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/test/org.jbundle.thin.app.test/1.0.2-SNAPSHOT/org.jbundle.thin.app.test-1.0.2-20130601.012443-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.thin.app.test/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.app.test' presentationname='jbundle-thin-app-test - Test code' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/test/org.jbundle.thin.app.test/1.0.2-SNAPSHOT/org.jbundle.thin.app.test-1.0.2-20130610.192610-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
-    <size>21324</size>
+    <size>21323</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -3171,9 +3171,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.app.test.vet.shared.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.app.test.vet.shared.db;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.thin.app.test.manual/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.app.test.manual' presentationname='jbundle-thin-app-test - Test code' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/test/org.jbundle.thin.app.test.manual/1.0.2-SNAPSHOT/org.jbundle.thin.app.test.manual-1.0.2-20130601.012455-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.thin.app.test.manual/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.app.test.manual' presentationname='jbundle-thin-app-test - Test code' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/app/test/org.jbundle.thin.app.test.manual/1.0.2-SNAPSHOT/org.jbundle.thin.app.test.manual-1.0.2-20130610.192622-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Parent project for the jbundle framework</description>
-    <size>86630</size>
+    <size>86627</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -3280,9 +3280,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.util)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.util;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.util.message)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.util.message;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.thin.base.db/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.base.db' presentationname='jbundle-thin-base-db-core - Thin db base' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/base/db/org.jbundle.thin.base.db/1.0.2-SNAPSHOT/org.jbundle.thin.base.db-1.0.2-20130601.010433-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.thin.base.db/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.base.db' presentationname='jbundle-thin-base-db-core - Thin db base' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/base/db/org.jbundle.thin.base.db/1.0.2-SNAPSHOT/org.jbundle.thin.base.db-1.0.2-20130610.190554-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Top level properties and features</description>
-    <size>61183</size>
+    <size>61182</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -3338,9 +3338,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.util.osgi)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.osgi;resolution:=optional;version="[2.0,3)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.util.osgi.finder)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.osgi.finder;resolution:=optional;version="[2.0,3)"</require>
   </resource>
-  <resource id='org.jbundle.thin.base.db.misc/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.base.db.misc' presentationname='jbundle-thin-base-db-misc' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/base/db/org.jbundle.thin.base.db.misc/1.0.2-SNAPSHOT/org.jbundle.thin.base.db.misc-1.0.2-20130601.010547-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.thin.base.db.misc/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.base.db.misc' presentationname='jbundle-thin-base-db-misc' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/base/db/org.jbundle.thin.base.db.misc/1.0.2-SNAPSHOT/org.jbundle.thin.base.db.misc-1.0.2-20130610.190705-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Top level properties and features</description>
-    <size>32056</size>
+    <size>32054</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -3391,7 +3391,7 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.remote)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.remote;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.util)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.util;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.thin.base.message/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.base.message' presentationname='jbundle-thin-base-message' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/base/org.jbundle.thin.base.message/1.0.2-SNAPSHOT/org.jbundle.thin.base.message-1.0.2-20130601.010455-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.thin.base.message/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.base.message' presentationname='jbundle-thin-base-message' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/base/org.jbundle.thin.base.message/1.0.2-SNAPSHOT/org.jbundle.thin.base.message-1.0.2-20130610.190616-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Top level properties and features</description>
     <size>49770</size>
     <documentation>http://www.jbundle.org</documentation>
@@ -3417,9 +3417,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.util.osgi.finder)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.osgi.finder;resolution:=optional;version="[2.0,3)"</require>
     <require name='package' filter='(&amp;(package=org.w3c.dom))' extend='false' multiple='false' optional='true'>Import package org.w3c.dom;resolution:=optional</require>
   </resource>
-  <resource id='org.jbundle.thin.base.remote/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.base.remote' presentationname='jbundle-thin-base-remote' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/base/org.jbundle.thin.base.remote/1.0.2-SNAPSHOT/org.jbundle.thin.base.remote-1.0.2-20130601.010524-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.thin.base.remote/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.base.remote' presentationname='jbundle-thin-base-remote' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/base/org.jbundle.thin.base.remote/1.0.2-SNAPSHOT/org.jbundle.thin.base.remote-1.0.2-20130610.190643-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Top level properties and features</description>
-    <size>48840</size>
+    <size>48839</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -3467,9 +3467,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.util.osgi)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.osgi;resolution:=optional;version="[2.0,3)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.util.osgi.finder)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.osgi.finder;resolution:=optional;version="[2.0,3)"</require>
   </resource>
-  <resource id='org.jbundle.thin.base.screen/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.base.screen' presentationname='jbundle-thin-base-screen' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/base/screen/org.jbundle.thin.base.screen/1.0.2-SNAPSHOT/org.jbundle.thin.base.screen-1.0.2-20130601.010824-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.thin.base.screen/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.base.screen' presentationname='jbundle-thin-base-screen' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/base/screen/org.jbundle.thin.base.screen/1.0.2-SNAPSHOT/org.jbundle.thin.base.screen-1.0.2-20130610.190943-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Top level properties and features</description>
-    <size>135963</size>
+    <size>135964</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -3569,7 +3569,7 @@
     <require name='package' filter='(&amp;(package=org.jbundle.util.osgi.webstart.browser)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.osgi.webstart.browser;resolution:=optional;version="[1.6,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.util.osgi.webstart.util)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.osgi.webstart.util;resolution:=optional;version="[1.6,2)"</require>
   </resource>
-  <resource id='org.jbundle.thin.base.screen.activator/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.base.screen.activator' presentationname='jbundle-thin-base-screen-activator' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/base/screen/org.jbundle.thin.base.screen.activator/1.0.2-SNAPSHOT/org.jbundle.thin.base.screen.activator-1.0.2-20130601.011909-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.thin.base.screen.activator/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.base.screen.activator' presentationname='jbundle-thin-base-screen-activator' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/base/screen/org.jbundle.thin.base.screen.activator/1.0.2-SNAPSHOT/org.jbundle.thin.base.screen.activator-1.0.2-20130610.192035-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Top level properties and features</description>
     <size>4358</size>
     <documentation>http://www.jbundle.org</documentation>
@@ -3592,9 +3592,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.util.osgi.bundle)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.osgi.bundle;resolution:=optional;version="[2.0,3)"</require>
     <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.framework;resolution:=optional;version="[1.5,2)"</require>
   </resource>
-  <resource id='org.jbundle.thin.base.screen.cal.grid/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.base.screen.cal.grid' presentationname='jbundle-thin-base-screen-cal-grid - Thin cal grid' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/base/screen/org.jbundle.thin.base.screen.cal.grid/1.0.2-SNAPSHOT/org.jbundle.thin.base.screen.cal.grid-1.0.2-20130601.011006-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.thin.base.screen.cal.grid/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.base.screen.cal.grid' presentationname='jbundle-thin-base-screen-cal-grid - Thin cal grid' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/base/screen/org.jbundle.thin.base.screen.cal.grid/1.0.2-SNAPSHOT/org.jbundle.thin.base.screen.cal.grid-1.0.2-20130610.191124-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Top level properties and features</description>
-    <size>9682</size>
+    <size>9681</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -3621,9 +3621,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.util.calendarpanel.event)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.calendarpanel.event;resolution:=optional;version="[1.1,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.util.calendarpanel.model)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.calendarpanel.model;resolution:=optional;version="[1.1,2)"</require>
   </resource>
-  <resource id='org.jbundle.thin.base.screen.cal.other/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.base.screen.cal.other' presentationname='jbundle-thin-base-screen-cal-other - Thin extra' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/base/screen/org.jbundle.thin.base.screen.cal.other/1.0.2-SNAPSHOT/org.jbundle.thin.base.screen.cal.other-1.0.2-20130601.011017-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.thin.base.screen.cal.other/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.base.screen.cal.other' presentationname='jbundle-thin-base-screen-cal-other - Thin extra' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/base/screen/org.jbundle.thin.base.screen.cal.other/1.0.2-SNAPSHOT/org.jbundle.thin.base.screen.cal.other-1.0.2-20130610.191135-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Top level properties and features</description>
-    <size>17934</size>
+    <size>17933</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -3654,9 +3654,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.util.calendarpanel.model)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.calendarpanel.model;resolution:=optional;version="[1.1,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.util.calendarpanel.model.swing)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.calendarpanel.model.swing;resolution:=optional;version="[1.1,2)"</require>
   </resource>
-  <resource id='org.jbundle.thin.base.screen.cal.sample.basic/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.base.screen.cal.sample.basic' presentationname='jbundle-thin-base-screen-cal-sample-basic' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/base/screen/org.jbundle.thin.base.screen.cal.sample.basic/1.0.2-SNAPSHOT/org.jbundle.thin.base.screen.cal.sample.basic-1.0.2-20130601.011849-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.thin.base.screen.cal.sample.basic/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.base.screen.cal.sample.basic' presentationname='jbundle-thin-base-screen-cal-sample-basic' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/base/screen/org.jbundle.thin.base.screen.cal.sample.basic/1.0.2-SNAPSHOT/org.jbundle.thin.base.screen.cal.sample.basic-1.0.2-20130610.192014-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Top level properties and features</description>
-    <size>10065</size>
+    <size>10061</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -3679,9 +3679,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.util.calendarpanel.model)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.calendarpanel.model;resolution:=optional;version="[1.1,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.util.calendarpanel.model.swing)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.calendarpanel.model.swing;resolution:=optional;version="[1.1,2)"</require>
   </resource>
-  <resource id='org.jbundle.thin.base.screen.grid/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.base.screen.grid' presentationname='jbundle-thin-base-screen-grid' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/base/screen/org.jbundle.thin.base.screen.grid/1.0.2-SNAPSHOT/org.jbundle.thin.base.screen.grid-1.0.2-20130601.010849-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.thin.base.screen.grid/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.base.screen.grid' presentationname='jbundle-thin-base-screen-grid' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/base/screen/org.jbundle.thin.base.screen.grid/1.0.2-SNAPSHOT/org.jbundle.thin.base.screen.grid-1.0.2-20130610.191008-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Top level properties and features</description>
-    <size>54866</size>
+    <size>54865</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -3723,9 +3723,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.screen.util.cal)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.screen.util.cal;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.util.jcalendarbutton)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.jcalendarbutton;resolution:=optional;version="[1.6,2)"</require>
   </resource>
-  <resource id='org.jbundle.thin.base.screen.splash/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.base.screen.splash' presentationname='jbundle-thin-base-screen-splash - Splash screen' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/base/screen/org.jbundle.thin.base.screen.splash/1.0.2-SNAPSHOT/org.jbundle.thin.base.screen.splash-1.0.2-20130601.011831-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.thin.base.screen.splash/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.base.screen.splash' presentationname='jbundle-thin-base-screen-splash - Splash screen' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/base/screen/org.jbundle.thin.base.screen.splash/1.0.2-SNAPSHOT/org.jbundle.thin.base.screen.splash-1.0.2-20130610.191953-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Top level properties and features</description>
-    <size>7821</size>
+    <size>7823</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -3743,7 +3743,7 @@
     <require name='package' filter='(&amp;(package=org.jbundle.util.osgi)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.osgi;resolution:=optional;version="[2.0,3)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.util.osgi.finder)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.osgi.finder;resolution:=optional;version="[2.0,3)"</require>
   </resource>
-  <resource id='org.jbundle.thin.base.screen.util/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.base.screen.util' presentationname='jbundle-thin-base-screen-util' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/base/screen/org.jbundle.thin.base.screen.util/1.0.2-SNAPSHOT/org.jbundle.thin.base.screen.util-1.0.2-20130601.010837-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.thin.base.screen.util/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.base.screen.util' presentationname='jbundle-thin-base-screen-util' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/base/screen/org.jbundle.thin.base.screen.util/1.0.2-SNAPSHOT/org.jbundle.thin.base.screen.util-1.0.2-20130610.190956-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Top level properties and features</description>
     <size>43018</size>
     <documentation>http://www.jbundle.org</documentation>
@@ -3778,9 +3778,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.screen)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.screen;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.util.jcalendarbutton)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.jcalendarbutton;resolution:=optional;version="[1.6,2)"</require>
   </resource>
-  <resource id='org.jbundle.thin.base.screen.util.misc/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.base.screen.util.misc' presentationname='jbundle-thin-base-screen-util-misc' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/base/screen/org.jbundle.thin.base.screen.util.misc/1.0.2-SNAPSHOT/org.jbundle.thin.base.screen.util.misc-1.0.2-20130601.010900-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.thin.base.screen.util.misc/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.base.screen.util.misc' presentationname='jbundle-thin-base-screen-util-misc' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/base/screen/org.jbundle.thin.base.screen.util.misc/1.0.2-SNAPSHOT/org.jbundle.thin.base.screen.util.misc-1.0.2-20130610.191019-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Top level properties and features</description>
-    <size>20214</size>
+    <size>20212</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -3812,7 +3812,7 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.thread)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.thread;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.util)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.util;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.thin.base.thread/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.base.thread' presentationname='jbundle-thin-base-thread' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/base/org.jbundle.thin.base.thread/1.0.2-SNAPSHOT/org.jbundle.thin.base.thread-1.0.2-20130601.010445-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.thin.base.thread/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.base.thread' presentationname='jbundle-thin-base-thread' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/base/org.jbundle.thin.base.thread/1.0.2-SNAPSHOT/org.jbundle.thin.base.thread-1.0.2-20130610.190604-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Top level properties and features</description>
     <size>15574</size>
     <documentation>http://www.jbundle.org</documentation>
@@ -3833,9 +3833,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.util.osgi)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.osgi;resolution:=optional;version="[2.0,3)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.util.osgi.finder)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.osgi.finder;resolution:=optional;version="[2.0,3)"</require>
   </resource>
-  <resource id='org.jbundle.thin.base.util/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.base.util' presentationname='jbundle-thin-base-util' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/base/org.jbundle.thin.base.util/1.0.2-SNAPSHOT/org.jbundle.thin.base.util-1.0.2-20130601.010536-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.thin.base.util/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.base.util' presentationname='jbundle-thin-base-util' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/base/org.jbundle.thin.base.util/1.0.2-SNAPSHOT/org.jbundle.thin.base.util-1.0.2-20130610.190654-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Top level properties and features</description>
-    <size>23230</size>
+    <size>23231</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -3872,9 +3872,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.util.osgi.finder)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.osgi.finder;resolution:=optional;version="[2.0,3)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.util.osgi.webstart.util)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.osgi.webstart.util;resolution:=optional;version="[1.6,2)"</require>
   </resource>
-  <resource id='org.jbundle.thin.base.util.base64/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.base.util.base64' presentationname='jbundle-thin-base-util-base64 - base64 code' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/base/org.jbundle.thin.base.util.base64/1.0.2-SNAPSHOT/org.jbundle.thin.base.util.base64-1.0.2-20130601.010512-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.thin.base.util.base64/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.base.util.base64' presentationname='jbundle-thin-base-util-base64 - base64 code' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/base/org.jbundle.thin.base.util.base64/1.0.2-SNAPSHOT/org.jbundle.thin.base.util.base64-1.0.2-20130610.190633-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Top level properties and features</description>
-    <size>4213</size>
+    <size>4214</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -3890,9 +3890,9 @@
     </capability>
     <require name='package' filter='(&amp;(package=biz.source_code.base64Coder))' extend='false' multiple='false' optional='true'>Import package biz.source_code.base64Coder;resolution:=optional</require>
   </resource>
-  <resource id='org.jbundle.thin.main/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.main' presentationname='jbundle-thin-main - Main thin' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/main/org.jbundle.thin.main/1.0.2-SNAPSHOT/org.jbundle.thin.main-1.0.2-20130601.010619-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.thin.main/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.main' presentationname='jbundle-thin-main - Main thin' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/main/org.jbundle.thin.main/1.0.2-SNAPSHOT/org.jbundle.thin.main-1.0.2-20130610.190738-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Top level properties and features</description>
-    <size>58273</size>
+    <size>58274</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -3943,9 +3943,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.model.screen)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.screen;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.thin.opt.chat/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.opt.chat' presentationname='jbundle-thin-opt-chat - Thin chat code' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/opt/org.jbundle.thin.opt.chat/1.0.2-SNAPSHOT/org.jbundle.thin.opt.chat-1.0.2-20130601.011925-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.thin.opt.chat/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.opt.chat' presentationname='jbundle-thin-opt-chat - Thin chat code' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/opt/org.jbundle.thin.opt.chat/1.0.2-SNAPSHOT/org.jbundle.thin.opt.chat-1.0.2-20130610.192052-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Top level properties and features</description>
-    <size>8104</size>
+    <size>8102</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -3967,9 +3967,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.screen)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.screen;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.util)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.util;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.thin.opt.location/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.opt.location' presentationname='jbundle-thin-opt-location - Thin location code' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/opt/org.jbundle.thin.opt.location/1.0.2-SNAPSHOT/org.jbundle.thin.opt.location-1.0.2-20130601.011935-1.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.thin.opt.location/1.0.2.SNAPSHOT' symbolicname='org.jbundle.thin.opt.location' presentationname='jbundle-thin-opt-location - Thin location code' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/thin/opt/org.jbundle.thin.opt.location/1.0.2-SNAPSHOT/org.jbundle.thin.opt.location-1.0.2-20130610.192102-2.jar' version='1.0.2.SNAPSHOT'>
     <description>Top level properties and features</description>
-    <size>13268</size>
+    <size>13266</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -3990,9 +3990,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.remote)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.remote;resolution:=optional;version="[1.0,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.thin.base.screen)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.screen;resolution:=optional;version="[1.0,2)"</require>
   </resource>
-  <resource id='org.jbundle.config.web.httpservice/1.0.2.SNAPSHOT' symbolicname='org.jbundle.config.web.httpservice' presentationname='jbundle-web-httpservice - Hybrid osgi webapp' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/config/web/org.jbundle.config.web.httpservice/1.0.2-SNAPSHOT/org.jbundle.config.web.httpservice-1.0.2-20130601.012645-2.jar' version='1.0.2.SNAPSHOT'>
+  <resource id='org.jbundle.config.web.httpservice/1.0.2.SNAPSHOT' symbolicname='org.jbundle.config.web.httpservice' presentationname='jbundle-web-httpservice - Hybrid osgi webapp' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/config/web/org.jbundle.config.web.httpservice/1.0.2-SNAPSHOT/org.jbundle.config.web.httpservice-1.0.2-20130610.192758-3.jar' version='1.0.2.SNAPSHOT'>
     <description>web osgi httpservice</description>
-    <size>7521</size>
+    <size>7518</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>

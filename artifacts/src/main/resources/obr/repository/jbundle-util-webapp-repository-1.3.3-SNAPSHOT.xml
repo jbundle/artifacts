@@ -1,7 +1,7 @@
-<repository lastmodified='20130509050044.569'>
-  <resource id='org.jbundle.util.webapp.base/1.3.3.SNAPSHOT' symbolicname='org.jbundle.util.webapp.base' presentationname='jbundle-util-webapp-base - base servlet' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/util/webapp/org.jbundle.util.webapp.base/1.3.3-SNAPSHOT/org.jbundle.util.webapp.base-1.3.3-20130509.235757-1.jar' version='1.3.3.SNAPSHOT'>
+<repository lastmodified='20130610095500.540'>
+  <resource id='org.jbundle.util.webapp.base/1.3.3.SNAPSHOT' symbolicname='org.jbundle.util.webapp.base' presentationname='jbundle-util-webapp-base - base servlet' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/util/webapp/org.jbundle.util.webapp.base/1.3.3-SNAPSHOT/org.jbundle.util.webapp.base-1.3.3-20130611.045239-3.jar' version='1.3.3.SNAPSHOT'>
     <description>This project provides a template for a base servlet.        This servlet has simple functionality that is shared with several servlets.</description>
-    <size>22953</size>
+    <size>22996</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -25,9 +25,9 @@
     <require name='package' filter='(&amp;(package=org.osgi.service.http)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.service.http;resolution:=optional;version="[1.2,2)"</require>
     <require name='package' filter='(&amp;(package=org.osgi.util.tracker)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.util.tracker;resolution:=optional;version="[1.4,2)"</require>
   </resource>
-  <resource id='org.jbundle.util.webapp.files/1.3.3.SNAPSHOT' symbolicname='org.jbundle.util.webapp.files' presentationname='jbundle-util-webapp-files - webapp files' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/util/webapp/org.jbundle.util.webapp.files/1.3.3-SNAPSHOT/org.jbundle.util.webapp.files-1.3.3-20130509.235832-1.jar' version='1.3.3.SNAPSHOT'>
+  <resource id='org.jbundle.util.webapp.files/1.3.3.SNAPSHOT' symbolicname='org.jbundle.util.webapp.files' presentationname='jbundle-util-webapp-files - webapp files' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/util/webapp/org.jbundle.util.webapp.files/1.3.3-SNAPSHOT/org.jbundle.util.webapp.files-1.3.3-20130611.045311-3.jar' version='1.3.3.SNAPSHOT'>
     <description>This project provides a template for a simple file download site.   Just drop your files into the root directory and your users will be able to   view and download your files.</description>
-    <size>6529</size>
+    <size>6530</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -50,7 +50,7 @@
     <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.framework;resolution:=optional;version="[1.5,2)"</require>
     <require name='package' filter='(&amp;(package=org.osgi.service.http)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.service.http;resolution:=optional;version="[1.2,2)"</require>
   </resource>
-  <resource id='org.jbundle.util.webapp.proxy/1.3.3.SNAPSHOT' symbolicname='org.jbundle.util.webapp.proxy' presentationname='jbundle-util-webapp-proxy - proxy servlet' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/util/webapp/org.jbundle.util.webapp.proxy/1.3.3-SNAPSHOT/org.jbundle.util.webapp.proxy-1.3.3-20130509.235900-1.jar' version='1.3.3.SNAPSHOT'>
+  <resource id='org.jbundle.util.webapp.proxy/1.3.3.SNAPSHOT' symbolicname='org.jbundle.util.webapp.proxy' presentationname='jbundle-util-webapp-proxy - proxy servlet' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/util/webapp/org.jbundle.util.webapp.proxy/1.3.3-SNAPSHOT/org.jbundle.util.webapp.proxy-1.3.3-20130611.045336-3.jar' version='1.3.3.SNAPSHOT'>
     <description>This project provides a template for a proxy servlet.   This servlet will forward requests to another site and return   the result as if it existed on your server.</description>
     <size>7631</size>
     <documentation>http://www.jbundle.org</documentation>
@@ -77,7 +77,7 @@
     <require name='package' filter='(&amp;(package=org.jbundle.util.webapp.base)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.webapp.base;resolution:=optional;version="[1.3,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.util.webapp.redirect)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.webapp.redirect;resolution:=optional;version="[1.3,2)"</require>
   </resource>
-  <resource id='org.jbundle.util.webapp.redirect/1.3.3.SNAPSHOT' symbolicname='org.jbundle.util.webapp.redirect' presentationname='jbundle-util-webapp-redirect - redirect servlet' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/util/webapp/org.jbundle.util.webapp.redirect/1.3.3-SNAPSHOT/org.jbundle.util.webapp.redirect-1.3.3-20130509.235809-1.jar' version='1.3.3.SNAPSHOT'>
+  <resource id='org.jbundle.util.webapp.redirect/1.3.3.SNAPSHOT' symbolicname='org.jbundle.util.webapp.redirect' presentationname='jbundle-util-webapp-redirect - redirect servlet' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/util/webapp/org.jbundle.util.webapp.redirect/1.3.3-SNAPSHOT/org.jbundle.util.webapp.redirect-1.3.3-20130611.045250-3.jar' version='1.3.3.SNAPSHOT'>
     <description>This project provides a template for a redirect servlet.        This servlet will automatically redirect matching urls to another site.</description>
     <size>7575</size>
     <documentation>http://www.jbundle.org</documentation>
@@ -97,9 +97,9 @@
     <require name='package' filter='(&amp;(package=javax.servlet.http))' extend='false' multiple='false' optional='true'>Import package javax.servlet.http;resolution:=optional</require>
     <require name='package' filter='(&amp;(package=org.jbundle.util.webapp.base)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.webapp.base;resolution:=optional;version="[1.3,2)"</require>
   </resource>
-  <resource id='org.jbundle.util.webapp.sample/1.3.3.SNAPSHOT' symbolicname='org.jbundle.util.webapp.sample' presentationname='jbundle-util-webapp-sample - Simple java sample app' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/util/webapp/org.jbundle.util.webapp.sample/1.3.3-SNAPSHOT/org.jbundle.util.webapp.sample-1.3.3-20130509.235952-1.jar' version='1.3.3.SNAPSHOT'>
+  <resource id='org.jbundle.util.webapp.sample/1.3.3.SNAPSHOT' symbolicname='org.jbundle.util.webapp.sample' presentationname='jbundle-util-webapp-sample - Simple java sample app' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/util/webapp/org.jbundle.util.webapp.sample/1.3.3-SNAPSHOT/org.jbundle.util.webapp.sample-1.3.3-20130611.045428-3.jar' version='1.3.3.SNAPSHOT'>
     <description>Top level properties and features</description>
-    <size>7984</size>
+    <size>7983</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -115,9 +115,9 @@
     </capability>
     <require name='package' filter='(&amp;(package=javax.swing))' extend='false' multiple='false' optional='true'>Import package javax.swing;resolution:=optional</require>
   </resource>
-  <resource id='org.jbundle.util.webapp.upload/1.3.3.SNAPSHOT' symbolicname='org.jbundle.util.webapp.upload' presentationname='jbundle-util-webapp-upload - web upload servlet' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/util/webapp/org.jbundle.util.webapp.upload/1.3.3-SNAPSHOT/org.jbundle.util.webapp.upload-1.3.3-20130509.235927-1.jar' version='1.3.3.SNAPSHOT'>
+  <resource id='org.jbundle.util.webapp.upload/1.3.3.SNAPSHOT' symbolicname='org.jbundle.util.webapp.upload' presentationname='jbundle-util-webapp-upload - web upload servlet' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/util/webapp/org.jbundle.util.webapp.upload/1.3.3-SNAPSHOT/org.jbundle.util.webapp.upload-1.3.3-20130611.045356-3.jar' version='1.3.3.SNAPSHOT'>
     <description>This project provides a template for a file upload site.        Select a file in your web browser, and it will be uploaded to your web server.</description>
-    <size>7472</size>
+    <size>7470</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -136,7 +136,7 @@
     <require name='package' filter='(&amp;(package=javax.servlet.http))' extend='false' multiple='false' optional='true'>Import package javax.servlet.http;resolution:=optional</require>
     <require name='package' filter='(&amp;(package=org.jbundle.util.webapp.base)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.webapp.base;resolution:=optional;version="[1.3,2)"</require>
   </resource>
-  <resource id='org.jbundle.util.webapp.upload.unjar/1.3.3.SNAPSHOT' symbolicname='org.jbundle.util.webapp.upload.unjar' presentationname='jbundle-util-webapp-upload-unjar - unjar servlet' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/util/webapp/org.jbundle.util.webapp.upload.unjar/1.3.3-SNAPSHOT/org.jbundle.util.webapp.upload.unjar-1.3.3-20130509.235941-1.jar' version='1.3.3.SNAPSHOT'>
+  <resource id='org.jbundle.util.webapp.upload.unjar/1.3.3.SNAPSHOT' symbolicname='org.jbundle.util.webapp.upload.unjar' presentationname='jbundle-util-webapp-upload-unjar - unjar servlet' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/util/webapp/org.jbundle.util.webapp.upload.unjar/1.3.3-SNAPSHOT/org.jbundle.util.webapp.upload.unjar-1.3.3-20130611.045407-3.jar' version='1.3.3.SNAPSHOT'>
     <description>Top level properties and features</description>
     <size>5706</size>
     <documentation>http://www.jbundle.org</documentation>
@@ -158,9 +158,9 @@
     <require name='package' filter='(&amp;(package=org.jbundle.util.webapp.base)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.webapp.base;resolution:=optional;version="[1.3,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.util.webapp.upload)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.webapp.upload;resolution:=optional;version="[1.3,2)"</require>
   </resource>
-  <resource id='org.jbundle.util.webapp.webdav/1.3.3.SNAPSHOT' symbolicname='org.jbundle.util.webapp.webdav' presentationname='jbundle-util-webapp-webdav - webdav directory' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/util/webapp/org.jbundle.util.webapp.webdav/1.3.3-SNAPSHOT/org.jbundle.util.webapp.webdav-1.3.3-20130509.235846-1.jar' version='1.3.3.SNAPSHOT'>
+  <resource id='org.jbundle.util.webapp.webdav/1.3.3.SNAPSHOT' symbolicname='org.jbundle.util.webapp.webdav' presentationname='jbundle-util-webapp-webdav - webdav directory' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/util/webapp/org.jbundle.util.webapp.webdav/1.3.3-SNAPSHOT/org.jbundle.util.webapp.webdav-1.3.3-20130611.045322-3.jar' version='1.3.3.SNAPSHOT'>
     <description>This project provides a template for a webdav site.        You can read and write files to this site using most applications (such as MS Word, OpenOffice, etc).        You can also add some security to this site.</description>
-    <size>6332</size>
+    <size>6330</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -180,9 +180,9 @@
     <require name='package' filter='(&amp;(package=org.apache.naming.resources))' extend='false' multiple='false' optional='true'>Import package org.apache.naming.resources;resolution:=optional</require>
     <require name='package' filter='(&amp;(package=org.jbundle.util.webapp.base)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.webapp.base;resolution:=optional;version="[1.3,2)"</require>
   </resource>
-  <resource id='org.jbundle.util.webapp.website/1.3.3.SNAPSHOT' symbolicname='org.jbundle.util.webapp.website' presentationname='jbundle-util-webapp-website - simple website' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/util/webapp/org.jbundle.util.webapp.website/1.3.3-SNAPSHOT/org.jbundle.util.webapp.website-1.3.3-20130509.235821-1.jar' version='1.3.3.SNAPSHOT'>
+  <resource id='org.jbundle.util.webapp.website/1.3.3.SNAPSHOT' symbolicname='org.jbundle.util.webapp.website' presentationname='jbundle-util-webapp-website - simple website' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/util/webapp/org.jbundle.util.webapp.website/1.3.3-SNAPSHOT/org.jbundle.util.webapp.website-1.3.3-20130611.045301-3.jar' version='1.3.3.SNAPSHOT'>
     <description>This project provides a template for a simple web site.        Just drop your html files into the root directory and voilà, you have a web site.</description>
-    <size>3876</size>
+    <size>3875</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -199,7 +199,7 @@
     <require name='package' filter='(&amp;(package=org.jbundle.util.webapp.base)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.webapp.base;resolution:=optional;version="[1.3,2)"</require>
     <require name='package' filter='(&amp;(package=org.jbundle.util.webapp.redirect)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.webapp.redirect;resolution:=optional;version="[1.3,2)"</require>
   </resource>
-  <resource id='org.jbundle.util.webapp.xsl/1.3.3.SNAPSHOT' symbolicname='org.jbundle.util.webapp.xsl' presentationname='jbundle-util-webapp-xsl - xsl servlet' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/util/webapp/org.jbundle.util.webapp.xsl/1.3.3-SNAPSHOT/org.jbundle.util.webapp.xsl-1.3.3-20130510.000027-1.jar' version='1.3.3.SNAPSHOT'>
+  <resource id='org.jbundle.util.webapp.xsl/1.3.3.SNAPSHOT' symbolicname='org.jbundle.util.webapp.xsl' presentationname='jbundle-util-webapp-xsl - xsl servlet' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/util/webapp/org.jbundle.util.webapp.xsl/1.3.3-SNAPSHOT/org.jbundle.util.webapp.xsl-1.3.3-20130611.045452-3.jar' version='1.3.3.SNAPSHOT'>
     <description>This project provides a template for a xsl servlet.        This servlet will automatically create xhtml from xml and xsl files using xslt.        A poor man&apos;s cocoon.</description>
     <size>5952</size>
     <documentation>http://www.jbundle.org</documentation>

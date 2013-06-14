@@ -33,6 +33,7 @@ shell:source file:/home/don/workspace/workspace/bin/dev/karaf.shell
 
 features:addurl mvn:org.apache.karaf.cave/apache-karaf-cave/3.0.0-SNAPSHOT/xml/features
 features:install cave-obr-server
+sleep 3000
 cave:create-repository cave-repo
 cave:proxy-repository cave-repo file:/home/don/.m2/repository/org/jbundle
 cave:proxy-repository cave-repo file:/home/don/.m2/repository/com/tourapp
@@ -45,6 +46,8 @@ config:update
 obr:start -d org.jbundle.util.webapp.redirect
 
 bin/client -h donandann.com -u don -p donwpp
+
+localhost:8181/webstart/docs/jsappleta.html?appletClass=org.jbundle.Main&webStartPropertiesFile=org/jbundle/res/webstart/tourapp.properties
 
 # config:edit org.jbundle.util.webapp.webdav
 # config:propset basePath /space/web/jbundle/site

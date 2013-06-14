@@ -1,7 +1,7 @@
-<repository lastmodified='20130601095813.953'>
-  <resource id='org.jbundle.res.docs.styles/1.6.5.SNAPSHOT' symbolicname='org.jbundle.res.docs.styles' presentationname='jbundle-util-osgi-docs-styles javascript utilities' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/util/osgi/org.jbundle.res.docs.styles/1.6.5-SNAPSHOT/org.jbundle.res.docs.styles-1.6.5-20130602.045805-3.jar' version='1.6.5.SNAPSHOT'>
+<repository lastmodified='20130613050458.958'>
+  <resource id='org.jbundle.res.docs.styles/1.6.5.SNAPSHOT' symbolicname='org.jbundle.res.docs.styles' presentationname='jbundle-util-osgi-docs-styles javascript utilities' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/util/osgi/org.jbundle.res.docs.styles/1.6.5-SNAPSHOT/org.jbundle.res.docs.styles-1.6.5-20130614.000444-9.jar' version='1.6.5.SNAPSHOT'>
     <description>javascript utilities</description>
-    <size>28916</size>
+    <size>541447</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -11,7 +11,15 @@
       <p n='manifestversion' v='2'/>
     </capability>
     <capability name='package'>
-      <p n='package' v='org.jbundle.res.docs.styles.js.jbundle.xsl'/>
+      <p n='package' v='org.jbundle.res.docs.styles.js-debug.jbundle'/>
+      <p n='version' t='version' v='1.6.5.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js-debug'/>
+      <p n='version' t='version' v='1.6.5.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js-debug.jbundle.resources'/>
       <p n='version' t='version' v='1.6.5.SNAPSHOT'/>
     </capability>
     <capability name='package'>
@@ -22,10 +30,38 @@
       <p n='package' v='org.jbundle.res.docs.styles.js.jbundle'/>
       <p n='version' t='version' v='1.6.5.SNAPSHOT'/>
     </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js'/>
+      <p n='version' t='version' v='1.6.5.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.jbundle.resources'/>
+      <p n='version' t='version' v='1.6.5.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.jbundle.resources.images'/>
+      <p n='version' t='version' v='1.6.5.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.jbundle.nls'/>
+      <p n='version' t='version' v='1.6.5.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js-debug.jbundle.xsl'/>
+      <p n='version' t='version' v='1.6.5.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js-debug.jbundle.resources.images'/>
+      <p n='version' t='version' v='1.6.5.SNAPSHOT'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.jbundle.xsl'/>
+      <p n='version' t='version' v='1.6.5.SNAPSHOT'/>
+    </capability>
   </resource>
-  <resource id='org.jbundle.util.osgi.webstart/1.6.5.SNAPSHOT' symbolicname='org.jbundle.util.osgi.webstart' presentationname='jbundle-util-osgi-webstart - osgi to web start web bundle' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/util/osgi/org.jbundle.util.osgi.webstart/1.6.5-SNAPSHOT/org.jbundle.util.osgi.webstart-1.6.5-20130601.005158-1.jar' version='1.6.5.SNAPSHOT'>
+  <resource id='org.jbundle.util.osgi.webstart/1.6.5.SNAPSHOT' symbolicname='org.jbundle.util.osgi.webstart' presentationname='jbundle-util-osgi-webstart - osgi to web start web bundle' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/util/osgi/org.jbundle.util.osgi.webstart/1.6.5-SNAPSHOT/org.jbundle.util.osgi.webstart-1.6.5-20130613.222137-5.jar' version='1.6.5.SNAPSHOT'>
     <description>osgi to web start servlet</description>
-    <size>57667</size>
+    <size>58465</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -49,9 +85,9 @@
     <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.framework;resolution:=optional;version="[1.5,2)"</require>
     <require name='package' filter='(&amp;(package=org.osgi.service.http)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.service.http;resolution:=optional;version="[1.2,2)"</require>
   </resource>
-  <resource id='org.jbundle.util.osgi.webstart.browser/1.6.5.SNAPSHOT' symbolicname='org.jbundle.util.osgi.webstart.browser' presentationname='jbundle-util-osgi-webstart-browser - java to javascript link' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/util/osgi/org.jbundle.util.osgi.webstart.browser/1.6.5-SNAPSHOT/org.jbundle.util.osgi.webstart.browser-1.6.5-20130601.005219-1.jar' version='1.6.5.SNAPSHOT'>
+  <resource id='org.jbundle.util.osgi.webstart.browser/1.6.5.SNAPSHOT' symbolicname='org.jbundle.util.osgi.webstart.browser' presentationname='jbundle-util-osgi-webstart-browser - java to javascript link' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/util/osgi/org.jbundle.util.osgi.webstart.browser/1.6.5-SNAPSHOT/org.jbundle.util.osgi.webstart.browser-1.6.5-20130613.222158-5.jar' version='1.6.5.SNAPSHOT'>
     <description>java to javascript link</description>
-    <size>5688</size>
+    <size>5686</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -68,9 +104,9 @@
     <require name='package' filter='(&amp;(package=netscape.javascript))' extend='false' multiple='false' optional='true'>Import package netscape.javascript;resolution:=optional</require>
     <require name='package' filter='(&amp;(package=org.jbundle.util.osgi.webstart.util)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.osgi.webstart.util;resolution:=optional;version="[1.6,2)"</require>
   </resource>
-  <resource id='org.jbundle.res.dojo/1.6.5.SNAPSHOT' symbolicname='org.jbundle.res.dojo' presentationname='jbundle-util-osgi-webstart-dojo - dojo project' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/util/osgi/org.jbundle.res.dojo/1.6.5-SNAPSHOT/org.jbundle.res.dojo-1.6.5-20130601.005243-1.jar' version='1.6.5.SNAPSHOT'>
+  <resource id='org.jbundle.res.dojo/1.6.5.SNAPSHOT' symbolicname='org.jbundle.res.dojo' presentationname='jbundle-util-osgi-webstart-dojo - dojo project' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/util/osgi/org.jbundle.res.dojo/1.6.5-SNAPSHOT/org.jbundle.res.dojo-1.6.5-20130613.222223-5.jar' version='1.6.5.SNAPSHOT'>
     <description>dojo toolkit osgi package</description>
-    <size>12848451</size>
+    <size>12848448</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
@@ -2944,7 +2980,7 @@
       <p n='version' t='version' v='1.6.5.SNAPSHOT'/>
     </capability>
   </resource>
-  <resource id='org.jbundle.util.osgi.webstart.util/1.6.5.SNAPSHOT' symbolicname='org.jbundle.util.osgi.webstart.util' presentationname='jbundle-util-osgi-webstart-util - url utilities' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/util/osgi/org.jbundle.util.osgi.webstart.util/1.6.5-SNAPSHOT/org.jbundle.util.osgi.webstart.util-1.6.5-20130601.005209-1.jar' version='1.6.5.SNAPSHOT'>
+  <resource id='org.jbundle.util.osgi.webstart.util/1.6.5.SNAPSHOT' symbolicname='org.jbundle.util.osgi.webstart.util' presentationname='jbundle-util-osgi-webstart-util - url utilities' uri='https://oss.sonatype.org/content/groups/public/org/jbundle/util/osgi/org.jbundle.util.osgi.webstart.util/1.6.5-SNAPSHOT/org.jbundle.util.osgi.webstart.util-1.6.5-20130613.222147-5.jar' version='1.6.5.SNAPSHOT'>
     <description>url utilities</description>
     <size>4976</size>
     <documentation>http://www.jbundle.org</documentation>
