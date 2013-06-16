@@ -157,7 +157,7 @@
       </p>
       <p>
       Now that you have finished your application, you may want to save your application and program data. Click on the
-      <img src="/org/jbundle/res/images/buttons/Export.gif"/> Export icon this display the Export Screen. Now click on the
+      <img src="/org/jbundle/res/images/buttons/Export.gif"/> Export icon to display the Export Screen. Now click on the
       Export button to export your program's data and then click on the Export System Data button to export your program
       parameters. You will find your data in the src/main/resources directory.
       </p>

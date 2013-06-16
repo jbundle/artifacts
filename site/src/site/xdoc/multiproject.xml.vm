@@ -21,7 +21,7 @@
       <img src="images/multiproject/01-project.png"/>
       </p>
       <p>
-      You mat create the maven project files manually, or press the <img src="/org/jbundle/res/images/buttons/Run.gif"/> 'Create maven projects' button to create
+      You can create the maven project files manually, or press the <img src="/org/jbundle/res/images/buttons/Run.gif"/> 'Create maven projects' button to create
       a skeleton project file in each of the project directories and in the parent directory.
       </p>
     </section>
