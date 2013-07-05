@@ -2816,7 +2816,7 @@
       <p n='version' t='version' v='0.8.0.SNAPSHOT'/>
     </capability>
     <capability name='package'>
-      <p n='package' v='org.jbundle.res.docs.styles.js.tourapp'/>
+      <p n='package' v='org.jbundle.res.docs.styles.js.tourgeek'/>
       <p n='version' t='version' v='0.8.0.SNAPSHOT'/>
     </capability>
     <capability name='package'>
@@ -2824,7 +2824,7 @@
       <p n='version' t='version' v='0.8.0.SNAPSHOT'/>
     </capability>
     <capability name='package'>
-      <p n='package' v='org.jbundle.res.docs.styles.js.tourapp.xsl'/>
+      <p n='package' v='org.jbundle.res.docs.styles.js.tourgeek.xsl'/>
       <p n='version' t='version' v='0.8.0.SNAPSHOT'/>
     </capability>
     <capability name='package'>

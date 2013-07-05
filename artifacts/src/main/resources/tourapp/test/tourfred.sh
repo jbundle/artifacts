@@ -8,4 +8,4 @@ if [ "$1" = "debug" ] ; then
 else
   DEBUG=''
 fi
-java $DEBUG -Xms256m -Xmx512m org.jbundle.Main url=http://fred.demo.tourgeek.com:8181/tourapp baseURL=fred.demo.tourgeek.com:8181/ domain=fred.demo.tourgeek.com background=backgrounds/worldmapalpha.gif backgroundcolor=#FFEEEE remotehost=fred.demo.tourgeek.com codebase=fred.demo.tourgeek.com:8181/ connectionType=proxy
+java $DEBUG -Xms256m -Xmx512m org.jbundle.Main url=http://fred.demo.tourgeek.com:8181/tourgeek baseURL=fred.demo.tourgeek.com:8181/ domain=fred.demo.tourgeek.com background=backgrounds/worldmapalpha.gif backgroundcolor=#FFEEEE remotehost=fred.demo.tourgeek.com codebase=fred.demo.tourgeek.com:8181/ connectionType=proxy

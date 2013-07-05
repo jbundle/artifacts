@@ -4,7 +4,7 @@ config:propset table Jdbc
 config:propset remote Jdbc
 config:propset local Jdbc
 config:propset messageserver false
-# config:propset menu dev.tourapp.com
+# config:propset menu dev.tourgeek.com
 config:propset background backgrounds/worldmapalpha.gif
 config:propset backgroundcolor '#EEEEFF'
 # config:propset remotehost localhost
@@ -16,9 +16,9 @@ obr:start org.jbundle.base.screen.control.swing
 
 repos add http://repository.jbundle.org:8081/nexus/content/repositories/repository/repository.xml
 repos remove http://repository.jbundle.org:8081/nexus/content/repositories/repository/jbundle-repository-0.8.0-SNAPSHOT.xml
-repos remove http://repository.jbundle.org:8081/nexus/content/repositories/repository/tourapp-repository-0.8.0-SNAPSHOT.xml
+repos remove http://repository.jbundle.org:8081/nexus/content/repositories/repository/tourgeek-repository-0.8.0-SNAPSHOT.xml
 repos add file:/usr/local/java/web/apache-karaf-2.2.8/cave/jbundle/repository.xml
-repos add file:/usr/local/java/web/apache-karaf-2.2.8/cave/tourapp/repository.xml
+repos add file:/usr/local/java/web/apache-karaf-2.2.8/cave/tourgeek/repository.xml
 obr:addurl mvn:org.jbundle.config/jbundle-artifacts/1.2.6/xml/repository
 
 deploy org.jbundle.app.program.manual
@@ -36,7 +36,7 @@ features:install cave-obr-server
 sleep 3000
 cave:create-repository cave-repo
 cave:proxy-repository cave-repo file:/home/don/.m2/repository/org/jbundle
-cave:proxy-repository cave-repo file:/home/don/.m2/repository/com/tourapp
+cave:proxy-repository cave-repo file:/home/don/.m2/repository/com/tourgeek
 cave:proxy-repository cave-repo file:/home/don/.m2/repository/org/jibx
 
 config:edit org.jbundle.util.webapp.redirect
@@ -47,7 +47,7 @@ obr:start -d org.jbundle.util.webapp.redirect
 
 bin/client -h donandann.com -u don -p donwpp
 
-localhost:8181/webstart/docs/jsappleta.html?appletClass=org.jbundle.Main&webStartPropertiesFile=org/jbundle/res/webstart/tourapp.properties
+localhost:8181/webstart/docs/jsappleta.html?appletClass=org.jbundle.Main&webStartPropertiesFile=org/jbundle/res/webstart/tourgeek.properties
 
 # config:edit org.jbundle.util.webapp.webdav
 # config:propset basePath /space/web/jbundle/site
@@ -59,29 +59,29 @@ osgi:install -s webbundle:file:/home/don/workspace/workspace/jbundle/util/webapp
 osgi:install -s file:/home/don/workspace/workspace/jbundle/util/webapp/webstart/target/org.jbundle.util.webapp.webstart-1.1.0-SNAPSHOT.war
 osgi:install -s webbundle:file:/home/don/workspace/workspace/jbundle/util/webapp/cgi/target/org.jbundle.util.webapp.cgi-1.1.0-SNAPSHOT.war?Bundle-SymbolicName=cgi&Webapp-Context=/awstats
 http://localhost:8181/webstart?webStartPropertiesFile=/org/jbundle/util/biorhythm/standalone.properties
-http://localhost:8181/webstart?webStartPropertiesFile=/org/jbundle/res/webstart/tourapplication.properties
-http://localhost:8181/webstart/docs/applet.html?webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
-http://localhost:8181/webstart?applet=org.jbundle.Main&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
+http://localhost:8181/webstart?webStartPropertiesFile=/org/jbundle/res/webstart/tourgeeklication.properties
+http://localhost:8181/webstart/docs/applet.html?webStartPropertiesFile=/org/jbundle/res/webstart/tourgeek.properties
+http://localhost:8181/webstart?applet=org.jbundle.Main&webStartPropertiesFile=/org/jbundle/res/webstart/tourgeek.properties
 http://localhost:8181/webstart?applet=org.jbundle.util.biorhythm.Biorhythm&language=es
 
-http://localhost:8181/appxsl#webstart?webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
+http://localhost:8181/appxsl#webstart?webStartPropertiesFile=/org/jbundle/res/webstart/tourgeek.properties
 
 -----Yes-----
-http://localhost:8181/appxsl#webstart?applet=org.jbundle.Main&userid=1&webStart=thick&menu=dev.tourapp.com
-http://localhost:8181/appxsl#webstart?applet=org.jbundle.Main&userid=1&webStart=thick&menu=dev.tourapp.com&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
-http://localhost:8181/appxsl#webstart?applet=org.jbundle.Main&userid=1&menu=dev.tourapp.com&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
-http://localhost:8181/appxsl#?applet=&userid=1&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
+http://localhost:8181/appxsl#webstart?applet=org.jbundle.Main&userid=1&webStart=thick&menu=dev.tourgeek.com
+http://localhost:8181/appxsl#webstart?applet=org.jbundle.Main&userid=1&webStart=thick&menu=dev.tourgeek.com&webStartPropertiesFile=/org/jbundle/res/webstart/tourgeek.properties
+http://localhost:8181/appxsl#webstart?applet=org.jbundle.Main&userid=1&menu=dev.tourgeek.com&webStartPropertiesFile=/org/jbundle/res/webstart/tourgeek.properties
+http://localhost:8181/appxsl#?applet=&userid=1&webStartPropertiesFile=/org/jbundle/res/webstart/tourgeek.properties
 
 http://localhost:8181/appxsl#%3Fmenu%3Dapp%26userid%3D1%26applet%3D%
-http://localhost:8181/appxsl#?menu=app&userid=1&applet=&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
+http://localhost:8181/appxsl#?menu=app&userid=1&applet=&webStartPropertiesFile=/org/jbundle/res/webstart/tourgeek.properties
 
-http://localhost:8181/appxsl#%3Fmenu%3Dapp%26userid%3D1&applet%3D%26webStartPropertiesFile%3D/org/jbundle/res/webstart/tourapp.properties
+http://localhost:8181/appxsl#%3Fmenu%3Dapp%26userid%3D1&applet%3D%26webStartPropertiesFile%3D/org/jbundle/res/webstart/tourgeek.properties
 http://localhost:8181/appxsl#%3Fmenu%3Doperation%26background%3Dbackgrounds%252Fworldmapalpha.gif%26userid%3D1%26applet%3D
 
 
 http://localhost:8181/appxsl#?menu=app&userid=1&applet=org.jbundle.Main
-http://localhost:8181/appxsl#webstart%3Fapplet%3Dorg.jbundle.Main%26userid%3D1%26menu%3Ddev.tourapp.com%26webStartPropertiesFile%3D/org/jbundle/res/webstart/tourapp.properties
-http://localhost:8181/appxsl#%3Fmenu%3Dapp%26background%3Dbackgrounds%252Fworldmapalpha.gif%26userid%3D1%26applet%3D%26webStartPropertiesFile%3D/org/jbundle/res/webstart/tourapp.properties
+http://localhost:8181/appxsl#webstart%3Fapplet%3Dorg.jbundle.Main%26userid%3D1%26menu%3Ddev.tourgeek.com%26webStartPropertiesFile%3D/org/jbundle/res/webstart/tourgeek.properties
+http://localhost:8181/appxsl#%3Fmenu%3Dapp%26background%3Dbackgrounds%252Fworldmapalpha.gif%26userid%3D1%26applet%3D%26webStartPropertiesFile%3D/org/jbundle/res/webstart/tourgeek.properties
 
 install mvn:javax.ws.rs/javax.ws.rs-api/2.0-m14
 features:addurl mvn:org.apache.servicemix/apache-servicemix/4.4.2/xml/features
@@ -96,10 +96,10 @@ features:install http obr war cxf
 
 http://192.168.1.66:8181/org.jbundle.util.webapp.webstart/docs/manual.html
 http://192.168.1.66:8181/webstart/docs/applet.html?webStartPropertiesFile=org/jbundle/util/biorhythm/applet.properties
-http://192.168.1.66:8181/webstart/docs/applet.html?userid=1&menu=dev.tourapp.com&webStartPropertiesFile=/org/jbundle/res/webstart/tourapp.properties
+http://192.168.1.66:8181/webstart/docs/applet.html?userid=1&menu=dev.tourgeek.com&webStartPropertiesFile=/org/jbundle/res/webstart/tourgeek.properties
 
 &org.jbundle.util.osgi.webstart.webStartComponents=/org/jbundle/res/webstart/tour.properties,/org/jbundle/res/webstart/thick.properties,/org/jbundle/res/webstart/thin.properties,/org/jbundle/res/webstart/resource.properties&mainPackage=org.jbundle
-&org.jbundle.util.osgi.webstart.maxHeapSize=512m&code=org.jbundle.Main&record=com.tourapp.tour.booking.db.Booking&draggable=true&url=http://wilma.demo.tourgeek.com:8181/appxsl&appletClass=org.jbundle.Main&org.jbundle.util.osgi.webstart.codebase=/&org.jbundle.util.osgi.webstart.appletClass=org.jbundle.Main&datatype=jnlpapplet&background=backgrounds/worldmapalpha.gif&baseURL=wilma.demo.tourgeek.com:8181/&org.jbundle.util.osgi.webstart.initialHeapSize=128m&connectionType=Proxy&org.jbundle.util.osgi.webstart.webStartComponents=/org/jbundle/res/webstart/tour.properties,/org/jbundle/res/webstart/thick.properties,/org/jbundle/res/webstart/thin.properties,/org/jbundle/res/webstart/resource.properties&backgroundcolor=#EEEEFF&user=kate@tourgeek.com&domain=wilma.demo.tourgeek.com&mainPackage=org.jbundle
+&org.jbundle.util.osgi.webstart.maxHeapSize=512m&code=org.jbundle.Main&record=com.tourgeek.tour.booking.db.Booking&draggable=true&url=http://wilma.demo.tourgeek.com:8181/appxsl&appletClass=org.jbundle.Main&org.jbundle.util.osgi.webstart.codebase=/&org.jbundle.util.osgi.webstart.appletClass=org.jbundle.Main&datatype=jnlpapplet&background=backgrounds/worldmapalpha.gif&baseURL=wilma.demo.tourgeek.com:8181/&org.jbundle.util.osgi.webstart.initialHeapSize=128m&connectionType=Proxy&org.jbundle.util.osgi.webstart.webStartComponents=/org/jbundle/res/webstart/tour.properties,/org/jbundle/res/webstart/thick.properties,/org/jbundle/res/webstart/thin.properties,/org/jbundle/res/webstart/resource.properties&backgroundcolor=#EEEEFF&user=kate@tourgeek.com&domain=wilma.demo.tourgeek.com&mainPackage=org.jbundle
 
 obr:deploy -d org.jbundle.util.webapp.redirect
 config:edit org.jbundle.util.webapp.redirect

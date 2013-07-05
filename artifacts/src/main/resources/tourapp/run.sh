@@ -8,4 +8,4 @@ if [ "$1" = "debug" ] ; then
 else
   DEBUG=''
 fi
-java $DEBUG -Xms256m -Xmx512m org.jbundle.Main menu=dev.tourapp.com background=backgrounds/worldmapalpha.gif backgroundcolor=#EEEEFF remotehost=$SERVER codebase=$CODE_BASE mainSharedDBName=main_base connectionType=proxy
+java $DEBUG -Xms256m -Xmx512m org.jbundle.Main menu=dev.tourgeek.com background=backgrounds/worldmapalpha.gif backgroundcolor=#EEEEFF remotehost=$SERVER codebase=$CODE_BASE mainSharedDBName=main_base connectionType=proxy

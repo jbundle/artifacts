@@ -18,7 +18,7 @@ rm -fr $KARAF_DIST
 tar zxvf $KARAF_LOCATION
 
 cd $KARAF_DIST/etc/
-#  cp $DEV_LOCATION/bin/tourapp/policy/policy.all all.policy
+#  cp $DEV_LOCATION/bin/tourgeek/policy/policy.all all.policy
 #  echo -e '\norg.osgi.framework.security=osgi\n' >> custom.properties
 #  echo -e '\njava.security.policy=${karaf.base}/etc/all.policy\n' >> system.properties
 #  echo -e '\norg/apache/felix/org.apache.felix.security/1.4.2/org.apache.felix.framework.security-1.4.2.jar=1\n' >> startup.properties

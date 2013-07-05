@@ -25,7 +25,7 @@ $ASADMIN --user=$USER --host=$HOST --passwordfile=$PASSWORDFILE create-jvm-optio
 $ASADMIN --user=$USER --host=$HOST --passwordfile=$PASSWORDFILE set configs.config.server-config.http-service.access-log.format=combined
 #$ASADMIN --user=$USER --host=$HOST --passwordfile=$PASSWORDFILE set configs.config.server-config.http-service.access-log.format=%client.name%\ %datetime%\ %request%\ %status%\ %response.length%\ %header.referer%\ %header.user-agent%
 $ASADMIN --user=$USER --host=$HOST --passwordfile=$PASSWORDFILE set configs.config.server-config.http-service.access-logging-enabled=true
-# Need to restart since I need the ram to load tourapp
+# Need to restart since I need the ram to load tourgeek
 $ASADMIN --user=$USER --host=$HOST --passwordfile=$PASSWORDFILE restart-domain
 sleep 5
 

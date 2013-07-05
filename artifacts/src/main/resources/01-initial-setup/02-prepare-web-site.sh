@@ -1,8 +1,8 @@
 . ./set-env.sh $1 $2 $3
 
-rm -fr $WEB/tourapp
-SRC_DIR=$DEV_DIR/tourapp-root/tourapp-config/tourapp-config-web/tourapp-config-web-webapp/target/tourapp-config-web-webapp-$VERSION
-cp -r $SRC_DIR $WEB/tourapp
+rm -fr $WEB/tourgeek
+SRC_DIR=$DEV_DIR/tourgeek-root/tourgeek-config/tourgeek-config-web/tourgeek-config-web-webapp/target/tourgeek-config-web-webapp-$VERSION
+cp -r $SRC_DIR $WEB/tourgeek
 
 rm -fr $WEB/download
 cp -r $JBUNDLE_ROOT/jbundle-util-webapp-files/target/jbundle-util-webapp-files-$VERSION $WEB/download

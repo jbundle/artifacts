@@ -4,7 +4,7 @@ drop user ''@'linux-laptop';
 drop user ''@localhost;
 drop user 'root'@'linux-laptop';
 SELECT Host, User FROM mysql.user;
-create USER tourapp@localhost;
-SET PASSWORD FOR 'tourapp'@'localhost' = PASSWORD('sa1sa');
-GRANT ALL ON *.* TO 'tourapp'@'localhost';
+create USER tourgeek@localhost;
+SET PASSWORD FOR 'tourgeek'@'localhost' = PASSWORD('sa1sa');
+GRANT ALL ON *.* TO 'tourgeek'@'localhost';
 \q

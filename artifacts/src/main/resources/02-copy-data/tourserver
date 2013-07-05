@@ -2,10 +2,10 @@
 if [ "$1" = "start" ] ; then
 
 export SERVER=$HOST
-export TOURAPP=/space/web/tourapp
-export POLICY_ALL=$TOURAPP/bin/policy/policy.all
+export TOURGEEK=/space/web/tourgeek
+export POLICY_ALL=$TOURGEEK/bin/policy/policy.all
 export VERSION=0.7.7-SNAPSHOT
-export CLASSPATH=$TOURAPP/WEB-INF/lib/jbundle-base-screen-control-servlet-$VERSION.jar:$TOURAPP/WEB-INF/lib/*:/usr/local/java/web/glassfish/glassfish/lib/javaee.jar
+export CLASSPATH=$TOURGEEK/WEB-INF/lib/jbundle-base-screen-control-servlet-$VERSION.jar:$TOURGEEK/WEB-INF/lib/*:/usr/local/java/web/glassfish/glassfish/lib/javaee.jar
 export COMMAND="java -classpath \
 $CLASSPATH \
 -Xms256m -Xmx512m -Djava.rmi.server.codebase=http://$SERVER/classes/ \

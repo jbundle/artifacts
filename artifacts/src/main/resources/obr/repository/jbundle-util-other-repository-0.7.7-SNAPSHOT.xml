@@ -51,14 +51,14 @@
     <require name='package' filter='(&amp;(package=org.apache.http.params))' extend='false' multiple='false' optional='true'>Import package org.apache.http.params;resolution:=optional</require>
     <require name='package' filter='(&amp;(package=org.apache.http.util))' extend='false' multiple='false' optional='true'>Import package org.apache.http.util;resolution:=optional</require>
   </resource>
-  <resource id='com.tourapp.res.other.images/0.7.7.SNAPSHOT' symbolicname='com.tourapp.res.other.images' presentationname='tourapp-res-other-images - Other images' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/org/jbundle/config/other/com.tourapp.res.other.images/0.7.7-SNAPSHOT/com.tourapp.res.other.images-0.7.7-20121123.200301-1.jar' version='0.7.7.SNAPSHOT'>
+  <resource id='com.tourgeek.res.other.images/0.7.7.SNAPSHOT' symbolicname='com.tourgeek.res.other.images' presentationname='tourgeek-res-other-images - Other images' uri='http://repository.jbundle.org:8081/nexus/content/groups/public/org/jbundle/config/other/com.tourgeek.res.other.images/0.7.7-SNAPSHOT/com.tourgeek.res.other.images-0.7.7-20121123.200301-1.jar' version='0.7.7.SNAPSHOT'>
     <description>Top level properties and features</description>
     <size>411555</size>
     <documentation>http://www.jbundle.org</documentation>
     <license>http://www.gnu.org/licenses/gpl.txt</license>
     <capability name='bundle'>
-      <p n='symbolicname' v='com.tourapp.res.other.images'/>
-      <p n='presentationname' v='tourapp-res-other-images - Other images'/>
+      <p n='symbolicname' v='com.tourgeek.res.other.images'/>
+      <p n='presentationname' v='tourgeek-res-other-images - Other images'/>
       <p n='version' t='version' v='0.7.7.SNAPSHOT'/>
       <p n='manifestversion' v='2'/>
     </capability>

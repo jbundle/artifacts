@@ -3,7 +3,7 @@
 
 if [ "$1" = "start" ] ; then
 
-su -l glassfish -c '/space/web/tourapp/bin/server.sh'
+su -l glassfish -c '/space/web/tourgeek/bin/server.sh'
 
 # elif [ "$1" = "stop" ] ; then
 

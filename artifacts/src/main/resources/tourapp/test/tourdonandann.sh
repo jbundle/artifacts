@@ -10,4 +10,4 @@ else
 fi
 export SERVER=donandann.com
 export CODE_BASE=donandann.com
-java $DEBUG -Xms256m -Xmx512m com.tourapp.Main local=Jdbc remote=Jdbc table=Jdbc menu=dev.tourapp.com background=backgrounds/worldmapalpha.gif backgroundcolor=#FFFFCC remotehost=$SERVER codebase=$CODE_BASE dbserver=$SERVER
+java $DEBUG -Xms256m -Xmx512m com.tourgeek.Main local=Jdbc remote=Jdbc table=Jdbc menu=dev.tourgeek.com background=backgrounds/worldmapalpha.gif backgroundcolor=#FFFFCC remotehost=$SERVER codebase=$CODE_BASE dbserver=$SERVER

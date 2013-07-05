@@ -11,9 +11,9 @@ obr:addurl file:/home/don/workspace/workspace/artifacts/artifacts/target/classes
 # obr:removeurl file:/home/don/workspace/workspace/artifacts/artifacts/target/classes/obr/repository/jbundle-repository-1.0.1-SNAPSHOT.xml
 # cave:create-repository jbundle
 # cave:proxy-repository jbundle file:/home/don/.m2/repository/org/jbundle
-# obr:removeurl file:/home/don/workspace/workspace/artifacts/artifacts/target/classes/obr/repository/tourapp-repository-0.8.0-SNAPSHOT.xml
-# cave:create-repository tourapp
-# cave:proxy-repository tourapp file:/home/don/.m2/repository/com/tourapp
+# obr:removeurl file:/home/don/workspace/workspace/artifacts/artifacts/target/classes/obr/repository/tourgeek-repository-0.8.0-SNAPSHOT.xml
+# cave:create-repository tourgeek
+# cave:proxy-repository tourgeek file:/home/don/.m2/repository/com/tourgeek
 # obr:removeurl file:/home/don/workspace/workspace/artifacts/artifacts/target/classes/obr/repository/jbundle-repository-1.0.1-SNAPSHOT.xml
 # cave:create-repository jibx
 # cave:proxy-repository jibx file:/home/don/.m2/repository/org/jibx
@@ -34,14 +34,14 @@ config:propset readonly false
 config:propset listings true
 config:update
 # Start other web app
-obr:deploy -d com.tourapp.config.web.other
+obr:deploy -d com.tourgeek.config.web.other
 sleep 5000
-start com.tourapp.config.web.other
+start com.tourgeek.config.web.other
 sleep 1000
 # Start the tour application
-obr:deploy -d 'tourapp-config-web-httpweb - Hybrid osgi webapp'
+obr:deploy -d 'tourgeek-config-web-httpweb - Hybrid osgi webapp'
 sleep 4000
-start 'tourapp-config-web-httpweb - Hybrid osgi webapp'
+start 'tourgeek-config-web-httpweb - Hybrid osgi webapp'
 sleep 1000
 # Start up wars
 osgi:install -s webbundle:mvn:org.jbundle.util.webapp/org.jbundle.util.webapp.webstart//war

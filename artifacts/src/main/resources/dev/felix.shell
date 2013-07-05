@@ -6,7 +6,7 @@ deploy -s 'jbundle-util-osgi-obr - obr bundle retrieval'
 deploy -s 'jbundle-util-osgi-webstart - osgi to web start web bundle'
 deploy 'jbundle-base-remote - Remote server'
 # start org.jbundle.base.remote
-deploy 'tourapp-config-web-httpweb - Hybrid osgi webapp'
-# deploy com.tourapp.config.web.other
-deploy 'com.tourapp.config.web.other'
+deploy 'tourgeek-config-web-httpweb - Hybrid osgi webapp'
+# deploy com.tourgeek.config.web.other
+deploy 'com.tourgeek.config.web.other'
 
