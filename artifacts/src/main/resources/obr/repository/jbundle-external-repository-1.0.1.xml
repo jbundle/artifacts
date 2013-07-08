@@ -295,4 +295,25 @@
     <require name='package' filter='(&amp;(package=org.jboss.resource.adapter.jdbc))' extend='false' multiple='false' optional='true'>Import package org.jboss.resource.adapter.jdbc;resolution:=optional</require>
     <require name='package' filter='(&amp;(package=org.jboss.resource.adapter.jdbc.vendor))' extend='false' multiple='false' optional='true'>Import package org.jboss.resource.adapter.jdbc.vendor;resolution:=optional</require>
   </resource>
+  <resource id='javax.websocket-api/1.0.0' symbolicname='javax.websocket-api' presentationname='WebSocket server API' uri='http://repo.maven.apache.org/maven2/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0.jar' version='1.0.0'>
+    <description>JSR 356: Java API for WebSocket</description>
+    <size>36611</size>
+    <documentation>http://www.oracle.com</documentation>
+    <license>https://glassfish.java.net/public/CDDL+GPL_1_1.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='javax.websocket-api'/>
+      <p n='presentationname' v='WebSocket server API'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.websocket.server'/>
+      <p n='version' t='version' v='1.0.0'/>
+      <p n='uses:' v='javax.websocket'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.websocket'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+  </resource>
 </repository>

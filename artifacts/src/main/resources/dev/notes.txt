@@ -107,3 +107,11 @@ config:propset basePath file:/web/pictures/dojo/
 config:propset alias /test
 config:update
 
+
+----------------------
+start-domain
+create-jvm-options -Dglassfish.osgi.start.level.final=3
+osgi-shell
+install file:/home/don/.m2/repository/org/sample/sample-chat/1.0.0-SNAPSHOT/sample-chat-1.0.0-SNAPSHOT.war
+start xxx
+
