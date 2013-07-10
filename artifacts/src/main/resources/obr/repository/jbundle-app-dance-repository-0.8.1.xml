@@ -1,0 +1,49 @@
+<repository lastmodified='20130710035819.486'>
+  <resource id='org.jbundle.app.dance/0.8.1' symbolicname='org.jbundle.app.dance' presentationname='jbundle-app-dance - Dance example' uri='http://repo.maven.apache.org/maven2/org/jbundle/app/dance/org.jbundle.app.dance/0.8.1/org.jbundle.app.dance-0.8.1.jar' version='0.8.1'>
+    <description>Top level properties and features</description>
+    <size>72774</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.app.dance'/>
+      <p n='presentationname' v='jbundle-app-dance - Dance example'/>
+      <p n='version' t='version' v='0.8.1'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.app.dance.db'/>
+      <p n='version' t='version' v='0.8.1'/>
+      <p n='uses:' v='org.jbundle.model.db,org.jbundle.base.db,org.jbundle.base.model,org.jbundle.base.field,org.jbundle.model,org.jbundle.model.screen,org.jbundle.base.field.event'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.app.dance.screen'/>
+      <p n='version' t='version' v='0.8.1'/>
+      <p n='uses:' v='org.jbundle.base.db,org.jbundle.base.util,org.jbundle.base.model,org.jbundle.app.dance.db,org.jbundle.base.screen.model,org.jbundle.base.screen.model.util,org.jbundle.thin.base.db,org.jbundle.model,org.jbundle.base.field,org.jbundle.model.screen,org.jbundle.model.db,org.jbundle.base.db.filter,org.jbundle.base.field.event'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.app.dance.screen'/>
+      <p n='version' t='version' v='0.8.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.app.dance.db'/>
+      <p n='version' t='version' v='0.8.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.thin.app.dance.db'/>
+      <p n='version' t='version' v='0.8.1'/>
+      <p n='uses:' v='org.jbundle.thin.base.db'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.jbundle.base.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.db;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.base.db.filter)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.db.filter;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.base.field)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.field;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.base.field.event)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.field.event;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.base.model)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.model;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.base.screen.model)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.screen.model;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.base.screen.model.util)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.screen.model.util;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.base.util)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.base.util;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.model)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.model.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.db;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.model.screen)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.model.screen;resolution:=optional;version="[1.0,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.thin.base.db)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.thin.base.db;resolution:=optional;version="[1.0,2)"</require>
+  </resource>
+</repository>
