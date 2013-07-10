@@ -115,3 +115,16 @@ osgi-shell
 install file:/home/don/.m2/repository/org/sample/sample-chat/1.0.0-SNAPSHOT/sample-chat-1.0.0-SNAPSHOT.war
 start xxx
 
+
+features:addurl mvn:org.apache.karaf.cave/apache-karaf-cave/3.0.0-SNAPSHOT/xml/features
+features:install cave-obr-server
+sleep 3000
+cave:create-repository cave-repo
+obr:addurl http://chameleon.ow2.org/repository/chameleon-commons.xml
+obr:addurl http://chameleon.ow2.org/repository/chameleon-releases.xml
+obr:addurl http://www.jibx.org/repository/repository.xml
+obr:addurl file:/home/don/workspace/workspace/artifacts/artifacts/src/main/resources/obr/repository/jbundle-external-repository-1.0.1.xml
+obr:addurl file:/home/don/workspace/workspace/artifacts/artifacts/src/main/resources/obr/repository/jbundle-util-osgi-wrapped-repository-1.0.4.xml
+cave:proxy-repository cave-repo file:/home/don/.m2/repository/org/jbundle
+cave:proxy-repository cave-repo file:/home/don/.m2/repository/com/tourgeek
+
