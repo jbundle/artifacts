@@ -42,7 +42,7 @@
       <plugin>
         <groupId>org.jbundle.app.program</groupId>
         <artifactId>org.jbundle.app.program.plugin</artifactId>
-        <version>${jbundle-version}</version>
+        <version>${jbundle-version-range}</version>
         <executions>
           <execution>
             <id>execution1</id>
