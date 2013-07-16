@@ -2,7 +2,7 @@
 if [ "$1" = "start" ] ; then
 
 export VERSION=0.7.7-SNAPSHOT
-java -jar /space/app/jbundle-util-other-loaddist-$VERSION.jar org.jbundle.util.other.loaddist.sticky.StickyLoadDist $HOST:80,$HOST:8080
+java -jar /web/app/jbundle-util-other-loaddist-$VERSION.jar org.jbundle.util.other.loaddist.sticky.StickyLoadDist $HOST:80,$HOST:8080
 
 elif [ "$1" = "stop" ] ; then
 

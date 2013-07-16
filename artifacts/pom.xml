@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.jbundle.config.web</groupId>
     <artifactId>jbundle-artifacts-reactor</artifactId>
-    <version>1.3.1-SNAPSHOT</version>
+    <version>1.3.5-SNAPSHOT</version>
   </parent>
 
   <groupId>org.jbundle.config</groupId>
@@ -42,7 +42,7 @@
       <plugin>
         <groupId>org.jbundle.app.program</groupId>
         <artifactId>org.jbundle.app.program.plugin</artifactId>
-        <version>1.0.3</version>
+        <version>${jbundle-plugin-version}</version>
         <executions>
           <execution>
             <id>execution1</id>

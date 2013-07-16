@@ -42,7 +42,7 @@ $ASADMIN --user=$USER --host=$HOST --passwordfile=$PASSWORDFILE create-virtual-s
 $ASADMIN --user=$USER --host=$HOST --passwordfile=$PASSWORDFILE create-virtual-server --hosts www.jbundle.org,www.jbundle.com,jbundle.org,jbundle.com --httplisteners http-listener-1,http-listener-2 jbundle
 $ASADMIN --user=$USER --host=$HOST --passwordfile=$PASSWORDFILE create-virtual-server --hosts www.tourgeek.com,tourgeek.com --httplisteners http-listener-1,http-listener-2 tourgeek
 sleep 2
-# scp -r ../target/tourgeek-config-web-webapp-$VERSION/ glassfish@$HOST://space/web/tourgeek
+# scp -r ../target/tourgeek-config-web-webapp-$VERSION/ glassfish@$HOST://web/tourgeek
 
 $ASADMIN --user=$USER --host=$HOST --passwordfile=$PASSWORDFILE $DEPLOY_COMMAND --name demo --contextroot /demo --upload false $WEB/tourgeek/docs/com/tourgeek/www/
 $ASADMIN --user=$USER --host=$HOST --passwordfile=$PASSWORDFILE $DEPLOY_COMMAND --virtualservers jbundle --name jbundle --contextroot /jbundle --upload false $WEB/jbundle/
@@ -54,8 +54,8 @@ $ASADMIN --user=$USER --host=$HOST --passwordfile=$PASSWORDFILE $DEPLOY_COMMAND 
 # $ASADMIN --user=$USER --host=$HOST --passwordfile=$PASSWORDFILE redeploy --name tourgeek --contextroot /dance --upload false /home/don/workspace/jbundle-workspace/jbundle-app-dance-root/jbundle-app-dance-webapp/target/jbundle-app-dance-webapp-$VERSION.war
 
 # ********** Add this back - HUDSON does not work with glassfish 3.1 ************
-# $ASADMIN --user=$USER --host=$HOST --passwordfile=$PASSWORDFILE $DEPLOY_COMMAND --name hudson --virtualservers tourgeek,jbundle --contextroot /hudson --upload false /space/web/download/software/java/war/hudson.war
-$ASADMIN --user=$USER --host=$HOST --passwordfile=$PASSWORDFILE $DEPLOY_COMMAND --name biorhythm --contextroot /bio --upload false /space/web/download/software/java/war/bio.war
+# $ASADMIN --user=$USER --host=$HOST --passwordfile=$PASSWORDFILE $DEPLOY_COMMAND --name hudson --virtualservers tourgeek,jbundle --contextroot /hudson --upload false /web/download/software/java/war/hudson.war
+$ASADMIN --user=$USER --host=$HOST --passwordfile=$PASSWORDFILE $DEPLOY_COMMAND --name biorhythm --contextroot /bio --upload false /web/download/software/java/war/bio.war
 $ASADMIN --user=$USER --host=$HOST --passwordfile=$PASSWORDFILE set configs.config.server-config.network-config.protocols.protocol.http-listener-1.http.default-virtual-server=donandann
 $ASADMIN --user=$USER --host=$HOST --passwordfile=$PASSWORDFILE set configs.config.server-config.network-config.protocols.protocol.http-listener-2.http.default-virtual-server=donandann
 $ASADMIN --user=$USER --host=$HOST --passwordfile=$PASSWORDFILE set configs.config.server-config.http-service.virtual-server.jbundle.default-web-module=jbundle

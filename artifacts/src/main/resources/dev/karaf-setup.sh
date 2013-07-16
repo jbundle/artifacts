@@ -1,15 +1,15 @@
 export KARAF_DIST=apache-karaf-full-3.0.0-SNAPSHOT
 export KARAF_DIST=apache-servicemix-4.4.1-fuse-01-06
-KARAF_DIST=apache-karaf-2.3.1
+KARAF_DIST=apache-karaf-2.3.2
 # export KARAF_DIST=apache-servicemix-4.4.1
 # export KARAF_DIST=apache-servicemix-4.4.2
 
 export KARAF_LOCATION=~/workspace-karaf/karaf/assemblies/apache-karaf-full/target/apache-karaf-full-3.0.0-SNAPSHOT-bin.tar.gz
 export KARAF_LOCATION=/var/lib/jbundle/download/software/dev/osgi/karaf/$KARAF_DIST.tar.gz
-# export KARAF_LOCATION=/space/download/software/dev/soa/servicemix/$KARAF_DIST.tar.gz
+# export KARAF_LOCATION=/web/download/software/dev/soa/servicemix/$KARAF_DIST.tar.gz
 
 export DEV_LOCATION=~/workspace/workspace
-export DEV_LOCATION=/space/download/workspace
+export DEV_LOCATION=/web/download/workspace
 
 export INSTALL_LOCATION=/usr/local/java/web
 

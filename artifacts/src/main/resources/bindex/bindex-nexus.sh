@@ -1,6 +1,6 @@
 export REPO_LOCATION=/home/glassfish/sonatype-work/nexus/storage
 export PROGRAM_LOCATION=/usr/local/java
-# export WEB_LOCATION=/space/web/jbundle
+# export WEB_LOCATION=/web/web/jbundle
 export WEB_LOCATION=$REPO_LOCATION/repository
 cd $REPO_LOCATION/snapshots
 java -jar $PROGRAM_LOCATION/dev/bindex/bindex.jar -quiet -r snapshot-repository.xml -t http://snapshot.jbundle.org:8081/nexus/content/repositories/snapshots/%p/%f *

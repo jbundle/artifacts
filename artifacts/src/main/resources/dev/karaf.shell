@@ -29,7 +29,7 @@ start 'jbundle-base-remote - Remote server'
 sleep 4000
 # Configure webdav
 config:edit org.jbundle.util.webapp.webdav
-config:propset basePath /space/web/jbundle/site
+config:propset basePath /web/jbundle/webapp/webdav
 config:propset readonly false
 config:propset listings true
 config:update

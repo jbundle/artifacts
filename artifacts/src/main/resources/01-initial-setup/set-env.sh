@@ -1,7 +1,7 @@
 #!bin
 # BINDIR=`dirname $0`
 ASADMIN=/usr/local/java/web/glassfish/bin/asadmin
-WEB=/space/web
+WEB=/web
 VERSION=0.7.7-SNAPSHOT
 DEPLOY_COMMAND=deploy
 

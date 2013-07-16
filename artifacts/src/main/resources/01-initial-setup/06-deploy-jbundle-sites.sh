@@ -39,7 +39,7 @@ sleep 5
 $ASADMIN --user=$USER --host=$HOST --passwordfile=$PASSWORDFILE set configs.config.server-config.http-service.virtual-server.jbundle.default-web-module=jbundle
 
 # ********** Note: HUDSON does not work with glassfish 3.1 ************
-$ASADMIN --user=$USER --host=$HOST --passwordfile=$PASSWORDFILE $DEPLOY_COMMAND --name hudson --virtualservers jbundle --contextroot /hudson --upload false /space/web/download/software/java/war/hudson.war
+$ASADMIN --user=$USER --host=$HOST --passwordfile=$PASSWORDFILE $DEPLOY_COMMAND --name hudson --virtualservers jbundle --contextroot /hudson --upload false /web/download/software/java/war/hudson.war
 
 PROJECT=jbundle
 CONTEXT=/$PROJECT
