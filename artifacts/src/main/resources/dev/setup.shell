@@ -1,8 +1,6 @@
 # Web Server, OBR index, war support
 echo Starting up the jbundle framework. Please wait... this may take a few moments
-features:addurl mvn:org.apache.cxf.karaf/apache-cxf/${cxf-version}/xml/features
-features:install war cxf http obr
-# features:install http obr war
+features:install http obr war
 sleep 4000
 # Load the OBR index
 obr:addurl mvn:org.jbundle.config/jbundle-artifacts/${project.version}/xml/repository
