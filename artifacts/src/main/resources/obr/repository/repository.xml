@@ -20,7 +20,7 @@
   <referral depth="10" url="jbundle-util-wsdl-repository-${jbundle-util-wsdl-version}.xml"/>
   <referral depth="10" url="jbundle-util-biorhythm-repository-${jbundle-util-biorhythm-version}.xml"/>
   
-  <referral depth="10" url="jbundle-external-repository-1.0.1.xml"/>
+  <referral depth="10" url="jbundle-external-repository-1.0.2.xml"/>
   <referral depth="10" url="jbundle-util-osgi-wrapped-repository-1.0.4.xml"/>
 
   <referral depth="10" url="http://www.jibx.org/repository/repository.xml"/>
