@@ -10,6 +10,8 @@ sleep 1000
 # Start the OSGi to WebStart servlet
 obr:start -d 'jbundle-util-osgi-webstart - osgi to web start web bundle'
 sleep 1000
+# --------TEMPORARY -------- install the saaj module to get soap messaging
+obr:deploy -s org.apache.servicemix.bundles.saaj-impl
 # Start the jbundle web services app
 obr:deploy -d 'jbundle-base-remote - Remote server'
 sleep 4000
