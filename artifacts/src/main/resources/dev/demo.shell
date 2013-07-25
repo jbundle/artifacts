@@ -54,23 +54,23 @@ install -s mvn:org.jibx.test.examples/org.jibx.examples.cxf.ws
 sleep 1000
 install -s mvn:org.jibx.test.examples/org.jibx.examples.cxf.rs
 sleep 1000
-obr:start -d org.jibx.schema.org.opentravel._2012B.ping.ws.service
+obr:start -d org.jibx.schema.org.opentravel._2013A.ping.ws.service
 sleep 1000
-obr:start -d org.jibx.schema.org.opentravel._2012B.ping.ws.rest
+obr:start -d org.jibx.schema.org.opentravel._2013A.ping.ws.rest
 sleep 1000
-obr:start -d org.jibx.schema.org.opentravel._2012B.ping.ws.soap
+obr:start -d org.jibx.schema.org.opentravel._2013A.ping.ws.soap
 sleep 1000
-obr:start -d org.jibx.schema.org.opentravel._2012B.touractivity.ws.service
+obr:start -d org.jibx.schema.org.opentravel._2013A.touractivity.ws.service
 sleep 1000
-obr:start -d org.jibx.schema.org.opentravel._2012B.touractivity.ws.rest
+obr:start -d org.jibx.schema.org.opentravel._2013A.touractivity.ws.rest
 sleep 1000
-obr:start -d org.jibx.schema.org.opentravel._2012B.touractivity.ws.soap
+obr:start -d org.jibx.schema.org.opentravel._2013A.touractivity.ws.soap
 sleep 1000
-obr:start -d org.jibx.schema.org.opentravel._2012B.hotel.ws.test.service
+obr:start -d org.jibx.schema.org.opentravel._2013A.hotel.ws.test.service
 sleep 1000
-obr:start -d org.jibx.schema.org.opentravel._2012B.hotel.ws.rest
+obr:start -d org.jibx.schema.org.opentravel._2013A.hotel.ws.rest
 sleep 1000
-obr:start -d org.jibx.schema.org.opentravel._2012B.hotel.ws.soap
+obr:start -d org.jibx.schema.org.opentravel._2013A.hotel.ws.soap
 sleep 1000
 osgi:install mvn:org.jbundle.javafx.example/org.jbundle.javafx.example.helloworld
 osgi:install wrap:mvn:org.apache.lucene/lucene-grouping/3.2.0
