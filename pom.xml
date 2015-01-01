@@ -5,7 +5,7 @@
   <parent>
     <artifactId>jbundle-parent</artifactId>
     <groupId>org.jbundle.config</groupId>
-    <version>1.3.8</version>
+    <version>1.3.9-SNAPSHOT</version>
     <relativePath>../jbundle/jbundle-parent</relativePath>
   </parent>
 
@@ -24,8 +24,8 @@
 
   <scm>
     <url>https://github.com/jbundle/artifacts</url>
-    <connection>scm:git:git://github.com/jbundle/artifacts.git</connection>
-    <developerConnection>scm:git:git@github.com:jbundle/artifacts.git</developerConnection>
+    <connection>scm:git:https://github.com/jbundle/artifacts</connection>
+    <developerConnection>scm:git:https://github.com/jbundle/artifacts</developerConnection>
   </scm>
 
   <repositories>
