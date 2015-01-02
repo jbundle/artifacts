@@ -44,7 +44,7 @@
     To set a database in an osgi container, set the org.jbundle.base.util properties.<br/>
     <code>
     config:edit org.jbundle.base.util<br/>
-    config:propset databaseproduct mysql<br/>
+    config:property-set databaseproduct mysql<br/>
     config:update
     </code>
     </section>

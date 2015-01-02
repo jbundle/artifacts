@@ -1,23 +1,23 @@
-features:addurl mvn:org.apache.karaf.cave/apache-karaf-cave/3.0.0-SNAPSHOT/xml/features
-features:install cave-obr-server
-features:install http obr war
+feature:repo-add mvn:org.apache.karaf.cave/apache-karaf-cave/3.0.0/xml/features
+feature:install cave-server
+feature:install http obr war
 sleep 4000
 # Add repository URL
-obr:addurl file:/home/don/workspace/workspace/artifacts/artifacts/target/classes/obr/repository/repository.xml
-# obr:addurl file:/home/don/workspace/workspace/artifacts/artifacts/target/classes/obr/local-repository.xml
-# obr:addurl mvn:org.jbundle.config/jbundle-artifacts//xml/repository
+obr:url-add file:/home/dcorley/workspace/workspace/artifacts/artifacts/target/classes/obr/repository/repository.xml
+# obr:url-add file:/home/dcorley/workspace/workspace/artifacts/artifacts/target/classes/obr/local-repository.xml
+# obr:url-add mvn:org.jbundle.config/jbundle-artifacts//xml/repository
 # Update obr
 
-# obr:removeurl file:/home/don/workspace/workspace/artifacts/artifacts/target/classes/obr/repository/jbundle-repository-1.0.1-SNAPSHOT.xml
-# cave:create-repository jbundle
-# cave:proxy-repository jbundle file:/home/don/.m2/repository/org/jbundle
-# obr:removeurl file:/home/don/workspace/workspace/artifacts/artifacts/target/classes/obr/repository/tourgeek-repository-0.8.0-SNAPSHOT.xml
-# cave:create-repository tourgeek
-# cave:proxy-repository tourgeek file:/home/don/.m2/repository/com/tourgeek
-# obr:removeurl file:/home/don/workspace/workspace/artifacts/artifacts/target/classes/obr/repository/jbundle-repository-1.0.1-SNAPSHOT.xml
-# cave:create-repository jibx
-# cave:proxy-repository jibx file:/home/don/.m2/repository/org/jibx
-# obr:removeurl file:/home/don/workspace/workspace/artifacts/artifacts/target/classes/obr/repository/repository.xml
+# obr:url-remove file:/home/dcorley/workspace/workspace/artifacts/artifacts/target/classes/obr/repository/jbundle-repository-1.0.1-SNAPSHOT.xml
+# cave:repository-create jbundle
+# cave:repository-proxy jbundle file:/home/dcorley/.m2/repository/org/jbundle
+# obr:url-remove file:/home/dcorley/workspace/workspace/artifacts/artifacts/target/classes/obr/repository/tourgeek-repository-0.8.0-SNAPSHOT.xml
+# cave:repository-create tourgeek
+# cave:repository-proxy tourgeek file:/home/dcorley/.m2/repository/com/tourgeek
+# obr:url-remove file:/home/dcorley/workspace/workspace/artifacts/artifacts/target/classes/obr/repository/jbundle-repository-1.0.1-SNAPSHOT.xml
+# cave:repository-create jibx
+# cave:repository-proxy jibx file:/home/dcorley/.m2/repository/org/jibx
+# obr:url-remove file:/home/dcorley/workspace/workspace/artifacts/artifacts/target/classes/obr/repository/repository.xml
 # Start remote service
 obr:start -d 'jbundle-util-osgi-obr - obr bundle retrieval'
 sleep 1000
@@ -29,9 +29,9 @@ start 'jbundle-base-remote - Remote server'
 sleep 4000
 # Configure webdav
 config:edit org.jbundle.util.webapp.webdav
-config:propset basePath /web/jbundle/webapp/webdav
-config:propset readonly false
-config:propset listings true
+config:property-set basePath /web/jbundle/webapp/webdav
+config:property-set readonly false
+config:property-set listings true
 config:update
 # Start other web app
 obr:deploy -d com.tourgeek.config.web.other

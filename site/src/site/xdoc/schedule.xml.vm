@@ -95,18 +95,18 @@ export JAVA_PERM_MEM=256M
 export JAVA_PERM_MEM=512M
 
 bin/karaf 
-features:install war obr jndi webconsole
+feature:install war obr jndi webconsole
 #      . setenv.sh
 #      java -Xms256m -Xmx1024m -XX:PermSize=128M -XX:MaxPermSize=256M -Djava.rmi.server.codebase=http://$SERVER/classes/ -Djava.security.policy=$POLICY_ALL -jar bin/felix.jar
 #      deploy -s 'Apache Felix Http Jetty'
 #      repos add file:/home/don/.m2/repository/repository.xml
-x obr:addurl file:/home/don/.m2/repository/repository.xml
+x obr:url-add file:/home/don/.m2/repository/repository.xml
 
-obr:addurl file:/home/don/.m2/full-repository.xml
-obr:addurl http://www.jibx.org/repository.xml
-# obr:addurl http://www.jbundle.org/repository.xml
-obr:addurl http://chameleon.ow2.org/repository/chameleon-releases.xml
-obr:addurl http://chameleon.ow2.org/repository/chameleon-commons.xml
+obr:url-add file:/home/don/.m2/full-repository.xml
+obr:url-add http://www.jibx.org/repository.xml
+# obr:url-add http://www.jbundle.org/repository.xml
+obr:url-add http://chameleon.ow2.org/repository/chameleon-releases.xml
+obr:url-add http://chameleon.ow2.org/repository/chameleon-commons.xml
 
 # install mvn:joda-time/joda-time/1.6.2
 # install mvn:biz.source_code/base64coder/2010-12-19

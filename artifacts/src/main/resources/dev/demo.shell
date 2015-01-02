@@ -1,6 +1,6 @@
 # Web Server, OBR index, war support, tour system, demo stuff, jibx demos
 config:edit org.ops4j.pax.url.mvn
-config:propset org.ops4j.pax.url.mvn.repositories http://repo1.maven.org/maven2,\
+config:property-set org.ops4j.pax.url.mvn.repositories http://repo1.maven.org/maven2,\
 http://repository.apache.org/content/groups/snapshots-group@snapshots@noreleases,\
 http://svn.apache.org/repos/asf/servicemix/m2-repo,\
 http://repository.springsource.com/maven/bundles/release,\
@@ -11,13 +11,13 @@ http://repository.jbundle.org:8081/nexus/content/repositories/snapshots@snapshot
 http://repository.jbundle.org:8081/nexus/content/repositories/releases
 config:update
 echo Starting up cxf
-features:addurl mvn:org.apache.cxf.karaf/apache-cxf/${cxf-version}/xml/features
-features:install war cxf cxf-databinding-jibx http obr
+feature:repo-add mvn:org.apache.cxf.karaf/apache-cxf/${cxf-version}/xml/features
+feature:install war cxf cxf-databinding-jibx http obr
 # note: 'war' is included in cxf (if I start it again, I have problems)
 echo Starting up the jbundle framework. Please wait... this may take a few moments
 sleep 5000
-obr:addurl mvn:org.jbundle.config/jbundle-artifacts/${project.version}/xml/repository
-# obr:addurl file:/web/jbundle/repository/repository.xml
+obr:url-add mvn:org.jbundle.config/jbundle-artifacts/${project.version}/xml/repository
+# obr:url-add file:/web/jbundle/repository/repository.xml
 echo Start the OBR resource retrieval utility
 obr:start -d 'jbundle-util-osgi-obr - obr bundle retrieval'
 sleep 1000
@@ -31,9 +31,9 @@ start 'jbundle-base-remote - Remote server'
 sleep 8000
 echo Configure webdav
 config:edit org.jbundle.util.webapp.webdav
-config:propset basePath /web/jbundle/webapp/webdav/
-config:propset readonly false
-config:propset listings true
+config:property-set basePath /web/jbundle/webapp/webdav/
+config:property-set readonly false
+config:property-set listings true
 config:update
 echo Start other web app
 obr:deploy -d com.tourgeek.config.web.other

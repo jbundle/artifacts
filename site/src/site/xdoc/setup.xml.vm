@@ -46,8 +46,8 @@
       <p>
       Now add a web server and the jbundle module index:<br/>
       <code>
-      <i>karaf@root&gt;</i> features:install http obr war<br/>
-      <i>karaf@root&gt;</i> obr:addurl http://repo.maven.apache.org/maven2/org/jbundle/jbundle-artifacts-${project.version}/repository.xml
+      <i>karaf@root&gt;</i> feature:install http obr war<br/>
+      <i>karaf@root&gt;</i> obr:url-add http://repo.maven.apache.org/maven2/org/jbundle/jbundle-artifacts-${project.version}/repository.xml
       </code>
       </p>
       <p>
