@@ -42,7 +42,7 @@
       <plugin>
         <groupId>org.jbundle.app.program</groupId>
         <artifactId>org.jbundle.app.program.plugin</artifactId>
-        <version>1.0.9</version>
+        <version>0.7.7</version>
         <!-- version>${jbundle-plugin-version}</version --> <!-- TODO(don) Remove this -->
         <executions>
           <execution>
