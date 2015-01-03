@@ -1,0 +1,59 @@
+<repository lastmodified='20150102023754.432'>
+  <resource id='org.jbundle.util.biorhythm/0.8.6' symbolicname='org.jbundle.util.biorhythm' presentationname='jbundle-util-biorhythm - Biorhythm' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/biorhythm/org.jbundle.util.biorhythm/0.8.6/org.jbundle.util.biorhythm-0.8.6.jar' version='0.8.6'>
+    <description>Biorhythm Theory states that our lives are influenced by a Physical,Emotional, and Intellectual cycle which begin at birth. At birth, all three states start at the critical point and begin to rise to a positive peak, then cycle to a low point. On a day where the cycle crosses the critical point your abilities can vary wildly.</description>
+    <size>24376</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.util.biorhythm'/>
+      <p n='presentationname' v='jbundle-util-biorhythm - Biorhythm'/>
+      <p n='version' t='version' v='0.8.6'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.biorhythm'/>
+      <p n='version' t='version' v='0.8.6'/>
+      <p n='uses:' v='javax.swing,org.jbundle.util.muffinmanager,org.jbundle.util.jcalendarbutton'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.swing))' extend='false' multiple='false' optional='true'>Import package javax.swing;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.biorhythm.resources)(version&gt;=0.8.6))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.biorhythm.resources;resolution:=optional;version=0.8.6</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.jcalendarbutton)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.jcalendarbutton;resolution:=optional;version="[1.6,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.muffinmanager)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.muffinmanager;resolution:=optional;version="[2.0,3)"</require>
+  </resource>
+  <resource id='org.jbundle.util.biorhythm.i18n/0.8.6' symbolicname='org.jbundle.util.biorhythm.i18n' presentationname='jbundle-util-biorhythm-i18n - Biorhythm internationalization' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/biorhythm/org.jbundle.util.biorhythm.i18n/0.8.6/org.jbundle.util.biorhythm.i18n-0.8.6.jar' version='0.8.6'>
+    <description>Biorhythm Theory states that our lives are influenced by a Physical,Emotional, and Intellectual cycle which begin at birth. At birth, all three states start at the critical point and begin to rise to a positive peak, then cycle to a low point. On a day where the cycle crosses the critical point your abilities can vary wildly.</description>
+    <size>16212</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.util.biorhythm.i18n'/>
+      <p n='presentationname' v='jbundle-util-biorhythm-i18n - Biorhythm internationalization'/>
+      <p n='version' t='version' v='0.8.6'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.biorhythm.resources'/>
+      <p n='version' t='version' v='0.8.6'/>
+    </capability>
+  </resource>
+  <resource id='org.jbundle.util.biorhythm.osgi/0.8.6' symbolicname='org.jbundle.util.biorhythm.osgi' presentationname='jbundle-util-biorhythm-osgi' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/biorhythm/org.jbundle.util.biorhythm.osgi/0.8.6/org.jbundle.util.biorhythm.osgi-0.8.6.jar' version='0.8.6'>
+    <description>Biorhythm Theory states that our lives are influenced by a Physical,Emotional, and Intellectual cycle which begin at birth. At birth, all three states start at the critical point and begin to rise to a positive peak, then cycle to a low point. On a day where the cycle crosses the critical point your abilities can vary wildly.</description>
+    <size>4661</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.util.biorhythm.osgi'/>
+      <p n='presentationname' v='jbundle-util-biorhythm-osgi'/>
+      <p n='version' t='version' v='0.8.6'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.biorhythm.osgi'/>
+      <p n='version' t='version' v='0.8.6'/>
+      <p n='uses:' v='javax.swing,org.osgi.framework,org.jbundle.util.biorhythm'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.swing))' extend='false' multiple='false' optional='false'>Import package javax.swing</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.biorhythm)(version&gt;=0.8.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='false'>Import package org.jbundle.util.biorhythm;version="[0.8,1)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.osgi.framework;version="[1.5,2)"</require>
+  </resource>
+</repository>

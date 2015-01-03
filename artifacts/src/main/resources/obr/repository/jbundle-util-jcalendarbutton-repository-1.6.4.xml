@@ -1,0 +1,36 @@
+<repository lastmodified='20150102022244.712'>
+  <resource id='org.jbundle.util.jcalendarbutton/1.6.4' symbolicname='org.jbundle.util.jcalendarbutton' presentationname='jbundle-util-jcalendarbutton - Date and Time Popup Buttons' uri='http://repo.maven.apache.org/maven2/org/jbundle/util/jcalendarbutton/org.jbundle.util.jcalendarbutton/1.6.4/org.jbundle.util.jcalendarbutton-1.6.4.jar' version='1.6.4'>
+    <description>JCalendarButton is a simple java swing component that displays a popup calendar next to a date input field.</description>
+    <size>28166</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.util.jcalendarbutton'/>
+      <p n='presentationname' v='jbundle-util-jcalendarbutton - Date and Time Popup Buttons'/>
+      <p n='version' t='version' v='1.6.4'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.jcalendarbutton'/>
+      <p n='version' t='version' v='1.6.4'/>
+      <p n='uses:' v='javax.swing,javax.swing.border,javax.swing.event'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.jcalendarbutton.images.buttons'/>
+      <p n='version' t='version' v='1.6.4'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.sourceforge.jcalendarbutton'/>
+      <p n='version' t='version' v='1.6.4'/>
+      <p n='uses:' v='org.jbundle.util.jcalendarbutton'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='net.sourceforge.jcalendarbutton'/>
+      <p n='version' t='version' v='1.6.4'/>
+      <p n='uses:' v='org.jbundle.util.jcalendarbutton'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.swing))' extend='false' multiple='false' optional='true'>Import package javax.swing;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.swing.border))' extend='false' multiple='false' optional='true'>Import package javax.swing.border;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.swing.event))' extend='false' multiple='false' optional='true'>Import package javax.swing.event;resolution:=optional</require>
+  </resource>
+</repository>
