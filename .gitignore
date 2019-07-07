@@ -12,3 +12,5 @@ skeleton_test_data*
 *.releaseBackup
 release.properties
 *.xml.lock
+*.iml
+.idea
