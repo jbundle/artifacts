@@ -7,8 +7,6 @@
 
   <referral depth="10" url="tourgeek-repository-${tourgeek-version}.xml"/>
   <referral depth="10" url="jbundle-app-office-repository-${jbundle-app-office-version}.xml"/>
-  <referral depth="10" url="jbundle-app-dance-repository-${jbundle-app-dance-version}.xml"/>
-  <referral depth="10" url="jbundle-app-picture-repository-${jbundle-app-picture-version}.xml"/>
   
   <referral depth="10" url="jbundle-util-repository-${jbundle-util-version}.xml"/>
   <referral depth="10" url="jbundle-util-osgi-repository-${jbundle-osgi-version}.xml"/>
