@@ -9,4 +9,3 @@ mvn clean;mvn site;mv target/site /web/jbundle/webapp
 
 cd ~/workspace/workspace/jbundle/util/webapp/webstart
 mvn clean;mvn install;mv target/org.jbundle.util.webapp.webstart-1.1.0-SNAPSHOT.war /usr/local/java/web/servicemix/deploy/
-

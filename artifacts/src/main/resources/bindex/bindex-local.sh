@@ -1,30 +1,118 @@
-export BINDEX=/usr/local/java/dev/bindex/bindex.jar
+#!/bin/bash
+
+export BINDEX=/opt/osgi/bindex/bindex.jar
 export REPOSITORY=~/.m2/repository
 
 export JBUNDLE_VERSION=0.8.0
 export TOURGEEK_VERSION=0.8.0
 export JBUNDLE_SNAPSHOT_VERSION=0.8.0-SNAPSHOT
 export TOURGEEK_SNAPSHOT_VERSION=0.8.0-SNAPSHOT
+export REPO_VERSION=1.0.3
 cd ~/temp
 
 # ---------------- external -----------------
 rm -fr repository maven2
 mkdir repository
 cd repository
-rsync -r $REPOSITORY/mysql ./
-# mkdir -p joda-time/joda-time	# Already included in servicemix
-# rsync -r --filter='- **/*javadoc.jar' $REPOSITORY/joda-time/joda-time/2.0 ./joda-time/joda-time/
-mkdir biz
-rsync -r $REPOSITORY/biz/source_code biz/
-mkdir javax
-rsync -r $REPOSITORY/javax/mail javax/
-mkdir commons-collections
-rsync -r $REPOSITORY/commons-collections/commons-collections commons-collections/
+
+PACKAGE='A'
+VERSION='B'
+
+sync_package () {
+  echo "Inside function: var1: $PACKAGE, var2: $VERSION"
+  mkdir -p $PACKAGE
+  rsync -r $REPOSITORY/$PACKAGE/$VERSION $PACKAGE
+}
+
+#PACKAGE=javax/xml/soap/javax.xml.soap-api
+#VERSION=1.4.0
+#sync_package
+
+PACKAGE=mysql/mysql-connector-java
+VERSION=5.1.48
+sync_package
+
+PACKAGE=biz/source_code/base64coder
+VERSION=/2010-12-19
+sync_package
+
+PACKAGE=javax/mail/mail
+VERSION=1.4.4
+sync_package
+
+PACKAGE=org/json/json
+VERSION=20190722
+sync_package
+
+PACKAGE=org/apache/derby/derby
+VERSION=10.14.2.0
+sync_package
+
+PACKAGE=commons-collections/commons-collections
+VERSION=3.2.1
+sync_package
+
+PACKAGE=jakarta/xml/soap/jakarta.xml.soap-api
+VERSION=1.4.1
+sync_package
+
+PACKAGE=com/sun/xml/messaging/saaj/saaj-impl
+VERSION=1.5.1
+sync_package
+
+PACKAGE=jakarta/activation/jakarta.activation-api
+VERSION=1.2.1
+sync_package
+
+PACKAGE=com/sun/activation/jakarta.activation
+VERSION=1.2.1
+sync_package
+
+PACKAGE=jakarta/xml/soap/jakarta.xml.soap-api
+VERSION=1.4.1
+sync_package
+
+PACKAGE=org/jvnet/mimepull/mimepull
+VERSION=1.9.11
+sync_package
+
+PACKAGE=org/jvnet/staxex/stax-ex
+VERSION=1.8.1
+sync_package
+
+PACKAGE=jakarta/xml/bind/jakarta.xml.bind-api
+VERSION=2.3.2
+sync_package
+
+#PACKAGE=org/apache/servicemix/bundles/org.apache.servicemix.bundles.saaj-impl
+#VERSION=1.5.1_1
+#VERSION=1.3.20_1
+#sync_package
+
+#PACKAGE=com/sun/activation/jakarta.activation
+#VERSION=1.2.1
+#sync_package
+#
+#PACKAGE=org/jvnet/staxex/stax-ex
+#VERSION=1.7.4
+#sync_package
+#
+#PACKAGE=javax/xml/stream/stax-api
+#VERSION=1.0-2
+#sync_package
+
+PACKAGE=
+VERSION=
+# sync_package
+
+
 cd ..
 java -jar $BINDEX -quiet -r ~/.m2/jbundle-external-repository.xml -t file:/home/don/.m2/%p/%f ~/temp/repository
 mv repository maven2
-# java -jar $BINDEX -quiet -r ~/workspace/workspace/bin/obr/jbundle-external-repository.xml -t http://repo2.maven.org/%p/%f  ~/temp/maven2
+java -jar $BINDEX -quiet -r ~/workspace/workspace/artifacts/artifacts/src/main/resources/obr/repository/jbundle-external-repository-$REPO_VERSION.xml -t https://repo.maven.apache.org/%p/%f  ~/temp/maven2
 # rm -fr maven2
+
+
 # ---------------- jbundle snapshot -----------------
 mkdir repository
 cd repository

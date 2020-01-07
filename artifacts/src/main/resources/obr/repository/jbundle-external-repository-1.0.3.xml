@@ -1,0 +1,1225 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-stylesheet type='text/xsl' href='http://www.osgi.org/www/obr2html.xsl'?>
+
+<repository lastmodified='20200107063929.553' name='Untitled'>
+  <resource id='Untitled-979067911/0.0.0' symbolicname='Untitled-979067911' uri='https://repo.maven.apache.org/maven2/com/sun/xml/messaging/saaj/saaj-impl/1.5.1/saaj-impl-1.5.1-sources.jar' version='0.0.0'>
+    <size>
+      374935
+    </size>
+    <capability name='bundle'>
+      <p n='manifestversion' v='1'/>
+      <p n='symbolicname' v='Untitled-979067911'/>
+      <p n='version' t='version' v='0.0.0'/>
+    </capability>
+  </resource>
+  <resource id='biz.source_code.base64coder/1.0.0.2010-12-19' presentationname='Base64Coder' symbolicname='biz.source_code.base64coder' uri='https://repo.maven.apache.org/maven2/biz/source_code/base64coder/2010-12-19/base64coder-2010-12-19.jar' version='1.0.0.2010-12-19'>
+    <description>
+      A Base64 encoder/decoder in Java.
+    </description>
+    <size>
+      5742
+    </size>
+    <license>
+      http://www.eclipse.org/legal, http://www.gnu.org/licenses/lgpl.html,
+       http://www.gnu.org/licenses/lgpl.html, http://www.apache.org/licenses,
+       http://www.opensource.org/licenses/bsd-license.php
+    </license>
+    <documentation>
+      http://www.source-code.biz/base64coder/java
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='Base64Coder'/>
+      <p n='symbolicname' v='biz.source_code.base64coder'/>
+      <p n='version' t='version' v='1.0.0.2010-12-19'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='biz.source_code.base64Coder'/>
+      <p n='version' t='version' v='0.0.0'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=biz.source_code.base64Coder)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package biz.source_code.base64Coder
+    </require>
+  </resource>
+  <resource id='com.mysql.jdbc/5.1.48' presentationname="Oracle Corporation's JDBC Driver for MySQL" symbolicname='com.mysql.jdbc' uri='https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.48/mysql-connector-java-5.1.48.jar' version='5.1.48'>
+    <size>
+      1006956
+    </size>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v="Oracle Corporation's JDBC Driver for MySQL"/>
+      <p n='symbolicname' v='com.mysql.jdbc'/>
+      <p n='version' t='version' v='5.1.48'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.jdbc'/>
+      <p n='uses' v='com.mysql.jdbc.log,javax.management,javax.naming,javax.net.ssl,javax.xml.parsers,javax.xml.stream,javax.xml.transform,javax.xml.transform.dom,javax.xml.transform.sax,javax.xml.transform.stax,javax.xml.transform.stream,org.xml.sax'/>
+      <p n='version' t='version' v='5.1.48'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.jdbc.jdbc2.optional'/>
+      <p n='uses' v='com.mysql.jdbc,com.mysql.jdbc.log,javax.sql,javax.naming,javax.naming.spi,javax.transaction.xa'/>
+      <p n='version' t='version' v='5.1.48'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.jdbc.log'/>
+      <p n='version' t='version' v='5.1.48'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.jdbc.profiler'/>
+      <p n='version' t='version' v='5.1.48'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.jdbc.util'/>
+      <p n='version' t='version' v='5.1.48'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.jdbc.exceptions'/>
+      <p n='version' t='version' v='5.1.48'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.jdbc.exceptions.jdbc4'/>
+      <p n='version' t='version' v='5.1.48'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.jdbc.interceptors'/>
+      <p n='version' t='version' v='5.1.48'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.jdbc.integration.c3p0'/>
+      <p n='uses' v='com.mchange.v2.c3p0'/>
+      <p n='version' t='version' v='5.1.48'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.jdbc.integration.jboss'/>
+      <p n='uses' v='org.jboss.resource.adapter.jdbc,org.jboss.resource.adapter.jdbc.vendor'/>
+      <p n='version' t='version' v='5.1.48'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.jdbc.configs'/>
+      <p n='version' t='version' v='5.1.48'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.gjt.mm.mysql'/>
+      <p n='uses' v='com.mysql.jdbc'/>
+      <p n='version' t='version' v='5.1.48'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.fabric'/>
+      <p n='uses' v='com.mysql.jdbc,javax.xml.datatype;org.hibernate;org.hibernate.cfg;org.hibernate.service;org.hibernate.service.jdbc.connections.spi'/>
+      <p n='version' t='version' v='5.1.48'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.fabric.hibernate'/>
+      <p n='uses' v='com.mysql.jdbc,javax.xml.datatype;org.hibernate;org.hibernate.cfg;org.hibernate.service;org.hibernate.service.jdbc.connections.spi'/>
+      <p n='version' t='version' v='5.1.48'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.fabric.jdbc'/>
+      <p n='uses' v='com.mysql.jdbc,javax.xml.datatype;org.hibernate;org.hibernate.cfg;org.hibernate.service;org.hibernate.service.jdbc.connections.spi'/>
+      <p n='version' t='version' v='5.1.48'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.net.ssl)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.net.ssl
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.crypto)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.crypto
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.parsers)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.parsers
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.crypto)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.crypto
+    </require>
+    <require extend='false' filter='(&amp;(package=org.xml.sax.helpers)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.xml.sax.helpers
+    </require>
+    <require extend='false' filter='(&amp;(package=org.w3c.dom)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.w3c.dom
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.sax)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform.sax
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.stream)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.stream
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.stream)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform.stream
+    </require>
+    <require extend='false' filter='(&amp;(package=org.xml.sax)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.xml.sax
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.stax)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform.stax
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.dom)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform.dom
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.sql)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.sql
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.crypto)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.crypto
+    </require>
+    <require extend='false' filter='(&amp;(package=org.xml.sax.helpers)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.xml.sax.helpers
+    </require>
+    <require extend='false' filter='(&amp;(package=org.w3c.dom)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.w3c.dom
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.sax)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform.sax
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.transaction.xa)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.transaction.xa
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.stream)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.stream
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.naming)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.naming
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.stax)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform.stax
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.dom)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform.dom
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.stream)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform.stream
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.naming.spi)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.naming.spi
+    </require>
+    <require extend='false' filter='(&amp;(package=org.xml.sax)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.xml.sax
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.management)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.management
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.crypto)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.crypto
+    </require>
+    <require extend='false' filter='(&amp;(package=org.xml.sax.helpers)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.xml.sax.helpers
+    </require>
+    <require extend='false' filter='(&amp;(package=org.w3c.dom)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.w3c.dom
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.sax)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform.sax
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.transaction.xa)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.transaction.xa
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.stream)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.stream
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.naming)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.naming
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.stax)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform.stax
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.dom)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform.dom
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.stream)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform.stream
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.naming.spi)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.naming.spi
+    </require>
+    <require extend='false' filter='(&amp;(package=org.xml.sax)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.xml.sax
+    </require>
+    <require extend='false' filter='(&amp;(package=com.mchange.v2.c3p0)(version&gt;=0.9.1.2)(!(version&gt;=1.0.0)))' multiple='false' name='package' optional='true'>
+      Import package com.mchange.v2.c3p0 ;version=[0.9.1.2,1.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.crypto)(version&gt;=0.9.1.2)(!(version&gt;=1.0.0)))' multiple='false' name='package' optional='true'>
+      Import package javax.crypto ;version=[0.9.1.2,1.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.xml.sax.helpers)(version&gt;=0.9.1.2)(!(version&gt;=1.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.xml.sax.helpers ;version=[0.9.1.2,1.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.w3c.dom)(version&gt;=0.9.1.2)(!(version&gt;=1.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.w3c.dom ;version=[0.9.1.2,1.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.sax)(version&gt;=0.9.1.2)(!(version&gt;=1.0.0)))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform.sax ;version=[0.9.1.2,1.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.transaction.xa)(version&gt;=0.9.1.2)(!(version&gt;=1.0.0)))' multiple='false' name='package' optional='true'>
+      Import package javax.transaction.xa ;version=[0.9.1.2,1.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.stream)(version&gt;=0.9.1.2)(!(version&gt;=1.0.0)))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.stream ;version=[0.9.1.2,1.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.naming)(version&gt;=0.9.1.2)(!(version&gt;=1.0.0)))' multiple='false' name='package' optional='true'>
+      Import package javax.naming ;version=[0.9.1.2,1.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.stax)(version&gt;=0.9.1.2)(!(version&gt;=1.0.0)))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform.stax ;version=[0.9.1.2,1.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.dom)(version&gt;=0.9.1.2)(!(version&gt;=1.0.0)))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform.dom ;version=[0.9.1.2,1.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform)(version&gt;=0.9.1.2)(!(version&gt;=1.0.0)))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform ;version=[0.9.1.2,1.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.stream)(version&gt;=0.9.1.2)(!(version&gt;=1.0.0)))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform.stream ;version=[0.9.1.2,1.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.naming.spi)(version&gt;=0.9.1.2)(!(version&gt;=1.0.0)))' multiple='false' name='package' optional='true'>
+      Import package javax.naming.spi ;version=[0.9.1.2,1.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.xml.sax)(version&gt;=0.9.1.2)(!(version&gt;=1.0.0)))' multiple='false' name='package' optional='true'>
+      Import package org.xml.sax ;version=[0.9.1.2,1.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jboss.resource.adapter.jdbc)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.jboss.resource.adapter.jdbc
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.crypto)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.crypto
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jboss.resource.adapter.jdbc.vendor)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.jboss.resource.adapter.jdbc.vendor
+    </require>
+    <require extend='false' filter='(&amp;(package=org.xml.sax.helpers)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.xml.sax.helpers
+    </require>
+    <require extend='false' filter='(&amp;(package=org.w3c.dom)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.w3c.dom
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.sax)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform.sax
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.transaction.xa)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.transaction.xa
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.stream)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.stream
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.naming)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.naming
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.stax)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform.stax
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.dom)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform.dom
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.stream)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform.stream
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.naming.spi)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.naming.spi
+    </require>
+    <require extend='false' filter='(&amp;(package=org.xml.sax)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.xml.sax
+    </require>
+    <require extend='false' filter='(&amp;(package=org.slf4j)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.slf4j
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.crypto)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.crypto
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jboss.resource.adapter.jdbc.vendor)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.jboss.resource.adapter.jdbc.vendor
+    </require>
+    <require extend='false' filter='(&amp;(package=org.xml.sax.helpers)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.xml.sax.helpers
+    </require>
+    <require extend='false' filter='(&amp;(package=org.w3c.dom)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.w3c.dom
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.sax)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform.sax
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.transaction.xa)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.transaction.xa
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.stream)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.stream
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.naming)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.naming
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.stax)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform.stax
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.dom)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform.dom
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.stream)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform.stream
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.naming.spi)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.naming.spi
+    </require>
+    <require extend='false' filter='(&amp;(package=org.xml.sax)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.xml.sax
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.datatype)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.datatype
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.crypto)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.crypto
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jboss.resource.adapter.jdbc.vendor)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.jboss.resource.adapter.jdbc.vendor
+    </require>
+    <require extend='false' filter='(&amp;(package=org.xml.sax.helpers)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.xml.sax.helpers
+    </require>
+    <require extend='false' filter='(&amp;(package=org.w3c.dom)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.w3c.dom
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.sax)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform.sax
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.transaction.xa)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.transaction.xa
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.stream)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.stream
+    </require>
+    <require extend='false' filter='(&amp;(package=org.hibernate)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.hibernate
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.naming)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.naming
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.stax)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform.stax
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.dom)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform.dom
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform
+    </require>
+    <require extend='false' filter='(&amp;(package=org.hibernate.cfg)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.hibernate.cfg
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.stream)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.xml.transform.stream
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.naming.spi)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.naming.spi
+    </require>
+    <require extend='false' filter='(&amp;(package=org.xml.sax)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.xml.sax
+    </require>
+    <require extend='false' filter='(&amp;(package=org.hibernate.service.jdbc.connections.spi)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.hibernate.service.jdbc.connections.spi
+    </require>
+    <require extend='false' filter='(&amp;(package=org.hibernate.service)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package org.hibernate.service
+    </require>
+  </resource>
+  <resource id='com.sun.activation.jakarta.activation/1.2.1' presentationname='JavaBeans Activation Framework' symbolicname='com.sun.activation.jakarta.activation' uri='https://repo.maven.apache.org/maven2/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar' version='1.2.1'>
+    <description>
+      JavaBeans Activation Framework
+    </description>
+    <size>
+      65690
+    </size>
+    <license>
+      http://www.eclipse.org/org/documents/edl-v10.php
+    </license>
+    <documentation>
+      https://www.eclipse.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='JavaBeans Activation Framework'/>
+      <p n='symbolicname' v='com.sun.activation.jakarta.activation'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.activation'/>
+      <p n='uses' v='com.sun.activation.registries'/>
+      <p n='version' t='version' v='1.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.activation.registries'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.activation.viewers'/>
+      <p n='uses' v='javax.activation'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.sun.activation.registries)(version&gt;=1.2.0))' multiple='false' name='package' optional='false'>
+      Import package com.sun.activation.registries ;version=1.2.0
+    </require>
+    <require extend='false' filter='(&amp;(package=com.sun.activation.viewers)(version&gt;=1.2.0))' multiple='false' name='package' optional='false'>
+      Import package com.sun.activation.viewers ;version=1.2.0
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.activation)(version&gt;=1.2.0))' multiple='false' name='package' optional='false'>
+      Import package javax.activation ;version=1.2.0
+    </require>
+  </resource>
+  <resource id='com.sun.xml.messaging.saaj.impl/1.5.1' presentationname='saaj-impl' symbolicname='com.sun.xml.messaging.saaj.impl' uri='https://repo.maven.apache.org/maven2/com/sun/xml/messaging/saaj/saaj-impl/1.5.1/saaj-impl-1.5.1.jar' version='1.5.1'>
+    <description>
+      Open source Reference Implementation of JSR-67: SOAP with Attachments
+       API for Java (SAAJ MR: 1.4)
+    </description>
+    <size>
+      457331
+    </size>
+    <license>
+      http://www.eclipse.org/org/documents/edl-v10.php
+    </license>
+    <documentation>
+      http://www.oracle.com/
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='saaj-impl'/>
+      <p n='symbolicname' v='com.sun.xml.messaging.saaj.impl'/>
+      <p n='version' t='version' v='1.5.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.xml.messaging.saaj.client.p2p'/>
+      <p n='uses' v='javax.xml.soap'/>
+      <p n='version' t='version' v='1.5.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.xml.messaging.saaj.soap.name'/>
+      <p n='uses' v='javax.xml.namespace,javax.xml.soap,org.w3c.dom'/>
+      <p n='version' t='version' v='1.5.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.xml.messaging.saaj.soap.ver1_1'/>
+      <p n='uses' v='com.sun.xml.messaging.saaj,com.sun.xml.messaging.saaj.packaging.mime.internet,com.sun.xml.messaging.saaj.soap,com.sun.xml.messaging.saaj.soap.name,javax.xml.namespace,javax.xml.soap,javax.xml.stream,org.w3c.dom'/>
+      <p n='version' t='version' v='1.5.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.xml.messaging.saaj.soap.ver1_2'/>
+      <p n='uses' v='com.sun.xml.messaging.saaj,com.sun.xml.messaging.saaj.packaging.mime.internet,com.sun.xml.messaging.saaj.soap,com.sun.xml.messaging.saaj.soap.name,javax.xml.namespace,javax.xml.soap,javax.xml.stream,org.w3c.dom'/>
+      <p n='version' t='version' v='1.5.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.xml.messaging.saaj.soap'/>
+      <p n='uses' v='com.sun.xml.messaging.saaj,com.sun.xml.messaging.saaj.packaging.mime.internet,com.sun.xml.messaging.saaj.util,com.sun.xml.messaging.saaj.util.stax,javax.activation,javax.xml.namespace,javax.xml.soap,javax.xml.stream,javax.xml.transform,org.jvnet.mimepull,org.jvnet.staxex.util,org.w3c.dom'/>
+      <p n='version' t='version' v='1.5.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.xml.messaging.saaj.soap.dynamic'/>
+      <p n='uses' v='com.sun.xml.messaging.saaj.soap,javax.xml.soap'/>
+      <p n='version' t='version' v='1.5.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.xml.messaging.saaj.util'/>
+      <p n='uses' v='javax.xml.parsers,javax.xml.soap,javax.xml.transform,javax.xml.transform.stream,org.w3c.dom,org.xml.sax,org.xml.sax.ext,org.xml.sax.helpers'/>
+      <p n='version' t='version' v='1.5.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.xml.messaging.saaj.util.stax'/>
+      <p n='uses' v='javax.activation,javax.xml.bind.attachment,javax.xml.namespace,javax.xml.soap,javax.xml.stream,org.jvnet.staxex,org.jvnet.staxex.util,org.w3c.dom'/>
+      <p n='version' t='version' v='1.5.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.xml.messaging.saaj.util.transform'/>
+      <p n='uses' v='javax.xml.transform'/>
+      <p n='version' t='version' v='1.5.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.xml.messaging.saaj.packaging.mime.internet'/>
+      <p n='uses' v='com.sun.xml.messaging.saaj.packaging.mime,com.sun.xml.messaging.saaj.util,javax.activation,org.jvnet.mimepull'/>
+      <p n='version' t='version' v='1.5.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.xml.messaging.saaj.packaging.mime'/>
+      <p n='uses' v='com.sun.xml.messaging.saaj.packaging.mime.internet,javax.activation'/>
+      <p n='version' t='version' v='1.5.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.xml.messaging.saaj.packaging.mime.util'/>
+      <p n='version' t='version' v='1.5.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.xml.messaging.saaj'/>
+      <p n='uses' v='javax.xml.namespace,javax.xml.soap,javax.xml.stream,javax.xml.transform'/>
+      <p n='version' t='version' v='1.5.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.activation)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.activation
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.bind.attachment)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.bind.attachment
+    </require>
+    <require extend='false' filter='(&amp;(package=com.sun.xml.messaging.saaj)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package com.sun.xml.messaging.saaj
+    </require>
+    <require extend='false' filter='(&amp;(package=com.sun.xml.messaging.saaj.packaging.mime)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package com.sun.xml.messaging.saaj.packaging.mime
+    </require>
+    <require extend='false' filter='(&amp;(package=com.sun.xml.messaging.saaj.packaging.mime.internet)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package com.sun.xml.messaging.saaj.packaging.mime.internet
+    </require>
+    <require extend='false' filter='(&amp;(package=com.sun.xml.messaging.saaj.packaging.mime.util)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package com.sun.xml.messaging.saaj.packaging.mime.util
+    </require>
+    <require extend='false' filter='(&amp;(package=com.sun.xml.messaging.saaj.soap.dynamic)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package com.sun.xml.messaging.saaj.soap.dynamic
+    </require>
+    <require extend='false' filter='(&amp;(package=com.sun.xml.messaging.saaj.soap.name)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package com.sun.xml.messaging.saaj.soap.name
+    </require>
+    <require extend='false' filter='(&amp;(package=com.sun.xml.messaging.saaj.util)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package com.sun.xml.messaging.saaj.util
+    </require>
+    <require extend='false' filter='(&amp;(package=com.sun.xml.messaging.saaj.util.transform)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package com.sun.xml.messaging.saaj.util.transform
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.imageio)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.imageio
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.imageio.stream)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.imageio.stream
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.namespace)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.namespace
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.parsers)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.parsers
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.soap)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.soap ;version=[1.4.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.stream)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.stream
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.transform
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.dom)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.transform.dom
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.sax)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.transform.sax
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.stax)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.transform.stax
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.stream)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.transform.stream
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jvnet.mimepull)(version&gt;=1.9.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.jvnet.mimepull ;version=[1.9.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jvnet.staxex)(version&gt;=1.8.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.jvnet.staxex ;version=[1.8.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jvnet.staxex.util)(version&gt;=1.8.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package org.jvnet.staxex.util ;version=[1.8.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=org.w3c.dom)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.w3c.dom
+    </require>
+    <require extend='false' filter='(&amp;(package=org.xml.sax)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.xml.sax
+    </require>
+    <require extend='false' filter='(&amp;(package=org.xml.sax.ext)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.xml.sax.ext
+    </require>
+    <require extend='false' filter='(&amp;(package=org.xml.sax.helpers)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.xml.sax.helpers
+    </require>
+  </resource>
+  <resource id='derby/10.14.2000000.1828579' presentationname='Apache Derby 10.14' symbolicname='derby' uri='https://repo.maven.apache.org/maven2/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar' version='10.14.2000000.1828579'>
+    <size>
+      3232770
+    </size>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='Apache Derby 10.14'/>
+      <p n='symbolicname' v='derby'/>
+      <p n='version' t='version' v='10.14.2000000.1828579'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.authentication'/>
+      <p n='version' t='version' v='0.0.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.database'/>
+      <p n='version' t='version' v='0.0.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.io'/>
+      <p n='version' t='version' v='0.0.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.jdbc'/>
+      <p n='version' t='version' v='0.0.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.vti'/>
+      <p n='version' t='version' v='0.0.0'/>
+    </capability>
+  </resource>
+  <resource id='jakarta.activation-api/1.2.1' presentationname='JavaBeans Activation Framework API jar' symbolicname='jakarta.activation-api' uri='https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar' version='1.2.1'>
+    <description>
+      JavaBeans Activation Framework API jar
+    </description>
+    <size>
+      44399
+    </size>
+    <license>
+      http://www.eclipse.org/org/documents/edl-v10.php
+    </license>
+    <documentation>
+      https://www.eclipse.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='JavaBeans Activation Framework API jar'/>
+      <p n='symbolicname' v='jakarta.activation-api'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.activation'/>
+      <p n='uses' v='com.sun.activation.registries'/>
+      <p n='version' t='version' v='1.2.0'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.sun.activation.registries)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package com.sun.activation.registries
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.activation)(version&gt;=1.2.0))' multiple='false' name='package' optional='false'>
+      Import package javax.activation ;version=1.2.0
+    </require>
+  </resource>
+  <resource id='jakarta.xml.bind-api/2.3.2' presentationname='jakarta.xml.bind-api' symbolicname='jakarta.xml.bind-api' uri='https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar' version='2.3.2'>
+    <description>
+      JAXB (JSR 222) API
+    </description>
+    <size>
+      115498
+    </size>
+    <license>
+      http://www.eclipse.org/org/documents/edl-v10.php
+    </license>
+    <documentation>
+      https://www.eclipse.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jakarta.xml.bind-api'/>
+      <p n='symbolicname' v='jakarta.xml.bind-api'/>
+      <p n='version' t='version' v='2.3.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.xml.bind'/>
+      <p n='uses' v='javax.xml.bind.annotation.adapters,javax.xml.bind.attachment,javax.xml.namespace,javax.xml.stream,javax.xml.transform,javax.xml.validation,org.w3c.dom,org.xml.sax'/>
+      <p n='version' t='version' v='2.3.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.xml.bind.annotation'/>
+      <p n='uses' v='javax.xml.bind,javax.xml.parsers,javax.xml.transform,javax.xml.transform.dom,org.w3c.dom'/>
+      <p n='version' t='version' v='2.3.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.xml.bind.annotation.adapters'/>
+      <p n='version' t='version' v='2.3.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.xml.bind.attachment'/>
+      <p n='uses' v='javax.activation'/>
+      <p n='version' t='version' v='2.3.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.xml.bind.helpers'/>
+      <p n='uses' v='javax.xml.bind,javax.xml.bind.annotation.adapters,javax.xml.bind.attachment,javax.xml.stream,javax.xml.transform,javax.xml.validation,org.w3c.dom,org.xml.sax'/>
+      <p n='version' t='version' v='2.3.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.xml.bind.util'/>
+      <p n='uses' v='javax.xml.bind,javax.xml.transform.sax'/>
+      <p n='version' t='version' v='2.3.2'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.activation)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.activation
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.bind)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.bind ;version=[2.3.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.bind.annotation)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.bind.annotation ;version=[2.3.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.bind.annotation.adapters)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.bind.annotation.adapters ;version=[2.3.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.bind.attachment)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.bind.attachment ;version=[2.3.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.datatype)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.datatype
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.namespace)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.namespace
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.parsers)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.parsers
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.stream)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.stream
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.transform
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.dom)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.transform.dom
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.sax)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.transform.sax
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.stream)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.transform.stream
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.validation)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.validation
+    </require>
+    <require extend='false' filter='(&amp;(package=org.w3c.dom)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.w3c.dom
+    </require>
+    <require extend='false' filter='(&amp;(package=org.xml.sax)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.xml.sax
+    </require>
+    <require extend='false' filter='(&amp;(package=org.xml.sax.ext)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.xml.sax.ext
+    </require>
+    <require extend='false' filter='(&amp;(package=org.xml.sax.helpers)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.xml.sax.helpers
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.bind.helpers)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.bind.helpers ;version=[2.3.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.bind.util)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.bind.util ;version=[2.3.0,3.0.0)
+    </require>
+  </resource>
+  <resource id='jakarta.xml.soap-api/1.4.1' presentationname='jakarta.xml.soap API' symbolicname='jakarta.xml.soap-api' uri='https://repo.maven.apache.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/1.4.1/jakarta.xml.soap-api-1.4.1.jar' version='1.4.1'>
+    <description>
+      Java(TM) SAAJ 1.4 API Design Specification
+    </description>
+    <size>
+      36161
+    </size>
+    <license>
+      http://www.eclipse.org/org/documents/edl-v10.php
+    </license>
+    <documentation>
+      https://www.eclipse.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='jakarta.xml.soap API'/>
+      <p n='symbolicname' v='jakarta.xml.soap-api'/>
+      <p n='version' t='version' v='1.4.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.xml.soap'/>
+      <p n='uses' v='javax.activation,javax.xml.namespace,javax.xml.transform,javax.xml.transform.dom,org.w3c.dom'/>
+      <p n='version' t='version' v='1.4.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.activation)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.activation
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.namespace)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.namespace
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.transform
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.dom)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.transform.dom
+    </require>
+    <require extend='false' filter='(&amp;(package=org.w3c.dom)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.w3c.dom
+    </require>
+  </resource>
+  <resource id='javax.mail/1.4.4' presentationname='JavaMail API (compat)' symbolicname='javax.mail' uri='https://repo.maven.apache.org/maven2/javax/mail/mail/1.4.4/mail-1.4.4.jar' version='1.4.4'>
+    <description>
+      JavaMail API (compat)
+    </description>
+    <size>
+      494924
+    </size>
+    <license>
+      http://www.sun.com/cddl, https://glassfish.dev.java.net/public/CDDL+GPL.html
+    </license>
+    <documentation>
+      http://www.oracle.com
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='JavaMail API (compat)'/>
+      <p n='symbolicname' v='javax.mail'/>
+      <p n='version' t='version' v='1.4.4'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.mail.internet'/>
+      <p n='uses' v='com.sun.mail.util,javax.mail,javax.activation,javax.mail.util'/>
+      <p n='version' t='version' v='1.4.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.mail.util'/>
+      <p n='uses' v='javax.activation,javax.mail.internet'/>
+      <p n='version' t='version' v='1.4.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.mail.search'/>
+      <p n='uses' v='javax.mail.internet,javax.mail'/>
+      <p n='version' t='version' v='1.4.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.mail'/>
+      <p n='uses' v='javax.mail.event,javax.mail.search,javax.activation,com.sun.mail.util'/>
+      <p n='version' t='version' v='1.4.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.mail.event'/>
+      <p n='uses' v='javax.mail'/>
+      <p n='version' t='version' v='1.4.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.mail.imap'/>
+      <p n='uses' v='com.sun.mail.iap,com.sun.mail.imap.protocol,javax.mail,javax.activation,com.sun.mail.util,javax.mail.internet,javax.mail.search,javax.mail.event'/>
+      <p n='version' t='version' v='1.4.4'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.mail.imap.protocol'/>
+      <p n='uses' v='com.sun.mail.iap,com.sun.mail.util,javax.mail.internet,javax.mail,javax.mail.search,com.sun.mail.imap,javax.security.sasl,javax.security.auth.callback'/>
+      <p n='version' t='version' v='1.4.4'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.mail.iap'/>
+      <p n='uses' v='com.sun.mail.util'/>
+      <p n='version' t='version' v='1.4.4'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.mail.pop3'/>
+      <p n='uses' v='javax.mail,com.sun.mail.util,javax.mail.internet,javax.net.ssl,javax.mail.util'/>
+      <p n='version' t='version' v='1.4.4'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.mail.smtp'/>
+      <p n='uses' v='com.sun.mail.util,javax.mail.internet,javax.mail,javax.security.sasl,javax.security.auth.callback'/>
+      <p n='version' t='version' v='1.4.4'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.mail.util'/>
+      <p n='uses' v='javax.mail,javax.net.ssl,javax.mail.internet,sun.security.util,javax.net,javax.security.auth.x500'/>
+      <p n='version' t='version' v='1.4.4'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.mail.util.logging'/>
+      <p n='uses' v='javax.activation,javax.mail.internet,javax.mail.util,javax.mail'/>
+      <p n='version' t='version' v='1.4.4'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.mail.handlers'/>
+      <p n='uses' v='javax.activation,javax.mail.internet,javax.mail,javax.xml.transform,javax.xml.transform.stream'/>
+      <p n='version' t='version' v='1.4.4'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=com.sun.mail.handlers)(version&gt;=1.4.0))' multiple='false' name='package' optional='false'>
+      Import package com.sun.mail.handlers ;version=1.4.0
+    </require>
+    <require extend='false' filter='(&amp;(package=com.sun.mail.iap)(version&gt;=1.4.0))' multiple='false' name='package' optional='false'>
+      Import package com.sun.mail.iap ;version=1.4.0
+    </require>
+    <require extend='false' filter='(&amp;(package=com.sun.mail.imap)(version&gt;=1.4.0))' multiple='false' name='package' optional='false'>
+      Import package com.sun.mail.imap ;version=1.4.0
+    </require>
+    <require extend='false' filter='(&amp;(package=com.sun.mail.imap.protocol)(version&gt;=1.4.0))' multiple='false' name='package' optional='false'>
+      Import package com.sun.mail.imap.protocol ;version=1.4.0
+    </require>
+    <require extend='false' filter='(&amp;(package=com.sun.mail.pop3)(version&gt;=1.4.0))' multiple='false' name='package' optional='false'>
+      Import package com.sun.mail.pop3 ;version=1.4.0
+    </require>
+    <require extend='false' filter='(&amp;(package=com.sun.mail.smtp)(version&gt;=1.4.0))' multiple='false' name='package' optional='false'>
+      Import package com.sun.mail.smtp ;version=1.4.0
+    </require>
+    <require extend='false' filter='(&amp;(package=com.sun.mail.util)(version&gt;=1.4.0))' multiple='false' name='package' optional='false'>
+      Import package com.sun.mail.util ;version=1.4.0
+    </require>
+    <require extend='false' filter='(&amp;(package=com.sun.mail.util.logging)(version&gt;=1.4.0))' multiple='false' name='package' optional='false'>
+      Import package com.sun.mail.util.logging ;version=1.4.0
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.activation)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.activation
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.crypto)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.crypto
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.crypto.spec)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.crypto.spec
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.mail)(version&gt;=1.4.0))' multiple='false' name='package' optional='false'>
+      Import package javax.mail ;version=1.4.0
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.mail.event)(version&gt;=1.4.0))' multiple='false' name='package' optional='false'>
+      Import package javax.mail.event ;version=1.4.0
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.mail.internet)(version&gt;=1.4.0))' multiple='false' name='package' optional='false'>
+      Import package javax.mail.internet ;version=1.4.0
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.mail.search)(version&gt;=1.4.0))' multiple='false' name='package' optional='false'>
+      Import package javax.mail.search ;version=1.4.0
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.mail.util)(version&gt;=1.4.0))' multiple='false' name='package' optional='false'>
+      Import package javax.mail.util ;version=1.4.0
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.net)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.net
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.net.ssl)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.net.ssl
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.security.auth.callback)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.security.auth.callback
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.security.auth.x500)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.security.auth.x500
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.security.sasl)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package javax.security.sasl
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.transform
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.transform.stream)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.transform.stream
+    </require>
+    <require extend='false' filter='(&amp;(package=jcifs.ntlmssp)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package jcifs.ntlmssp
+    </require>
+    <require extend='false' filter='(&amp;(package=sun.security.util)(version&gt;=0.0.0))' multiple='false' name='package' optional='true'>
+      Import package sun.security.util
+    </require>
+  </resource>
+  <resource id='json/20190722.0.0' presentationname='JSON in Java' symbolicname='json' uri='https://repo.maven.apache.org/maven2/org/json/json/20190722/json-20190722.jar' version='20190722.0.0'>
+    <description>
+      JSON is a light-weight, language independent, data interchange
+       format.		See http://www.JSON.org/		The files in this package
+       implement JSON encoders/decoders in Java.		It also includes
+       the capability to convert between JSON and XML, HTTP		headers,
+       Cookies, and CDL.		This is a reference implementation. There
+       is a large number of JSON packages		in Java. Perhaps someday
+       the Java community will standardize on one. Until		then, choose
+       carefully.		The license includes this restriction: "The software
+       shall be used for good,		not evil." If your conscience cannot
+       live with that, then choose a different		package.
+    </description>
+    <size>
+      65003
+    </size>
+    <license>
+      http://json.org/license.html
+    </license>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='JSON in Java'/>
+      <p n='symbolicname' v='json'/>
+      <p n='version' t='version' v='20190722.0.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.json'/>
+      <p n='version' t='version' v='20190722.0.0'/>
+    </capability>
+  </resource>
+  <resource id='org.apache.commons.collections/3.2.1' presentationname='Commons Collections' symbolicname='org.apache.commons.collections' uri='https://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar' version='3.2.1'>
+    <description>
+      Types that extend and augment the Java Collections Framework.
+    </description>
+    <size>
+      575389
+    </size>
+    <license>
+      http://www.apache.org/licenses/LICENSE-2.0.txt
+    </license>
+    <documentation>
+      http://commons.apache.org/collections/
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='Commons Collections'/>
+      <p n='symbolicname' v='org.apache.commons.collections'/>
+      <p n='version' t='version' v='3.2.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.collections.map'/>
+      <p n='version' t='version' v='3.2.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.collections.buffer'/>
+      <p n='version' t='version' v='3.2.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.collections.comparators'/>
+      <p n='version' t='version' v='3.2.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.collections.collection'/>
+      <p n='version' t='version' v='3.2.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.collections.bag'/>
+      <p n='version' t='version' v='3.2.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.collections.iterators'/>
+      <p n='version' t='version' v='3.2.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.collections.bidimap'/>
+      <p n='version' t='version' v='3.2.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.collections.set'/>
+      <p n='version' t='version' v='3.2.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.collections.functors'/>
+      <p n='version' t='version' v='3.2.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.collections.list'/>
+      <p n='version' t='version' v='3.2.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.collections.keyvalue'/>
+      <p n='version' t='version' v='3.2.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.collections'/>
+      <p n='version' t='version' v='3.2.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.collections)(version&gt;=3.2.1))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.collections ;version=3.2.1
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.collections.bag)(version&gt;=3.2.1))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.collections.bag ;version=3.2.1
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.collections.bidimap)(version&gt;=3.2.1))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.collections.bidimap ;version=3.2.1
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.collections.buffer)(version&gt;=3.2.1))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.collections.buffer ;version=3.2.1
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.collections.collection)(version&gt;=3.2.1))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.collections.collection ;version=3.2.1
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.collections.comparators)(version&gt;=3.2.1))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.collections.comparators ;version=3.2.1
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.collections.functors)(version&gt;=3.2.1))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.collections.functors ;version=3.2.1
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.collections.iterators)(version&gt;=3.2.1))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.collections.iterators ;version=3.2.1
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.collections.keyvalue)(version&gt;=3.2.1))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.collections.keyvalue ;version=3.2.1
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.collections.list)(version&gt;=3.2.1))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.collections.list ;version=3.2.1
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.collections.map)(version&gt;=3.2.1))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.collections.map ;version=3.2.1
+    </require>
+    <require extend='false' filter='(&amp;(package=org.apache.commons.collections.set)(version&gt;=3.2.1))' multiple='false' name='package' optional='false'>
+      Import package org.apache.commons.collections.set ;version=3.2.1
+    </require>
+  </resource>
+  <resource id='org.jvnet.mimepull/1.9.11' presentationname='MIME streaming extension' symbolicname='org.jvnet.mimepull' uri='https://repo.maven.apache.org/maven2/org/jvnet/mimepull/mimepull/1.9.11/mimepull-1.9.11.jar' version='1.9.11'>
+    <description>
+      Provides a streaming API to access attachments parts in a MIME
+       message.
+    </description>
+    <size>
+      67125
+    </size>
+    <license>
+      http://www.eclipse.org/org/documents/edl-v10.php
+    </license>
+    <documentation>
+      https://www.eclipse.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='MIME streaming extension'/>
+      <p n='symbolicname' v='org.jvnet.mimepull'/>
+      <p n='version' t='version' v='1.9.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jvnet.mimepull'/>
+      <p n='version' t='version' v='1.9.11'/>
+    </capability>
+  </resource>
+  <resource id='org.jvnet.staxex.stax-ex/1.8.1' presentationname='Extended StAX API' symbolicname='org.jvnet.staxex.stax-ex' uri='https://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/1.8.1/stax-ex-1.8.1.jar' version='1.8.1'>
+    <description>
+      Extensions to JSR-173 StAX API.
+    </description>
+    <size>
+      38099
+    </size>
+    <license>
+      http://www.eclipse.org/org/documents/edl-v10.php
+    </license>
+    <documentation>
+      https://www.eclipse.org
+    </documentation>
+    <capability name='bundle'>
+      <p n='manifestversion' v='2'/>
+      <p n='presentationname' v='Extended StAX API'/>
+      <p n='symbolicname' v='org.jvnet.staxex.stax-ex'/>
+      <p n='version' t='version' v='1.8.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jvnet.staxex'/>
+      <p n='uses' v='javax.activation,javax.xml.namespace,javax.xml.stream'/>
+      <p n='version' t='version' v='1.8.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jvnet.staxex.util'/>
+      <p n='uses' v='javax.xml.bind.attachment,javax.xml.namespace,javax.xml.stream,org.w3c.dom'/>
+      <p n='version' t='version' v='1.8.1'/>
+    </capability>
+    <require extend='false' filter='(&amp;(package=javax.activation)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.activation ;version=[1.2.0,2.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.bind.attachment)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.bind.attachment ;version=[2.3.0,3.0.0)
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.namespace)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.namespace
+    </require>
+    <require extend='false' filter='(&amp;(package=javax.xml.stream)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package javax.xml.stream
+    </require>
+    <require extend='false' filter='(&amp;(package=org.jvnet.staxex)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.jvnet.staxex
+    </require>
+    <require extend='false' filter='(&amp;(package=org.w3c.dom)(version&gt;=0.0.0))' multiple='false' name='package' optional='false'>
+      Import package org.w3c.dom
+    </require>
+  </resource>
+</repository>
