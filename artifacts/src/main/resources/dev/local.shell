@@ -44,6 +44,11 @@ sleep 1
 # Start the OSGi to WebStart servlet
 obr:start -d 'jbundle-util-osgi-webstart - osgi to web start web bundle'
 # http://localhost:8181/webstart/bio.jnlp?mainClass=org.jbundle.util.biorhythm.Biorhythm
+# http://localhost:8181/webstart/app.jnlp?applet=org.jbundle.Main&userid=&webStartPropertiesFile=/org/jbundle/res/webstart/tourgeek.properties
+# http://192.168.1.66:8181/webstart/docs/applet.html?userid=1&menu=dev.tourgeek.com&webStartPropertiesFile=/org/jbundle/res/webstart/tourgeek.properties
+# http://192.168.1.189:8181/webstart?userid=&webStartPropertiesFile=/org/jbundle/res/webstart/tourgeek.properties&code=org.jbundle.Main&domain=192.168.1.189&baseURL=192.168.1.189%3A8181/&url=http%3A//192.168.1.189%3A8181/appxsl&draggable=true&datatype=jnlpapplet&appletClass=org.jbundle.Main
+# http://localhost:8181/webstart?userid=&webStartPropertiesFile=/org/jbundle/res/webstart/tourgeek.properties&code=org.jbundle.Main&domain=tourgeek.com&baseURL=localhost%3A8181/&url=http%3A//localhost%3A8181/appxsl&datatype=jnlp&mainClass=org.jbundle.Main
+
 sleep 1
 # --------TEMPORARY -------- install the saaj module to get soap messaging
 # obr:start -d org.apache.servicemix.bundles.saaj-impl
