@@ -84,6 +84,10 @@ PACKAGE=jakarta/xml/bind/jakarta.xml.bind-api
 VERSION=2.3.2
 sync_package
 
+PACKAGE=org/apache/httpcomponents/httpclient-osgi
+VERSION=4.5.10
+sync_package
+
 #PACKAGE=org/apache/servicemix/bundles/org.apache.servicemix.bundles.saaj-impl
 #VERSION=1.5.1_1
 #VERSION=1.3.20_1
