@@ -5,8 +5,8 @@ docker run --rm --name karaf -p 80:80 -p 443:443 -p 8181:8181 -p 5005:5005 -d ap
 # docker run -d --name karaf tourgeek/karaf
 docker exec karaf mkdir -p /home/karaf/
 docker cp ~/workspace/workspace/artifacts/artifacts/src/main/resources/obr/repository/ karaf:/home/karaf/
-docker cp /home/dcorley/workspace-jibx/jibx/bin/obr/repository/jibx-repository-1.3.2-SNAPSHOT.xml karaf:/home/karaf/
-docker cp /home/dcorley/workspace-jibx/jibx/bin/obr/repository/jibx-schema-library-repository-1.2.0-SNAPSHOT.xml karaf:/home/karaf/
+docker cp /home/dcorley/workspace-jibx/jibx/bin/obr/repository/jibx-repository-1.3.3-SNAPSHOT.xml karaf:/home/karaf/
+docker cp /home/dcorley/workspace-jibx/jibx/bin/obr/repository/jibx-schema-library-repository-1.2.1-SNAPSHOT.xml karaf:/home/karaf/
 docker cp /home/dcorley/workspace-jibx/jibx/bin/obr/repository/jibx-external-repository-1.3.2.xml karaf:/home/karaf/
 sleep 10
 docker exec -it karaf bash
@@ -15,7 +15,10 @@ client
 
 sleep 2
 config:edit org.ops4j.pax.url.mvn
-config:property-set org.ops4j.pax.url.mvn.repositories "https://repo1.maven.org/maven2@id=central, https://repository.apache.org/content/groups/snapshots-group@id=apache@snapshots@noreleases, https://oss.sonatype.org/content/repositories/ops4j-snapshots@id=ops4j.sonatype.snapshots.deploy@snapshots@noreleases"
+# config:property-set org.ops4j.pax.url.mvn.repositories "https://repo1.maven.org/maven2@id=central, https://repository.apache.org/content/groups/snapshots-group@id=apache@snapshots@noreleases, https://oss.sonatype.org/content/repositories/ops4j-snapshots@id=ops4j.sonatype.snapshots.deploy@snapshots@noreleases"
+# config:property-set org.ops4j.pax.url.mvn.repositories "https://maven.jx.tourgeek.com/repository/maven-public@id=local-snapshot, https://repo1.maven.org/maven2@id=central, https://repository.apache.org/content/groups/snapshots-group@id=apache@snapshots@noreleases, https://oss.sonatype.org/content/repositories/ops4j-snapshots@id=ops4j.sonatype.snapshots.deploy@snapshots@noreleases"
+# config:property-set org.ops4j.pax.url.mvn.repositories "https://maven.jx.tourgeek.com/repository/maven-public@id=central, https://repository.apache.org/content/groups/snapshots-group@id=apache@snapshots@noreleases, https://oss.sonatype.org/content/repositories/ops4j-snapshots@id=ops4j.sonatype.snapshots.deploy@snapshots@noreleases"
+config:property-set org.ops4j.pax.url.mvn.repositories "https://repo1.maven.org/maven2@id=central, https://repository.apache.org/content/groups/snapshots-group@id=apache@snapshots@noreleases, https://maven.jx.tourgeek.com/repository/maven-public@id=ops4j.sonatype.snapshots.deploy@snapshots@noreleases"
 config:update
 
 feature:install http obr war
@@ -35,11 +38,13 @@ obr:url-add file:///home/karaf/repository/jbundle-util-webapp-repository-1.3.7-S
 obr:url-add file:///home/karaf/repository/jbundle-util-wsdl-repository-1.0.5-SNAPSHOT.xml
 obr:url-add file:///home/karaf/repository/jbundle-util-biorhythm-repository-0.8.7-SNAPSHOT.xml
 
-obr:url-add file:///home/karaf/repository/jbundle-external-repository-1.0.3.xml
+obr:url-add file:///home/karaf/repository/jbundle-external-repository-1.0.6-SNAPSHOT.xml
+#obr:url-add file:///home/karaf/repository/jbundle-util-osgi-wrapped-repository-1.0.6-SNAPSHOT.xml
+#obr:url-add file:///home/karaf/repository/jbundle-external-repository-1.0.3.xml
 obr:url-add file:///home/karaf/repository/jbundle-util-osgi-wrapped-repository-1.0.5.xml
 # obr:url-add http://www.jibx.org/repository/repository.xml
-obr:url-add file:///home/karaf/jibx-repository-1.3.2-SNAPSHOT.xml
-obr:url-add file:///home/karaf/jibx-schema-library-repository-1.2.0-SNAPSHOT.xml
+obr:url-add file:///home/karaf/jibx-repository-1.3.3-SNAPSHOT.xml
+obr:url-add file:///home/karaf/jibx-schema-library-repository-1.2.1-SNAPSHOT.xml
 obr:url-add file:///home/karaf/jibx-external-repository-1.3.2.xml
 
 # Web Server, OBR index, war support
