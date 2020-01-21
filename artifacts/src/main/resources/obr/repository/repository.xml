@@ -18,10 +18,11 @@
   <referral depth="10" url="jbundle-util-wsdl-repository-${jbundle-util-wsdl-version}.xml"/>
   <referral depth="10" url="jbundle-util-biorhythm-repository-${jbundle-util-biorhythm-version}.xml"/>
   
-  <referral depth="10" url="jbundle-external-repository-1.0.3.xml"/>
-  <referral depth="10" url="jbundle-util-osgi-wrapped-repository-1.0.5.xml"/>
+  <referral depth="10" url="jbundle-external-repository-${jbundle-wrapped-version}.xml"/>
+  <referral depth="10" url="jbundle-util-osgi-wrapped-repository-${jbundle-wrapped-version}.xml"/>
 
   <referral depth="10" url="http://www.jibx.org/repository/repository.xml"/>
-  <referral depth="10" url="http://chameleon.ow2.org/repository/chameleon-releases.xml"/>
-  <referral depth="10" url="http://chameleon.ow2.org/repository/chameleon-commons.xml"/>
+<!--  <referral depth="10" url="jibx-repository-${jibx-version}-SNAPSHOT.xml"/>-->
+<!--  <referral depth="10" url="jibx-schema-library-repository-${jibx-schema-version}-SNAPSHOT.xml"/>-->
+<!--  <referral depth="10" url="jibx-external-repository-${jibx-version}-SNAPSHOT.xml"/>-->
 </repository>
