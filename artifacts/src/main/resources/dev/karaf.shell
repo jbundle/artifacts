@@ -1,7 +1,7 @@
 feature:repo-add mvn:org.apache.karaf.cave/apache-karaf-cave/3.0.0/xml/features
 feature:install cave-server
 feature:install http obr war
-sleep 4000
+sleep 4
 # Add repository URL
 obr:url-add file:/home/dcorley/workspace/workspace/artifacts/artifacts/target/classes/obr/repository/repository.xml
 # obr:url-add file:/home/dcorley/workspace/workspace/artifacts/artifacts/target/classes/obr/local-repository.xml
@@ -20,13 +20,13 @@ obr:url-add file:/home/dcorley/workspace/workspace/artifacts/artifacts/target/cl
 # obr:url-remove file:/home/dcorley/workspace/workspace/artifacts/artifacts/target/classes/obr/repository/repository.xml
 # Start remote service
 obr:start -d 'jbundle-util-osgi-obr - obr bundle retrieval'
-sleep 1000
+sleep 1
 obr:start -d 'jbundle-util-osgi-webstart - osgi to web start web bundle'
-sleep 1000
+sleep 1
 obr:deploy -d 'jbundle-base-remote - Remote server'
-sleep 5000
+sleep 5
 start 'jbundle-base-remote - Remote server'
-sleep 4000
+sleep 4
 # Configure webdav
 config:edit org.jbundle.util.webapp.webdav
 config:property-set basePath /web/jbundle/webapp/webdav
@@ -35,14 +35,14 @@ config:property-set listings true
 config:update
 # Start other web app
 obr:deploy -d com.tourgeek.config.web.other
-sleep 5000
+sleep 5
 start com.tourgeek.config.web.other
-sleep 1000
+sleep 1
 # Start the tour application
 obr:deploy -d 'tourgeek-config-web-httpweb - Hybrid osgi webapp'
-sleep 4000
+sleep 4
 start 'tourgeek-config-web-httpweb - Hybrid osgi webapp'
-sleep 1000
+sleep 1
 # Start up wars
 osgi:install -s webbundle:mvn:org.jbundle.util.webapp/org.jbundle.util.webapp.webstart//war
 osgi:install -s webbundle:mvn:org.jbundle.util.webapp/org.jbundle.util.webapp.cgi//war?Bundle-SymbolicName=jbundle-util-webapp-cgi&Webapp-Context=/awstats

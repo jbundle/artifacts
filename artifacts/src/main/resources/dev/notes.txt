@@ -33,7 +33,7 @@ shell:source file:/home/don/workspace/workspace/bin/dev/karaf.shell
 
 feature:repo-add mvn:org.apache.karaf.cave/apache-karaf-cave/3.0.0-SNAPSHOT/xml/features
 feature:install cave-obr-server
-sleep 3000
+sleep 3
 cave:repository-create cave-repo
 cave:repository-proxy cave-repo file:/home/don/.m2/repository/org/jbundle
 cave:repository-proxy cave-repo file:/home/don/.m2/repository/com/tourgeek
@@ -118,7 +118,7 @@ start xxx
 
 feature:repo-add mvn:org.apache.karaf.cave/apache-karaf-cave/3.0.0-SNAPSHOT/xml/features
 feature:install cave-obr-server
-sleep 3000
+sleep 3
 cave:repository-create cave-repo
 obr:url-add http://chameleon.ow2.org/repository/chameleon-commons.xml
 obr:url-add http://chameleon.ow2.org/repository/chameleon-releases.xml

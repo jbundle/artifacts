@@ -93,9 +93,84 @@
                                     <classifier>demo</classifier>
                                 </artifact>
                                 <artifact>
+                                    <file>target/classes/obr/repository/repository-main.xml</file>
+                                    <type>xml</type>
+                                    <classifier>repository-main</classifier>
+                                </artifact>
+                                <artifact>
+                                    <file>target/classes/obr/repository/jbundle-repository-${jbundle-version}.xml</file>
+                                    <type>xml</type>
+                                    <classifier>jbundle-repository</classifier>
+                                </artifact>
+                                <artifact>
+                                    <file>target/classes/obr/repository/jbundle-view-swing-repository-${jbundle-swing-version}.xml</file>
+                                    <type>xml</type>
+                                    <classifier>jbundle-view-swing-repository</classifier>
+                                </artifact>
+                                <artifact>
+                                    <file>target/classes/obr/repository/tourgeek-repository-${tourgeek-version}.xml</file>
+                                    <type>xml</type>
+                                    <classifier>tourgeek-repository</classifier>
+                                </artifact>
+                                <artifact>
+                                    <file>target/classes/obr/repository/jbundle-app-office-repository-${jbundle-app-office-version}.xml</file>
+                                    <type>xml</type>
+                                    <classifier>jbundle-app-office-repository</classifier>
+                                </artifact>
+                                <artifact>
+                                    <file>target/classes/obr/repository/jbundle-util-repository-${jbundle-util-version}.xml</file>
+                                    <type>xml</type>
+                                    <classifier>jbundle-util-repository</classifier>
+                                </artifact>
+                                <artifact>
+                                    <file>target/classes/obr/repository/jbundle-util-osgi-repository-${jbundle-osgi-version}.xml</file>
+                                    <type>xml</type>
+                                    <classifier>jbundle-util-osgi-repository</classifier>
+                                </artifact>
+                                <artifact>
+                                    <file>target/classes/obr/repository/jbundle-util-auto-webstart-repository-${jbundle-auto-webstart-version}.xml</file>
+                                    <type>xml</type>
+                                    <classifier>jbundle-util-auto-webstart-repository</classifier>
+                                </artifact>
+                                <artifact>
+                                    <file>target/classes/obr/repository/jbundle-util-calendarpanel-repository-${jbundle-calendarpanel-version}.xml</file>
+                                    <type>xml</type>
+                                    <classifier>jbundle-util-calendarpanel-repository</classifier>
+                                </artifact>
+                                <artifact>
+                                    <file>target/classes/obr/repository/jbundle-util-jcalendarbutton-repository-${jbundle-jcalendarbutton-version}.xml</file>
+                                    <type>xml</type>
+                                    <classifier>jbundle-util-jcalendarbutton-repository</classifier>
+                                </artifact>
+                                <artifact>
+                                    <file>target/classes/obr/repository/jbundle-util-other-repository-${jbundle-util-other-version}.xml</file>
+                                    <type>xml</type>
+                                    <classifier>jbundle-util-other-repository</classifier>
+                                </artifact>
+                                <artifact>
+                                    <file>target/classes/obr/repository/jbundle-util-webapp-repository-${jbundle-util-webapp-version}.xml</file>
+                                    <type>xml</type>
+                                    <classifier>jbundle-util-webapp-repository</classifier>
+                                </artifact>
+                                <artifact>
+                                    <file>target/classes/obr/repository/jbundle-util-wsdl-repository-${jbundle-util-wsdl-version}.xml</file>
+                                    <type>xml</type>
+                                    <classifier>jbundle-util-wsdl-repository</classifier>
+                                </artifact>
+                                <artifact>
+                                    <file>target/classes/obr/repository/jbundle-util-biorhythm-repository-${jbundle-util-biorhythm-version}.xml</file>
+                                    <type>xml</type>
+                                    <classifier>jbundle-util-biorhythm-repository</classifier>
+                                </artifact>
+                                <artifact>
                                     <file>target/classes/obr/repository/jbundle-external-repository-${jbundle-wrapped-version}.xml</file>
                                     <type>xml</type>
                                     <classifier>jbundle-external-repository</classifier>
+                                </artifact>
+                                <artifact>
+                                    <file>target/classes/obr/repository/jbundle-util-osgi-wrapped-repository-${jbundle-wrapped-version}.xml</file>
+                                    <type>xml</type>
+                                    <classifier>jbundle-util-osgi-wrapped-repository</classifier>
                                 </artifact>
                                 </artifacts>
                         </configuration>
