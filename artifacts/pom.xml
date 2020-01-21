@@ -92,6 +92,11 @@
                                     <type>shell</type>
                                     <classifier>demo</classifier>
                                 </artifact>
+                                <artifact>
+                                    <file>target/classes/obr/repository/jbundle-external-repository-${jbundle-wrapped-version}.xml</file>
+                                    <type>xml</type>
+                                    <classifier>jbundle-external-repository</classifier>
+                                </artifact>
                                 </artifacts>
                         </configuration>
                     </execution>
