@@ -3,7 +3,8 @@ echo Starting up the jbundle framework. Please wait... this may take a few momen
 feature:install http obr war
 sleep 4
 # Load the OBR index
-obr:url-add mvn:org.jbundle.config/jbundle-artifacts/${project.version}/xml/repository
+obr:url-add mvn:org.jbundle.config.repo/repository/${project.version}/xml
+sleep 1
 # Start the OBR resource retrieval utility
 obr:start -d 'jbundle-util-osgi-obr - obr bundle retrieval'
 sleep 1
@@ -11,8 +12,10 @@ sleep 1
 obr:start -d 'jbundle-util-osgi-webstart - osgi to web start web bundle'
 sleep 1
 # Start the jbundle web services app
-start 'jbundle-base-remote - Remote server'
+obr:start -d 'jbundle-base-remote - Remote server'
 sleep 4
-# Start the web sites
+# Start the web sites - Note there is still a minor dependency conflict in JAXB which requires a deploy + start
+obr:deploy 'jbundle-config-web-httpweb - Hybrid osgi webapp'
+sleep 4
 start 'jbundle-config-web-httpweb - Hybrid osgi webapp'
 sleep 1
