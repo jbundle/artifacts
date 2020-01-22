@@ -11,12 +11,17 @@
 
   <groupId>org.jbundle.config.web</groupId>
   <artifactId>jbundle-artifacts-reactor</artifactId>
-  <version>1.4.1-SNAPSHOT</version>
-  
+
   <packaging>pom</packaging>
   <name>jbundle-config-web-reactor - Web packaging parent</name>
-  
+
+  <properties>
+    <timestamp>${maven.build.timestamp}</timestamp>
+    <maven.build.timestamp.format>yyyyMMddHHmmss.mmm</maven.build.timestamp.format>
+  </properties>
+
   <modules>
+    <module>repositories</module>
     <module>artifacts</module>
     <module>main-site</module>
     <module>site</module>

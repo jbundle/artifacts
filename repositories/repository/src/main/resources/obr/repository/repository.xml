@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-stylesheet type='text/xsl' href='http://www.osgi.org/www/obr2html.xsl'?>
+
+<repository lastmodified='20130202155122.599' name='jbundle-main-repository'>
+  <referral depth="10" url="mvn:org.jbundle.config.repo/jbundle-repository/${jbundle-version}/xml"/>
+  <referral depth="10" url="mvn:org.jbundle.config.repo/jbundle-view-swing-repository/${jbundle-view-swing-version}/xml"/>
+
+  <referral depth="10" url="mvn:org.jbundle.config.repo/tourgeek-repository/${tourgeek-version}/xml"/>
+  <referral depth="10" url="mvn:org.jbundle.config.repo/jbundle-app-office-repository/${jbundle-app-office-version}/xml"/>
+  
+  <referral depth="10" url="mvn:org.jbundle.config.repo/jbundle-util-repository/${jbundle-util-version}/xml"/>
+  <referral depth="10" url="mvn:org.jbundle.config.repo/jbundle-util-osgi-repository/${jbundle-util-osgi-version}/xml"/>
+  <referral depth="10" url="mvn:org.jbundle.config.repo/jbundle-util-osgi-webstart-repository/${jbundle-util-osgi-webstart-version}/xml"/>
+  <referral depth="10" url="mvn:org.jbundle.config.repo/jbundle-util-calendarpanel-repository/${jbundle-util-calendarpanel-version}/xml"/>
+  <referral depth="10" url="mvn:org.jbundle.config.repo/jbundle-util-jcalendarbutton-repository/${jbundle-util-jcalendarbutton-version}/xml"/>
+  <referral depth="10" url="mvn:org.jbundle.config.repo/jbundle-util-other-repository/${jbundle-util-other-version}/xml"/>
+  <referral depth="10" url="mvn:org.jbundle.config.repo/jbundle-util-webapp-repository/${jbundle-util-webapp-version}/xml"/>
+  <referral depth="10" url="mvn:org.jbundle.config.repo/jbundle-util-wsdl-repository/${jbundle-util-wsdl-version}/xml"/>
+  <referral depth="10" url="mvn:org.jbundle.config.repo/jbundle-util-biorhythm-repository/${jbundle-util-biorhythm-version}/xml"/>
+  
+  <referral depth="10" url="mvn:org.jbundle.config.repo/jbundle-external-repository/${jbundle-external-version}/xml"/>
+  <referral depth="10" url="mvn:org.jbundle.config.repo/jbundle-util-osgi-wrapped-repository/${jbundle-util-osgi-wrapped-version}/xml"/>
+
+  <referral depth="10" url="mvn:org.jibx.config.repo/repository/${jibx-parent-version}/xml"/>
+</repository>

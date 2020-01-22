@@ -10,7 +10,7 @@
   
   <referral depth="10" url="mvn:org.jbundle.config/jbundle-artifacts/${project.version}/xml/jbundle-util-repository"/>
   <referral depth="10" url="mvn:org.jbundle.config/jbundle-artifacts/${project.version}/xml/jbundle-util-osgi-repository"/>
-  <referral depth="10" url="mvn:org.jbundle.config/jbundle-artifacts/${project.version}/xml/jbundle-util-auto-webstart-repository"/>
+  <referral depth="10" url="mvn:org.jbundle.config/jbundle-artifacts/${project.version}/xml/jbundle-util-osgi-webstart-repository"/>
   <referral depth="10" url="mvn:org.jbundle.config/jbundle-artifacts/${project.version}/xml/jbundle-util-calendarpanel-repository"/>
   <referral depth="10" url="mvn:org.jbundle.config/jbundle-artifacts/${project.version}/xml/jbundle-util-jcalendarbutton-repository"/>
   <referral depth="10" url="mvn:org.jbundle.config/jbundle-artifacts/${project.version}/xml/jbundle-util-other-repository"/>
@@ -21,8 +21,5 @@
   <referral depth="10" url="mvn:org.jbundle.config/jbundle-artifacts/${project.version}/xml/jbundle-external-repository"/>
   <referral depth="10" url="mvn:org.jbundle.config/jbundle-artifacts/${project.version}/xml/jbundle-util-osgi-wrapped-repository"/>
 
-  <referral depth="10" url="http://www.jibx.org/repository/repository.xml"/>
-<!--  <referral depth="10" url="jibx-repository-${jibx-version}.xml"/>-->
-<!--  <referral depth="10" url="jibx-schema-library-repository-${jibx-schema-version}.xml"/>-->
-<!--  <referral depth="10" url="jibx-external-repository-${jibx-version}"/>-->
+  <referral depth="10" url="mvn:org.jibx.config.repo/repository/${jibx-parent-version}/xml"/>
 </repository>

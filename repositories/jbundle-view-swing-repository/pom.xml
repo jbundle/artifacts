@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.jbundle.config.repo</groupId>
+        <artifactId>jbundle-repositories</artifactId>
+        <version>1.4.1-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>jbundle-view-swing-repository</artifactId>
+    <version>${jbundle-view-swing-version}</version>
+
+    <name>jbundle-view-swing-repository</name>
+    <description>jbundle-view-swing repository</description>
+
+  <packaging>pom</packaging>
+
+    <properties>
+        <skipAttach>false</skipAttach>
+    </properties>
+
+</project>

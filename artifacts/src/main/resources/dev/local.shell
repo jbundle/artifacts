@@ -24,13 +24,14 @@ config:update
 feature:install http obr war
 sleep 4
 
+# obr:url-add mvn:org.jbundle.config.repo/repository/1.4.1-SNAPSHOT/xml
 obr:url-add file:///home/karaf/repository/jbundle-repository-1.0.10-SNAPSHOT.xml
 obr:url-add file:///home/karaf/repository/jbundle-view-swing-repository-1.0.5-SNAPSHOT.xml
 obr:url-add file:///home/karaf/repository/tourgeek-repository-0.8.4-SNAPSHOT.xml
 obr:url-add file:///home/karaf/repository/jbundle-app-office-repository-1.1.4-SNAPSHOT.xml
 obr:url-add file:///home/karaf/repository/jbundle-util-repository-2.0.8-SNAPSHOT.xml
 obr:url-add file:///home/karaf/repository/jbundle-util-osgi-repository-2.0.10-SNAPSHOT.xml
-obr:url-add file:///home/karaf/repository/jbundle-util-auto-webstart-repository-1.6.10-SNAPSHOT.xml
+obr:url-add file:///home/karaf/repository/jbundle-util-osgi-webstart-repository-1.6.10-SNAPSHOT.xml
 obr:url-add file:///home/karaf/repository/jbundle-util-calendarpanel-repository-1.1.6-SNAPSHOT.xml
 obr:url-add file:///home/karaf/repository/jbundle-util-jcalendarbutton-repository-1.6.5-SNAPSHOT.xml
 obr:url-add file:///home/karaf/repository/jbundle-util-other-repository-0.7.10-SNAPSHOT.xml

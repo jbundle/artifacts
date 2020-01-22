@@ -103,7 +103,7 @@
                                     <classifier>jbundle-repository</classifier>
                                 </artifact>
                                 <artifact>
-                                    <file>target/classes/obr/repository/jbundle-view-swing-repository-${jbundle-swing-version}.xml</file>
+                                    <file>target/classes/obr/repository/jbundle-view-swing-repository-${jbundle-view-swing-version}.xml</file>
                                     <type>xml</type>
                                     <classifier>jbundle-view-swing-repository</classifier>
                                 </artifact>
@@ -123,22 +123,22 @@
                                     <classifier>jbundle-util-repository</classifier>
                                 </artifact>
                                 <artifact>
-                                    <file>target/classes/obr/repository/jbundle-util-osgi-repository-${jbundle-osgi-version}.xml</file>
+                                    <file>target/classes/obr/repository/jbundle-util-osgi-repository-${jbundle-util-osgi-version}.xml</file>
                                     <type>xml</type>
                                     <classifier>jbundle-util-osgi-repository</classifier>
                                 </artifact>
                                 <artifact>
-                                    <file>target/classes/obr/repository/jbundle-util-auto-webstart-repository-${jbundle-auto-webstart-version}.xml</file>
+                                    <file>target/classes/obr/repository/jbundle-util-osgi-webstart-repository-${jbundle-util-osgi-webstart-version}.xml</file>
                                     <type>xml</type>
-                                    <classifier>jbundle-util-auto-webstart-repository</classifier>
+                                    <classifier>jbundle-util-osgi-webstart-repository</classifier>
                                 </artifact>
                                 <artifact>
-                                    <file>target/classes/obr/repository/jbundle-util-calendarpanel-repository-${jbundle-calendarpanel-version}.xml</file>
+                                    <file>target/classes/obr/repository/jbundle-util-calendarpanel-repository-${jbundle-util-calendarpanel-version}.xml</file>
                                     <type>xml</type>
                                     <classifier>jbundle-util-calendarpanel-repository</classifier>
                                 </artifact>
                                 <artifact>
-                                    <file>target/classes/obr/repository/jbundle-util-jcalendarbutton-repository-${jbundle-jcalendarbutton-version}.xml</file>
+                                    <file>target/classes/obr/repository/jbundle-util-jcalendarbutton-repository-${jbundle-util-jcalendarbutton-version}.xml</file>
                                     <type>xml</type>
                                     <classifier>jbundle-util-jcalendarbutton-repository</classifier>
                                 </artifact>
@@ -163,12 +163,12 @@
                                     <classifier>jbundle-util-biorhythm-repository</classifier>
                                 </artifact>
                                 <artifact>
-                                    <file>target/classes/obr/repository/jbundle-external-repository-${jbundle-wrapped-version}.xml</file>
+                                    <file>target/classes/obr/repository/jbundle-external-repository-${jbundle-util-osgi-wrapped-version}.xml</file>
                                     <type>xml</type>
                                     <classifier>jbundle-external-repository</classifier>
                                 </artifact>
                                 <artifact>
-                                    <file>target/classes/obr/repository/jbundle-util-osgi-wrapped-repository-${jbundle-wrapped-version}.xml</file>
+                                    <file>target/classes/obr/repository/jbundle-util-osgi-wrapped-repository-${jbundle-util-osgi-wrapped-version}.xml</file>
                                     <type>xml</type>
                                     <classifier>jbundle-util-osgi-wrapped-repository</classifier>
                                 </artifact>

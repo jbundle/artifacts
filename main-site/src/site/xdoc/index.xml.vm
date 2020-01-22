@@ -18,7 +18,7 @@
       </subsection>
       <subsection name="Auto Web Start Project">
         <p>
-        An <a href="auto-webstart">Auto Web Start servlet</a>. Deploy your apps to a web client with zero-configuration.
+        An <a href="osgi-webstart">Auto Web Start servlet</a>. Deploy your apps to a web client with zero-configuration.
         </p>
       </subsection>
       <subsection name="Simple Web Servlets Project">

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.jbundle.config.web</groupId>
+        <artifactId>jbundle-artifacts-reactor</artifactId>
+        <version>1.4.1-SNAPSHOT</version>
+    </parent>
+
+    <groupId>org.jbundle.config.repo</groupId>
+    <artifactId>jbundle-repositories</artifactId>
+
+  <packaging>pom</packaging>
+  <name>jbundle-repositories</name>
+
+    <properties>
+        <skipAttach>true</skipAttach>
+    </properties>
+
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>filter</id>
+                        <phase>generate-resources</phase>
+                        <goals>
+                            <goal>resources</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>build-helper-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>attach-artifacts</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>attach-artifact</goal>
+                        </goals>
+                        <configuration>
+                            <artifacts>
+                                <artifact>
+                                    <file>target/classes/obr/repository/${project.artifactId}-${project.version}.xml</file>
+                                    <type>xml</type>
+                                </artifact>
+                            </artifacts>
+                            <skipAttach>${skipAttach}</skipAttach>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+    <modules>
+        <module>jbundle-repository</module>
+        <module>jbundle-external-repository</module>
+        <module>jbundle-view-swing-repository</module>
+        <module>jbundle-util-osgi-repository</module>
+        <module>jbundle-util-osgi-webstart-repository</module>
+        <module>jbundle-util-calendarpanel-repository</module>
+        <module>jbundle-util-jcalendarbutton-repository</module>
+        <module>jbundle-util-biorhythm-repository</module>
+        <module>jbundle-util-repository</module>
+        <module>jbundle-app-office-repository</module>
+        <module>jbundle-util-osgi-wrapped-repository</module>
+        <module>jbundle-util-webapp-repository</module>
+        <module>jbundle-util-other-repository</module>
+        <module>jbundle-util-wsdl-repository</module>
+        <module>tourgeek-repository</module>
+        <module>repository</module>
+    </modules>
+
+</project>
