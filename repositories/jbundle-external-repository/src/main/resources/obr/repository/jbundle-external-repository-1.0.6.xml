@@ -1,0 +1,1712 @@
+<repository lastmodified='20200123104826.067'>
+  <resource id='base64coder/2010.0.0.19' symbolicname='base64coder' presentationname='base64coder OSGi Bundle' uri='mvn:biz.source_code/base64coder/2010-12-19' version='2010.0.0.19'>
+    <description>This OSGi bundle simply wraps base64coder-2010-12-19.jar artifact.</description>
+    <size>5168</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='base64coder'/>
+      <p n='presentationname' v='base64coder OSGi Bundle'/>
+      <p n='version' t='version' v='2010.0.0.19'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='biz.source_code.base64Coder'/>
+      <p n='version' t='version' v='2010.0.0.19'/>
+    </capability>
+  </resource>
+  <resource id='commons-collections/3.2.1' symbolicname='commons-collections' presentationname='commons-collections OSGi Bundle' uri='mvn:commons-collections/commons-collections/3.2.1' version='3.2.1'>
+    <description>This OSGi bundle simply wraps commons-collections-3.2.1.jar artifact.</description>
+    <size>576763</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='commons-collections'/>
+      <p n='presentationname' v='commons-collections OSGi Bundle'/>
+      <p n='version' t='version' v='3.2.1'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.collections'/>
+      <p n='version' t='version' v='3.2.1'/>
+      <p n='uses:' v='org.apache.commons.collections.keyvalue'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.collections.bag'/>
+      <p n='version' t='version' v='3.2.1'/>
+      <p n='uses:' v='org.apache.commons.collections,org.apache.commons.collections.collection'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.collections.bidimap'/>
+      <p n='version' t='version' v='3.2.1'/>
+      <p n='uses:' v='org.apache.commons.collections,org.apache.commons.collections.collection,org.apache.commons.collections.iterators,org.apache.commons.collections.keyvalue,org.apache.commons.collections.map'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.collections.buffer'/>
+      <p n='version' t='version' v='3.2.1'/>
+      <p n='uses:' v='org.apache.commons.collections,org.apache.commons.collections.collection'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.collections.collection'/>
+      <p n='version' t='version' v='3.2.1'/>
+      <p n='uses:' v='org.apache.commons.collections'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.collections.comparators'/>
+      <p n='version' t='version' v='3.2.1'/>
+      <p n='uses:' v='org.apache.commons.collections'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.collections.functors'/>
+      <p n='version' t='version' v='3.2.1'/>
+      <p n='uses:' v='org.apache.commons.collections'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.collections.iterators'/>
+      <p n='version' t='version' v='3.2.1'/>
+      <p n='uses:' v='org.apache.commons.collections'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.collections.keyvalue'/>
+      <p n='version' t='version' v='3.2.1'/>
+      <p n='uses:' v='org.apache.commons.collections'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.collections.list'/>
+      <p n='version' t='version' v='3.2.1'/>
+      <p n='uses:' v='org.apache.commons.collections,org.apache.commons.collections.collection,org.apache.commons.collections.iterators'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.collections.map'/>
+      <p n='version' t='version' v='3.2.1'/>
+      <p n='uses:' v='org.apache.commons.collections,org.apache.commons.collections.set'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.collections.set'/>
+      <p n='version' t='version' v='3.2.1'/>
+      <p n='uses:' v='org.apache.commons.collections,org.apache.commons.collections.collection'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.apache.commons.collections)(version&gt;=3.2.0)(!(version&gt;=4.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.commons.collections;resolution:=optional;version="[3.2,4)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.collections.bag)(version&gt;=3.2.0)(!(version&gt;=4.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.commons.collections.bag;resolution:=optional;version="[3.2,4)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.collections.buffer)(version&gt;=3.2.0)(!(version&gt;=4.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.commons.collections.buffer;resolution:=optional;version="[3.2,4)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.collections.collection)(version&gt;=3.2.0)(!(version&gt;=4.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.commons.collections.collection;resolution:=optional;version="[3.2,4)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.collections.comparators)(version&gt;=3.2.0)(!(version&gt;=4.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.commons.collections.comparators;resolution:=optional;version="[3.2,4)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.collections.functors)(version&gt;=3.2.0)(!(version&gt;=4.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.commons.collections.functors;resolution:=optional;version="[3.2,4)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.collections.iterators)(version&gt;=3.2.0)(!(version&gt;=4.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.commons.collections.iterators;resolution:=optional;version="[3.2,4)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.collections.keyvalue)(version&gt;=3.2.0)(!(version&gt;=4.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.commons.collections.keyvalue;resolution:=optional;version="[3.2,4)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.collections.list)(version&gt;=3.2.0)(!(version&gt;=4.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.commons.collections.list;resolution:=optional;version="[3.2,4)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.collections.map)(version&gt;=3.2.0)(!(version&gt;=4.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.commons.collections.map;resolution:=optional;version="[3.2,4)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.collections.set)(version&gt;=3.2.0)(!(version&gt;=4.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.commons.collections.set;resolution:=optional;version="[3.2,4)"</require>
+  </resource>
+  <resource id='derby/10.14.2.0' symbolicname='derby' presentationname='derby OSGi Bundle' uri='mvn:org.apache.derby/derby/10.14.2.0' version='10.14.2.0'>
+    <description>This OSGi bundle simply wraps derby-10.14.2.0.jar artifact.</description>
+    <size>3277235</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='derby'/>
+      <p n='presentationname' v='derby OSGi Bundle'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.agg'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.authentication'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.catalog'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error,org.apache.derby.iapi.sql.dictionary,org.apache.derby.iapi.store.access,org.apache.derby.vti'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.catalog.types'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.catalog,org.apache.derby.iapi.error,org.apache.derby.iapi.services.io,org.apache.derby.iapi.types'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.database'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.catalog'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.diag'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error,org.apache.derby.vti'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.db'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.catalog,org.apache.derby.database,org.apache.derby.iapi.error,org.apache.derby.iapi.jdbc,org.apache.derby.iapi.services.context,org.apache.derby.iapi.services.i18n,org.apache.derby.iapi.sql.compile,org.apache.derby.iapi.sql.conn,org.apache.derby.iapi.sql.dictionary'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.error'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.services.stream,org.apache.derby.shared.common.error'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.jdbc'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='javax.transaction.xa,org.apache.derby.iapi.services.monitor,org.apache.derby.iapi.sql,org.apache.derby.iapi.store.access.xa,org.apache.derby.iapi.types'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.reference'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.shared.common.reference'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.security'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='javax.security.auth,org.apache.derby.iapi.error'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.services.cache'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error,org.apache.derby.iapi.services.daemon,org.apache.derby.iapi.util'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.services.classfile'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.util'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.services.compiler'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error,org.apache.derby.iapi.services.loader,org.apache.derby.iapi.util'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.services.context'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error,org.apache.derby.iapi.services.i18n'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.services.crypto'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error,org.apache.derby.io'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.services.daemon'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error,org.apache.derby.iapi.services.context,org.apache.derby.iapi.sql.conn,org.apache.derby.iapi.sql.dictionary'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.services.diag'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.services.i18n'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.services.info'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.mbeans'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.services.io'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error,org.apache.derby.iapi.services.loader,org.apache.derby.iapi.types,org.apache.derby.io'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.services.jmx'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error,org.apache.derby.mbeans'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.services.loader'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error,org.apache.derby.iapi.services.context,org.apache.derby.iapi.services.locks,org.apache.derby.iapi.services.property,org.apache.derby.iapi.util,org.apache.derby.io'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.services.locks'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error,org.apache.derby.iapi.services.property,org.apache.derby.iapi.util'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.services.memory'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.services.monitor'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error,org.apache.derby.iapi.services.info,org.apache.derby.iapi.services.loader,org.apache.derby.iapi.services.stream,org.apache.derby.iapi.services.timer,org.apache.derby.iapi.services.uuid,org.apache.derby.io'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.services.property'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error,org.apache.derby.iapi.services.daemon,org.apache.derby.iapi.store.access'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.services.stream'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.services.timer'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.services.uuid'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.catalog'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.sql'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error,org.apache.derby.iapi.services.loader,org.apache.derby.iapi.sql.compile,org.apache.derby.iapi.sql.conn,org.apache.derby.iapi.sql.depend,org.apache.derby.iapi.sql.dictionary,org.apache.derby.iapi.sql.execute,org.apache.derby.iapi.store.access,org.apache.derby.iapi.types,org.w3c.dom'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.sql.compile'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error,org.apache.derby.iapi.services.compiler,org.apache.derby.iapi.services.context,org.apache.derby.iapi.services.loader,org.apache.derby.iapi.sql.conn,org.apache.derby.iapi.sql.depend,org.apache.derby.iapi.sql.dictionary,org.apache.derby.iapi.store.access,org.apache.derby.iapi.types,org.apache.derby.iapi.util,org.apache.derby.impl.sql.compile'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.sql.conn'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.catalog,org.apache.derby.iapi.db,org.apache.derby.iapi.error,org.apache.derby.iapi.services.cache,org.apache.derby.iapi.services.compiler,org.apache.derby.iapi.services.context,org.apache.derby.iapi.services.io,org.apache.derby.iapi.services.loader,org.apache.derby.iapi.services.property,org.apache.derby.iapi.services.uuid,org.apache.derby.iapi.sql,org.apache.derby.iapi.sql.compile,org.apache.derby.iapi.sql.depend,org.apache.derby.iapi.sql.dictionary,org.apache.derby.iapi.sql.execute,org.apache.derby.iapi.store.access,org.apache.derby.iapi.types,org.apache.derby.impl.sql.execute'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.sql.depend'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.catalog,org.apache.derby.iapi.error,org.apache.derby.iapi.services.context,org.apache.derby.iapi.services.io,org.apache.derby.iapi.sql.conn,org.apache.derby.iapi.store.access'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.sql.dictionary'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.catalog,org.apache.derby.iapi.db,org.apache.derby.iapi.error,org.apache.derby.iapi.services.daemon,org.apache.derby.iapi.services.io,org.apache.derby.iapi.services.uuid,org.apache.derby.iapi.sql,org.apache.derby.iapi.sql.compile,org.apache.derby.iapi.sql.conn,org.apache.derby.iapi.sql.depend,org.apache.derby.iapi.sql.execute,org.apache.derby.iapi.store.access,org.apache.derby.iapi.types'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.sql.execute'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error,org.apache.derby.iapi.services.context,org.apache.derby.iapi.services.io,org.apache.derby.iapi.services.loader,org.apache.derby.iapi.sql,org.apache.derby.iapi.sql.conn,org.apache.derby.iapi.sql.dictionary,org.apache.derby.iapi.sql.execute.xplain,org.apache.derby.iapi.store.access,org.apache.derby.iapi.types'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.sql.execute.xplain'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error,org.apache.derby.iapi.sql,org.apache.derby.iapi.sql.execute'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.store.access'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.catalog,org.apache.derby.iapi.error,org.apache.derby.iapi.services.context,org.apache.derby.iapi.services.io,org.apache.derby.iapi.services.locks,org.apache.derby.iapi.services.property,org.apache.derby.iapi.store.access.conglomerate,org.apache.derby.iapi.store.raw,org.apache.derby.iapi.types,org.apache.derby.io'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.store.access.conglomerate'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.catalog,org.apache.derby.iapi.error,org.apache.derby.iapi.services.daemon,org.apache.derby.iapi.services.io,org.apache.derby.iapi.services.monitor,org.apache.derby.iapi.store.access,org.apache.derby.iapi.store.raw,org.apache.derby.iapi.types'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.store.access.xa'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='javax.transaction.xa,org.apache.derby.iapi.error,org.apache.derby.iapi.services.context,org.apache.derby.iapi.store.access'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.store.raw'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error,org.apache.derby.iapi.services.context,org.apache.derby.iapi.services.daemon,org.apache.derby.iapi.services.io,org.apache.derby.iapi.services.locks,org.apache.derby.iapi.services.property,org.apache.derby.iapi.store.access,org.apache.derby.iapi.store.access.conglomerate,org.apache.derby.iapi.store.raw.log,org.apache.derby.iapi.store.raw.xact,org.apache.derby.iapi.types,org.apache.derby.iapi.util'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.store.raw.data'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.catalog,org.apache.derby.iapi.error,org.apache.derby.iapi.services.context,org.apache.derby.iapi.services.daemon,org.apache.derby.iapi.store.access,org.apache.derby.iapi.store.raw,org.apache.derby.iapi.store.raw.log,org.apache.derby.iapi.store.raw.xact,org.apache.derby.iapi.util,org.apache.derby.io'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.store.raw.log'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error,org.apache.derby.iapi.services.io,org.apache.derby.iapi.services.property,org.apache.derby.iapi.store.access,org.apache.derby.iapi.store.raw,org.apache.derby.iapi.store.raw.data,org.apache.derby.iapi.store.raw.xact,org.apache.derby.iapi.store.replication.master,org.apache.derby.io'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.store.raw.xact'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error,org.apache.derby.iapi.services.context,org.apache.derby.iapi.services.daemon,org.apache.derby.iapi.services.io,org.apache.derby.iapi.services.locks,org.apache.derby.iapi.services.monitor,org.apache.derby.iapi.store.access,org.apache.derby.iapi.store.raw,org.apache.derby.iapi.store.raw.data,org.apache.derby.iapi.store.raw.log,org.apache.derby.iapi.util'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.store.replication.master'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error,org.apache.derby.iapi.store.raw,org.apache.derby.iapi.store.raw.data,org.apache.derby.iapi.store.raw.log'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.store.replication.slave'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error,org.apache.derby.iapi.store.raw,org.apache.derby.iapi.store.raw.log'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.tools.i18n'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.transaction'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.types'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='javax.xml.transform,org.apache.derby.catalog,org.apache.derby.catalog.types,org.apache.derby.iapi.error,org.apache.derby.iapi.jdbc,org.apache.derby.iapi.services.i18n,org.apache.derby.iapi.services.io,org.apache.derby.iapi.services.loader,org.apache.derby.iapi.services.monitor,org.apache.derby.iapi.sql'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.iapi.util'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error,org.apache.derby.iapi.sql.conn'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.db'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.catalog,org.apache.derby.iapi.db,org.apache.derby.iapi.error,org.apache.derby.iapi.jdbc,org.apache.derby.iapi.services.context,org.apache.derby.iapi.services.daemon,org.apache.derby.iapi.services.loader,org.apache.derby.iapi.services.monitor,org.apache.derby.iapi.services.property,org.apache.derby.iapi.sql,org.apache.derby.iapi.sql.conn,org.apache.derby.iapi.sql.dictionary,org.apache.derby.iapi.store.access,org.apache.derby.io'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.io'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.io'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.io.vfmem'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error,org.apache.derby.io'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.jdbc'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.db,org.apache.derby.iapi.error,org.apache.derby.iapi.jdbc,org.apache.derby.iapi.services.context,org.apache.derby.iapi.services.memory,org.apache.derby.iapi.sql,org.apache.derby.iapi.sql.conn,org.apache.derby.iapi.types,org.apache.derby.jdbc'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.jdbc.authentication'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.authentication,org.apache.derby.iapi.error,org.apache.derby.iapi.jdbc,org.apache.derby.iapi.services.daemon,org.apache.derby.iapi.services.monitor,org.apache.derby.iapi.services.property,org.apache.derby.iapi.store.access'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.load'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.services.bytecode'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error,org.apache.derby.iapi.services.cache,org.apache.derby.iapi.services.compiler,org.apache.derby.iapi.services.loader,org.apache.derby.iapi.services.monitor,org.apache.derby.iapi.util'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.services.cache'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.services.cache'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.services.daemon'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.db,org.apache.derby.iapi.error,org.apache.derby.iapi.services.context,org.apache.derby.iapi.services.daemon,org.apache.derby.iapi.services.stream,org.apache.derby.iapi.sql.conn,org.apache.derby.iapi.sql.dictionary'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.services.jce'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error,org.apache.derby.iapi.services.crypto'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.services.jmx'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error,org.apache.derby.iapi.services.jmx,org.apache.derby.iapi.services.monitor'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.services.jmxnone'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.services.jmx'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.services.locks'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error,org.apache.derby.iapi.services.daemon,org.apache.derby.iapi.services.locks,org.apache.derby.iapi.sql.conn,org.apache.derby.iapi.util'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.services.monitor'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error,org.apache.derby.iapi.services.info,org.apache.derby.iapi.services.loader,org.apache.derby.iapi.services.monitor,org.apache.derby.iapi.services.stream,org.apache.derby.iapi.services.timer,org.apache.derby.iapi.services.uuid,org.apache.derby.io'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.services.reflect'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error,org.apache.derby.iapi.services.context,org.apache.derby.iapi.services.loader'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.services.stream'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.services.monitor,org.apache.derby.iapi.services.stream'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.services.timer'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error,org.apache.derby.iapi.services.monitor,org.apache.derby.iapi.services.timer'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.services.uuid'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.catalog,org.apache.derby.iapi.services.io,org.apache.derby.iapi.services.uuid'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.sql'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.catalog,org.apache.derby.iapi.error,org.apache.derby.iapi.services.cache,org.apache.derby.iapi.services.daemon,org.apache.derby.iapi.services.io,org.apache.derby.iapi.services.loader,org.apache.derby.iapi.services.monitor,org.apache.derby.iapi.services.property,org.apache.derby.iapi.sql,org.apache.derby.iapi.sql.conn,org.apache.derby.iapi.sql.depend,org.apache.derby.iapi.sql.dictionary,org.apache.derby.iapi.sql.execute,org.apache.derby.iapi.store.access,org.apache.derby.iapi.types,org.apache.derby.impl.sql.compile,org.apache.derby.impl.sql.execute'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.sql.catalog'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.catalog,org.apache.derby.iapi.db,org.apache.derby.iapi.error,org.apache.derby.iapi.services.cache,org.apache.derby.iapi.services.daemon,org.apache.derby.iapi.services.io,org.apache.derby.iapi.services.locks,org.apache.derby.iapi.services.monitor,org.apache.derby.iapi.services.uuid,org.apache.derby.iapi.sql.compile,org.apache.derby.iapi.sql.conn,org.apache.derby.iapi.sql.depend,org.apache.derby.iapi.sql.dictionary,org.apache.derby.iapi.sql.execute,org.apache.derby.iapi.store.access,org.apache.derby.iapi.types'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.sql.compile'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.catalog,org.apache.derby.catalog.types,org.apache.derby.iapi.error,org.apache.derby.iapi.services.compiler,org.apache.derby.iapi.services.context,org.apache.derby.iapi.services.io,org.apache.derby.iapi.services.loader,org.apache.derby.iapi.services.monitor,org.apache.derby.iapi.sql,org.apache.derby.iapi.sql.compile,org.apache.derby.iapi.sql.conn,org.apache.derby.iapi.sql.depend,org.apache.derby.iapi.sql.dictionary,org.apache.derby.iapi.sql.execute,org.apache.derby.iapi.store.access,org.apache.derby.iapi.types,org.apache.derby.iapi.util,org.apache.derby.impl.sql.execute,org.w3c.dom'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.sql.conn'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.catalog,org.apache.derby.iapi.db,org.apache.derby.iapi.error,org.apache.derby.iapi.services.cache,org.apache.derby.iapi.services.compiler,org.apache.derby.iapi.services.context,org.apache.derby.iapi.services.daemon,org.apache.derby.iapi.services.io,org.apache.derby.iapi.services.loader,org.apache.derby.iapi.services.monitor,org.apache.derby.iapi.services.property,org.apache.derby.iapi.services.uuid,org.apache.derby.iapi.sql,org.apache.derby.iapi.sql.compile,org.apache.derby.iapi.sql.conn,org.apache.derby.iapi.sql.depend,org.apache.derby.iapi.sql.dictionary,org.apache.derby.iapi.sql.execute,org.apache.derby.iapi.store.access,org.apache.derby.iapi.types,org.apache.derby.impl.sql,org.apache.derby.impl.sql.execute'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.sql.depend'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.catalog,org.apache.derby.iapi.error,org.apache.derby.iapi.services.context,org.apache.derby.iapi.services.io,org.apache.derby.iapi.sql.conn,org.apache.derby.iapi.sql.depend,org.apache.derby.iapi.sql.dictionary,org.apache.derby.iapi.store.access'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.sql.execute'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.agg,org.apache.derby.catalog,org.apache.derby.iapi.error,org.apache.derby.iapi.services.context,org.apache.derby.iapi.services.io,org.apache.derby.iapi.services.loader,org.apache.derby.iapi.services.monitor,org.apache.derby.iapi.sql,org.apache.derby.iapi.sql.conn,org.apache.derby.iapi.sql.depend,org.apache.derby.iapi.sql.dictionary,org.apache.derby.iapi.sql.execute,org.apache.derby.iapi.sql.execute.xplain,org.apache.derby.iapi.store.access,org.apache.derby.iapi.types,org.apache.derby.impl.sql.compile,org.w3c.dom'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.sql.execute.rts'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.services.io,org.apache.derby.iapi.sql.execute,org.apache.derby.iapi.sql.execute.xplain'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.sql.execute.xplain'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error,org.apache.derby.iapi.sql,org.apache.derby.iapi.sql.execute,org.apache.derby.iapi.sql.execute.xplain,org.apache.derby.impl.sql.catalog'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.store.access'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.catalog,org.apache.derby.iapi.error,org.apache.derby.iapi.services.cache,org.apache.derby.iapi.services.context,org.apache.derby.iapi.services.daemon,org.apache.derby.iapi.services.io,org.apache.derby.iapi.services.locks,org.apache.derby.iapi.services.monitor,org.apache.derby.iapi.services.property,org.apache.derby.iapi.store.access,org.apache.derby.iapi.store.access.conglomerate,org.apache.derby.iapi.store.raw,org.apache.derby.iapi.types'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.store.access.btree'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error,org.apache.derby.iapi.services.io,org.apache.derby.iapi.store.access,org.apache.derby.iapi.store.access.conglomerate,org.apache.derby.iapi.store.raw,org.apache.derby.iapi.types,org.apache.derby.impl.store.access.conglomerate'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.store.access.btree.index'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.catalog,org.apache.derby.iapi.error,org.apache.derby.iapi.services.io,org.apache.derby.iapi.services.monitor,org.apache.derby.iapi.store.access,org.apache.derby.iapi.store.access.conglomerate,org.apache.derby.iapi.store.raw,org.apache.derby.iapi.types,org.apache.derby.impl.store.access.btree'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.store.access.conglomerate'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error,org.apache.derby.iapi.services.io,org.apache.derby.iapi.store.access,org.apache.derby.iapi.store.access.conglomerate,org.apache.derby.iapi.store.raw,org.apache.derby.iapi.types'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.store.access.heap'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.catalog,org.apache.derby.iapi.error,org.apache.derby.iapi.services.io,org.apache.derby.iapi.services.monitor,org.apache.derby.iapi.store.access,org.apache.derby.iapi.store.access.conglomerate,org.apache.derby.iapi.store.raw,org.apache.derby.iapi.types,org.apache.derby.impl.store.access.conglomerate'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.store.access.sort'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.catalog,org.apache.derby.iapi.error,org.apache.derby.iapi.services.io,org.apache.derby.iapi.services.monitor,org.apache.derby.iapi.store.access,org.apache.derby.iapi.store.access.conglomerate,org.apache.derby.iapi.store.raw,org.apache.derby.iapi.types'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.store.raw'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error,org.apache.derby.iapi.services.context,org.apache.derby.iapi.services.daemon,org.apache.derby.iapi.services.locks,org.apache.derby.iapi.services.monitor,org.apache.derby.iapi.services.property,org.apache.derby.iapi.store.access,org.apache.derby.iapi.store.raw,org.apache.derby.iapi.store.raw.data,org.apache.derby.iapi.store.raw.log,org.apache.derby.iapi.store.raw.xact,org.apache.derby.io'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.store.raw.data'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.catalog,org.apache.derby.iapi.error,org.apache.derby.iapi.services.cache,org.apache.derby.iapi.services.context,org.apache.derby.iapi.services.daemon,org.apache.derby.iapi.services.io,org.apache.derby.iapi.services.locks,org.apache.derby.iapi.services.monitor,org.apache.derby.iapi.store.access,org.apache.derby.iapi.store.access.conglomerate,org.apache.derby.iapi.store.raw,org.apache.derby.iapi.store.raw.data,org.apache.derby.iapi.store.raw.log,org.apache.derby.iapi.store.raw.xact,org.apache.derby.iapi.types,org.apache.derby.iapi.util,org.apache.derby.io'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.store.raw.log'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.catalog,org.apache.derby.iapi.error,org.apache.derby.iapi.services.context,org.apache.derby.iapi.services.daemon,org.apache.derby.iapi.services.io,org.apache.derby.iapi.services.monitor,org.apache.derby.iapi.services.property,org.apache.derby.iapi.store.access,org.apache.derby.iapi.store.raw,org.apache.derby.iapi.store.raw.data,org.apache.derby.iapi.store.raw.log,org.apache.derby.iapi.store.raw.xact,org.apache.derby.iapi.store.replication.master,org.apache.derby.iapi.util,org.apache.derby.io'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.store.raw.xact'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='javax.transaction.xa,org.apache.derby.catalog,org.apache.derby.iapi.error,org.apache.derby.iapi.services.context,org.apache.derby.iapi.services.daemon,org.apache.derby.iapi.services.io,org.apache.derby.iapi.services.locks,org.apache.derby.iapi.services.monitor,org.apache.derby.iapi.services.property,org.apache.derby.iapi.store.access,org.apache.derby.iapi.store.access.xa,org.apache.derby.iapi.store.raw,org.apache.derby.iapi.store.raw.data,org.apache.derby.iapi.store.raw.log,org.apache.derby.iapi.store.raw.xact,org.apache.derby.iapi.types,org.apache.derby.iapi.util'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.store.replication'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.store.replication.buffer'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.store.replication.master'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.store.replication.master'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error,org.apache.derby.iapi.services.monitor,org.apache.derby.iapi.store.raw,org.apache.derby.iapi.store.raw.data,org.apache.derby.iapi.store.raw.log,org.apache.derby.iapi.store.replication.master,org.apache.derby.impl.store.replication,org.apache.derby.impl.store.replication.buffer,org.apache.derby.impl.store.replication.net'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.store.replication.net'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.store.replication.slave'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error,org.apache.derby.iapi.services.monitor,org.apache.derby.iapi.store.raw,org.apache.derby.iapi.store.raw.log,org.apache.derby.iapi.store.replication.slave'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.impl.tools.sysinfo'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.info'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.io'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.jdbc'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='javax.naming,javax.naming.spi,javax.sql,javax.transaction.xa,org.apache.derby.iapi.error,org.apache.derby.iapi.jdbc,org.apache.derby.iapi.services.context,org.apache.derby.iapi.services.io,org.apache.derby.iapi.services.monitor,org.apache.derby.iapi.sql,org.apache.derby.iapi.store.access.xa,org.apache.derby.impl.jdbc'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.loc'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.mbeans'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.osgi'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.osgi.framework'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.security'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.shared.common.error'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.shared.common.reference'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.tools'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.derby.vti'/>
+      <p n='version' t='version' v='10.14.2.0'/>
+      <p n='uses:' v='org.apache.derby.iapi.error,org.apache.derby.iapi.store.access,org.apache.derby.iapi.types'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.ibm.jvm))' extend='false' multiple='false' optional='true'>Import package com.ibm.jvm;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.crypto))' extend='false' multiple='false' optional='true'>Import package javax.crypto;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.crypto.spec))' extend='false' multiple='false' optional='true'>Import package javax.crypto.spec;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.management))' extend='false' multiple='false' optional='true'>Import package javax.management;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.naming))' extend='false' multiple='false' optional='true'>Import package javax.naming;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.naming.directory))' extend='false' multiple='false' optional='true'>Import package javax.naming.directory;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.naming.spi))' extend='false' multiple='false' optional='true'>Import package javax.naming.spi;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.net))' extend='false' multiple='false' optional='true'>Import package javax.net;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.security.auth))' extend='false' multiple='false' optional='true'>Import package javax.security.auth;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.sql))' extend='false' multiple='false' optional='true'>Import package javax.sql;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.transaction.xa))' extend='false' multiple='false' optional='true'>Import package javax.transaction.xa;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.namespace))' extend='false' multiple='false' optional='true'>Import package javax.xml.namespace;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.parsers))' extend='false' multiple='false' optional='true'>Import package javax.xml.parsers;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform))' extend='false' multiple='false' optional='true'>Import package javax.xml.transform;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform.dom))' extend='false' multiple='false' optional='true'>Import package javax.xml.transform.dom;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform.stream))' extend='false' multiple='false' optional='true'>Import package javax.xml.transform.stream;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.xpath))' extend='false' multiple='false' optional='true'>Import package javax.xml.xpath;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.agg)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.agg;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.authentication)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.authentication;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.catalog)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.catalog;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.catalog.types)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.catalog.types;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.database)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.database;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.db)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.db;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.error)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.error;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.jdbc)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.jdbc;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.security)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.security;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.services.cache)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.services.cache;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.services.classfile)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.services.classfile;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.services.compiler)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.services.compiler;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.services.context)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.services.context;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.services.crypto)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.services.crypto;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.services.daemon)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.services.daemon;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.services.i18n)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.services.i18n;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.services.info)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.services.info;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.services.io)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.services.io;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.services.jmx)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.services.jmx;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.services.loader)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.services.loader;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.services.locks)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.services.locks;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.services.memory)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.services.memory;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.services.monitor)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.services.monitor;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.services.property)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.services.property;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.services.stream)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.services.stream;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.services.timer)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.services.timer;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.services.uuid)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.services.uuid;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.sql)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.sql;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.sql.compile)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.sql.compile;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.sql.conn)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.sql.conn;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.sql.depend)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.sql.depend;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.sql.dictionary)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.sql.dictionary;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.sql.execute)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.sql.execute;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.sql.execute.xplain)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.sql.execute.xplain;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.store.access)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.store.access;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.store.access.conglomerate)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.store.access.conglomerate;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.store.access.xa)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.store.access.xa;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.store.raw)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.store.raw;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.store.raw.data)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.store.raw.data;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.store.raw.log)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.store.raw.log;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.store.raw.xact)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.store.raw.xact;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.store.replication.master)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.store.replication.master;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.store.replication.slave)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.store.replication.slave;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.tools.i18n)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.tools.i18n;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.transaction)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.transaction;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.types)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.types;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.iapi.util)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.iapi.util;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.impl.db)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.impl.db;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.impl.drda))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.impl.drda;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.impl.io.vfmem)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.impl.io.vfmem;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.impl.jdbc)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.impl.jdbc;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.impl.jdbc.authentication)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.impl.jdbc.authentication;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.impl.load)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.impl.load;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.impl.services.daemon)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.impl.services.daemon;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.impl.services.locks)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.impl.services.locks;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.impl.services.monitor)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.impl.services.monitor;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.impl.sql)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.impl.sql;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.impl.sql.catalog)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.impl.sql.catalog;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.impl.sql.compile)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.impl.sql.compile;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.impl.sql.conn)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.impl.sql.conn;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.impl.sql.depend)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.impl.sql.depend;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.impl.sql.execute)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.impl.sql.execute;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.impl.sql.execute.rts)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.impl.sql.execute.rts;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.impl.sql.execute.xplain)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.impl.sql.execute.xplain;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.impl.store.access)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.impl.store.access;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.impl.store.access.btree)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.impl.store.access.btree;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.impl.store.access.conglomerate)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.impl.store.access.conglomerate;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.impl.store.access.heap)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.impl.store.access.heap;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.impl.store.raw.data)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.impl.store.raw.data;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.impl.store.raw.log)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.impl.store.raw.log;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.impl.store.replication)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.impl.store.replication;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.impl.store.replication.buffer)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.impl.store.replication.buffer;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.impl.store.replication.net)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.impl.store.replication.net;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.impl.tools.sysinfo)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.impl.tools.sysinfo;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.io)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.io;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.jdbc)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.jdbc;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.mbeans)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.mbeans;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.security)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.security;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.shared.common.error)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.shared.common.error;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.shared.common.reference)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.shared.common.reference;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.derby.vti)(version&gt;=10.14.0)(!(version&gt;=11.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.derby.vti;resolution:=optional;version="[10.14,11)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework))' extend='false' multiple='false' optional='true'>Import package org.osgi.framework;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.w3c.dom))' extend='false' multiple='false' optional='true'>Import package org.w3c.dom;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.xml.sax))' extend='false' multiple='false' optional='true'>Import package org.xml.sax;resolution:=optional</require>
+  </resource>
+  <resource id='httpclient-osgi/4.5.10' symbolicname='httpclient-osgi' presentationname='httpclient-osgi OSGi Bundle' uri='mvn:org.apache.httpcomponents/httpclient-osgi/4.5.10' version='4.5.10'>
+    <description>This OSGi bundle simply wraps httpclient-osgi-4.5.10.jar artifact.</description>
+    <size>1709427</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='httpclient-osgi'/>
+      <p n='presentationname' v='httpclient-osgi OSGi Bundle'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='mozilla'/>
+      <p n='version' t='version' v='4.5.10'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.codec'/>
+      <p n='version' t='version' v='4.5.10'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.codec.binary'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.commons.codec'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.codec.cli'/>
+      <p n='version' t='version' v='4.5.10'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.codec.digest'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='javax.crypto'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.codec.language'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.commons.codec'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.codec.language.bm'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.commons.codec'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.codec.net'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.commons.codec'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.logging'/>
+      <p n='version' t='version' v='4.5.10'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.commons.logging.impl'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='javax.servlet,org.apache.avalon.framework.logger,org.apache.commons.logging,org.apache.log,org.apache.log4j'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.http.params,org.apache.http.protocol,org.apache.http.util'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.annotation'/>
+      <p n='version' t='version' v='4.5.10'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.auth'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.http,org.apache.http.config,org.apache.http.params,org.apache.http.protocol,org.ietf.jgss'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.auth.params'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.http.params'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.client'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.http,org.apache.http.auth,org.apache.http.client.methods,org.apache.http.conn,org.apache.http.conn.routing,org.apache.http.cookie,org.apache.http.params,org.apache.http.protocol'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.client.cache'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.http,org.apache.http.client.protocol,org.apache.http.protocol'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.client.config'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.http'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.client.entity'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.http,org.apache.http.entity'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.client.fluent'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.http,org.apache.http.auth,org.apache.http.client,org.apache.http.concurrent,org.apache.http.conn.scheme,org.apache.http.entity,org.apache.http.impl.client'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.client.methods'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.http,org.apache.http.client.config,org.apache.http.concurrent,org.apache.http.conn,org.apache.http.message,org.apache.http.params'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.client.params'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.http,org.apache.http.auth.params,org.apache.http.client.config,org.apache.http.conn.params,org.apache.http.cookie.params,org.apache.http.params'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.client.protocol'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.http,org.apache.http.auth,org.apache.http.client,org.apache.http.client.config,org.apache.http.client.entity,org.apache.http.config,org.apache.http.conn.routing,org.apache.http.cookie,org.apache.http.protocol'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.client.utils'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.http,org.apache.http.client,org.apache.http.client.methods,org.apache.http.conn.routing,org.apache.http.util'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.concurrent'/>
+      <p n='version' t='version' v='4.5.10'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.config'/>
+      <p n='version' t='version' v='4.5.10'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.conn'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='javax.net.ssl,org.apache.http,org.apache.http.concurrent,org.apache.http.config,org.apache.http.conn.routing,org.apache.http.conn.scheme,org.apache.http.entity,org.apache.http.params,org.apache.http.protocol'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.conn.params'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.http,org.apache.http.conn.routing,org.apache.http.params'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.conn.routing'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.http,org.apache.http.protocol'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.conn.scheme'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.http,org.apache.http.conn,org.apache.http.params'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.conn.socket'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.http,org.apache.http.protocol'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.conn.ssl'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='javax.net.ssl,org.apache.http,org.apache.http.conn,org.apache.http.conn.scheme,org.apache.http.conn.socket,org.apache.http.conn.util,org.apache.http.params,org.apache.http.protocol,org.apache.http.ssl'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.conn.util'/>
+      <p n='version' t='version' v='4.5.10'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.cookie'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.http,org.apache.http.config,org.apache.http.params,org.apache.http.protocol'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.cookie.params'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.http.params'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.entity'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.http'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.entity.mime'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.http,org.apache.http.entity,org.apache.http.entity.mime.content'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.entity.mime.content'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.http.entity'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.impl'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.http,org.apache.http.config,org.apache.http.entity,org.apache.http.impl.entity,org.apache.http.io,org.apache.http.params,org.apache.http.protocol'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.impl.auth'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.commons.logging,org.apache.http,org.apache.http.auth,org.apache.http.client,org.apache.http.params,org.apache.http.protocol,org.apache.http.util,org.ietf.jgss'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.impl.bootstrap'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='javax.net,javax.net.ssl,org.apache.http,org.apache.http.config,org.apache.http.impl,org.apache.http.protocol'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.impl.client'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='javax.net.ssl,org.apache.commons.logging,org.apache.http,org.apache.http.auth,org.apache.http.client,org.apache.http.client.config,org.apache.http.client.entity,org.apache.http.client.methods,org.apache.http.concurrent,org.apache.http.config,org.apache.http.conn,org.apache.http.conn.routing,org.apache.http.conn.socket,org.apache.http.conn.ssl,org.apache.http.conn.util,org.apache.http.cookie,org.apache.http.impl,org.apache.http.impl.auth,org.apache.http.impl.execchain,org.apache.http.message,org.apache.http.params,org.apache.http.pool,org.apache.http.protocol'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.impl.client.cache'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.http,org.apache.http.client,org.apache.http.client.cache,org.apache.http.client.methods,org.apache.http.client.protocol,org.apache.http.conn,org.apache.http.conn.routing,org.apache.http.impl.client,org.apache.http.impl.execchain,org.apache.http.params,org.apache.http.protocol'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.impl.client.cache.ehcache'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='net.sf.ehcache,org.apache.http.client.cache,org.apache.http.impl.client.cache'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.impl.client.cache.memcached'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='net.spy.memcached,org.apache.http.client.cache,org.apache.http.impl.client.cache'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.impl.conn'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='javax.net.ssl,org.apache.commons.logging,org.apache.http,org.apache.http.config,org.apache.http.conn,org.apache.http.conn.routing,org.apache.http.conn.scheme,org.apache.http.conn.socket,org.apache.http.entity,org.apache.http.impl,org.apache.http.impl.io,org.apache.http.io,org.apache.http.message,org.apache.http.params,org.apache.http.pool,org.apache.http.protocol,org.apache.http.util'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.impl.conn.tsccm'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.http.conn,org.apache.http.conn.params,org.apache.http.conn.routing,org.apache.http.conn.scheme,org.apache.http.impl.conn,org.apache.http.params'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.impl.cookie'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.http,org.apache.http.conn.util,org.apache.http.cookie,org.apache.http.message,org.apache.http.params,org.apache.http.protocol,org.apache.http.util'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.impl.entity'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.http,org.apache.http.entity,org.apache.http.io'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.impl.execchain'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.http,org.apache.http.client,org.apache.http.client.methods,org.apache.http.client.protocol,org.apache.http.conn,org.apache.http.conn.routing,org.apache.http.protocol'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.impl.io'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.http,org.apache.http.config,org.apache.http.io,org.apache.http.message,org.apache.http.params,org.apache.http.util'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.impl.pool'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='javax.net,javax.net.ssl,org.apache.http,org.apache.http.config,org.apache.http.params,org.apache.http.pool'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.io'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.http,org.apache.http.config,org.apache.http.util'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.message'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.http,org.apache.http.params,org.apache.http.util'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.osgi.impl'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.http.impl.client,org.apache.http.osgi.services,org.osgi.framework,org.osgi.service.cm'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.osgi.services'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.http.impl.client,org.apache.http.impl.client.cache'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.params'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.http,org.apache.http.config'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.pool'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.http.concurrent'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.protocol'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.http,org.apache.http.params'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.ssl'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='javax.net.ssl'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.apache.http.util'/>
+      <p n='version' t='version' v='4.5.10'/>
+      <p n='uses:' v='org.apache.http'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.crypto))' extend='false' multiple='false' optional='true'>Import package javax.crypto;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.crypto.spec))' extend='false' multiple='false' optional='true'>Import package javax.crypto.spec;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.naming))' extend='false' multiple='false' optional='true'>Import package javax.naming;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.naming.directory))' extend='false' multiple='false' optional='true'>Import package javax.naming.directory;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.naming.ldap))' extend='false' multiple='false' optional='true'>Import package javax.naming.ldap;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.net))' extend='false' multiple='false' optional='true'>Import package javax.net;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.net.ssl))' extend='false' multiple='false' optional='true'>Import package javax.net.ssl;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.security.auth.x500))' extend='false' multiple='false' optional='true'>Import package javax.security.auth.x500;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.servlet))' extend='false' multiple='false' optional='true'>Import package javax.servlet;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=net.sf.ehcache))' extend='false' multiple='false' optional='true'>Import package net.sf.ehcache;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=net.spy.memcached))' extend='false' multiple='false' optional='true'>Import package net.spy.memcached;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.apache.avalon.framework.logger))' extend='false' multiple='false' optional='true'>Import package org.apache.avalon.framework.logger;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.codec)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.commons.codec;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.codec.binary)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.commons.codec.binary;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.codec.digest)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.commons.codec.digest;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.logging)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.commons.logging;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.logging.impl)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.commons.logging.impl;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.auth)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.auth;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.auth.params)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.auth.params;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.client)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.client;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.client.cache)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.client.cache;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.client.config)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.client.config;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.client.entity)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.client.entity;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.client.methods)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.client.methods;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.client.params)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.client.params;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.client.protocol)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.client.protocol;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.client.utils)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.client.utils;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.concurrent)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.concurrent;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.config)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.config;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.conn)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.conn;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.conn.params)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.conn.params;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.conn.routing)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.conn.routing;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.conn.scheme)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.conn.scheme;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.conn.socket)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.conn.socket;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.conn.ssl)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.conn.ssl;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.conn.util)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.conn.util;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.cookie)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.cookie;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.cookie.params)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.cookie.params;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.entity)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.entity;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.entity.mime.content)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.entity.mime.content;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.impl)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.impl;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.impl.auth)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.impl.auth;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.impl.client)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.impl.client;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.impl.client.cache)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.impl.client.cache;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.impl.conn)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.impl.conn;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.impl.cookie)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.impl.cookie;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.impl.entity)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.impl.entity;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.impl.execchain)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.impl.execchain;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.impl.io)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.impl.io;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.io)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.io;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.message)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.message;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.osgi.services)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.osgi.services;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.params)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.params;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.pool)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.pool;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.protocol)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.protocol;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.ssl)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.ssl;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.http.util)(version&gt;=4.5.0)(!(version&gt;=5.0.0)))' extend='false' multiple='false' optional='true'>Import package org.apache.http.util;resolution:=optional;version="[4.5,5)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.log))' extend='false' multiple='false' optional='true'>Import package org.apache.log;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.apache.log4j))' extend='false' multiple='false' optional='true'>Import package org.apache.log4j;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.ietf.jgss))' extend='false' multiple='false' optional='true'>Import package org.ietf.jgss;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework))' extend='false' multiple='false' optional='true'>Import package org.osgi.framework;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.cm))' extend='false' multiple='false' optional='true'>Import package org.osgi.service.cm;resolution:=optional</require>
+  </resource>
+  <resource id='jakarta.activation/1.2.1' symbolicname='jakarta.activation' presentationname='jakarta.activation OSGi Bundle' uri='mvn:com.sun.activation/jakarta.activation/1.2.1' version='1.2.1'>
+    <description>This OSGi bundle simply wraps jakarta.activation-1.2.1.jar artifact.</description>
+    <size>63234</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='jakarta.activation'/>
+      <p n='presentationname' v='jakarta.activation OSGi Bundle'/>
+      <p n='version' t='version' v='1.2.1'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.activation.registries'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.activation.viewers'/>
+      <p n='version' t='version' v='1.2.1'/>
+      <p n='uses:' v='javax.activation'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.activation'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.sun.activation.registries)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package com.sun.activation.registries;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=javax.activation)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package javax.activation;resolution:=optional;version="[1.2,2)"</require>
+  </resource>
+  <resource id='jakarta.activation-api/1.2.1' symbolicname='jakarta.activation-api' presentationname='jakarta.activation-api OSGi Bundle' uri='mvn:jakarta.activation/jakarta.activation-api/1.2.1' version='1.2.1'>
+    <description>This OSGi bundle simply wraps jakarta.activation-api-1.2.1.jar artifact.</description>
+    <size>42890</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='jakarta.activation-api'/>
+      <p n='presentationname' v='jakarta.activation-api OSGi Bundle'/>
+      <p n='version' t='version' v='1.2.1'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.activation'/>
+      <p n='version' t='version' v='1.2.1'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.sun.activation.registries))' extend='false' multiple='false' optional='true'>Import package com.sun.activation.registries;resolution:=optional</require>
+  </resource>
+  <resource id='jakarta.xml.bind-api/2.3.2' symbolicname='jakarta.xml.bind-api' presentationname='jakarta.xml.bind-api OSGi Bundle' uri='mvn:jakarta.xml.bind/jakarta.xml.bind-api/2.3.2' version='2.3.2'>
+    <description>This OSGi bundle simply wraps jakarta.xml.bind-api-2.3.2.jar artifact.</description>
+    <size>152362</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='jakarta.xml.bind-api'/>
+      <p n='presentationname' v='jakarta.xml.bind-api OSGi Bundle'/>
+      <p n='version' t='version' v='2.3.2'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.activation'/>
+      <p n='version' t='version' v='2.3.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.xml.bind'/>
+      <p n='version' t='version' v='2.3.2'/>
+      <p n='uses:' v='javax.xml.bind.annotation.adapters,javax.xml.bind.attachment,javax.xml.namespace,javax.xml.stream,javax.xml.transform,javax.xml.validation,org.w3c.dom,org.xml.sax'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.xml.bind.annotation'/>
+      <p n='version' t='version' v='2.3.2'/>
+      <p n='uses:' v='javax.xml.bind,javax.xml.parsers,javax.xml.transform,javax.xml.transform.dom,org.w3c.dom'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.xml.bind.annotation.adapters'/>
+      <p n='version' t='version' v='2.3.2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.xml.bind.attachment'/>
+      <p n='version' t='version' v='2.3.2'/>
+      <p n='uses:' v='javax.activation'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.xml.bind.helpers'/>
+      <p n='version' t='version' v='2.3.2'/>
+      <p n='uses:' v='javax.xml.bind,javax.xml.bind.annotation.adapters,javax.xml.bind.attachment,javax.xml.stream,javax.xml.transform,javax.xml.validation,org.w3c.dom,org.xml.sax'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.xml.bind.util'/>
+      <p n='version' t='version' v='2.3.2'/>
+      <p n='uses:' v='javax.xml.bind,javax.xml.transform.sax'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.sun.activation.registries))' extend='false' multiple='false' optional='true'>Import package com.sun.activation.registries;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.activation)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package javax.activation;resolution:=optional;version="[2.3,3)"</require>
+    <require name='package' filter='(&amp;(package=javax.xml.bind)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package javax.xml.bind;resolution:=optional;version="[2.3,3)"</require>
+    <require name='package' filter='(&amp;(package=javax.xml.bind.annotation)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package javax.xml.bind.annotation;resolution:=optional;version="[2.3,3)"</require>
+    <require name='package' filter='(&amp;(package=javax.xml.bind.annotation.adapters)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package javax.xml.bind.annotation.adapters;resolution:=optional;version="[2.3,3)"</require>
+    <require name='package' filter='(&amp;(package=javax.xml.bind.attachment)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package javax.xml.bind.attachment;resolution:=optional;version="[2.3,3)"</require>
+    <require name='package' filter='(&amp;(package=javax.xml.datatype))' extend='false' multiple='false' optional='true'>Import package javax.xml.datatype;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.namespace))' extend='false' multiple='false' optional='true'>Import package javax.xml.namespace;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.parsers))' extend='false' multiple='false' optional='true'>Import package javax.xml.parsers;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.stream))' extend='false' multiple='false' optional='true'>Import package javax.xml.stream;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform))' extend='false' multiple='false' optional='true'>Import package javax.xml.transform;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform.dom))' extend='false' multiple='false' optional='true'>Import package javax.xml.transform.dom;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform.sax))' extend='false' multiple='false' optional='true'>Import package javax.xml.transform.sax;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform.stream))' extend='false' multiple='false' optional='true'>Import package javax.xml.transform.stream;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.validation))' extend='false' multiple='false' optional='true'>Import package javax.xml.validation;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.glassfish.hk2.osgiresourcelocator))' extend='false' multiple='false' optional='true'>Import package org.glassfish.hk2.osgiresourcelocator;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.w3c.dom))' extend='false' multiple='false' optional='true'>Import package org.w3c.dom;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.xml.sax))' extend='false' multiple='false' optional='true'>Import package org.xml.sax;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.xml.sax.ext))' extend='false' multiple='false' optional='true'>Import package org.xml.sax.ext;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.xml.sax.helpers))' extend='false' multiple='false' optional='true'>Import package org.xml.sax.helpers;resolution:=optional</require>
+  </resource>
+  <resource id='jakarta.xml.soap-api/1.4.1' symbolicname='jakarta.xml.soap-api' presentationname='jakarta.xml.soap-api OSGi Bundle' uri='mvn:jakarta.xml.soap/jakarta.xml.soap-api/1.4.1' version='1.4.1'>
+    <description>This OSGi bundle simply wraps jakarta.xml.soap-api-1.4.1.jar artifact.</description>
+    <size>31728</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='jakarta.xml.soap-api'/>
+      <p n='presentationname' v='jakarta.xml.soap-api OSGi Bundle'/>
+      <p n='version' t='version' v='1.4.1'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.xml.soap'/>
+      <p n='version' t='version' v='1.4.1'/>
+      <p n='uses:' v='javax.activation,javax.xml.namespace,javax.xml.transform,javax.xml.transform.dom,org.w3c.dom'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.activation))' extend='false' multiple='false' optional='true'>Import package javax.activation;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.namespace))' extend='false' multiple='false' optional='true'>Import package javax.xml.namespace;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform))' extend='false' multiple='false' optional='true'>Import package javax.xml.transform;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform.dom))' extend='false' multiple='false' optional='true'>Import package javax.xml.transform.dom;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.w3c.dom))' extend='false' multiple='false' optional='true'>Import package org.w3c.dom;resolution:=optional</require>
+  </resource>
+  <resource id='json/20190722.0.0' symbolicname='json' presentationname='json OSGi Bundle' uri='mvn:org.json/json/20190722' version='20190722.0.0'>
+    <description>This OSGi bundle simply wraps json-20190722.jar artifact.</description>
+    <size>63333</size>
+    <documentation>http://json.org/</documentation>
+    <license>http://www.json.org/license.htm</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='json'/>
+      <p n='presentationname' v='json OSGi Bundle'/>
+      <p n='version' t='version' v='20190722.0.0'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.json'/>
+      <p n='version' t='version' v='20190722.0.0'/>
+    </capability>
+  </resource>
+  <resource id='javax.mail/1.4.4' symbolicname='javax.mail' presentationname='mail OSGi Bundle' uri='mvn:javax.mail/mail/1.4.4' version='1.4.4'>
+    <description>This OSGi bundle simply wraps mail-1.4.4.jar artifact.</description>
+    <size>484064</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='javax.mail'/>
+      <p n='presentationname' v='mail OSGi Bundle'/>
+      <p n='version' t='version' v='1.4.4'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.mail'/>
+      <p n='version' t='version' v='1.4.4'/>
+      <p n='uses:' v='javax.activation,javax.mail.event,javax.mail.search'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.mail.event'/>
+      <p n='version' t='version' v='1.4.4'/>
+      <p n='uses:' v='javax.mail'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.mail.internet'/>
+      <p n='version' t='version' v='1.4.4'/>
+      <p n='uses:' v='javax.activation,javax.mail'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.mail.search'/>
+      <p n='version' t='version' v='1.4.4'/>
+      <p n='uses:' v='javax.mail'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.mail.util'/>
+      <p n='version' t='version' v='1.4.4'/>
+      <p n='uses:' v='javax.activation,javax.mail.internet'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.activation))' extend='false' multiple='false' optional='true'>Import package javax.activation;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.crypto))' extend='false' multiple='false' optional='true'>Import package javax.crypto;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.crypto.spec))' extend='false' multiple='false' optional='true'>Import package javax.crypto.spec;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.mail.event)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package javax.mail.event;resolution:=optional;version="[1.4,2)"</require>
+    <require name='package' filter='(&amp;(package=javax.mail.search)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package javax.mail.search;resolution:=optional;version="[1.4,2)"</require>
+    <require name='package' filter='(&amp;(package=javax.mail.util)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package javax.mail.util;resolution:=optional;version="[1.4,2)"</require>
+    <require name='package' filter='(&amp;(package=javax.net))' extend='false' multiple='false' optional='true'>Import package javax.net;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.net.ssl))' extend='false' multiple='false' optional='true'>Import package javax.net.ssl;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.security.auth.callback))' extend='false' multiple='false' optional='true'>Import package javax.security.auth.callback;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.security.auth.x500))' extend='false' multiple='false' optional='true'>Import package javax.security.auth.x500;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.security.sasl))' extend='false' multiple='false' optional='true'>Import package javax.security.sasl;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform))' extend='false' multiple='false' optional='true'>Import package javax.xml.transform;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform.stream))' extend='false' multiple='false' optional='true'>Import package javax.xml.transform.stream;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=sun.security.util))' extend='false' multiple='false' optional='true'>Import package sun.security.util;resolution:=optional</require>
+  </resource>
+  <resource id='mimepull/1.9.11' symbolicname='mimepull' presentationname='mimepull OSGi Bundle' uri='mvn:org.jvnet.mimepull/mimepull/1.9.11' version='1.9.11'>
+    <description>This OSGi bundle simply wraps mimepull-1.9.11.jar artifact.</description>
+    <size>62404</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='mimepull'/>
+      <p n='presentationname' v='mimepull OSGi Bundle'/>
+      <p n='version' t='version' v='1.9.11'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jvnet.mimepull'/>
+      <p n='version' t='version' v='1.9.11'/>
+    </capability>
+  </resource>
+  <resource id='mysql-connector-java/8.0.19' symbolicname='mysql-connector-java' presentationname='mysql-connector-java OSGi Bundle' uri='mvn:mysql/mysql-connector-java/8.0.19' version='8.0.19'>
+    <description>This OSGi bundle simply wraps mysql-connector-java-8.0.19.jar artifact.</description>
+    <size>3765798</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='mysql-connector-java'/>
+      <p n='presentationname' v='mysql-connector-java OSGi Bundle'/>
+      <p n='version' t='version' v='8.0.19'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.protobuf'/>
+      <p n='version' t='version' v='8.0.19'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.google.protobuf.compiler'/>
+      <p n='version' t='version' v='8.0.19'/>
+      <p n='uses:' v='com.google.protobuf'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.cj'/>
+      <p n='version' t='version' v='8.0.19'/>
+      <p n='uses:' v='com.mysql.cj.conf,com.mysql.cj.exceptions,com.mysql.cj.interceptors,com.mysql.cj.log,com.mysql.cj.protocol,com.mysql.cj.protocol.a,com.mysql.cj.protocol.x,com.mysql.cj.result,com.mysql.cj.xdevapi'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.cj.admin'/>
+      <p n='version' t='version' v='8.0.19'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.cj.conf'/>
+      <p n='version' t='version' v='8.0.19'/>
+      <p n='uses:' v='com.mysql.cj.exceptions,javax.naming'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.cj.conf.url'/>
+      <p n='version' t='version' v='8.0.19'/>
+      <p n='uses:' v='com.mysql.cj.conf'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.cj.configurations'/>
+      <p n='version' t='version' v='8.0.19'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.cj.exceptions'/>
+      <p n='version' t='version' v='8.0.19'/>
+      <p n='uses:' v='com.mysql.cj.conf,com.mysql.cj.log,com.mysql.cj.protocol'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.cj.interceptors'/>
+      <p n='version' t='version' v='8.0.19'/>
+      <p n='uses:' v='com.mysql.cj,com.mysql.cj.log,com.mysql.cj.protocol'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.cj.jdbc'/>
+      <p n='version' t='version' v='8.0.19'/>
+      <p n='uses:' v='com.mysql.cj,com.mysql.cj.conf,com.mysql.cj.exceptions,com.mysql.cj.interceptors,com.mysql.cj.jdbc.ha,com.mysql.cj.jdbc.result,com.mysql.cj.protocol,com.mysql.cj.protocol.a,com.mysql.cj.result,com.mysql.cj.util,javax.naming,javax.naming.spi,javax.sql,javax.transaction.xa,javax.xml.transform'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.cj.jdbc.admin'/>
+      <p n='version' t='version' v='8.0.19'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.cj.jdbc.exceptions'/>
+      <p n='version' t='version' v='8.0.19'/>
+      <p n='uses:' v='com.mysql.cj.exceptions,com.mysql.cj.jdbc,com.mysql.cj.protocol'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.cj.jdbc.ha'/>
+      <p n='version' t='version' v='8.0.19'/>
+      <p n='uses:' v='com.mysql.cj,com.mysql.cj.conf,com.mysql.cj.exceptions,com.mysql.cj.interceptors,com.mysql.cj.jdbc,com.mysql.cj.jdbc.result,com.mysql.cj.log,com.mysql.cj.protocol'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.cj.jdbc.integration.c3p0'/>
+      <p n='version' t='version' v='8.0.19'/>
+      <p n='uses:' v='com.mchange.v2.c3p0'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.cj.jdbc.integration.jboss'/>
+      <p n='version' t='version' v='8.0.19'/>
+      <p n='uses:' v='org.jboss.resource.adapter.jdbc,org.jboss.resource.adapter.jdbc.vendor'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.cj.jdbc.interceptors'/>
+      <p n='version' t='version' v='8.0.19'/>
+      <p n='uses:' v='com.mysql.cj,com.mysql.cj.interceptors,com.mysql.cj.log,com.mysql.cj.protocol'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.cj.jdbc.jmx'/>
+      <p n='version' t='version' v='8.0.19'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.cj.jdbc.result'/>
+      <p n='version' t='version' v='8.0.19'/>
+      <p n='uses:' v='com.mysql.cj,com.mysql.cj.conf,com.mysql.cj.exceptions,com.mysql.cj.jdbc,com.mysql.cj.log,com.mysql.cj.protocol,com.mysql.cj.protocol.a,com.mysql.cj.protocol.a.result,com.mysql.cj.result'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.cj.jdbc.util'/>
+      <p n='version' t='version' v='8.0.19'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.cj.log'/>
+      <p n='version' t='version' v='8.0.19'/>
+      <p n='uses:' v='com.mysql.cj,com.mysql.cj.protocol'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.cj.protocol'/>
+      <p n='version' t='version' v='8.0.19'/>
+      <p n='uses:' v='com.mysql.cj,com.mysql.cj.conf,com.mysql.cj.exceptions,com.mysql.cj.log,com.mysql.cj.result,javax.net.ssl'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.cj.protocol.a'/>
+      <p n='version' t='version' v='8.0.19'/>
+      <p n='uses:' v='com.mysql.cj,com.mysql.cj.conf,com.mysql.cj.exceptions,com.mysql.cj.interceptors,com.mysql.cj.log,com.mysql.cj.protocol,com.mysql.cj.result,com.mysql.cj.util'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.cj.protocol.a.authentication'/>
+      <p n='version' t='version' v='8.0.19'/>
+      <p n='uses:' v='com.mysql.cj.conf,com.mysql.cj.exceptions,com.mysql.cj.protocol,com.mysql.cj.protocol.a'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.cj.protocol.a.result'/>
+      <p n='version' t='version' v='8.0.19'/>
+      <p n='uses:' v='com.mysql.cj.exceptions,com.mysql.cj.protocol,com.mysql.cj.protocol.a,com.mysql.cj.protocol.result,com.mysql.cj.result'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.cj.protocol.result'/>
+      <p n='version' t='version' v='8.0.19'/>
+      <p n='uses:' v='com.mysql.cj.exceptions,com.mysql.cj.protocol,com.mysql.cj.result'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.cj.protocol.x'/>
+      <p n='version' t='version' v='8.0.19'/>
+      <p n='uses:' v='com.google.protobuf,com.mysql.cj,com.mysql.cj.conf,com.mysql.cj.exceptions,com.mysql.cj.log,com.mysql.cj.protocol,com.mysql.cj.result,com.mysql.cj.x.protobuf,com.mysql.cj.xdevapi'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.cj.result'/>
+      <p n='version' t='version' v='8.0.19'/>
+      <p n='uses:' v='com.mysql.cj,com.mysql.cj.conf,com.mysql.cj.protocol,com.mysql.cj.util'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.cj.util'/>
+      <p n='version' t='version' v='8.0.19'/>
+      <p n='uses:' v='com.mysql.cj,com.mysql.cj.exceptions,javax.naming'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.cj.x.protobuf'/>
+      <p n='version' t='version' v='8.0.19'/>
+      <p n='uses:' v='com.google.protobuf'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.cj.xdevapi'/>
+      <p n='version' t='version' v='8.0.19'/>
+      <p n='uses:' v='com.mysql.cj,com.mysql.cj.conf,com.mysql.cj.exceptions,com.mysql.cj.protocol,com.mysql.cj.protocol.x,com.mysql.cj.result,com.mysql.cj.x.protobuf'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.mysql.jdbc'/>
+      <p n='version' t='version' v='8.0.19'/>
+      <p n='uses:' v='com.mysql.cj.conf,com.mysql.cj.jdbc,com.mysql.cj.protocol'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='google.protobuf'/>
+      <p n='version' t='version' v='8.0.19'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='google.protobuf.compiler'/>
+      <p n='version' t='version' v='8.0.19'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.google.protobuf)(version&gt;=8.0.0)(!(version&gt;=9.0.0)))' extend='false' multiple='false' optional='true'>Import package com.google.protobuf;resolution:=optional;version="[8.0,9)"</require>
+    <require name='package' filter='(&amp;(package=com.mchange.v2.c3p0))' extend='false' multiple='false' optional='true'>Import package com.mchange.v2.c3p0;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=com.mysql.cj)(version&gt;=8.0.0)(!(version&gt;=9.0.0)))' extend='false' multiple='false' optional='true'>Import package com.mysql.cj;resolution:=optional;version="[8.0,9)"</require>
+    <require name='package' filter='(&amp;(package=com.mysql.cj.conf)(version&gt;=8.0.0)(!(version&gt;=9.0.0)))' extend='false' multiple='false' optional='true'>Import package com.mysql.cj.conf;resolution:=optional;version="[8.0,9)"</require>
+    <require name='package' filter='(&amp;(package=com.mysql.cj.conf.url)(version&gt;=8.0.0)(!(version&gt;=9.0.0)))' extend='false' multiple='false' optional='true'>Import package com.mysql.cj.conf.url;resolution:=optional;version="[8.0,9)"</require>
+    <require name='package' filter='(&amp;(package=com.mysql.cj.exceptions)(version&gt;=8.0.0)(!(version&gt;=9.0.0)))' extend='false' multiple='false' optional='true'>Import package com.mysql.cj.exceptions;resolution:=optional;version="[8.0,9)"</require>
+    <require name='package' filter='(&amp;(package=com.mysql.cj.interceptors)(version&gt;=8.0.0)(!(version&gt;=9.0.0)))' extend='false' multiple='false' optional='true'>Import package com.mysql.cj.interceptors;resolution:=optional;version="[8.0,9)"</require>
+    <require name='package' filter='(&amp;(package=com.mysql.cj.jdbc)(version&gt;=8.0.0)(!(version&gt;=9.0.0)))' extend='false' multiple='false' optional='true'>Import package com.mysql.cj.jdbc;resolution:=optional;version="[8.0,9)"</require>
+    <require name='package' filter='(&amp;(package=com.mysql.cj.jdbc.exceptions)(version&gt;=8.0.0)(!(version&gt;=9.0.0)))' extend='false' multiple='false' optional='true'>Import package com.mysql.cj.jdbc.exceptions;resolution:=optional;version="[8.0,9)"</require>
+    <require name='package' filter='(&amp;(package=com.mysql.cj.jdbc.ha)(version&gt;=8.0.0)(!(version&gt;=9.0.0)))' extend='false' multiple='false' optional='true'>Import package com.mysql.cj.jdbc.ha;resolution:=optional;version="[8.0,9)"</require>
+    <require name='package' filter='(&amp;(package=com.mysql.cj.jdbc.interceptors)(version&gt;=8.0.0)(!(version&gt;=9.0.0)))' extend='false' multiple='false' optional='true'>Import package com.mysql.cj.jdbc.interceptors;resolution:=optional;version="[8.0,9)"</require>
+    <require name='package' filter='(&amp;(package=com.mysql.cj.jdbc.jmx)(version&gt;=8.0.0)(!(version&gt;=9.0.0)))' extend='false' multiple='false' optional='true'>Import package com.mysql.cj.jdbc.jmx;resolution:=optional;version="[8.0,9)"</require>
+    <require name='package' filter='(&amp;(package=com.mysql.cj.jdbc.result)(version&gt;=8.0.0)(!(version&gt;=9.0.0)))' extend='false' multiple='false' optional='true'>Import package com.mysql.cj.jdbc.result;resolution:=optional;version="[8.0,9)"</require>
+    <require name='package' filter='(&amp;(package=com.mysql.cj.jdbc.util)(version&gt;=8.0.0)(!(version&gt;=9.0.0)))' extend='false' multiple='false' optional='true'>Import package com.mysql.cj.jdbc.util;resolution:=optional;version="[8.0,9)"</require>
+    <require name='package' filter='(&amp;(package=com.mysql.cj.log)(version&gt;=8.0.0)(!(version&gt;=9.0.0)))' extend='false' multiple='false' optional='true'>Import package com.mysql.cj.log;resolution:=optional;version="[8.0,9)"</require>
+    <require name='package' filter='(&amp;(package=com.mysql.cj.protocol)(version&gt;=8.0.0)(!(version&gt;=9.0.0)))' extend='false' multiple='false' optional='true'>Import package com.mysql.cj.protocol;resolution:=optional;version="[8.0,9)"</require>
+    <require name='package' filter='(&amp;(package=com.mysql.cj.protocol.a)(version&gt;=8.0.0)(!(version&gt;=9.0.0)))' extend='false' multiple='false' optional='true'>Import package com.mysql.cj.protocol.a;resolution:=optional;version="[8.0,9)"</require>
+    <require name='package' filter='(&amp;(package=com.mysql.cj.protocol.a.authentication)(version&gt;=8.0.0)(!(version&gt;=9.0.0)))' extend='false' multiple='false' optional='true'>Import package com.mysql.cj.protocol.a.authentication;resolution:=optional;version="[8.0,9)"</require>
+    <require name='package' filter='(&amp;(package=com.mysql.cj.protocol.a.result)(version&gt;=8.0.0)(!(version&gt;=9.0.0)))' extend='false' multiple='false' optional='true'>Import package com.mysql.cj.protocol.a.result;resolution:=optional;version="[8.0,9)"</require>
+    <require name='package' filter='(&amp;(package=com.mysql.cj.protocol.result)(version&gt;=8.0.0)(!(version&gt;=9.0.0)))' extend='false' multiple='false' optional='true'>Import package com.mysql.cj.protocol.result;resolution:=optional;version="[8.0,9)"</require>
+    <require name='package' filter='(&amp;(package=com.mysql.cj.protocol.x)(version&gt;=8.0.0)(!(version&gt;=9.0.0)))' extend='false' multiple='false' optional='true'>Import package com.mysql.cj.protocol.x;resolution:=optional;version="[8.0,9)"</require>
+    <require name='package' filter='(&amp;(package=com.mysql.cj.result)(version&gt;=8.0.0)(!(version&gt;=9.0.0)))' extend='false' multiple='false' optional='true'>Import package com.mysql.cj.result;resolution:=optional;version="[8.0,9)"</require>
+    <require name='package' filter='(&amp;(package=com.mysql.cj.util)(version&gt;=8.0.0)(!(version&gt;=9.0.0)))' extend='false' multiple='false' optional='true'>Import package com.mysql.cj.util;resolution:=optional;version="[8.0,9)"</require>
+    <require name='package' filter='(&amp;(package=com.mysql.cj.x.protobuf)(version&gt;=8.0.0)(!(version&gt;=9.0.0)))' extend='false' multiple='false' optional='true'>Import package com.mysql.cj.x.protobuf;resolution:=optional;version="[8.0,9)"</require>
+    <require name='package' filter='(&amp;(package=com.mysql.cj.xdevapi)(version&gt;=8.0.0)(!(version&gt;=9.0.0)))' extend='false' multiple='false' optional='true'>Import package com.mysql.cj.xdevapi;resolution:=optional;version="[8.0,9)"</require>
+    <require name='package' filter='(&amp;(package=com.mysql.jdbc)(version&gt;=8.0.0)(!(version&gt;=9.0.0)))' extend='false' multiple='false' optional='true'>Import package com.mysql.jdbc;resolution:=optional;version="[8.0,9)"</require>
+    <require name='package' filter='(&amp;(package=javax.crypto))' extend='false' multiple='false' optional='true'>Import package javax.crypto;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.management))' extend='false' multiple='false' optional='true'>Import package javax.management;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.naming))' extend='false' multiple='false' optional='true'>Import package javax.naming;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.naming.directory))' extend='false' multiple='false' optional='true'>Import package javax.naming.directory;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.naming.ldap))' extend='false' multiple='false' optional='true'>Import package javax.naming.ldap;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.naming.spi))' extend='false' multiple='false' optional='true'>Import package javax.naming.spi;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.net.ssl))' extend='false' multiple='false' optional='true'>Import package javax.net.ssl;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.security.auth.callback))' extend='false' multiple='false' optional='true'>Import package javax.security.auth.callback;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.security.auth.x500))' extend='false' multiple='false' optional='true'>Import package javax.security.auth.x500;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.security.sasl))' extend='false' multiple='false' optional='true'>Import package javax.security.sasl;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.sql))' extend='false' multiple='false' optional='true'>Import package javax.sql;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.transaction.xa))' extend='false' multiple='false' optional='true'>Import package javax.transaction.xa;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.parsers))' extend='false' multiple='false' optional='true'>Import package javax.xml.parsers;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.stream))' extend='false' multiple='false' optional='true'>Import package javax.xml.stream;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform))' extend='false' multiple='false' optional='true'>Import package javax.xml.transform;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform.dom))' extend='false' multiple='false' optional='true'>Import package javax.xml.transform.dom;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform.sax))' extend='false' multiple='false' optional='true'>Import package javax.xml.transform.sax;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform.stax))' extend='false' multiple='false' optional='true'>Import package javax.xml.transform.stax;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform.stream))' extend='false' multiple='false' optional='true'>Import package javax.xml.transform.stream;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.jboss.resource.adapter.jdbc))' extend='false' multiple='false' optional='true'>Import package org.jboss.resource.adapter.jdbc;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.jboss.resource.adapter.jdbc.vendor))' extend='false' multiple='false' optional='true'>Import package org.jboss.resource.adapter.jdbc.vendor;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.slf4j))' extend='false' multiple='false' optional='true'>Import package org.slf4j;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.w3c.dom))' extend='false' multiple='false' optional='true'>Import package org.w3c.dom;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.xml.sax))' extend='false' multiple='false' optional='true'>Import package org.xml.sax;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.xml.sax.helpers))' extend='false' multiple='false' optional='true'>Import package org.xml.sax.helpers;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=sun.misc))' extend='false' multiple='false' optional='true'>Import package sun.misc;resolution:=optional</require>
+  </resource>
+  <resource id='com.sun.xml.messaging.saaj.impl/1.5.1' symbolicname='com.sun.xml.messaging.saaj.impl' presentationname='saaj-impl OSGi Bundle' uri='mvn:com.sun.xml.messaging.saaj/saaj-impl/1.5.1' version='1.5.1'>
+    <description>This OSGi bundle simply wraps saaj-impl-1.5.1.jar artifact.</description>
+    <size>451342</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.sun.xml.messaging.saaj.impl'/>
+      <p n='presentationname' v='saaj-impl OSGi Bundle'/>
+      <p n='version' t='version' v='1.5.1'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.xml.messaging.saaj'/>
+      <p n='version' t='version' v='1.5.1'/>
+      <p n='uses:' v='javax.xml.namespace,javax.xml.soap,javax.xml.stream,javax.xml.transform'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.xml.messaging.saaj.client.p2p'/>
+      <p n='version' t='version' v='1.5.1'/>
+      <p n='uses:' v='javax.xml.soap'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.xml.messaging.saaj.packaging.mime'/>
+      <p n='version' t='version' v='1.5.1'/>
+      <p n='uses:' v='com.sun.xml.messaging.saaj.packaging.mime.internet,javax.activation'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.xml.messaging.saaj.packaging.mime.internet'/>
+      <p n='version' t='version' v='1.5.1'/>
+      <p n='uses:' v='com.sun.xml.messaging.saaj.packaging.mime,com.sun.xml.messaging.saaj.util,javax.activation,org.jvnet.mimepull'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.xml.messaging.saaj.packaging.mime.util'/>
+      <p n='version' t='version' v='1.5.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.xml.messaging.saaj.soap'/>
+      <p n='version' t='version' v='1.5.1'/>
+      <p n='uses:' v='com.sun.xml.messaging.saaj,com.sun.xml.messaging.saaj.packaging.mime.internet,com.sun.xml.messaging.saaj.util,com.sun.xml.messaging.saaj.util.stax,javax.activation,javax.xml.namespace,javax.xml.soap,javax.xml.stream,javax.xml.transform,org.jvnet.mimepull,org.jvnet.staxex.util,org.w3c.dom'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.xml.messaging.saaj.soap.dynamic'/>
+      <p n='version' t='version' v='1.5.1'/>
+      <p n='uses:' v='com.sun.xml.messaging.saaj.soap,javax.xml.soap'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.xml.messaging.saaj.soap.impl'/>
+      <p n='version' t='version' v='1.5.1'/>
+      <p n='uses:' v='com.sun.xml.messaging.saaj.soap,com.sun.xml.messaging.saaj.soap.name,com.sun.xml.messaging.saaj.util,javax.xml.namespace,javax.xml.soap,javax.xml.stream,javax.xml.transform,org.w3c.dom'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.xml.messaging.saaj.soap.name'/>
+      <p n='version' t='version' v='1.5.1'/>
+      <p n='uses:' v='javax.xml.namespace,javax.xml.soap,org.w3c.dom'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.xml.messaging.saaj.soap.ver1_1'/>
+      <p n='version' t='version' v='1.5.1'/>
+      <p n='uses:' v='com.sun.xml.messaging.saaj,com.sun.xml.messaging.saaj.packaging.mime.internet,com.sun.xml.messaging.saaj.soap,com.sun.xml.messaging.saaj.soap.impl,com.sun.xml.messaging.saaj.soap.name,javax.xml.namespace,javax.xml.soap,javax.xml.stream,org.w3c.dom'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.xml.messaging.saaj.soap.ver1_2'/>
+      <p n='version' t='version' v='1.5.1'/>
+      <p n='uses:' v='com.sun.xml.messaging.saaj,com.sun.xml.messaging.saaj.packaging.mime.internet,com.sun.xml.messaging.saaj.soap,com.sun.xml.messaging.saaj.soap.impl,com.sun.xml.messaging.saaj.soap.name,javax.xml.namespace,javax.xml.soap,javax.xml.stream,org.w3c.dom'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.xml.messaging.saaj.util'/>
+      <p n='version' t='version' v='1.5.1'/>
+      <p n='uses:' v='javax.xml.parsers,javax.xml.soap,javax.xml.transform,javax.xml.transform.stream,org.w3c.dom,org.xml.sax,org.xml.sax.ext,org.xml.sax.helpers'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.xml.messaging.saaj.util.stax'/>
+      <p n='version' t='version' v='1.5.1'/>
+      <p n='uses:' v='com.sun.xml.messaging.saaj.soap.impl,javax.activation,javax.xml.bind.attachment,javax.xml.namespace,javax.xml.soap,javax.xml.stream,org.jvnet.staxex,org.jvnet.staxex.util,org.w3c.dom'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.xml.messaging.saaj.util.transform'/>
+      <p n='version' t='version' v='1.5.1'/>
+      <p n='uses:' v='javax.xml.transform'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.sun.xml.fastinfoset.dom))' extend='false' multiple='false' optional='true'>Import package com.sun.xml.fastinfoset.dom;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=com.sun.xml.messaging.saaj)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package com.sun.xml.messaging.saaj;resolution:=optional;version="[1.5,2)"</require>
+    <require name='package' filter='(&amp;(package=com.sun.xml.messaging.saaj.packaging.mime)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package com.sun.xml.messaging.saaj.packaging.mime;resolution:=optional;version="[1.5,2)"</require>
+    <require name='package' filter='(&amp;(package=com.sun.xml.messaging.saaj.packaging.mime.internet)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package com.sun.xml.messaging.saaj.packaging.mime.internet;resolution:=optional;version="[1.5,2)"</require>
+    <require name='package' filter='(&amp;(package=com.sun.xml.messaging.saaj.packaging.mime.util)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package com.sun.xml.messaging.saaj.packaging.mime.util;resolution:=optional;version="[1.5,2)"</require>
+    <require name='package' filter='(&amp;(package=com.sun.xml.messaging.saaj.soap)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package com.sun.xml.messaging.saaj.soap;resolution:=optional;version="[1.5,2)"</require>
+    <require name='package' filter='(&amp;(package=com.sun.xml.messaging.saaj.soap.dynamic)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package com.sun.xml.messaging.saaj.soap.dynamic;resolution:=optional;version="[1.5,2)"</require>
+    <require name='package' filter='(&amp;(package=com.sun.xml.messaging.saaj.soap.impl)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package com.sun.xml.messaging.saaj.soap.impl;resolution:=optional;version="[1.5,2)"</require>
+    <require name='package' filter='(&amp;(package=com.sun.xml.messaging.saaj.soap.name)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package com.sun.xml.messaging.saaj.soap.name;resolution:=optional;version="[1.5,2)"</require>
+    <require name='package' filter='(&amp;(package=com.sun.xml.messaging.saaj.soap.ver1_1)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package com.sun.xml.messaging.saaj.soap.ver1_1;resolution:=optional;version="[1.5,2)"</require>
+    <require name='package' filter='(&amp;(package=com.sun.xml.messaging.saaj.soap.ver1_2)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package com.sun.xml.messaging.saaj.soap.ver1_2;resolution:=optional;version="[1.5,2)"</require>
+    <require name='package' filter='(&amp;(package=com.sun.xml.messaging.saaj.util)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package com.sun.xml.messaging.saaj.util;resolution:=optional;version="[1.5,2)"</require>
+    <require name='package' filter='(&amp;(package=com.sun.xml.messaging.saaj.util.stax)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package com.sun.xml.messaging.saaj.util.stax;resolution:=optional;version="[1.5,2)"</require>
+    <require name='package' filter='(&amp;(package=com.sun.xml.messaging.saaj.util.transform)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package com.sun.xml.messaging.saaj.util.transform;resolution:=optional;version="[1.5,2)"</require>
+    <require name='package' filter='(&amp;(package=javax.activation)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package javax.activation;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=javax.imageio))' extend='false' multiple='false' optional='true'>Import package javax.imageio;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.imageio.stream))' extend='false' multiple='false' optional='true'>Import package javax.imageio.stream;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.bind.attachment)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package javax.xml.bind.attachment;resolution:=optional;version="[2.3,3)"</require>
+    <require name='package' filter='(&amp;(package=javax.xml.messaging))' extend='false' multiple='false' optional='true'>Import package javax.xml.messaging;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.namespace))' extend='false' multiple='false' optional='true'>Import package javax.xml.namespace;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.parsers))' extend='false' multiple='false' optional='true'>Import package javax.xml.parsers;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.soap)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package javax.xml.soap;resolution:=optional;version="[1.4,2)"</require>
+    <require name='package' filter='(&amp;(package=javax.xml.stream))' extend='false' multiple='false' optional='true'>Import package javax.xml.stream;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform))' extend='false' multiple='false' optional='true'>Import package javax.xml.transform;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform.dom))' extend='false' multiple='false' optional='true'>Import package javax.xml.transform.dom;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform.sax))' extend='false' multiple='false' optional='true'>Import package javax.xml.transform.sax;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform.stax))' extend='false' multiple='false' optional='true'>Import package javax.xml.transform.stax;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform.stream))' extend='false' multiple='false' optional='true'>Import package javax.xml.transform.stream;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.jvnet.fastinfoset))' extend='false' multiple='false' optional='true'>Import package org.jvnet.fastinfoset;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.jvnet.mimepull)(version&gt;=1.9.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jvnet.mimepull;resolution:=optional;version="[1.9,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jvnet.staxex)(version&gt;=1.8.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jvnet.staxex;resolution:=optional;version="[1.8,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jvnet.staxex.util)(version&gt;=1.8.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jvnet.staxex.util;resolution:=optional;version="[1.8,2)"</require>
+    <require name='package' filter='(&amp;(package=org.w3c.dom))' extend='false' multiple='false' optional='true'>Import package org.w3c.dom;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.xml.sax))' extend='false' multiple='false' optional='true'>Import package org.xml.sax;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.xml.sax.ext))' extend='false' multiple='false' optional='true'>Import package org.xml.sax.ext;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.xml.sax.helpers))' extend='false' multiple='false' optional='true'>Import package org.xml.sax.helpers;resolution:=optional</require>
+  </resource>
+  <resource id='stax-ex/1.8.1' symbolicname='stax-ex' presentationname='stax-ex OSGi Bundle' uri='mvn:org.jvnet.staxex/stax-ex/1.8.1' version='1.8.1'>
+    <description>This OSGi bundle simply wraps stax-ex-1.8.1.jar artifact.</description>
+    <size>179448</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='stax-ex'/>
+      <p n='presentationname' v='stax-ex OSGi Bundle'/>
+      <p n='version' t='version' v='1.8.1'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.activation'/>
+      <p n='version' t='version' v='1.8.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.xml.bind'/>
+      <p n='version' t='version' v='1.8.1'/>
+      <p n='uses:' v='javax.xml.bind.annotation.adapters,javax.xml.bind.attachment,javax.xml.namespace,javax.xml.stream,javax.xml.transform,javax.xml.validation,org.w3c.dom,org.xml.sax'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.xml.bind.annotation'/>
+      <p n='version' t='version' v='1.8.1'/>
+      <p n='uses:' v='javax.xml.bind,javax.xml.parsers,javax.xml.transform,javax.xml.transform.dom,org.w3c.dom'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.xml.bind.annotation.adapters'/>
+      <p n='version' t='version' v='1.8.1'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.xml.bind.attachment'/>
+      <p n='version' t='version' v='1.8.1'/>
+      <p n='uses:' v='javax.activation'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.xml.bind.helpers'/>
+      <p n='version' t='version' v='1.8.1'/>
+      <p n='uses:' v='javax.xml.bind,javax.xml.bind.annotation.adapters,javax.xml.bind.attachment,javax.xml.stream,javax.xml.transform,javax.xml.validation,org.w3c.dom,org.xml.sax'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='javax.xml.bind.util'/>
+      <p n='version' t='version' v='1.8.1'/>
+      <p n='uses:' v='javax.xml.bind,javax.xml.transform.sax'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jvnet.staxex'/>
+      <p n='version' t='version' v='1.8.1'/>
+      <p n='uses:' v='javax.activation,javax.xml.namespace,javax.xml.stream'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jvnet.staxex.util'/>
+      <p n='version' t='version' v='1.8.1'/>
+      <p n='uses:' v='javax.xml.bind.attachment,javax.xml.namespace,javax.xml.stream,org.w3c.dom'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.sun.activation.registries))' extend='false' multiple='false' optional='true'>Import package com.sun.activation.registries;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.activation)(version&gt;=1.8.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package javax.activation;resolution:=optional;version="[1.8,2)"</require>
+    <require name='package' filter='(&amp;(package=javax.xml.bind)(version&gt;=1.8.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package javax.xml.bind;resolution:=optional;version="[1.8,2)"</require>
+    <require name='package' filter='(&amp;(package=javax.xml.bind.annotation)(version&gt;=1.8.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package javax.xml.bind.annotation;resolution:=optional;version="[1.8,2)"</require>
+    <require name='package' filter='(&amp;(package=javax.xml.bind.annotation.adapters)(version&gt;=1.8.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package javax.xml.bind.annotation.adapters;resolution:=optional;version="[1.8,2)"</require>
+    <require name='package' filter='(&amp;(package=javax.xml.bind.attachment)(version&gt;=1.8.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package javax.xml.bind.attachment;resolution:=optional;version="[1.8,2)"</require>
+    <require name='package' filter='(&amp;(package=javax.xml.datatype))' extend='false' multiple='false' optional='true'>Import package javax.xml.datatype;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.namespace))' extend='false' multiple='false' optional='true'>Import package javax.xml.namespace;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.parsers))' extend='false' multiple='false' optional='true'>Import package javax.xml.parsers;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.stream))' extend='false' multiple='false' optional='true'>Import package javax.xml.stream;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform))' extend='false' multiple='false' optional='true'>Import package javax.xml.transform;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform.dom))' extend='false' multiple='false' optional='true'>Import package javax.xml.transform.dom;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform.sax))' extend='false' multiple='false' optional='true'>Import package javax.xml.transform.sax;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.transform.stream))' extend='false' multiple='false' optional='true'>Import package javax.xml.transform.stream;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.xml.validation))' extend='false' multiple='false' optional='true'>Import package javax.xml.validation;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.glassfish.hk2.osgiresourcelocator))' extend='false' multiple='false' optional='true'>Import package org.glassfish.hk2.osgiresourcelocator;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.jvnet.staxex)(version&gt;=1.8.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jvnet.staxex;resolution:=optional;version="[1.8,2)"</require>
+    <require name='package' filter='(&amp;(package=org.w3c.dom))' extend='false' multiple='false' optional='true'>Import package org.w3c.dom;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.xml.sax))' extend='false' multiple='false' optional='true'>Import package org.xml.sax;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.xml.sax.ext))' extend='false' multiple='false' optional='true'>Import package org.xml.sax.ext;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.xml.sax.helpers))' extend='false' multiple='false' optional='true'>Import package org.xml.sax.helpers;resolution:=optional</require>
+  </resource>
+</repository>

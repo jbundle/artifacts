@@ -1,0 +1,51 @@
+<repository lastmodified='20200123062607.544'>
+  <resource id='org.jbundle.util.other.loaddist/0.7.10' symbolicname='org.jbundle.util.other.loaddist' presentationname='jbundle-util-other-loaddist - Load distributor' uri='mvn:org.jbundle.util.other/org.jbundle.util.other.loaddist/0.7.10' version='0.7.10'>
+    <description>Top level properties and features</description>
+    <size>39766</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.util.other.loaddist'/>
+      <p n='presentationname' v='jbundle-util-other-loaddist - Load distributor'/>
+      <p n='version' t='version' v='0.7.10'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.other.loaddist.display'/>
+      <p n='version' t='version' v='0.7.10'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.other.loaddist.filter'/>
+      <p n='version' t='version' v='0.7.10'/>
+      <p n='uses:' v='org.jbundle.util.other.loaddist.loaddist'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.other.loaddist.forward'/>
+      <p n='version' t='version' v='0.7.10'/>
+      <p n='uses:' v='org.jbundle.util.other.loaddist.samplermi'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.other.loaddist.loaddist'/>
+      <p n='version' t='version' v='0.7.10'/>
+      <p n='uses:' v='org.jbundle.util.other.loaddist.display'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.other.loaddist.samplermi'/>
+      <p n='version' t='version' v='0.7.10'/>
+      <p n='uses:' v='javax.swing'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.other.loaddist.sticky'/>
+      <p n='version' t='version' v='0.7.10'/>
+      <p n='uses:' v='org.jbundle.util.other.loaddist.loaddist'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.other.loaddist.test'/>
+      <p n='version' t='version' v='0.7.10'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.swing))' extend='false' multiple='false' optional='true'>Import package javax.swing;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.other.loaddist.display)(version&gt;=0.7.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.other.loaddist.display;resolution:=optional;version="[0.7,1)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.other.loaddist.loaddist)(version&gt;=0.7.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.other.loaddist.loaddist;resolution:=optional;version="[0.7,1)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.other.loaddist.samplermi)(version&gt;=0.7.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.other.loaddist.samplermi;resolution:=optional;version="[0.7,1)"</require>
+  </resource>
+</repository>

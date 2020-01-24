@@ -1,0 +1,114 @@
+<repository lastmodified='20200123060734.027'>
+  <resource id='org.jbundle.util.calendarpanel/1.1.6' symbolicname='org.jbundle.util.calendarpanel' presentationname='jbundle-util-calendarpanel - Calendar panel' uri='mvn:org.jbundle.util.calendarpanel/org.jbundle.util.calendarpanel/1.1.6' version='1.1.6'>
+    <description>Top level properties and features</description>
+    <size>56119</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.util.calendarpanel'/>
+      <p n='presentationname' v='jbundle-util-calendarpanel - Calendar panel'/>
+      <p n='version' t='version' v='1.1.6'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.calendarpanel'/>
+      <p n='version' t='version' v='1.1.6'/>
+      <p n='uses:' v='javax.swing,javax.swing.border,javax.swing.event,org.jbundle.util.calendarpanel.event,org.jbundle.util.calendarpanel.model,org.jbundle.util.calendarpanel.util'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.calendarpanel.dnd'/>
+      <p n='version' t='version' v='1.1.6'/>
+      <p n='uses:' v='javax.swing,org.jbundle.util.calendarpanel,org.jbundle.util.calendarpanel.util'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.calendarpanel.event'/>
+      <p n='version' t='version' v='1.1.6'/>
+      <p n='uses:' v='javax.swing.table'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.calendarpanel.model.swing'/>
+      <p n='version' t='version' v='1.1.6'/>
+      <p n='uses:' v='javax.swing,javax.swing.event,javax.swing.table,org.jbundle.util.calendarpanel.event,org.jbundle.util.calendarpanel.model'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.calendarpanel.util'/>
+      <p n='version' t='version' v='1.1.6'/>
+      <p n='uses:' v='javax.swing,javax.swing.border,javax.swing.table,org.jbundle.util.calendarpanel,org.jbundle.util.calendarpanel.dnd,org.jbundle.util.calendarpanel.model'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.swing))' extend='false' multiple='false' optional='true'>Import package javax.swing;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.swing.border))' extend='false' multiple='false' optional='true'>Import package javax.swing.border;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.swing.event))' extend='false' multiple='false' optional='true'>Import package javax.swing.event;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.swing.table))' extend='false' multiple='false' optional='true'>Import package javax.swing.table;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.calendarpanel)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.calendarpanel;resolution:=optional;version="[1.1,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.calendarpanel.dnd)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.calendarpanel.dnd;resolution:=optional;version="[1.1,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.calendarpanel.event)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.calendarpanel.event;resolution:=optional;version="[1.1,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.calendarpanel.model)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.calendarpanel.model;resolution:=optional;version="[1.1,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.calendarpanel.util)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.calendarpanel.util;resolution:=optional;version="[1.1,2)"</require>
+  </resource>
+  <resource id='org.jbundle.util.calendarpanel.model/1.1.6' symbolicname='org.jbundle.util.calendarpanel.model' presentationname='jbundle-util-calendarpanel-model - Calendar panel' uri='mvn:org.jbundle.util.calendarpanel/org.jbundle.util.calendarpanel.model/1.1.6' version='1.1.6'>
+    <description>Top level properties and features</description>
+    <size>4852</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.util.calendarpanel.model'/>
+      <p n='presentationname' v='jbundle-util-calendarpanel-model - Calendar panel'/>
+      <p n='version' t='version' v='1.1.6'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.calendarpanel.model'/>
+      <p n='version' t='version' v='1.1.6'/>
+      <p n='uses:' v='javax.swing,javax.swing.table'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.swing))' extend='false' multiple='false' optional='true'>Import package javax.swing;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.swing.table))' extend='false' multiple='false' optional='true'>Import package javax.swing.table;resolution:=optional</require>
+  </resource>
+  <resource id='org.jbundle.util.calendarpanel.sample.rich/1.1.6' symbolicname='org.jbundle.util.calendarpanel.sample.rich' presentationname='jbundle-util-calendarpanel-sample-rich' uri='mvn:org.jbundle.util.calendarpanel/org.jbundle.util.calendarpanel.sample.rich/1.1.6' version='1.1.6'>
+    <description>Top level properties and features</description>
+    <size>23781</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.util.calendarpanel.sample.rich'/>
+      <p n='presentationname' v='jbundle-util-calendarpanel-sample-rich'/>
+      <p n='version' t='version' v='1.1.6'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.calendarpanel.sample.rich'/>
+      <p n='version' t='version' v='1.1.6'/>
+      <p n='uses:' v='javax.swing,javax.swing.event,javax.swing.table,org.jbundle.util.calendarpanel,org.jbundle.util.calendarpanel.event,org.jbundle.util.calendarpanel.model,org.jbundle.util.calendarpanel.model.swing'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.swing))' extend='false' multiple='false' optional='true'>Import package javax.swing;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.swing.border))' extend='false' multiple='false' optional='true'>Import package javax.swing.border;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.swing.event))' extend='false' multiple='false' optional='true'>Import package javax.swing.event;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.swing.table))' extend='false' multiple='false' optional='true'>Import package javax.swing.table;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.calendarpanel)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.calendarpanel;resolution:=optional;version="[1.1,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.calendarpanel.event)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.calendarpanel.event;resolution:=optional;version="[1.1,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.calendarpanel.model)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.calendarpanel.model;resolution:=optional;version="[1.1,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.calendarpanel.model.swing)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.calendarpanel.model.swing;resolution:=optional;version="[1.1,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.jcalendarbutton)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.jcalendarbutton;resolution:=optional;version="[1.6,2)"</require>
+  </resource>
+  <resource id='org.jbundle.util.calendarpanel.sample.simple/1.1.6' symbolicname='org.jbundle.util.calendarpanel.sample.simple' presentationname='jbundle-util-calendarpanel-sample-simple' uri='mvn:org.jbundle.util.calendarpanel/org.jbundle.util.calendarpanel.sample.simple/1.1.6' version='1.1.6'>
+    <description>Top level properties and features</description>
+    <size>9922</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.util.calendarpanel.sample.simple'/>
+      <p n='presentationname' v='jbundle-util-calendarpanel-sample-simple'/>
+      <p n='version' t='version' v='1.1.6'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.calendarpanel.sample.simple'/>
+      <p n='version' t='version' v='1.1.6'/>
+      <p n='uses:' v='javax.swing,org.jbundle.util.calendarpanel,org.jbundle.util.calendarpanel.model,org.jbundle.util.calendarpanel.model.swing'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.swing))' extend='false' multiple='false' optional='true'>Import package javax.swing;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.calendarpanel)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.calendarpanel;resolution:=optional;version="[1.1,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.calendarpanel.model)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.calendarpanel.model;resolution:=optional;version="[1.1,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.calendarpanel.model.swing)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.calendarpanel.model.swing;resolution:=optional;version="[1.1,2)"</require>
+  </resource>
+</repository>
