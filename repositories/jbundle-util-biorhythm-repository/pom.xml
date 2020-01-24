@@ -5,11 +5,11 @@
     <parent>
         <groupId>org.jbundle.config.repo</groupId>
         <artifactId>jbundle-repositories</artifactId>
-        <version>1.4.1-SNAPSHOT</version>
+        <version>1.4.1</version>
     </parent>
 
     <artifactId>jbundle-util-biorhythm-repository</artifactId>
-    <version>${jbundle-util-biorhythm-version}</version>
+    <version>0.8.7</version>
 
     <name>jbundle-util-biorhythm-repository</name>
     <description>jbundle-util-biorhythm repository</description>

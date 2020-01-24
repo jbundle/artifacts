@@ -5,11 +5,11 @@
     <parent>
         <groupId>org.jbundle.config.repo</groupId>
         <artifactId>jbundle-repositories</artifactId>
-        <version>1.4.1-SNAPSHOT</version>
+        <version>1.4.1</version>
     </parent>
 
     <artifactId>jbundle-external-repository</artifactId>
-    <version>${jbundle-external-version}</version>
+    <version>1.0.6</version>
 
     <name>jbundle-external-repository</name>
     <description>jbundle-external repository</description>

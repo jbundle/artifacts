@@ -9,7 +9,7 @@
     <relativePath>../jbundle/jbundle-parent</relativePath>
   </parent>
 
-  <version>1.4.1-SNAPSHOT</version>
+  <version>1.4.1</version>
   <groupId>org.jbundle.config.web</groupId>
   <artifactId>jbundle-artifacts-reactor</artifactId>
 
@@ -32,6 +32,7 @@
     <url>https://github.com/jbundle/artifacts</url>
     <connection>scm:git:https://github.com/jbundle/artifacts</connection>
     <developerConnection>scm:git:https://github.com/jbundle/artifacts</developerConnection>
+    <tag>jbundle-artifacts-reactor-1.4.1</tag>
   </scm>
 
 </project>
