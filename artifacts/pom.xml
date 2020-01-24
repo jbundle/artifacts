@@ -5,12 +5,12 @@
   <parent>
     <groupId>org.jbundle.config.web</groupId>
     <artifactId>jbundle-artifacts-reactor</artifactId>
-    <version>1.4.1</version>
+    <version>1.4.2-SNAPSHOT</version>
   </parent>
 
   <groupId>org.jbundle.config</groupId>
   <artifactId>jbundle-artifacts</artifactId>
-  <version>1.4.1</version>
+  <version>1.4.2-SNAPSHOT</version>
 
   <packaging>pom</packaging>
   <name>jbundle-artifacts - scripts etc.</name>
