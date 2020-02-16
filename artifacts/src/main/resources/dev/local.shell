@@ -4,14 +4,18 @@ docker run --rm --name karaf -p 80:80 -p 443:443 -p 8181:8181 -p 5005:5005 -d to
 # docker run --rm --name karaf -p 80:80 -p 443:443 -p 8181:8181 -p 5005:5005 -d apache/karaf:4.2.7 sleep 3600
 # docker run -d --name karaf tourgeek/karaf
 docker exec karaf mkdir -p /home/karaf/
-docker cp ~/workspace/workspace/artifacts/artifacts/src/main/resources/obr/repository/ karaf:/home/karaf/
-docker cp /home/dcorley/workspace-jibx/jibx/artifacts/artifacts/src/main/resources/obr/repository/jibx-repository-1.3.3-SNAPSHOT.xml karaf:/home/karaf/
-docker cp /home/dcorley/workspace-jibx/jibx/artifacts/artifacts/src/main/resources/obr/repository/jibx-schema-library-repository-1.2.1-SNAPSHOT.xml karaf:/home/karaf/
-docker cp /home/dcorley/workspace-jibx/jibx/artifacts/artifacts/src/main/resources/obr/repository/jibx-external-repository-1.3.3-SNAPSHOT.xml karaf:/home/karaf/
-sleep 10
+# docker cp ~/workspace/workspace/artifacts/artifacts/src/main/resources/obr/repository/ karaf:/home/karaf/
+# docker cp /home/dcorley/workspace-jibx/jibx/artifacts/artifacts/src/main/resources/obr/repository/jibx-repository-1.3.3-SNAPSHOT.xml karaf:/home/karaf/
+# docker cp /home/dcorley/workspace-jibx/jibx/artifacts/artifacts/src/main/resources/obr/repository/jibx-schema-library-repository-1.2.1-SNAPSHOT.xml karaf:/home/karaf/
+# docker cp /home/dcorley/workspace-jibx/jibx/artifacts/artifacts/src/main/resources/obr/repository/jibx-external-repository-1.3.3-SNAPSHOT.xml karaf:/home/karaf/
+# sleep 10
 docker exec -it karaf bash
 
 client
+
+shell:source mvn:org.jbundle.config/jbundle-artifacts//shell/setup
+
+--- Done
 
 sleep 2
 config:edit org.ops4j.pax.url.mvn
@@ -84,3 +88,9 @@ obr:deploy 'jbundle-config-web-httpweb - Hybrid osgi webapp'
 sleep 4
 obr:start -d 'jbundle-config-web-httpweb - Hybrid osgi webapp'
 sleep 1
+
+/opt/oracle/jdk1.8.0_231/jre/bin/javaws -viewer
+rm  ~/Downloads/webstart
+wget "http://localhost:8181/webstart?userid=&webStartPropertiesFile=/org/jbundle/res/webstart/tourgeek.properties&code=org.jbundle.Main&domain=tourgeek.com&baseURL=localhost%3A8181/&url=http%3A//localhost%3A8181/appxsl&datatype=jnlp&mainClass=org.jbundle.Main"
+mv webstart\?userid\=\&webStartPropertiesFile\=%2Forg%2Fjbundle%2Fres%2Fwebstart%2Ftourgeek.properties\&code\=org.jbundle.Main\&domain\=tourgeek.com\&baseURL\=localhost\:8181%2F\&url\=http\:%2F%2Flocalhost\:8181%2Fappxsl\&datatype\=jnlp\&mainClass\=org.jbund ~/Downloads/webstart
+/opt/oracle/jdk1.8.0_231/jre/bin/javaws /home/dcorley/Downloads/webstart
