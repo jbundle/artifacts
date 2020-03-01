@@ -1,6 +1,6 @@
 deploy -s 'Apache Felix Http Jetty'
 
-repos add file:/home/don/workspace/workspace/artifacts/target/classes/obr/local-repository.xml
+repos add file:/home/dcorley/workspace/workspace/artifacts/target/classes/obr/local-repository.xml
 
 deploy -s 'jbundle-util-osgi-obr - obr bundle retrieval'
 deploy -s 'jbundle-util-osgi-webstart - osgi to web start web bundle'

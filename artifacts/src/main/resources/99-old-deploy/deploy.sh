@@ -13,7 +13,7 @@ HOST=$1
 fi
 
 USER=admin
-PASSWORDFILE=/home/don/.asadminpassword
+PASSWORDFILE=/home/dcorley/.asadminpassword
 
 $ASADMIN --user=$USER --host=$HOST --passwordfile=$PASSWORDFILE restart-domain
 sleep 5
@@ -51,7 +51,7 @@ $ASADMIN --user=$USER --host=$HOST --passwordfile=$PASSWORDFILE $DEPLOY_COMMAND 
 $ASADMIN --user=$USER --host=$HOST --passwordfile=$PASSWORDFILE $DEPLOY_COMMAND --name pictures --contextroot /pictures --upload false $WEB/pictures/
 $ASADMIN --user=$USER --host=$HOST --passwordfile=$PASSWORDFILE $DEPLOY_COMMAND --name upload --contextroot /upload --upload false $WEB/upload/
 $ASADMIN --user=$USER --host=$HOST --passwordfile=$PASSWORDFILE $DEPLOY_COMMAND --name awstats --contextroot /awstats --upload false /usr/local/awstats/wwwroot
-# $ASADMIN --user=$USER --host=$HOST --passwordfile=$PASSWORDFILE redeploy --name tourgeek --contextroot /dance --upload false /home/don/workspace/jbundle-workspace/jbundle-app-dance-root/jbundle-app-dance-webapp/target/jbundle-app-dance-webapp-$VERSION.war
+# $ASADMIN --user=$USER --host=$HOST --passwordfile=$PASSWORDFILE redeploy --name tourgeek --contextroot /dance --upload false /home/dcorley/workspace/jbundle-workspace/jbundle-app-dance-root/jbundle-app-dance-webapp/target/jbundle-app-dance-webapp-$VERSION.war
 
 # ********** Add this back - HUDSON does not work with glassfish 3.1 ************
 # $ASADMIN --user=$USER --host=$HOST --passwordfile=$PASSWORDFILE $DEPLOY_COMMAND --name hudson --virtualservers tourgeek,jbundle --contextroot /hudson --upload false /web/download/software/java/war/hudson.war

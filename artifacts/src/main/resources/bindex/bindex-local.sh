@@ -111,7 +111,7 @@ VERSION=
 
 cd ..
 rm -f ~/workspace/workspace/artifacts/artifacts/src/main/resources/obr/repository/jbundle-external-repository-$REPO_VERSION.xml
-java -jar $BINDEX -quiet -r ~/.m2/jbundle-external-repository.xml -t file:/home/don/.m2/%p/%f ~/temp/repository
+java -jar $BINDEX -quiet -r ~/.m2/jbundle-external-repository.xml -t file:/home/dcorley/.m2/%p/%f ~/temp/repository
 mv repository maven2
 java -jar $BINDEX -quiet -r ~/workspace/workspace/artifacts/artifacts/src/main/resources/obr/repository/jbundle-external-repository-$REPO_VERSION.xml -t https://repo.maven.apache.org/%p/%f  ~/temp/maven2
 # rm -fr maven2
@@ -123,7 +123,7 @@ cd repository
 mkdir org
 rsync -r  --filter='+ */' --filter='- **/*archetype*.jar' --filter='+ **/*SNAPSHOT.jar' --filter='- **' $REPOSITORY/org/jbundle org/
 cd ..
-java -jar $BINDEX -quiet -r ~/.m2/jbundle-repository-$JBUNDLE_SNAPSHOT_VERSION.xml -t file:/home/don/.m2/%p/%f ~/temp/repository
+java -jar $BINDEX -quiet -r ~/.m2/jbundle-repository-$JBUNDLE_SNAPSHOT_VERSION.xml -t file:/home/dcorley/.m2/%p/%f ~/temp/repository
 # cp ~/.m2/snapshot-repository.xml ~/workspace/workspace/bin/obr/
 rm -fr repository
 # ---------------- tourgeek snapshot -----------------
@@ -132,7 +132,7 @@ cd repository
 mkdir com
 rsync -r  --filter='+ */' --filter='- **/*archetype*.jar' --filter='+ **/*SNAPSHOT.jar' --filter='- **' --filter='- **/*archetype*.jar' $REPOSITORY/com/tourgeek com/
 cd ..
-java -jar $BINDEX -quiet -r ~/.m2/tourgeek-repository-$TOURGEEK_SNAPSHOT_VERSION.xml -t file:/home/don/.m2/%p/%f ~/temp/repository
+java -jar $BINDEX -quiet -r ~/.m2/tourgeek-repository-$TOURGEEK_SNAPSHOT_VERSION.xml -t file:/home/dcorley/.m2/%p/%f ~/temp/repository
 # cp ~/.m2/snapshot-repository.xml ~/workspace/workspace/bin/obr/
 rm -fr repository
 # ---------------- util snapshot -----------------
@@ -141,7 +141,7 @@ cd repository
 mkdir -p org/jbundle
 rsync -r  --filter='+ */' --filter='- **/*archetype*.jar' --filter='+ **/*SNAPSHOT.jar' --filter='- **' --filter='- **/*archetype*.jar' $REPOSITORY/org/jbundle/util org/jbundle
 cd ..
-java -jar $BINDEX -quiet -r ~/.m2/jbundle-util-repository-SNAPSHOT.xml -t file:/home/don/.m2/%p/%f ~/temp/repository
+java -jar $BINDEX -quiet -r ~/.m2/jbundle-util-repository-SNAPSHOT.xml -t file:/home/dcorley/.m2/%p/%f ~/temp/repository
 # cp ~/.m2/snapshot-repository.xml ~/workspace/workspace/bin/obr/
 rm -fr repository
 # ---------------- jbundle release -----------------
@@ -150,7 +150,7 @@ cd repository
 mkdir org
 rsync -r  --filter='- **/*SNAPSHOT*.jar' $REPOSITORY/org/jbundle org/
 cd ..
-java -jar $BINDEX -quiet -r ~/.m2/jbundle-repository-$JBUNDLE_VERSION.xml -t file:/home/don/.m2/%p/%f ~/temp/repository
+java -jar $BINDEX -quiet -r ~/.m2/jbundle-repository-$JBUNDLE_VERSION.xml -t file:/home/dcorley/.m2/%p/%f ~/temp/repository
 rm -fr repository
 # ---------------- tourgeekp release -----------------
 mkdir repository
@@ -158,6 +158,6 @@ cd repository
 mkdir org
 rsync -r  --filter='- **/*SNAPSHOT*.jar' $REPOSITORY/com/tourgeek com/
 cd ..
-java -jar $BINDEX -quiet -r ~/.m2/tourgeek-repository-$TOURGEEK_VERSION.xml -t file:/home/don/.m2/%p/%f ~/temp/repository
+java -jar $BINDEX -quiet -r ~/.m2/tourgeek-repository-$TOURGEEK_VERSION.xml -t file:/home/dcorley/.m2/%p/%f ~/temp/repository
 rm -fr repository
 

@@ -13,6 +13,6 @@ fi
 USER=admin
 PASSWORDFILE=~/.asadminpass
 
-DEV_DIR=/home/don/workspace/jbundle-workspace
+DEV_DIR=/home/dcorley/workspace/jbundle-workspace
 JBUNDLE_ROOT=$DEV_DIR/jbundle-util/jbundle-util-webapp-root
 

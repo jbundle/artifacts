@@ -24,7 +24,7 @@ obr:url-add mvn:org.jbundle.config/jbundle-artifacts/1.2.6/xml/repository
 deploy org.jbundle.app.program.manual
 
 # Start karaf
-shell:source file:/home/don/workspace/workspace/bin/dev/karaf.shell
+shell:source file:/home/dcorley/workspace/workspace/bin/dev/karaf.shell
 
 ## This is a HACK to stop errors from bundles which export org.xml (which is part of the java api)
 # install mvn:org.apache.xmlcommons/com.springsource.org.apache.xmlcommons
@@ -35,13 +35,13 @@ feature:repo-add mvn:org.apache.karaf.cave/apache-karaf-cave/3.0.0-SNAPSHOT/xml/
 feature:install cave-obr-server
 sleep 3
 cave:repository-create cave-repo
-cave:repository-proxy cave-repo file:/home/don/.m2/repository/org/jbundle
-cave:repository-proxy cave-repo file:/home/don/.m2/repository/com/tourgeek
-cave:repository-proxy cave-repo file:/home/don/.m2/repository/org/jibx
+cave:repository-proxy cave-repo file:/home/dcorley/.m2/repository/org/jbundle
+cave:repository-proxy cave-repo file:/home/dcorley/.m2/repository/com/tourgeek
+cave:repository-proxy cave-repo file:/home/dcorley/.m2/repository/org/jibx
 
 config:edit org.jbundle.util.webapp.redirect
 config:property-set alias /org/jbundle/res/docs/styles/js
-config:property-set basePath file:/home/don/workspace/workspace/jbundle/util/osgi-webstart/js/src/main/resources/org/jbundle/res/docs/styles/js/
+config:property-set basePath file:/home/dcorley/workspace/workspace/jbundle/util/osgi-webstart/js/src/main/resources/org/jbundle/res/docs/styles/js/
 config:update
 obr:start -d org.jbundle.util.webapp.redirect
 
@@ -55,9 +55,9 @@ localhost:8181/webstart/docs/jsappleta.html?appletClass=org.jbundle.Main&webStar
 # config:property-set listings true
 # config:update
 
-osgi:install -s webbundle:file:/home/don/workspace/workspace/jbundle/util/webapp/webstart/target/org.jbundle.util.webapp.webstart-1.1.0-SNAPSHOT.war?Bundle-SymbolicName=tomcat-sample&Webapp-Context=/sample
-osgi:install -s file:/home/don/workspace/workspace/jbundle/util/webapp/webstart/target/org.jbundle.util.webapp.webstart-1.1.0-SNAPSHOT.war
-osgi:install -s webbundle:file:/home/don/workspace/workspace/jbundle/util/webapp/cgi/target/org.jbundle.util.webapp.cgi-1.1.0-SNAPSHOT.war?Bundle-SymbolicName=cgi&Webapp-Context=/awstats
+osgi:install -s webbundle:file:/home/dcorley/workspace/workspace/jbundle/util/webapp/webstart/target/org.jbundle.util.webapp.webstart-1.1.0-SNAPSHOT.war?Bundle-SymbolicName=tomcat-sample&Webapp-Context=/sample
+osgi:install -s file:/home/dcorley/workspace/workspace/jbundle/util/webapp/webstart/target/org.jbundle.util.webapp.webstart-1.1.0-SNAPSHOT.war
+osgi:install -s webbundle:file:/home/dcorley/workspace/workspace/jbundle/util/webapp/cgi/target/org.jbundle.util.webapp.cgi-1.1.0-SNAPSHOT.war?Bundle-SymbolicName=cgi&Webapp-Context=/awstats
 http://localhost:8181/webstart?webStartPropertiesFile=/org/jbundle/util/biorhythm/standalone.properties
 http://localhost:8181/webstart?webStartPropertiesFile=/org/jbundle/res/webstart/tourgeeklication.properties
 http://localhost:8181/webstart/docs/applet.html?webStartPropertiesFile=/org/jbundle/res/webstart/tourgeek.properties
@@ -112,7 +112,7 @@ config:update
 start-domain
 create-jvm-options -Dglassfish.osgi.start.level.final=3
 osgi-shell
-install file:/home/don/.m2/repository/org/sample/sample-chat/1.0.0-SNAPSHOT/sample-chat-1.0.0-SNAPSHOT.war
+install file:/home/dcorley/.m2/repository/org/sample/sample-chat/1.0.0-SNAPSHOT/sample-chat-1.0.0-SNAPSHOT.war
 start xxx
 
 
@@ -123,8 +123,8 @@ cave:repository-create cave-repo
 obr:url-add http://chameleon.ow2.org/repository/chameleon-commons.xml
 obr:url-add http://chameleon.ow2.org/repository/chameleon-releases.xml
 obr:url-add http://www.jibx.org/repository/repository.xml
-obr:url-add file:/home/don/workspace/workspace/artifacts/artifacts/src/main/resources/obr/repository/jbundle-external-repository-1.0.1.xml
-obr:url-add file:/home/don/workspace/workspace/artifacts/artifacts/src/main/resources/obr/repository/jbundle-util-osgi-wrapped-repository-1.0.4.xml
-cave:repository-proxy cave-repo file:/home/don/.m2/repository/org/jbundle
-cave:repository-proxy cave-repo file:/home/don/.m2/repository/com/tourgeek
+obr:url-add file:/home/dcorley/workspace/workspace/artifacts/artifacts/src/main/resources/obr/repository/jbundle-external-repository-1.0.1.xml
+obr:url-add file:/home/dcorley/workspace/workspace/artifacts/artifacts/src/main/resources/obr/repository/jbundle-util-osgi-wrapped-repository-1.0.4.xml
+cave:repository-proxy cave-repo file:/home/dcorley/.m2/repository/org/jbundle
+cave:repository-proxy cave-repo file:/home/dcorley/.m2/repository/com/tourgeek
 

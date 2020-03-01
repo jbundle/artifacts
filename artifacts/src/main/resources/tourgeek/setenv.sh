@@ -2,7 +2,7 @@
 JAVA_DIR=/usr/local/java
 # export JAVA_HOME=$JAVA_DIR/jdk
 
-export USER_DIR=/home/don
+export USER_DIR=/home/dcorley
 
 export VERSION=0.8.0-SNAPSHOT
 export CODE_HOME=$USER_DIR/workspace/workspace
