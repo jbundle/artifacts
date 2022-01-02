@@ -5,11 +5,11 @@
   <parent>
     <artifactId>jbundle-parent</artifactId>
     <groupId>org.jbundle.config</groupId>
-    <version>1.4.2-SNAPSHOT</version>
+    <version>1.4.4-SNAPSHOT</version>
     <relativePath>../jbundle/jbundle-parent</relativePath>
   </parent>
 
-  <version>1.4.2-SNAPSHOT</version>
+  <version>1.4.4-SNAPSHOT</version>
   <groupId>org.jbundle.config.web</groupId>
   <artifactId>jbundle-artifacts-reactor</artifactId>
 

@@ -28,20 +28,20 @@ config:update
 feature:install http obr war
 sleep 4
 
-# obr:url-add mvn:org.jbundle.config.repo/repository/1.4.1-SNAPSHOT/xml
-obr:url-add file:///home/karaf/repository/jbundle-repository-1.0.10-SNAPSHOT.xml
-obr:url-add file:///home/karaf/repository/jbundle-view-swing-repository-1.0.5-SNAPSHOT.xml
-obr:url-add file:///home/karaf/repository/tourgeek-repository-0.8.4-SNAPSHOT.xml
-obr:url-add file:///home/karaf/repository/jbundle-app-office-repository-1.1.4-SNAPSHOT.xml
-obr:url-add file:///home/karaf/repository/jbundle-util-repository-2.0.8-SNAPSHOT.xml
-obr:url-add file:///home/karaf/repository/jbundle-util-osgi-repository-2.0.10-SNAPSHOT.xml
-obr:url-add file:///home/karaf/repository/jbundle-util-osgi-webstart-repository-1.6.10-SNAPSHOT.xml
-obr:url-add file:///home/karaf/repository/jbundle-util-calendarpanel-repository-1.1.6-SNAPSHOT.xml
-obr:url-add file:///home/karaf/repository/jbundle-util-jcalendarbutton-repository-1.6.5-SNAPSHOT.xml
-obr:url-add file:///home/karaf/repository/jbundle-util-other-repository-0.7.10-SNAPSHOT.xml
-obr:url-add file:///home/karaf/repository/jbundle-util-webapp-repository-1.3.7-SNAPSHOT.xml
-obr:url-add file:///home/karaf/repository/jbundle-util-wsdl-repository-1.0.5-SNAPSHOT.xml
-obr:url-add file:///home/karaf/repository/jbundle-util-biorhythm-repository-0.8.7-SNAPSHOT.xml
+# obr:url-add mvn:org.jbundle.config.repo/repository/1.4.4-SNAPSHOT/xml
+obr:url-add file:///home/karaf/repository/jbundle-repository-1.0.11-SNAPSHOT.xml
+obr:url-add file:///home/karaf/repository/jbundle-view-swing-repository-1.0.6-SNAPSHOT.xml
+obr:url-add file:///home/karaf/repository/tourgeek-repository-0.8.5-SNAPSHOT.xml
+obr:url-add file:///home/karaf/repository/jbundle-app-office-repository-1.1.5-SNAPSHOT.xml
+obr:url-add file:///home/karaf/repository/jbundle-util-repository-2.0.9-SNAPSHOT.xml
+obr:url-add file:///home/karaf/repository/jbundle-util-osgi-repository-2.0.11-SNAPSHOT.xml
+obr:url-add file:///home/karaf/repository/jbundle-util-osgi-webstart-repository-1.6.11-SNAPSHOT.xml
+obr:url-add file:///home/karaf/repository/jbundle-util-calendarpanel-repository-1.1.7-SNAPSHOT.xml
+obr:url-add file:///home/karaf/repository/jbundle-util-jcalendarbutton-repository-1.6.8-SNAPSHOT.xml
+obr:url-add file:///home/karaf/repository/jbundle-util-other-repository-0.7.11-SNAPSHOT.xml
+obr:url-add file:///home/karaf/repository/jbundle-util-webapp-repository-1.3.8-SNAPSHOT.xml
+obr:url-add file:///home/karaf/repository/jbundle-util-wsdl-repository-1.0.6-SNAPSHOT.xml
+obr:url-add file:///home/karaf/repository/jbundle-util-biorhythm-repository-0.8.8-SNAPSHOT.xml
 
 obr:url-add file:///home/karaf/repository/jbundle-external-repository-1.0.6-SNAPSHOT.xml
 obr:url-add file:///home/karaf/repository/jbundle-util-osgi-wrapped-repository-1.0.6-SNAPSHOT.xml
@@ -90,7 +90,11 @@ obr:start -d 'jbundle-config-web-httpweb - Hybrid osgi webapp'
 sleep 1
 
 /opt/oracle/jdk1.8.0_231/jre/bin/javaws -viewer
-rm  ~/Downloads/webstart
-wget "http://localhost:8181/webstart?userid=&webStartPropertiesFile=/org/jbundle/res/webstart/tourgeek.properties&code=org.jbundle.Main&domain=tourgeek.com&baseURL=localhost%3A8181/&url=http%3A//localhost%3A8181/appxsl&datatype=jnlp&mainClass=org.jbundle.Main"
-mv webstart\?userid\=\&webStartPropertiesFile\=%2Forg%2Fjbundle%2Fres%2Fwebstart%2Ftourgeek.properties\&code\=org.jbundle.Main\&domain\=tourgeek.com\&baseURL\=localhost\:8181%2F\&url\=http\:%2F%2Flocalhost\:8181%2Fappxsl\&datatype\=jnlp\&mainClass\=org.jbund ~/Downloads/webstart
-/opt/oracle/jdk1.8.0_231/jre/bin/javaws /home/dcorley/Downloads/webstart
+# rm  ~/Downloads/webstart
+# wget "https://www.tourgeek.com/webstart?userid=&webStartPropertiesFile=/org/jbundle/res/webstart/tourgeek.properties&code=org.jbundle.Main&domain=tourgeek.com&baseURL=www.tourgeek.com/&url=https%3A//www.tourgeek.com/appxsl&datatype=jnlp&mainClass=org.jbundle.Main"
+# wget "http://localhost:8181/webstart?userid=&webStartPropertiesFile=/org/jbundle/res/webstart/tourgeek.properties&code=org.jbundle.Main&domain=tourgeek.com&baseURL=localhost%3A8181/&url=http%3A//localhost%3A8181/appxsl&datatype=jnlp&mainClass=org.jbundle.Main"
+# wget "https://www.tourgeek.com/webstart?userid=&webStartPropertiesFile=/org/jbundle/res/webstart/tourgeek.properties&code=org.jbundle.Main&domain=tourgeek.com&baseURL=https%3A//www.tourgeek.com/&url=https%3A//www.tourgeek.com/appxsl&datatype=jnlp&mainClass=org.jbundle.Main"
+# mv webstart\?userid\=\&webStartPropertiesFile\=%2Forg%2Fjbundle%2Fres%2Fwebstart%2Ftourgeek.properties\&code\=org.jbundle.Main\&domain\=tourgeek.com\&baseURL\=localhost\:8181%2F\&url\=http\:%2F%2Flocalhost\:8181%2Fappxsl\&datatype\=jnlp\&mainClass\=org.jbund ~/Downloads/webstart
+# /opt/oracle/jdk1.8.0_231/jre/bin/javaws /home/dcorley/Downloads/webstart
+
+/opt/oracle/jdk1.8.0_231/jre/bin/javaws https://www.tourgeek.com/webstart?userid=\&webStartPropertiesFile=/org/jbundle/res/webstart/tourgeek.properties\&datatype=jnlp\&mainClass=org.jbundle.Main

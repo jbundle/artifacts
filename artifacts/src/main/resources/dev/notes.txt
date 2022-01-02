@@ -128,3 +128,34 @@ obr:url-add file:/home/dcorley/workspace/workspace/artifacts/artifacts/src/main/
 cave:repository-proxy cave-repo file:/home/dcorley/.m2/repository/org/jbundle
 cave:repository-proxy cave-repo file:/home/dcorley/.m2/repository/com/tourgeek
 
+------- Setting up the nexus repo with a https proxy
+
+docker stop nexus nginx-proxy-acme nginx-proxy
+docker rm nexus nginx-proxy-acme nginx-proxy
+
+docker run --detach --name nginx-proxy --publish 80:80 --publish 443:443 --volume certs:/etc/nginx/certs --volume vhost:/etc/nginx/vhost.d --volume html:/usr/share/nginx/html --volume /var/run/docker.sock:/tmp/docker.sock:ro nginxproxy/nginx-proxy
+docker run --detach --name nginx-proxy-acme --volumes-from nginx-proxy --volume /var/run/docker.sock:/var/run/docker.sock:ro --volume acme:/etc/acme.sh --env "DEFAULT_EMAIL=don@tourgeek.com" nginxproxy/acme-companion
+docker run --detach --name nexus --volume nexus-data:/nexus-data --env "VIRTUAL_HOST=maven.jx.tourgeek.com" --env "VIRTUAL_PORT=8081" --env "LETSENCRYPT_HOST=maven.jx.tourgeek.com" --env "LETSENCRYPT_EMAIL=don@tourgeek.com"  sonatype/nexus3
+
+# docker run --rm --name karaf -p 8181:8181 -p 5005:5005 -d tourgeek/karaf-tourgeek
+docker run --rm --name karaf -p 8181:8181 -p 5005:5005 --detach --env "VIRTUAL_HOST=www.tourgeek.com" --env "VIRTUAL_PORT=8181" --env "LETSENCRYPT_HOST=www.tourgeek.com" --env "LETSENCRYPT_EMAIL=don@tourgeek.com" tourgeek/karaf-tourgeek
+# --volume karaf-data:/opt/apache/apache-karaf-4.2.12/data
+# docker run --rm --name karaf -p 80:80 -p 443:443 -p 8181:8181 -p 5005:5005 -d tourgeek/karaf-tourgeek
+
+docker logs -f nginx-proxy-acme
+docker exec -it nginx-proxy-acme bash
+docker exec -it nexus bash
+
+ping acme-v02.api.letsencrypt.org
+wget https://acme-v02.api.letsencrypt.org/acme/cert/04d51f3c53ef9a54784529585cc4be632e1d
+rm 04d51f3c53ef9a54784529585cc4be632e1d
+
+Remember to docker exec -it nginx-proxy bash
+and
+nano /etc/nginx/conf.d/default.conf
+(in the server { 443} section)
+    	# disable any limits to avoid HTTP 413 for large image uploads
+	    client_max_body_size 0;
+
+obr:url-add mvn:org.jbundle.config.repo/repository/1.4.4-SNAPSHOT/xml
+shell:source mvn:org.jbundle.config/jbundle-artifacts/1.4.4-SNAPSHOT/shell/setup
