@@ -138,9 +138,9 @@ docker run --detach --name nginx-proxy-acme --volumes-from nginx-proxy --volume 
 docker run --detach --name nexus --volume nexus-data:/nexus-data --env "VIRTUAL_HOST=maven.jx.tourgeek.com" --env "VIRTUAL_PORT=8081" --env "LETSENCRYPT_HOST=maven.jx.tourgeek.com" --env "LETSENCRYPT_EMAIL=don@tourgeek.com"  sonatype/nexus3
 
 # docker run --rm --name karaf -p 8181:8181 -p 5005:5005 -d tourgeek/karaf-tourgeek
-docker run --rm --name karaf -p 8181:8181 -p 5005:5005 --detach --env "VIRTUAL_HOST=www.tourgeek.com" --env "VIRTUAL_PORT=8181" --env "LETSENCRYPT_HOST=www.tourgeek.com" --env "LETSENCRYPT_EMAIL=don@tourgeek.com" tourgeek/karaf-tourgeek
-# --volume karaf-data:/opt/apache/apache-karaf-4.2.12/data
-# docker run --rm --name karaf -p 80:80 -p 443:443 -p 8181:8181 -p 5005:5005 -d tourgeek/karaf-tourgeek
+docker run --rm --detach --name karaf --publish 8181:8181 --publish 5005:5005 --env "VIRTUAL_HOST=www.tourgeek.com" --env "VIRTUAL_PORT=8181" --env "LETSENCRYPT_HOST=www.tourgeek.com" --env "LETSENCRYPT_EMAIL=don@tourgeek.com" tourgeek/karaf-tourgeek
+# --volume karaf-data:/opt/apache-karaf/data
+# docker run --rm --name karaf --publish 80:80 --publish 443:443 --publish 8181:8181 --publish 5005:5005 -d tourgeek/karaf-tourgeek
 
 docker logs -f nginx-proxy-acme
 docker exec -it nginx-proxy-acme bash
