@@ -144,19 +144,23 @@ docker run --rm --detach --name karaf --publish 8181:8181 --publish 5005:5005 --
 
 docker logs -f nginx-proxy-acme
 docker exec -it nginx-proxy-acme bash
-docker exec -it nexus bash
 
 ping acme-v02.api.letsencrypt.org
 wget https://acme-v02.api.letsencrypt.org/acme/cert/04d51f3c53ef9a54784529585cc4be632e1d
 rm 04d51f3c53ef9a54784529585cc4be632e1d
 
-Remember to docker exec -it nginx-proxy bash
+Remember to:
+docker exec -it nginx-proxy bash
 and
-nano /etc/nginx/conf.d/default.conf
 or nano /etc/nginx/nginx.conf
 (in the server { 443} section)
     	# disable any limits to avoid HTTP 413 for large image uploads
 	    client_max_body_size 0;
+service nginx reload
 
-obr:url-add mvn:org.jbundle.config.repo/repository/1.4.4-SNAPSHOT/xml
-shell:source mvn:org.jbundle.config/jbundle-artifacts/1.4.4-SNAPSHOT/shell/setup
+docker logs -f karaf
+docker exec -it karaf bash
+client
+
+docker exec -t karaf client obr:url-add mvn:org.jbundle.config.repo/repository/1.4.4-SNAPSHOT/xml
+docker exec -t karaf client shell:source mvn:org.jbundle.config/jbundle-artifacts/1.4.4-SNAPSHOT/shell/setup
