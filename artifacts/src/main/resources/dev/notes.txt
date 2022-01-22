@@ -149,7 +149,7 @@ ping acme-v02.api.letsencrypt.org
 wget https://acme-v02.api.letsencrypt.org/acme/cert/04d51f3c53ef9a54784529585cc4be632e1d
 rm 04d51f3c53ef9a54784529585cc4be632e1d
 
-docker exec -t nginx-proxy sed -i '/\.conf;/a \ \ \ \ client_max_body_size 0;' /etc/nginx/nginx.conf;
+docker exec -it nginx-proxy sed -i '/\.conf;/a \ \ \ \ client_max_body_size 0;' /etc/nginx/nginx.conf
 docker exec -it nginx-proxy service nginx reload
 Remember to:
 docker exec -it nginx-proxy bash
@@ -164,5 +164,15 @@ docker logs -f karaf
 docker exec -it karaf bash
 client
 
-docker exec -t karaf client obr:url-add mvn:org.jbundle.config.repo/repository/1.4.4-SNAPSHOT/xml
-docker exec -t karaf client shell:source mvn:org.jbundle.config/jbundle-artifacts/1.4.4-SNAPSHOT/shell/setup
+# Allow sign-in w/o pw (done)
+# docker exec -it karaf sed -i 's/\#karaf/karaf/g' ./opt/apache-karaf-4.2.15/etc/users.properties
+# docker exec -it karaf sed -i 's/\#_g_/_g_/g' ./opt/apache-karaf-4.2.15/etc/users.properties
+# Enable snapshot (done)
+# docker exec -it karaf sed -i '/^    http:\/\/repository.apache.org/d' /opt/apache-karaf/etc/org.ops4j.pax.url.mvn.cfg;
+# docker exec -it karaf sed -i '/^    https:\/\/oss.sonatype.org/d' /opt/apache-karaf/etc/org.ops4j.pax.url.mvn.cfg;
+# docker exec -it karaf sed -i 's/\@id=central, \\/\@id=central, \\\nhttps:\/\/maven.jx.tourgeek.com\/repository\/maven-public\@id=ops4j.sonatype.snapshots.deploy\@snapshots\@noreleases/g' /opt/apache-karaf/etc/org.ops4j.pax.url.mvn.cfg
+# Install utilities (done)
+# docker exec -it karaf client feature:install http obr war
+# Run snapshot installer
+# docker exec -it karaf client obr:url-add mvn:org.jbundle.config.repo/repository/1.4.4-SNAPSHOT/xml
+# docker exec -it karaf client shell:source mvn:org.jbundle.config/jbundle-artifacts/1.4.4-SNAPSHOT/shell/setup
