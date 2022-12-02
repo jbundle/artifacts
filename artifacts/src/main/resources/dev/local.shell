@@ -96,5 +96,6 @@ sleep 1
 # wget "https://www.tourgeek.com/webstart?userid=&webStartPropertiesFile=/org/jbundle/res/webstart/tourgeek.properties&code=org.jbundle.Main&domain=tourgeek.com&baseURL=https%3A//www.tourgeek.com/&url=https%3A//www.tourgeek.com/appxsl&datatype=jnlp&mainClass=org.jbundle.Main"
 # mv webstart\?userid\=\&webStartPropertiesFile\=%2Forg%2Fjbundle%2Fres%2Fwebstart%2Ftourgeek.properties\&code\=org.jbundle.Main\&domain\=tourgeek.com\&baseURL\=localhost\:8181%2F\&url\=http\:%2F%2Flocalhost\:8181%2Fappxsl\&datatype\=jnlp\&mainClass\=org.jbund ~/Downloads/webstart
 # /opt/oracle/jdk1.8.0_231/jre/bin/javaws /home/dcorley/Downloads/webstart
+# /opt/oracle/jdk1.8.0_231/jre/bin/javaws http://localhost:8181/webstart?userid=\&webStartPropertiesFile=/org/jbundle/res/webstart/tourgeek.properties\&datatype=jnlp\&mainClass=org.jbundle.Main
 
 /opt/oracle/jdk1.8.0_231/jre/bin/javaws https://www.tourgeek.com/webstart?userid=\&webStartPropertiesFile=/org/jbundle/res/webstart/tourgeek.properties\&datatype=jnlp\&mainClass=org.jbundle.Main
