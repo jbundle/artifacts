@@ -1,3 +1,30 @@
+# Full Build using current snapshot:
+# 1. Deploy runtime/artifcat environment:
+docker stop nexus nginx-proxy-acme nginx-proxy karaf
+docker rm nexus nginx-proxy-acme nginx-proxy karaf
+docker run --detach --name nginx-proxy --publish 80:80 --publish 443:443 --volume certs:/etc/nginx/certs --volume vhost:/etc/nginx/vhost.d --volume html:/usr/share/nginx/html --volume /var/run/docker.sock:/tmp/docker.sock:ro nginxproxy/nginx-proxy
+docker run --detach --name nginx-proxy-acme --volumes-from nginx-proxy --volume /var/run/docker.sock:/var/run/docker.sock:ro --volume acme:/etc/acme.sh --env "DEFAULT_EMAIL=don@tourgeek.com" nginxproxy/acme-companion
+docker run --detach --name nexus --volume nexus-data:/nexus-data --env "VIRTUAL_HOST=maven.jx.tourgeek.com" --env "VIRTUAL_PORT=8081" --env "LETSENCRYPT_HOST=maven.jx.tourgeek.com" --env "LETSENCRYPT_EMAIL=don@tourgeek.com"  sonatype/nexus3
+docker run --rm --detach --name karaf --publish 8181:8181 --publish 5005:5005 --env "VIRTUAL_HOST=www.tourgeek.com" --env "VIRTUAL_PORT=8181" --env "LETSENCRYPT_HOST=www.tourgeek.com" --env "LETSENCRYPT_EMAIL=don@tourgeek.com" tourgeek/karaf-tourgeek
+sleep 10
+docker exec -it nginx-proxy sed -i '/\.conf;/a \ \ \ \ client_max_body_size 0;' /etc/nginx/nginx.conf
+docker exec -it nginx-proxy service nginx reload
+# 2. Build amd deploy current code to snapshot repo
+mvn clean deploy
+# 3. Start server code:
+docker exec -it karaf bash
+client
+shell:source mvn:org.jbundle.config/jbundle-artifacts/x.x.x-SNAPSHOT/shell/setup
+# 4. Run client:
+/opt/oracle/jdk1.8.0_231/jre/bin/javaws -viewer
+/opt/oracle/jdk1.8.0_231/jre/bin/javaws https://www.tourgeek.com/webstart?userid=\&webStartPropertiesFile=/org/jbundle/res/webstart/tourgeek.properties\&datatype=jnlp\&mainClass=org.jbundle.Main
+
+cd ~/workspace/workspace/app/tourgeek/config/main;mvn exec:java
+
+https://www.tourgeek.com/appxsl?menu=app
+
+
+mvn clean deploy
 
 config:edit org.jbundle.base.screen.control.swing.activator
 config:property-set table Jdbc
