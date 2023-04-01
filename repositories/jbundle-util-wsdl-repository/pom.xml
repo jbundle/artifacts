@@ -5,11 +5,11 @@
     <parent>
         <groupId>org.jbundle.config.repo</groupId>
         <artifactId>jbundle-repositories</artifactId>
-        <version>1.4.4-SNAPSHOT</version>
+        <version>1.4.4</version>
     </parent>
 
     <artifactId>jbundle-util-wsdl-repository</artifactId>
-    <version>1.0.6-SNAPSHOT</version>
+    <version>1.0.6</version>
 
     <name>jbundle-util-wsdl-repository</name>
     <description>jbundle-util-wsdl repository</description>

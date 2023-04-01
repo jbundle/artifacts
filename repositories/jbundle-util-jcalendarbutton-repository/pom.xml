@@ -5,11 +5,11 @@
     <parent>
         <groupId>org.jbundle.config.repo</groupId>
         <artifactId>jbundle-repositories</artifactId>
-        <version>1.4.4-SNAPSHOT</version>
+        <version>1.4.4</version>
     </parent>
 
     <artifactId>jbundle-util-jcalendarbutton-repository</artifactId>
-    <version>1.6.8-SNAPSHOT</version>
+    <version>1.6.8</version>
 
     <name>jbundle-util-jcalendarbutton-repository</name>
     <description>jbundle-util-jcalendarbutton repository</description>
