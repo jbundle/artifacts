@@ -1,0 +1,3040 @@
+<repository lastmodified='20230331094352.373'>
+  <resource id='org.jbundle.res.docs.styles/1.6.11' symbolicname='org.jbundle.res.docs.styles' presentationname='jbundle-util-osgi-docs-styles javascript utilities' uri='mvn:org.jbundle.util.osgi/org.jbundle.res.docs.styles/1.6.11' version='1.6.11'>
+    <description>javascript utilities</description>
+    <size>542219</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.res.docs.styles'/>
+      <p n='presentationname' v='jbundle-util-osgi-docs-styles javascript utilities'/>
+      <p n='version' t='version' v='1.6.11'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.css'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js-debug'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js-debug.jbundle'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js-debug.jbundle.resources'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js-debug.jbundle.resources.images'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js-debug.jbundle.xsl'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.jbundle'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.jbundle.nls'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.jbundle.resources'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.jbundle.resources.images'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.jbundle.xsl'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+  </resource>
+  <resource id='org.jbundle.util.osgi.webstart/1.6.11' symbolicname='org.jbundle.util.osgi.webstart' presentationname='jbundle-util-osgi-webstart - osgi to web start web bundle' uri='mvn:org.jbundle.util.osgi/org.jbundle.util.osgi.webstart/1.6.11' version='1.6.11'>
+    <description>osgi to web start servlet</description>
+    <size>60907</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.util.osgi.webstart'/>
+      <p n='presentationname' v='jbundle-util-osgi-webstart - osgi to web start web bundle'/>
+      <p n='version' t='version' v='1.6.11'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.osgi.webstart'/>
+      <p n='version' t='version' v='1.6.11'/>
+      <p n='uses:' v='javax.servlet,javax.servlet.http,org.jbundle.util.webapp.base,org.jibx.runtime,org.jibx.schema.net.java.jnlp_6_0,org.osgi.framework,org.osgi.service.http'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.osgi.webstart.sign'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.servlet)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))' extend='false' multiple='false' optional='true'>Import package javax.servlet;resolution:=optional;version="[3.1,4)"</require>
+    <require name='package' filter='(&amp;(package=javax.servlet.http)(version&gt;=3.1.0)(!(version&gt;=4.0.0)))' extend='false' multiple='false' optional='true'>Import package javax.servlet.http;resolution:=optional;version="[3.1,4)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.osgi)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.osgi;resolution:=optional;version="[2.0,3)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.osgi.finder)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.osgi.finder;resolution:=optional;version="[2.0,3)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.osgi.webstart.sign)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.osgi.webstart.sign;resolution:=optional;version="[1.6,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.webapp.base)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.webapp.base;resolution:=optional;version="[1.3,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.runtime)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.runtime;resolution:=optional;version="[1.4,2)"</require>
+    <require name='package' filter='(&amp;(package=org.jibx.schema.net.java.jnlp_6_0)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jibx.schema.net.java.jnlp_6_0;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.framework)(version&gt;=1.8.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.framework;resolution:=optional;version="[1.8,2)"</require>
+    <require name='package' filter='(&amp;(package=org.osgi.service.http)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.osgi.service.http;resolution:=optional;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=sun.security.tools.jarsigner)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package sun.security.tools.jarsigner;resolution:=optional;version="[1.6,2)"</require>
+  </resource>
+  <resource id='org.jbundle.util.osgi.webstart.browser/1.6.11' symbolicname='org.jbundle.util.osgi.webstart.browser' presentationname='jbundle-util-osgi-webstart-browser - java to javascript link' uri='mvn:org.jbundle.util.osgi/org.jbundle.util.osgi.webstart.browser/1.6.11' version='1.6.11'>
+    <description>java to javascript link</description>
+    <size>5710</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.util.osgi.webstart.browser'/>
+      <p n='presentationname' v='jbundle-util-osgi-webstart-browser - java to javascript link'/>
+      <p n='version' t='version' v='1.6.11'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.osgi.webstart.browser'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=netscape.javascript))' extend='false' multiple='false' optional='true'>Import package netscape.javascript;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.osgi.webstart.util)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.osgi.webstart.util;resolution:=optional;version="[1.6,2)"</require>
+  </resource>
+  <resource id='org.jbundle.res.dojo/1.6.11' symbolicname='org.jbundle.res.dojo' presentationname='jbundle-util-osgi-webstart-dojo - dojo project' uri='mvn:org.jbundle.util.osgi/org.jbundle.res.dojo/1.6.11' version='1.6.11'>
+    <description>dojo toolkit osgi package</description>
+    <size>12847668</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.res.dojo'/>
+      <p n='presentationname' v='jbundle-util-osgi-webstart-dojo - dojo project'/>
+      <p n='version' t='version' v='1.6.11'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit._base'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit._editor'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit._editor.nls'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit._editor.nls.ar'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit._editor.nls.az'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit._editor.nls.bg'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit._editor.nls.ca'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit._editor.nls.cs'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit._editor.nls.da'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit._editor.nls.de'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit._editor.nls.el'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit._editor.nls.es'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit._editor.nls.fi'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit._editor.nls.fr'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit._editor.nls.he'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit._editor.nls.hr'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit._editor.nls.hu'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit._editor.nls.it'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit._editor.nls.ja'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit._editor.nls.kk'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit._editor.nls.ko'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit._editor.nls.nb'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit._editor.nls.nl'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit._editor.nls.pl'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit._editor.nls.pt'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit._editor.nls.pt-pt'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit._editor.nls.ro'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit._editor.nls.ru'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit._editor.nls.sk'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit._editor.nls.sl'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit._editor.nls.sv'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit._editor.nls.th'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit._editor.nls.tr'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit._editor.nls.uk'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit._editor.nls.zh'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit._editor.nls.zh-tw'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit._editor.plugins'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit._tree'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.form'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.form.nls'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.form.nls.ar'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.form.nls.az'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.form.nls.bg'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.form.nls.ca'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.form.nls.cs'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.form.nls.da'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.form.nls.de'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.form.nls.el'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.form.nls.es'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.form.nls.fi'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.form.nls.fr'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.form.nls.he'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.form.nls.hr'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.form.nls.hu'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.form.nls.it'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.form.nls.ja'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.form.nls.kk'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.form.nls.ko'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.form.nls.nb'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.form.nls.nl'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.form.nls.pl'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.form.nls.pt'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.form.nls.pt-pt'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.form.nls.ro'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.form.nls.ru'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.form.nls.sk'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.form.nls.sl'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.form.nls.sv'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.form.nls.th'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.form.nls.tr'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.form.nls.uk'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.form.nls.zh'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.form.nls.zh-tw'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.icons'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.icons.images'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.layout'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.nls'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.nls.ar'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.nls.az'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.nls.bg'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.nls.ca'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.nls.cs'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.nls.da'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.nls.de'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.nls.el'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.nls.es'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.nls.fi'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.nls.fr'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.nls.he'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.nls.hr'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.nls.hu'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.nls.it'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.nls.ja'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.nls.kk'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.nls.ko'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.nls.nb'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.nls.nl'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.nls.pl'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.nls.pt'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.nls.pt-pt'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.nls.ro'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.nls.ru'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.nls.sk'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.nls.sl'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.nls.sv'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.nls.th'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.nls.tr'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.nls.uk'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.nls.zh'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.nls.zh-tw'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.themes'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.themes.a11y'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.themes.claro'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.themes.claro.form'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.themes.claro.form.images'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.themes.claro.images'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.themes.claro.layout'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.themes.claro.layout.images'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.themes.nihilo'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.themes.nihilo.form'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.themes.nihilo.images'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.themes.nihilo.layout'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.themes.soria'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.themes.soria.form'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.themes.soria.images'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.themes.soria.layout'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.themes.tundra'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.themes.tundra.form'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.themes.tundra.images'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.themes.tundra.layout'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dijit.tree'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo._base'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo._firebug'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.cldr'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.cldr.nls'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.cldr.nls.ar'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.cldr.nls.ca'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.cldr.nls.cs'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.cldr.nls.da'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.cldr.nls.de'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.cldr.nls.el'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.cldr.nls.en'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.cldr.nls.en-au'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.cldr.nls.en-ca'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.cldr.nls.en-gb'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.cldr.nls.es'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.cldr.nls.fi'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.cldr.nls.fr'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.cldr.nls.fr-ch'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.cldr.nls.he'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.cldr.nls.hu'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.cldr.nls.it'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.cldr.nls.ja'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.cldr.nls.ko'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.cldr.nls.nb'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.cldr.nls.nl'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.cldr.nls.pl'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.cldr.nls.pt'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.cldr.nls.pt-pt'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.cldr.nls.ro'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.cldr.nls.ru'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.cldr.nls.sk'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.cldr.nls.sl'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.cldr.nls.sv'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.cldr.nls.th'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.cldr.nls.tr'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.cldr.nls.zh'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.cldr.nls.zh-hant'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.cldr.nls.zh-hk'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.cldr.nls.zh-tw'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.data'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.data.api'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.data.util'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.date'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.dnd'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.errors'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.fx'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.io'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.nls'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.nls.ar'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.nls.az'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.nls.bg'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.nls.ca'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.nls.cs'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.nls.da'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.nls.de'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.nls.el'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.nls.es'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.nls.fi'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.nls.fr'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.nls.he'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.nls.hr'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.nls.hu'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.nls.it'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.nls.ja'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.nls.kk'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.nls.ko'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.nls.nb'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.nls.nl'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.nls.pl'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.nls.pt'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.nls.pt-pt'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.nls.ro'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.nls.ru'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.nls.sk'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.nls.sl'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.nls.sv'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.nls.th'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.nls.tr'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.nls.uk'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.nls.zh'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.nls.zh-tw'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.promise'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.request'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.resources'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.resources.images'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.router'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.rpc'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.selector'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.store'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.store.api'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojo.store.util'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.NodeList'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.analytics'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.analytics.logger'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.analytics.plugins'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.analytics.profiles'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.app'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.app.build'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.app.controllers'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.app.module'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.app.schema'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.app.utils'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.app.widgets'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom.io'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom.widget'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom.widget.nls'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom.widget.nls.ar'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom.widget.nls.az'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom.widget.nls.bg'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom.widget.nls.ca'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom.widget.nls.cs'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom.widget.nls.da'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom.widget.nls.de'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom.widget.nls.el'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom.widget.nls.es'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom.widget.nls.fi'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom.widget.nls.fr'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom.widget.nls.he'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom.widget.nls.hr'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom.widget.nls.hu'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom.widget.nls.it'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom.widget.nls.ja'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom.widget.nls.kk'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom.widget.nls.ko'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom.widget.nls.nb'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom.widget.nls.nl'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom.widget.nls.pl'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom.widget.nls.pt'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom.widget.nls.pt-pt'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom.widget.nls.ro'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom.widget.nls.ru'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom.widget.nls.sk'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom.widget.nls.sl'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom.widget.nls.sv'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom.widget.nls.th'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom.widget.nls.tr'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom.widget.nls.uk'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom.widget.nls.zh'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom.widget.nls.zh-tw'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom.widget.templates'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.atom.widget.templates.css'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.av'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.av.resources'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.av.widget'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.av.widget.resources'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.av.widget.resources.images'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calc'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calc.resources'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calc.templates'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.nls'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.nls.ar'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.nls.bg'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.nls.ca'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.nls.cs'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.nls.da'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.nls.de'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.nls.el'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.nls.es'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.nls.fi'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.nls.fr'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.nls.he'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.nls.hr'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.nls.hu'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.nls.it'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.nls.ja'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.nls.kk'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.nls.ko'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.nls.nb'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.nls.nl'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.nls.pl'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.nls.pt'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.nls.pt-pt'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.nls.ro'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.nls.ru'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.nls.sk'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.nls.sl'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.nls.sv'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.nls.th'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.nls.tr'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.nls.uk'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.nls.zh'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.nls.zh-tw'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.templates'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.themes.claro'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.themes.claro.images'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.themes.iphone'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.themes.nihilo'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.themes.nihilo.images'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.themes.soria'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.themes.soria.images'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.themes.tundra'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.calendar.themes.tundra.images'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.charting'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.charting.action2d'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.charting.axis2d'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.charting.bidi'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.charting.bidi.action2d'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.charting.bidi.axis2d'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.charting.bidi.widget'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.charting.plot2d'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.charting.plot3d'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.charting.resources'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.charting.scaler'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.charting.themes'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.charting.themes.PlotKit'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.charting.widget'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.collections'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.color'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.color.api'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.cometd'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.css3'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.data'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.data.s3'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.data.util'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.date'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.date.buddhist'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.date.hebrew'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.date.islamic'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.date.persian'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.date.umalqura'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.date.zoneinfo'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.dgauges'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.dgauges.components'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.dgauges.components.black'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.dgauges.components.classic'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.dgauges.components.default'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.dgauges.components.green'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.dgauges.components.grey'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.dnd'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.drawing'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.drawing.annotations'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.drawing.library'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.drawing.manager'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.drawing.plugins'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.drawing.plugins.drawing'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.drawing.plugins.tools'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.drawing.resources'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.drawing.resources.images'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.drawing.stencil'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.drawing.tools'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.drawing.tools.custom'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.drawing.ui'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.drawing.ui.dom'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.drawing.util'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.dtl'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.dtl.contrib'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.dtl.ext-dojo'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.dtl.filter'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.dtl.render'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.dtl.tag'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.dtl.utils'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.nls'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.nls.ar'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.nls.az'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.nls.bg'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.nls.ca'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.nls.cs'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.nls.da'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.nls.de'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.nls.el'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.nls.es'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.nls.fi'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.nls.fr'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.nls.he'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.nls.hr'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.nls.hu'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.nls.it'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.nls.ja'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.nls.kk'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.nls.ko'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.nls.nb'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.nls.nl'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.nls.pl'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.nls.pt'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.nls.pt-pt'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.nls.ro'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.nls.ru'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.nls.sk'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.nls.sl'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.nls.sv'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.nls.th'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.nls.tr'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.nls.uk'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.nls.zh'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.nls.zh-tw'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.resources'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.resources.css'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.resources.emoticons'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.resources.icons'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.resources.icons.claro'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.resources.icons.nihilo'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.resources.icons.soria'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.resources.icons.tundra'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.resources.images'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.resources.images.blockelems'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.resources.images.claro'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.resources.images.nihilo'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.resources.images.soria'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.editor.plugins.resources.images.tundra'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.embed'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.embed.resources'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.encoding'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.encoding.compression'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.encoding.crypto'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.encoding.digests'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.flash'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.manager'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.nls'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.nls.ar'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.nls.az'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.nls.bg'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.nls.ca'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.nls.cs'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.nls.da'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.nls.de'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.nls.el'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.nls.es'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.nls.fi'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.nls.fr'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.nls.he'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.nls.hr'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.nls.hu'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.nls.it'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.nls.ja'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.nls.kk'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.nls.ko'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.nls.nb'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.nls.nl'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.nls.pl'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.nls.pt'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.nls.pt-pt'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.nls.ro'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.nls.ru'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.nls.sk'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.nls.sl'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.nls.sv'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.nls.th'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.nls.tr'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.nls.uk'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.nls.zh'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.nls.zh-tw'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.resources'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.resources.images'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.uploader'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.form.uploader.plugins'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.fx'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.fx.ext-dojo'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.fx.resources'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.gantt'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.gantt.resources'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.gantt.resources.images'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.gauges'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.geo'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.geo.charting'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.geo.charting.resources'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.geo.charting.resources.data'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.geo.charting.resources.img'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.geo.charting.resources.markers'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.geo.charting.widget'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.geo.openlayers'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.geo.openlayers.widget'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.gesture'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.gfx'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.gfx.resources'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.gfx3d'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.bidi'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.cells'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.nls'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.nls.ar'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.nls.bg'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.nls.ca'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.nls.cs'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.nls.da'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.nls.de'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.nls.el'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.nls.es'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.nls.fi'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.nls.fr'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.nls.he'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.nls.hr'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.nls.hu'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.nls.it'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.nls.ja'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.nls.kk'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.nls.ko'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.nls.nb'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.nls.nl'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.nls.pl'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.nls.pt'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.nls.pt-pt'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.nls.ro'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.nls.ru'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.nls.sk'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.nls.sl'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.nls.sv'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.nls.th'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.nls.tr'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.nls.uk'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.nls.zh'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.nls.zh-tw'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.plugins'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.plugins.exporter'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.plugins.filter'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.resources'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.resources.claro'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.resources.images'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.resources.tundra'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.enhanced.templates'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.nls'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.resources'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.grid.resources.images'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.help'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.highlight'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.highlight.languages'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.highlight.languages.pygments'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.highlight.resources'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.highlight.resources.pygments'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.highlight.widget'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.html'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.html.ext-dojo'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.html.resources'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.image'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.image.resources'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.image.resources.images'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.io'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.io.proxy'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.jq'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.json'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.jsonPath'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.lang'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.lang.aspect'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.lang.async'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.lang.functional'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.lang.oo'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.layout'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.layout.dnd'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.layout.ext-dijit.layout'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.layout.resources'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.layout.resources.icons'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.math'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.math.random'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mdnd'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mdnd.adapter'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mdnd.dropMode'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mdnd.resources'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.app'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.bidi'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.build'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.dh'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.themes.android'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.themes.android.compat'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.themes.android.dijit'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.themes.android.dijit.compat'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.themes.android.images'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.themes.blackberry'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.themes.blackberry.compat'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.themes.blackberry.dijit'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.themes.blackberry.dijit.compat'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.themes.blackberry.images'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.themes.common'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.themes.common.compat'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.themes.common.dijit'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.themes.common.domButtons'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.themes.common.domButtons.compat'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.themes.common.transitions'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.themes.custom'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.themes.custom.compat'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.themes.custom.dijit'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.themes.custom.dijit.compat'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.themes.custom.images'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.themes.holodark'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.themes.holodark.compat'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.themes.holodark.dijit'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.themes.holodark.dijit.compat'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.themes.holodark.images'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.themes.iphone'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.themes.iphone.compat'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.themes.iphone.dijit'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.themes.iphone.dijit.compat'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.themes.iphone.images'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.themes.utils'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.themes.windows'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.themes.windows.compat'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.themes.windows.dijit'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.themes.windows.images'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.themes.windows.images.dark'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mobile.themes.windows.images.light'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.mvc'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.rails'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.resources'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.robot'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.rpc'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.rpc.SMDLibrary'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.secure'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.sketch'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.sketch.resources'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.sketch.resources.images'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.socket'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.sql'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.storage'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.store'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.string'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.testing'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.timing'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.treemap'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.treemap.themes'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.uuid'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.validate'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.Calendar'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.ColorPicker'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.ColorPicker.images'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.Dialog'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.Dialog.images'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.DocTester'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.FilePicker'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.FilePicker.images'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.FisheyeList'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.Loader'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.Loader.icons'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.MultiSelectCalendar'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.Pager'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.Pager.images'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.Portlet'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.Portlet.images'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.RollingList'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.SortList'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.Standby.images'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.TitleGroup'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.Toaster'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.UpgradeBar'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.Wizard'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.gauge'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.nls'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.nls.ar'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.nls.az'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.nls.bg'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.nls.ca'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.nls.cs'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.nls.da'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.nls.de'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.nls.el'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.nls.es'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.nls.fi'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.nls.fr'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.nls.he'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.nls.hr'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.nls.hu'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.nls.it'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.nls.ja'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.nls.kk'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.nls.ko'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.nls.nb'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.nls.nl'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.nls.pl'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.nls.pt'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.nls.pt-pt'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.nls.ro'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.nls.ru'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.nls.sk'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.nls.sl'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.nls.sv'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.nls.th'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.nls.tr'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.nls.uk'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.nls.zh'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.nls.zh-tw'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.widget.rotator'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.wire'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.wire.ml'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.xml'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.xmpp'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.xmpp.widget'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.res.docs.styles.js.dojox.xmpp.widget.templates'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+  </resource>
+  <resource id='org.jbundle.util.osgi.webstart.sign/1.6.11' symbolicname='org.jbundle.util.osgi.webstart.sign' presentationname='jbundle-util-osgi-webstart-sign - signing utilities' uri='mvn:org.jbundle.util.osgi/org.jbundle.util.osgi.webstart.sign/1.6.11' version='1.6.11'>
+    <description>signing utilities</description>
+    <size>65827</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.util.osgi.webstart.sign'/>
+      <p n='presentationname' v='jbundle-util-osgi-webstart-sign - signing utilities'/>
+      <p n='version' t='version' v='1.6.11'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.osgi.webstart.sign'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='sun.security.tools.jarsigner'/>
+      <p n='version' t='version' v='1.6.11'/>
+      <p n='uses:' v='com.sun.jarsigner'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.sun.jarsigner'/>
+      <p n='version' t='version' v='1.6.11'/>
+      <p n='uses:' v='jdk'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.sun.jarsigner))' extend='false' multiple='false' optional='true'>Import package com.sun.jarsigner;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.security.auth.x500))' extend='false' multiple='false' optional='true'>Import package javax.security.auth.x500;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=jdk))' extend='false' multiple='false' optional='true'>Import package jdk;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=sun.security.pkcs))' extend='false' multiple='false' optional='true'>Import package sun.security.pkcs;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=sun.security.timestamp))' extend='false' multiple='false' optional='true'>Import package sun.security.timestamp;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=sun.security.tools))' extend='false' multiple='false' optional='true'>Import package sun.security.tools;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=sun.security.tools.jarsigner))' extend='false' multiple='false' optional='true'>Import package sun.security.tools.jarsigner;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=sun.security.util))' extend='false' multiple='false' optional='true'>Import package sun.security.util;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=sun.security.validator))' extend='false' multiple='false' optional='true'>Import package sun.security.validator;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=sun.security.x509))' extend='false' multiple='false' optional='true'>Import package sun.security.x509;resolution:=optional</require>
+  </resource>
+  <resource id='org.jbundle.util.osgi.webstart.util/1.6.11' symbolicname='org.jbundle.util.osgi.webstart.util' presentationname='jbundle-util-osgi-webstart-util - url utilities' uri='mvn:org.jbundle.util.osgi/org.jbundle.util.osgi.webstart.util/1.6.11' version='1.6.11'>
+    <description>url utilities</description>
+    <size>5006</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.util.osgi.webstart.util'/>
+      <p n='presentationname' v='jbundle-util-osgi-webstart-util - url utilities'/>
+      <p n='version' t='version' v='1.6.11'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.osgi.webstart.util'/>
+      <p n='version' t='version' v='1.6.11'/>
+    </capability>
+  </resource>
+</repository>

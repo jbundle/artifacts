@@ -1,0 +1,117 @@
+<repository lastmodified='20230331092139.324'>
+  <resource id='org.jbundle.util.apprunner/2.0.9' symbolicname='org.jbundle.util.apprunner' presentationname='jbundle-util-apprunner - Application runner' uri='mvn:org.jbundle.util/org.jbundle.util.apprunner/2.0.9' version='2.0.9'>
+    <description>Top level properties and features</description>
+    <size>8229</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.util.apprunner'/>
+      <p n='presentationname' v='jbundle-util-apprunner - Application runner'/>
+      <p n='version' t='version' v='2.0.9'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.apprunner'/>
+      <p n='version' t='version' v='2.0.9'/>
+      <p n='uses:' v='javax.swing'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.swing))' extend='false' multiple='false' optional='true'>Import package javax.swing;resolution:=optional</require>
+  </resource>
+  <resource id='org.jbundle.util.backup/2.0.9' symbolicname='org.jbundle.util.backup' presentationname='jbundle-util-backup - Standalone backup utility' uri='mvn:org.jbundle.util.backup/org.jbundle.util.backup/2.0.9' version='2.0.9'>
+    <description>Top level properties and features</description>
+    <size>60549</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.util.backup'/>
+      <p n='presentationname' v='jbundle-util-backup - Standalone backup utility'/>
+      <p n='version' t='version' v='2.0.9'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.jbackup'/>
+      <p n='version' t='version' v='2.0.9'/>
+      <p n='uses:' v='javax.swing,org.jbundle.jbackup.destination,org.jbundle.jbackup.source,org.jbundle.util.apprunner'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.jbackup.destination'/>
+      <p n='version' t='version' v='2.0.9'/>
+      <p n='uses:' v='javax.swing,org.apache.commons.httpclient,org.apache.commons.net.ftp,org.jbundle.jbackup,org.jbundle.jbackup.source,org.jbundle.util.apprunner'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.jbackup.filter'/>
+      <p n='version' t='version' v='2.0.9'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.jbackup.source'/>
+      <p n='version' t='version' v='2.0.9'/>
+      <p n='uses:' v='javax.swing,org.jbundle.jbackup,org.jbundle.util.apprunner'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.jbackup.util'/>
+      <p n='version' t='version' v='2.0.9'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.apprunner'/>
+      <p n='version' t='version' v='2.0.9'/>
+      <p n='uses:' v='javax.swing'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.backup'/>
+      <p n='version' t='version' v='2.0.9'/>
+      <p n='uses:' v='org.jbundle.jbackup'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.swing))' extend='false' multiple='false' optional='true'>Import package javax.swing;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.httpclient))' extend='false' multiple='false' optional='true'>Import package org.apache.commons.httpclient;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.httpclient.methods))' extend='false' multiple='false' optional='true'>Import package org.apache.commons.httpclient.methods;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.net.ftp))' extend='false' multiple='false' optional='true'>Import package org.apache.commons.net.ftp;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.jbackup)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.jbackup;resolution:=optional;version="[2.0,3)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.jbackup.destination)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.jbackup.destination;resolution:=optional;version="[2.0,3)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.jbackup.filter)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.jbackup.filter;resolution:=optional;version="[2.0,3)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.jbackup.source)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.jbackup.source;resolution:=optional;version="[2.0,3)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.jbackup.util)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.jbackup.util;resolution:=optional;version="[2.0,3)"</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.apprunner)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.apprunner;resolution:=optional;version="[2.0,3)"</require>
+  </resource>
+  <resource id='org.jbundle.util.jbackup/2.0.9' symbolicname='org.jbundle.util.jbackup' presentationname='jbundle-util-jbackup - Backup utility' uri='mvn:org.jbundle.util/org.jbundle.util.jbackup/2.0.9' version='2.0.9'>
+    <description>Top level properties and features</description>
+    <size>53953</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.util.jbackup'/>
+      <p n='presentationname' v='jbundle-util-jbackup - Backup utility'/>
+      <p n='version' t='version' v='2.0.9'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.jbackup'/>
+      <p n='version' t='version' v='2.0.9'/>
+      <p n='uses:' v='javax.swing,org.jbundle.util.apprunner'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.swing))' extend='false' multiple='false' optional='true'>Import package javax.swing;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.httpclient))' extend='false' multiple='false' optional='true'>Import package org.apache.commons.httpclient;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.httpclient.methods))' extend='false' multiple='false' optional='true'>Import package org.apache.commons.httpclient.methods;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.net.ftp))' extend='false' multiple='false' optional='true'>Import package org.apache.commons.net.ftp;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=org.jbundle.util.apprunner)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))' extend='false' multiple='false' optional='true'>Import package org.jbundle.util.apprunner;resolution:=optional;version="[2.0,3)"</require>
+  </resource>
+  <resource id='org.jbundle.util.muffinmanager/2.0.9' symbolicname='org.jbundle.util.muffinmanager' presentationname='jbundle-util-muffinmanager - WebStart management' uri='mvn:org.jbundle.util/org.jbundle.util.muffinmanager/2.0.9' version='2.0.9'>
+    <description>Top level properties and features</description>
+    <size>7660</size>
+    <documentation>http://www.jbundle.org</documentation>
+    <license>http://www.gnu.org/licenses/gpl.txt</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='org.jbundle.util.muffinmanager'/>
+      <p n='presentationname' v='jbundle-util-muffinmanager - WebStart management'/>
+      <p n='version' t='version' v='2.0.9'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='org.jbundle.util.muffinmanager'/>
+      <p n='version' t='version' v='2.0.9'/>
+      <p n='uses:' v='javax.jnlp,javax.swing'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=javax.jnlp))' extend='false' multiple='false' optional='true'>Import package javax.jnlp;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.swing))' extend='false' multiple='false' optional='true'>Import package javax.swing;resolution:=optional</require>
+    <require name='package' filter='(&amp;(package=javax.swing.text))' extend='false' multiple='false' optional='true'>Import package javax.swing.text;resolution:=optional</require>
+  </resource>
+</repository>
