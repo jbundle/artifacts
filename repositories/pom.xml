@@ -77,7 +77,7 @@
         <module>jbundle-app-office-repository</module>
         <module>jbundle-util-osgi-wrapped-repository</module>
         <module>jbundle-util-webapp-repository</module>
-        <!-- module>jbundle-util-other-repository</module -->
+        <module>jbundle-util-other-repository</module>
         <module>jbundle-util-wsdl-repository</module>
         <module>tourgeek-repository</module>
         <module>repository</module>
