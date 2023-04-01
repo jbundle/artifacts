@@ -5,11 +5,11 @@
     <parent>
         <groupId>org.jbundle.config.repo</groupId>
         <artifactId>jbundle-repositories</artifactId>
-        <version>1.4.4</version>
+        <version>1.4.5-SNAPSHOT</version>
     </parent>
 
     <artifactId>jbundle-util-repository</artifactId>
-    <version>2.0.9</version>
+    <version>2.0.10-SNAPSHOT</version>
 
     <name>jbundle-util-repository</name>
     <description>jbundle-util repository</description>

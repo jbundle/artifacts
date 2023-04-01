@@ -5,11 +5,11 @@
     <parent>
         <groupId>org.jbundle.config.repo</groupId>
         <artifactId>jbundle-repositories</artifactId>
-        <version>1.4.4</version>
+        <version>1.4.5-SNAPSHOT</version>
     </parent>
 
     <artifactId>jbundle-view-swing-repository</artifactId>
-    <version>1.0.6</version>
+    <version>1.0.7-SNAPSHOT</version>
 
     <name>jbundle-view-swing-repository</name>
     <description>jbundle-view-swing repository</description>
